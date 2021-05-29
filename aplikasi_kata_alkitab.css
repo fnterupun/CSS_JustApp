@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+* {
+    font-family: 'Ubuntu', sans-serif !important;
+}
+
+@import url('https://fonts.google.com/download?family=Roboto')
+
+/* mengubah tampilan homepage */
+.homepage-custom { 
+    background-color: transparent; 
+}
+.layout.l9 { 
+    /*background-image: url("https://www.celestialsolarinnovations.com/wp-content/uploads/2017/02/vertical-bg.jpg"); */
+    background-position: center; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+background: rgb(0,44,8);
+background: linear-gradient(90deg, rgba(0,44,8,1) 0%, rgba(66,109,58,1) 100%, rgba(66,109,58,1) 100%);
+}
+
+.homepage-custom .scroll:before {
+    background-image: url('https://data.smpn1manokwari.com/wp-content/uploads/2020/06/kata_Alkitab.png');
+    background-size: 100% 100%;
+  	background-color: rgb(0,44,8);;
+    display: inline-block;
+    width: 248px;
+    height: 179px;
+    content:"";
+}
+/* jarak antara gambar di atas dan menu */
+
+.layout.l9 ion-content ul {
+    padding-top: 0;
+    padding-bottom: var(--safe-area-inset-bottom);
+}
+/* jarak antara gambar di atas dan menu */
+
+/* .homepage-custom ul:before {
+  content: "KATEGORI";
+  color: purple;
+  margin: 20px;
+  font-weight: bold;
+  font-size: 4vw; 
+} */
+
+.homepage-custom .border-custom {
+  margin-top: 5px;
+}
+
+.layout.l9 li img {
+    width: 40px;
+    height: 40px;
+    max-height: 100%;
+  	float: left;
+  margin-left: 20px;
+  margin-right: 0px;
+}
+
+.layout.l9 ul.items li p {
+    font-size: 13px;
+  	float: left;
+ 	margin-left: 20px;
+  margin-top: 10px;
+}
+/* membuat hover untuk menu homepage */
+/*.layout.l9 ul.items li {
+  	border: 1px solid #fff;
+  	border-radius: 5px;
+} */
+  
+.layout.l9 ul.items li:hover {
+  	background-color: #002c08;
+  	border-radius: 5px;
+}
+
+.layout.l9 ul.items li:active {
+  	background-color: #002c08;
+}
+/* membuat hover untuk menu homepage */
+/* mengubah tampilan homepage */
+
+/* membuat gambar bagian header */
+.bar.bar-custom {
+    background-image: url(); 
+    background-color: #002c08; 
+    background-size: 100% 100%;
+  	border: none;
+}
+
+.bar.bar-custom .title {
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+  display: none;  
+}
+
+/*
+.bar .nav-bar-title:before {
+  	display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    content: "";
+    background: url("https://1.bp.blogspot.com/-tTYp507ciBw/Xr3j8qXha5I/AAAAAAAAWdQ/ODMxf_NCGvocx6QcpK3WHn99roQp5w3WwCK4BGAsYHg/s320/no_bg.png") no-repeat 0 0;
+    background-size: 100%;
+  	float: right;
+} */
+
+/* ikon alkitab di samping menu 
+.buttons.buttons-left.header-item:after {
+  	display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin-left: 150px;
+    content: "";
+    background: url("https://image.flaticon.com/icons/svg/1911/1911713.svg") no-repeat 0 0;
+    background-size: 100%;
+  	float: right;
+}
+ ikon alkitab di samping menu */
+.bar .title {
+    margin: 0px 0px;
+}
+/* ikon alkitab di samping menu */
+/* membuat gambar bagian header */
+
+
+/* command tampilan paddlock.
+1. Gunakan script ini di setiap layout yang digunakan.
+2. Copy dan pastekan ke COLOURS -> ADVANCED CUSTOMIZATION CSS/SCSS.
+3. Anda dapat mengubah warna tampilan script ini dengan mengubahnya pada command color.
+
+4. Jika tidak mengerti, contact kami di +6281248803652.
+5. Terima kasih telah order.
+
+Note: hati-hati dalam mengubah script ini!!!!!!
+*/
+
+.customer-view .item.item-custom { 
+    border-radius: 10px; 
+    text-transform: lowercase; 
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 10px;
+}
+
+.text-align span.ng-binding {
+  text-align: center;
+}
+
+.button.button-positive-custom.button-full {
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
+  border-radius: 10px;
+  background-color: #426d3a;
+  border: 3px solid #fff;
+}
+
+.customer-layout1 .customer-image {
+    padding: 4px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-right: 80%;
+    margin-top: 20px;
+}
+
+#_label-0 {
+  color: $general-custom-border;
+  text-align: left;
+}
+
+#_label-1 {
+  color: $general-custom-border;
+  text-align: left;
+}
+
+#_label-2{
+  color: $general-custom-border;
+  text-align: left;
+}
+
+ #_label-3{
+  text-align: left;
+}
+
+/* mengatur gambar bg untuk my account */
+.avatar {
+   background-image: url(https://data.smpn1manokwari.com/wp-content/uploads/2020/06/my-account-e1591268876303.jpg);
+  	margin: 5px 5px;
+    border-radius: 5px;
+    height: 220px;
+}
+/* mengatur gambar bg untuk my account */
+
+/* mengatur border untuk data my akun, firstname, lastname dll. */
+.card .item.item-custom {
+    border-color: #fff;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px;
+    border: none;
+background: rgb(0,44,8);
+background: linear-gradient(90deg, rgba(0,44,8,1) 0%, rgba(66,109,58,1) 100%, rgba(66,109,58,1) 100%);
+}
+/* mengatur border untuk data my akun, firstname, lastname dll. */
+
+.card .item.item-custom h2 {
+  text-align: center;
+}
+/* akhir command */
+
+.list .item.item-custom h1 {
+    color: #fff;
+background: rgb(0,44,8);
+background: linear-gradient(90deg, rgba(0,44,8,1) 0%, rgba(66,109,58,1) 100%, rgba(66,109,58,1) 100%);
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 1px;
+    margin: 1px 0 0 0;
+    border-radius: 5px;
+}
+
+.list .item.item-custom h2 {
+    margin-top: 10px;
+background: rgb(0,44,8);
+background: linear-gradient(90deg, rgba(0,44,8,1) 0%, rgba(66,109,58,1) 100%, rgba(66,109,58,1) 100%);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.item-checkbox .checkbox {
+    position: absolute;
+    top: 30%;
+    right: 6px;
+    left: 6px;
+}
+
+.list .item.item-custom h3 {
+    margin: 10px 0 0 0;
+    background-color: #8bc34a;
+    padding: 7px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.list .item.item-custom strong {
+    margin: 15px 0 0 0;
+    padding: 7px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.list .item.item-custom p {
+    margin: 0;
+  padding: 7px;
+  margin: 0 3px;
+  border-radius: 0 0 5px 5px;
+}
+strong {
+  display: none;
+}
+
+h3.popup-title {
+  text-align: center;
+}
+.padlock .item-text-wrap h2 {
+  display: none;
+}
+
+.padlock .item-text-wrap:after {
+    font-weight: normal;
+    font-size: 14px;
+    color: #fff;
+    text-align: center !important;
+    content: "Selamat datang di Kata Alkitab. Untuk menggunakan aplikasi ini, silakan login atau register terlebih dahulu. Terima Kasih.";
+}
+
+.padlock div.item-icon-left {
+  width: 45%;
+  position: fixed;
+  left: 27.5%;
+  background-color: blue;
+}
+
+.action-sheet .action-sheet-cancel {
+  width: 30%;
+  margin-left: 35%;
+  border-radius: 10px;
+  border: 2px solid orange;
+}
+
+.action-sheet .action-sheet-options {
+   width: 60%;
+  margin-left: 20%;
+  border-radius: 10px;
+  border: 2px solid orange;
+  margin-bottom: 10px;
+}
+
+
+.text-right {
+  text-align: center;
+  right: 20%;
+}
+
+.ng-touched {
+  text-align: right;
+}
+
+.ng-not-empty {
+  text-align: right;
+}
+
+.padding .button-positive-custom.button-block {
+  width: 25%;
+  margin-left: 37.5%;
+background: rgb(0,44,8);
+background: linear-gradient(90deg, rgba(0,44,8,1) 0%, rgba(66,109,58,1) 100%, rgba(66,109,58,1) 100%);
+  -webkit-font-smoothing: antialiased;
+  border-radius: 10px;
+}
+
+/* mengatur button menu agar semakin ke kiri */
+/* mengatur button menu agar semakin ke kiri */
+.col.col-33.image-container {
+  border-radius: 10px;
+  border: 2px solid #002c08
+}
+
+/* ganti gambar untuk ikon menu 
+
+.left-buttons .button.button-clear i.icon.ion-navicon-round::before {
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+    content: "";
+    background: url("https://data.smpn1manokwari.com/wp-content/uploads/2020/06/menu.png");
+}
+ ganti gambar untuk ikon menu */
+
+
+/* ganti gambar untuk ikon x (tutup) pada my akun */
+.buttons .button.button-clear i.icon.ion-sb-close-modal::before {
+ 	display: none;
+}
+   /* width: 30px;
+    height: 30px;
+    margin: 0px;
+  	float: right;
+    content: "";
+    background: url("https://image.flaticon.com/icons/svg/463/463612.svg") no-repeat 0 0;
+    background-size: 100%; 	
+} */
+/* ganti gambar untuk ikon x (tutup) pada my akun */
+
+/* menghilangkan menu yang ditampilkan pada homepage untuk yang tertampil*/  
+.layout.l9 ul.items li:nth-child(1) {
+display:none;
+}
+/* menghilangkan menu yang ditampilkan pada homepage untuk yang tertampil*/
+
+/* ganti gambar login padlock*/
+[state="padlock-view"] .item.item-body.item-custom.text-center {
+    background-image: url(https://data.smpn1manokwari.com/wp-content/uploads/2020/06/login-form-2-e1591022572971.png) !important;
+    background-position: 50%;
+    height: 300px;
+  	width: 98%;
+    background-repeat: no-repeat;
+  	border-radius: 10px;
+  
+}
+.padlock .item.item-body i {
+    font-size: 0px;
+}
+
+[state="padlock-view"] .item.item-icon-left.item-custom.ng-binding:nth-child(2) {
+display: none; 
+}
+/* ganti gambar login padlock*/
+
+/* fanwall */
+.bar-subheader.bar.bar-header .button-bar .button.button-custom.button-positive.button-positive-custom.ng-binding.fw-icon-selected.icon-active-custom {
+  margin: 0px 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.bar-subheader.bar.bar-header .button-bar  .button.button-custom.button-positive.button-positive-custom.ng-binding.icon-custom {
+   margin: 0px 10px; 
+  border-radius: 10px;
+  border: none;
+}
+
+.bar-subheader.bar.bar-header .button-bar  .button.button-custom.button-positive.button-positive-custom.ng-binding.icon-custom:focus  {
+  background-color: orange;
+}
+
+
+.module-fanwall.fanwall-list-l1 .item .post-author h2 {
+    font-weight: 700;
+    line-height: 16px;
+    height: 40px;
+    margin-top: 3px;
+}
+
+.list .item.item-custom {
+    border-color: none;
+	background: rgb(0,44,8);
+	background: linear-gradient(90deg, rgba(0,44,8,1) 0%, rgba(66,109,58,1) 100%, rgba(66,109,58,1) 100%);
+    /* color: rgba(255, 255, 255, 1); */
+    width: 98%;
+    margin-left: 1%;
+    border-radius: 5px;
+  	margin-top: 5px;
+  	border: none;
+}
+
+.button-bar {
+background: #002c08;
+}
+
+.icon-active-custom {
+    color: #FFC107 !important;
+}
+
+/* Tomol kirim pada social wall */
+.module-fanwall.fanwall-new-l1 .post-button {
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+    margin: 0!important;
+    width: 30%;
+    margin-left: 40% !important;
+    margin-bottom: 20px !important;
+    border-radius: 10px;
+  background-color: none;
+  border: 5px solid none;
+}
+/* Tomol kirim pada social wall */
+
+/* gambar ikon foto pada post tambahkan foto, icon maps, gambar, tmbah*/
+.item-note, i {
+    color: orange;
+  font-size: 16px;
+}
+/* gambar ikon foto pada post tambahkan foto, icon maps, gambar, tmbah*/
+
+/* membuat radius pada gambar postingan orang di fanwall */
+.module-fanwall.fanwall-list-l1 .item .post-image a.fanwall-image-bg {
+    width: 96%;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+/* membuat radius pada gambar postingan orang di fanwall */
+/* fanwall */
+
+/* mengubah posisi dan size play button dan layar thumbnail on youtube */
+.video-view .sprite { 
+    background-size: 10%; 
+    background-position: 98% 90%;
+}
+/* mengubah posisi dan size play button dan layar thumbnail on youtube */
+
+.homepage-custom {
+  	background: none;
+	background: none;
+}
+
+/* garis di bawah header dan subheader */
+.platform-overview.platform-cordova:not(.fullscreen) .bar-subheader {
+  border: none;
+}
+
+.platform-overview.platform-cordova:not(.fullscreen) .bar-header {
+    border: none;
+}
+/* garis di bawah header dan subheader */

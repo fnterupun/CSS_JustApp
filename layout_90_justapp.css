@@ -1,0 +1,147 @@
+
+/* LAYOUT 90 */
+ion-view[state="home"] {
+    background-color: #fff !important;
+    background-image: none !important;
+}
+
+.layout.l90 #main .row {
+    background-color: transparent;
+    background-position: center bottom 0px;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    height: 120px;
+    background-image: linear-gradient(180deg,rgba(12,12,12,0.5) 27%,rgba(12,12,12,0.5) 100%),url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/appteam_bg.jpg)!important;
+    color: #fff !important;
+    opacity: 1;
+}
+
+.layout.l90 .slider {
+    height: 100%!important;
+    top: 80px;
+	border-radius: 30px 30px 0 0;
+}
+
+.layout.l90 .slider-pager {
+    background-color: transparent;
+    bottom: 80px!important;
+}
+
+span.slider-pager-page i {
+	display: none;
+}
+
+span.slider-pager-page.active {
+	background-color: #fff;
+  	width: 35px;
+  	height: 10px;
+  	border-radius: 10px;
+}
+
+span.slider-pager-page {
+  	background-color: #000;
+  	width: 15px;
+  	height: 10px;
+  	border-radius: 10px;
+}
+
+.layout.l90 ion-content.homepage-custom ul.items.homepage-custom:before {
+    content: " ";
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/bg-header.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 150px;
+    background-color: transparent;
+}
+
+.layout.l90 #main .row p {
+    display: none;
+}
+
+.layout.l90 .sidenav ul.items li {
+	border: 0 !important;
+}
+
+
+.layout.l90 ion-content.homepage-custom ul li#feature-0 {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    background-color: #91497b;
+    margin-top: -120px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #c86925;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/profile_css.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li#feature-0 img {
+    width: 0;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+}
+
+li#feature-0 p {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    color: #fff;
+  	font-size: 16px;
+}
+
+.layout.l90 .sidenav ul.items li:nth-child(n+2) img {
+    width: 50px;
+    height: 50px;
+    margin: 0 0 0 20px;
+    max-height: 100%;
+}
+
+.layout.l90 .sidenav ul.items li:nth-child(n+2) p {
+    font-size: 13px;
+    margin: 0 0 0 20px;
+    color: #fff;
+  	font-size: 16px;
+}
+
+.layout.l90 .sidenav .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    background-color: #c5587a;
+    width: 40px !important;
+    height: 40px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.layout.l90 .sidenav .closebtn .ion-close-round:before {
+    font-size: 24px;
+}
+
+ion-content.homepage-custom {
+    width: 90vw;
+    height: 94vh !important;
+    margin: 3vh 5vw;
+    border-radius: 30px;
+}
+
+div#myNav {
+    background-color: transparent;
+}
+
+div#myNav ul.items.homepage-custom {
+    background: #714275;
+}

@@ -1,0 +1,353 @@
+* {
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 0.125rem 0.25rem !important;
+	box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+	color: #f1f3f4;
+}
+
+
+* {
+	background-image: -webkit-linear-gradient(right top, rgb(123, 168, 37), rgb(21, 183, 170));
+    background-image: -moz-linear-gradient(right top, rgb(123, 168, 37), rgb(21, 183, 170));
+    background-image: -o-linear-gradient(right top, rgb(123, 168, 37), rgb(21, 183, 170));
+    background-image: -ms-linear-gradient(right top, rgb(123, 168, 37), rgb(21, 183, 170));
+    background-image: linear-gradient(right top, rgb(123, 168, 37), rgb(21, 183, 170));
+    background-image: linear-gradient(-60deg,#57ac5a 0%,#7db667 100%);
+    box-shadow: 0px 0px 10px -2px #ddd;
+    box-shadow: 3px 3px 0 0 rgb(0 0 0 / 14%);
+    box-shadow: 1px 2px 5px 0px rgb(0 0 0 / 5%);
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+    
+
+
+}
+
+
+ion-view.padlock-view .card.padlock {
+    margin: 0;
+}
+
+ion-view.padlock-view .item.item-text-wrap.item-custom {
+    background-image: url(https://image.freepik.com/free-photo/man-with-blueprints-helmet_1149-253.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    padding: 0;
+}
+
+ion-view.padlock-view .item.item-text-wrap.item-custom:before {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    content: "";
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/mask01.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+ion-view.padlock-view .item.item-text-wrap.item-custom h2 {
+    font-size: 0;
+}
+
+	background-color: #4e63d7;
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    border-radius: 10px 50% 50% 50%;
+    opacity: .1;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+    z-index: -1;
+
+    background-image: -webkit-linear-gradient(rgba(255,74,158,.2) 0%,rgba(255,74,158,0) 50%),url(https://1000hp.dev600.com/wp-content/uploads/2020/11/cooming-soon-8-bg-mask.png),
+    -webkit-linear-gradient(30deg,#5c00c3 16%,#ff4a9e 85%);
+    background-image: linear-gradient(rgba(255,74,158,.2) 0%,rgba(255,74,158,0) 50%),url(../images/home/landing-hero-background.jpg), linear-gradient(60deg,#5c00c3 16%,#ff4a9e 85%);
+    padding-bottom: 8vw;
+}
+
+https://www.elegantthemes.com/images/home/landing-hero-background.jpg
+
+
+
+.bar .back-button .icon:before,
+.ion-ios-cart::before,
+.bar .buttons-right span,
+.ion-clipboard::before,
+.ion-android-arrow-back:before {
+    color: #5aad5b;
+
+}
+
+.badge.badge-positive-custom {
+    background-color: rgb(90 173 91);
+    color: rgba(255, 255, 255, 1);
+}
+
+
+background-image: linear-gradient(
+180deg
+,#f7f3ec 40%,rgba(246,243,243,0) 100%),url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/12/furniture-17.jpg);
+
+background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/10/personal-trainer-02.jpg),radial-gradient(circle at bottom right,rgba(255,76,0,0.7) 0%,rgba(255,255,255,0) 100%);
+}
+
+background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMHZ3IiB2aWV3Qm94PSIwIDAgMTI4MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0iI2ZmNGMwMCI+PHBhdGggZD0iTTAgMTQwaDEyODBDNTczLjA4IDE0MCAwIDAgMCAweiIvPjwvZz48L3N2Zz4=);
+    background-size: 100% 10vw;
+    bottom: 0;
+    height: 10vw;
+    z-index: 1;
+    transform: rotateY(180deg);
+
+data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMHZ3IiB2aWV3Qm94PSIwIDAgMTI4MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0iI2ZmNGMwMCI+PHBhdGggZD0iTTAgMTQwaDEyODBDNTczLjA4IDE0MCAwIDAgMCAweiIvPjwvZz48L3N2Zz4=
+
+    background-size: contain;
+    background-position: bottom right;
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2019/02/bg_image_01-2x.png);
+    box-shadow: inset 0px -1px 0px 0px #ffffff;
+
+
+
+    position: relative;
+    background-image: url(https://justapp.id/assets/images/css-04.svg),-webkit-linear-gradient(323deg,rgba(0, 179, 255, 1),rgba(19,54,251,0.77) 49%,rgba(150,0,255,0.71));
+    background-image: url(https://justapp.id/assets/images/css-04.svg),-o-linear-gradient(323deg,rgba(0, 179, 255, 1) 0,rgba(19,54,251,0.77) 49%,rgba(150,0,255,0.71) 100%);
+    background-image: url(https://justapp.id/assets/images/css-04.svg),linear-gradient(127deg,rgba(0, 179, 255, 1),rgba(19,54,251,0.77) 49%,rgba(150,0,255,0.71));
+    background-position: 50%;
+    background-size: cover;
+    overflow: hidden;
+    color: #FFF;
+    padding-top: 96px;
+    https://justapp.id/assets/images/css-04.svg
+
+
+    background-image: linear-gradient(180deg,rgba(20,61,88,0.65) 0%,#143d58 100%),url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/04/car_repair_shop-9_comp.jpg)!important;
+
+    .et_pb_section_3.section_has_divider.et_pb_top_divider .et_pb_top_inside_divider {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIyMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiNmNWY2ZjciPjxwYXRoIGQ9Ik0wIDUxLjc2YzM2LjIxLTIuMjUgNzcuNTctMy41OCAxMjYuNDItMy41OCAzMjAgMCAzMjAgNTcgNjQwIDU3IDI3MS4xNSAwIDMxMi41OC00MC45MSA1MTMuNTgtNTMuNFYwSDB6IiBmaWxsLW9wYWNpdHk9Ii4zIi8+PHBhdGggZD0iTTAgMjQuMzFjNDMuNDYtNS42OSA5NC41Ni05LjI1IDE1OC40Mi05LjI1IDMyMCAwIDMyMCA4OS4yNCA2NDAgODkuMjQgMjU2LjEzIDAgMzA3LjI4LTU3LjE2IDQ4MS41OC04MFYwSDB6IiBmaWxsLW9wYWNpdHk9Ii41Ii8+PHBhdGggZD0iTTAgMHYzLjRDMjguMiAxLjYgNTkuNC41OSA5NC40Mi41OWMzMjAgMCAzMjAgODQuMyA2NDAgODQuMyAyODUgMCAzMTYuMTctNjYuODUgNTQ1LjU4LTgxLjQ5VjB6Ii8+PC9nPjwvc3ZnPg==);
+    background-size: 200% 200px;
+    top: 0;
+    height: 200px;
+    z-index: 1;
+    transform: rotateY(180deg);
+}
+
+* {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxNjBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9InJnYmEoMCwwLDAsMC4xKSI+PHBhdGggZD0iTTEyODAgMTQwVjBIMGwxMjgwIDE0MHoiIGZpbGwtb3BhY2l0eT0iLjUiLz48cGF0aCBkPSJNMTI4MCA5OFYwSDBsMTI4MCA5OHoiLz48L2c+PC9zdmc+);
+    background-size: 100% 160px;
+    bottom: 0;
+    height: 160px;
+    z-index: 1;
+    transform: rotateX(180deg);
+}
+
+
+div.et_pb_section.et_pb_section_0 {
+    background-size: contain;
+    background-position: bottom center;
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/hosting-company-01.png),linear-gradient(237deg,#46b3ff 0%,#0752fe 100%)!important;
+}
+
+div.et_pb_section.et_pb_section_10 {
+    background-size: contain;
+    background-position: top center;
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/hosting-company-11.png),linear-gradient(237deg,#46b3ff 0%,#0752fe 100%)!important;
+}
+
+div.et_pb_section.et_pb_section_0 {
+    background-size: initial;
+    background-position: bottom center;
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2019/05/vet-01-1-2.png),linear-gradient(221deg,#ff8e8e 0%,rgba(255,112,0,0.2) 42%)!important;
+}
+
+div.et_pb_section.et_pb_section_0 {
+    background-image: radial-gradient(circle at top right,#00ffd8 0%,#0029e2 100%)!important;
+}
+
+div.et_pb_section.et_pb_section_3 {
+    background-position: bottom center;
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2019/07/cyber-security-03-1.png),radial-gradient(circle at top right,#00ffd8 0%,#0029e2 100%)!important;
+
+    .et_pb_column_17 {
+    background-size: contain;
+    background-position: bottom left;
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2019/07/cyber-security-010-1.png),radial-gradient(circle at top right,#00f6ff 0%,#00ffbf 100%);
+    padding-top: 60px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    padding-left: 20%;
+}
+
+
+
+/* text animation */
+.taxi-header:before {
+   content: " ";
+   animation: changetext 10s infinite linear;
+   font-size: 4rem;
+}
+
+@keyframes changetext {
+    0% { content:"UI developer"; }
+    20% { content:"UX developer"; }
+    40% { content:"Web developer"; }
+    60% { content: "designer"; }
+    80% { content: "front end developer"; }
+    100% { content: "full stack developer"; }
+}
+
+* {
+    width: 100%; height: 100vh;
+   background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+   color: white;
+   display: flex;
+   justify-content: center; align-items: center;
+
+
+    width: 100% !important;
+    vertical-align: middle !important;
+    border-radius: 5px !important;
+    object-fit: cover !important;
+    opacity: 0.4 !important;
+    z-index: 1;
+
+
+    background-color: #070c08 !important;
+    overflow: hidden !important;
+    margin-top: 20px !important;
+    border-radius: 10px !important;
+    z-index: 999 !important;
+}
+
+
+.layout.l39 .slider-slide {
+    border-radius: 15px;
+    overflow: hidden;
+    background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
+    background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://bit.ly/2rlzaXi");
+    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://bit.ly/2rlzaXi"); /* The least supported option. */
+}
+
+
+box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+
+.layout.layout_weappz_listly .object:nth-child(5n+1)
+.layout.layout_weappz_listly .object:nth-child(5n+2)
+.layout.layout_weappz_listly .object:nth-child(5n+3)
+.layout.layout_weappz_listly .object:nth-child(5n+4)
+.layout.layout_weappz_listly .object:nth-child(5n+5)
+
+    box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 30%);
+	color: #000;
+    font-family: Lato,sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 30px;
+    text-shadow: 0 2px 4px rgb(0 0 0 / 25%);
+
+    
+
+.complete-payment:before {
+    z-index: 9;
+    content: '';
+    background-image: url(../img/pattern-white.png);
+    width: calc(100% + 45px);
+    position: absolute;
+    height: 207px;
+    top: -205px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    left: -37px;
+}
+
+#container {
+    display: inline-block;
+    padding: 2em;
+    border: 0.062em solid #999;
+    border-radius: 1em;
+    background-color: #fff;
+    box-shadow: inset 0 0 1em rgb(0 0 0 / 30%), 0.4em 0.4em 0.4em rgb(0 0 0 / 30%);
+}
+
+
+.section-rotate .section-inner {
+    top: -40%;
+    left: -1rem;
+    width: 130%;
+    height: 124%;
+    transform: rotate(
+-7deg
+);
+    border-bottom-left-radius: 3rem;
+}
+
+.pattern {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-image: url(../assets/img/patterns/wave.svg);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: 1450px 160px;
+    height: 0;
+    padding: 0;
+    padding-bottom: 140px;
+}
+
+
+input[type="submit"], button[type="submit"] {
+    background-color: #8224e3;
+    background-image: linear-gradient(
+90deg
+, #8224e3 0, #a968ec 50%, #8224e3 100%);
+    box-shadow: 0 1px 2px 0 rgb(130 36 227 / 50%);
+    color: #fff;
+}
+
+
+._6luv {
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+	box-shadow: inset 8.41px 8.41px 15px #d9d9d9, inset -8.41px -8.41px 15px #fff;
+    background: transparent linear-gradient(113deg, #80cff7 0%, #5FB9E6 100%) 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    opacity: 1;
+    color: #fff;
+    padding: 15px 60px 15px 30px;
+    font-size: 14px;
+    display: inline-block;
+    font-weight: bold;
+    position: relative;
+}
+
+section.header {
+    font-size: 42px;
+    line-height: 52px;
+    margin: 0;
+    margin-bottom: 50px;
+    padding-top: 120px;
+    padding-bottom: 70px;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    background-image: url(../images/css-26.svg),linear-gradient(163deg,rgba(0,212,255,.95),rgba(18,112,252,.95) 49%,rgba(62,25,250,.5));
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+https://dasarata.iixcp.rumahweb.com:2096/
+Email: admin@smpn1manokwari.com
+Pasword: admin@smpn1manokwari2020

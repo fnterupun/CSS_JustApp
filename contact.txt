@@ -1,0 +1,205 @@
+/*How to use:
+1. Use the Contact configuration as the image attached in the description.
+2. For the Twitter field, fill in by this URL (whatsapp://send?text=Hello%2C%20CSSCoder!). This for replacing Twitter with WhatsApp.
+3. Paste the script below to your Color menu of your Editor.
+/*
+
+/* Contact Module */
+[state="contact-view"] div.scroll div.list.card {
+	display: flex;
+  	flex-direction: column;
+  	box-shadow: none;
+}
+
+[state="contact-view"] div.scroll div.list.card [ng-show="contact.name"] {
+	order: 2;
+  	display: block;
+  	width: 100%;
+  	text-align: center;
+  	padding: 0 10px;
+  	margin: 5px;
+}
+
+[state="contact-view"] div.scroll div.list.card [ng-show="contact.name"] h2 {
+	font-weight: bold;
+  	font-size: 18px;
+  	text-transform: capitalize !important;
+  	padding-bottom: 5px;
+  	margin-bottom:0;
+	color: #3498db;
+}
+
+[state="contact-view"] div.scroll div.list.card [ng-if="contact.cover_url"] {
+    order: 1;
+    margin-bottom: 10px;
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+[state="contact-view"] div.scroll div.list.card [ng-show="contact.street"] {
+	order: 4;
+  	display: block;
+  	width: 100%;
+  	text-align: center;
+  	padding: 0 10px;
+  	margin: 5px;
+}
+
+[state="contact-view"] div.scroll div.list.card [ng-show="contact.description"] {
+	order: 3;
+  	display: block;
+  	width: 100%;
+  	text-align: center;
+  	padding: 0 10px;
+  	margin: 5px;
+  	margin-top: 0;
+}
+
+/* mengubah gambar profil */
+[state="contact-view"] div.scroll div.list.card [ng-if="contact.cover_url"] img {
+    width: 170px;
+    vertical-align: middle;
+    border-radius: 50%;
+    height: 170px;
+    border-radius: 50% !important !important;
+    margin-left: -50%;
+    overflow: hidden;
+    width: auto;
+    height: 100%;
+}
+
+[state="contact-view"] div.scroll div.list.card .ion-person:before,
+[state="contact-view"] div.scroll div.list.card .ion-android-menu:before,
+[state="contact-view"] div.scroll div.list.card .ion-ios-location:before {
+	display: none;
+}
+
+[state="contact-view"] div.scroll .button.button-custom {
+    border: 0 !important;
+    background-color: #eeeeee !important;
+    color: rgb(0 0 0);
+    border-radius: 30px;
+    padding: 5px 0;
+}
+
+
+.ion-ios-telephone-outline:before,
+.ion-ios-location-outline:before,
+.ion-ios-email-outline:before,
+.ion-ios-world-outline:before,
+.ion-social-facebook-outline:before,
+.ion-social-twitter-outline:before {
+    background-color: #53d070;
+    padding: 0 10px !important;
+    border-radius: 50%;
+    color: #fff;
+    width: 44px !important;
+  	display: none !important;
+}
+
+/*
+[ng-if="contact.twitter_url"] {
+	visibility: hidden;
+}
+
+[ng-if="contact.twitter_url"]:after{
+	visibility: visible;
+    content: "Whatsapp";
+    text-align: center;
+    display: block;
+    width: 100% !important;
+    border: 0 !important;
+    background-color: #eeeeee !important;
+    color: rgb(0 0 0);
+    border-radius: 30px;
+    padding: 0;
+    height: 50px;
+    z-index: -1;
+    margin-top: 9px !important;
+    margin-left: 5px !important;
+    padding-top: 5px;
+  	margin-bottom: 10p !important;
+}
+
+*/
+
+.ion-social-twitter-outline:before {
+	visibility: visible !important;
+}
+
+[state="contact-view"] div.scroll div.padding {
+	display: flex;
+  	flex-direction: column;
+  	box-shadow: none;	
+}
+
+[state="contact-view"] div.scroll div.padding button:nth-child(6) {
+	order: 2;	
+	margin-top: -10px !important;
+}
+
+[state="contact-view"] div.scroll div.padding button:nth-child(1) {
+	order: 3;	
+}
+
+[state="contact-view"] div.scroll div.padding button:nth-child(2) {
+	order: 1;	
+  	margin: 0;
+  	visibility: hidden;
+	height: 0 !important;
+}
+
+[state="contact-view"] div.scroll div.padding button:nth-child(2):before {
+    content: "Peta";
+    visibility: visible;
+    display: block;
+    text-align: center;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative;
+    margin-top: -35px !important;
+    width: 30%;
+    margin-left: 35% !important;
+    border-radius: 30px;
+    background: #47a2de !important;
+    border: 2px solid;
+    color: #fff;
+}
+
+[state="contact-view"] div.scroll div.padding button:nth-child(3) {
+	order: 4;	
+  	margin-top: 0;
+}
+
+[state="contact-view"] div.scroll div.padding button:nth-child(4) {
+	order: 5;	
+  	margin: 0;
+}
+
+[state="contact-view"] div.scroll div.padding button:nth-child(5) {
+	order: 6;	
+}
+
+[state="contact-view"] div.scroll div.padding button:nth-child(6):after {
+    content: "WhatsApp";
+    display: block;
+    visibility: visible;
+    background-color: #eeeeee;
+    border-radius: 30px;
+    width: 100%;
+    margin-left: 2%;
+    padding-top: 5px;
+  	height: 55px;
+}
+
+[state="contact-view"] div.scroll div.padding button:nth-child(6) {
+    order: 2;
+    margin-top: -10px !important;
+    visibility: hidden !important;
+}

@@ -1,0 +1,974 @@
+/* APP MANAGER */
+ion-header-bar.bar-custom.bar.bar-header.disable-user-behavior.migaappmanager-view {
+    background: #0bb654 !important;
+    border: 0 !important;
+}
+
+[ng-hide="!migaappmanager.is_show_appointment"] .col.pointer:nth-child(2) {
+    display: none;
+}
+
+ion-view.migaappmanager-view.layout-view ion-content.migaappmanager {
+    background: rgb(12,183,84);
+    background: linear-gradient(180deg, rgba(12,183,84,1) 0%, rgba(0,155,120,1) 100%) !important;
+}
+
+ion-view.migaappmanager-view.layout-view ion-content.migaappmanager .row {
+    width: 50%;
+    flex-direction: row;
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 0 0 50%;
+    max-width: 49%;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 10px 0;
+    left: 0;
+    right: 0;
+    background-color: transparent !important;
+}
+
+ion-view.migaappmanager-view.layout-view ion-content.migaappmanager .col.pointer {
+    width: 90% !important;
+    max-width: 90% !important;
+    flex: 0 0 90%;
+    border: 2px solid #ecf0f6;
+    border-radius: 30px;
+    margin: 10px 2.5%;
+    background-color: #ecf0f6 !important;
+}
+
+
+/* Push Notification */
+ion-view.migaappmanager-view.layout-view ion-content.migaappmanager .preview-main.push_icon_bg.push_separator_color {
+    border: 0 !important;
+    border-radius: 20px 20px 0 0;
+    background-color: #a9a9a9 !important;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/notifikasi-1.png);
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+ion-view.migaappmanager-view.layout-view ion-content.migaappmanager .preview-footer.push_text_bg {
+    border-radius: 0 0 20px 20px;
+    background-color: #a9a9a9 !important;
+}
+
+/* Event */
+ion-view.migaappmanager-view.layout-view ion-content.migaappmanager .preview-main.event_icon_bg.event_separator_color {
+    border-radius: 20px 20px 0 0;
+    border: 0 !important;
+    background-color: #31a482 !important;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/calendar-6.png);
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+ion-view.migaappmanager-view.layout-view ion-content.migaappmanager .preview-footer.event_text_bg {
+    border-radius: 0 0 20px 20px;
+    background-color: #31a482 !important;
+}
+
+/* Discount */
+ion-view.migaappmanager-view.layout-view ion-content.migaappmanager .preview-main.discount_icon_bg.discount_separator_color {
+    border-radius: 20px 20px 0 0;
+    border: 0 !important;
+    background-color: #ed7e42 !important;   
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/diskon-3.png);
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+ion-view.migaappmanager-view.layout-view ion-content.migaappmanager .preview-footer.discount_text_bg {
+    border-radius: 0 0 20px 20px;
+    background-color: #ed7e42 !important;   
+}
+
+/* appointment */
+ion-view.migaappmanager-view.layout-view ion-content.migaappmanager .preview-main.appointment_icon_bg.appointment_separator_color {
+    background-color: #2ba1b9 !important;
+    border-radius: 20px 20px 0 0;
+    border: 0 !important;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/appointment-2.png);
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+ion-view.migaappmanager-view.layout-view ion-content.migaappmanager .preview-footer.appointment_text_bg {
+    border-radius: 0 0 20px 20px;
+    background-color: #2ba1b9 !important;       
+}
+
+
+/* Gallery */
+ion-view.migaappmanager-view.layout-view ion-content.migaappmanager .preview-main.gallery_icon_bg.gallery_separator_color {
+    background-color: #2686d5 !important;
+    border-radius: 20px 20px 0 0;
+    border: 0 !important;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/gallery-2.png);
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+ion-view.migaappmanager-view.layout-view ion-content.migaappmanager .preview-footer.gallery_text_bg {
+    border-radius: 0 0 20px 20px !important;
+    background-color: #2686d5 !important;       
+}
+
+
+/* News */
+ion-view.migaappmanager-view.layout-view ion-content.migaappmanager .preview-main.news_icon_bg.news_separator_color {
+    background-color: #955bd3 !important;
+    border-radius: 20px 20px 0 0;
+    border: 0 !important;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/news-1.png);
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+ion-view.migaappmanager-view.layout-view ion-content.migaappmanager .preview-footer.news_text_bg {
+    border-radius: 0 0 20px 20px;
+    background-color: #955bd3 !important;       
+}
+
+ion-view.migaappmanager-view.layout-view ion-content.migaappmanager .preview-main img {
+    margin-top: 45px;
+    margin-right: 55%;
+    display: none;
+}
+
+
+/* Push Notification */
+ion-header-bar.bar-custom.bar.bar-header.disable-user-behavior.mam-push-view {
+    background-color: #fff !important;
+    border: 0 !important;
+}
+
+ion-view.mam-push-view.layout-view ion-content.push {
+    background-color: #fff !important;
+    margin: 0 !important;
+    padding: 10px !important;
+    border: 0 !important;
+}
+
+ion-view.mam-push-view.layout-view ion-content:before {
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/chi-siamo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: " ";
+    display: block;
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+ion-view.mam-push-view.layout-view ion-content .list.list-inset:before {
+    content: "Send Your Nofification Now";
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #000;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+ion-view.mam-push-view.layout-view ion-content .list.list-inset {
+    background: transparent !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+ion-view.mam-push-view.layout-view ion-content label.item.item-input {
+    border: 2px solid #ecf0f6;
+    margin: 10px 0;
+    border-radius: 10px !important;
+}
+
+ion-view.mam-push-view.layout-view ion-content .list label.item-checkbox {
+    padding-left: 48px;
+    border: 0 !important;
+    color: #3498db;
+}
+
+ion-view.mam-push-view.layout-view ion-content label.item.item-input textarea {
+    line-height: 1.6;
+}
+
+ion-view.mam-push-view.layout-view ion-content button.button.button-positive:before {
+    display: none !important;
+}
+
+ion-view.mam-push-view.layout-view ion-content button.button.button-small.button-block.button-positive.icon.ion-camera.save-button.ng-binding:after {
+    content: "Unggah Gambar";
+    font-size: 12px;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0 30px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    /*background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/add-3.png);
+    background-position: center right 40px;
+    background-repeat: no-repeat;
+    background-size: 30px;*/
+    color: #387ef5 !important;
+}
+
+ion-view.mam-push-view.layout-view ion-content button.button.button-small.button-block.button-positive.icon.ion-camera.save-button.ng-binding {
+    width: 60%;
+    border-radius: 30px;
+    margin-left: 20%;
+    padding: 10px 0;
+    background-color: transparent !important;
+    font-size: 0;
+}
+
+ion-view.mam-push-view.layout-view ion-content .rcrop-preview-wrapper {
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ion-view.mam-push-view.layout-view ion-content .rcrop-preview-wrapper canvas {
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px !important;
+    width: 100%;
+}
+
+ion-view.mam-push-view.layout-view ion-content button[ng-click="savePush()"] {
+    width: 60%;
+    border-radius: 30px;
+    background-color: #387ef5 !important;
+    margin-left: 20%;
+    border: 0 !important;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+ion-view.mam-push-view.layout-view ion-content .checkbox input:checked + .checkbox-icon::before {
+    background: rgb(255 255 255);
+    border-color: rgb(56, 126, 245);
+    border-radius: 5px;
+}
+
+ion-view.mam-push-view.layout-view ion-content .checkbox .checkbox-icon::before {
+    border: 2px solid #ecf0f6;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+ion-header-bar.bar-custom.bar.bar-header.disable-user-behavior.mam-push-view .ion-ios-arrow-back::before,
+ion-header-bar.bar-custom.bar.bar-header.disable-user-behavior.mam-push-view .ion-home::before {
+    color: #000 !important;
+}
+
+
+/* News */
+ion-header-bar.bar-custom.bar.bar-header.disable-user-behavior.mam-news-view {
+    background-color: #fff !important;
+    border: 0 !important;
+}
+
+ion-header-bar.bar-custom.bar.bar-header.disable-user-behavior.mam-news-view .ion-ios-arrow-back::before,
+ion-header-bar.bar-custom.bar.bar-header.disable-user-behavior.mam-news-view .ion-home::before {
+    color: #000 !important;
+}
+
+ion-view.mam-news-view.layout-view ion-content.news {
+    background-color: #fff !important;
+    border: 0 !important;
+    padding: 10px;
+}
+
+ion-view.mam-news-view.layout-view ion-content.news .list.list-inset {
+    margin: 0;
+}
+
+.list.list-inset label.item.item-input {
+    border: 2px solid #ecf0f6;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+ion-view.mam-news-view.layout-view ion-content.news:before {
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/appteam_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: " ";
+    display: block;
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+ion-view.mam-news-view.layout-view ion-content.news .list.list-inset:before {
+    content: "Send New News Now";
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #000;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+.ephox-polish-editor-container.ephox-textbox-font.ephox-polish-layer-editor.ephox-platform-touch.ephox-platform-android.ephox-polish-editor-main.ephox-polish-content-ltr {
+    border: 0 !important;
+}
+
+.ephox-polish-editor-container.ephox-platform-touch .ephox-polish-disabled-mask {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: transparent;
+}
+
+.ephox-polish-editor-container.ephox-platform-touch .ephox-polish-disabled-mask .ephox-polish-content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 150%;
+    padding: .5em;
+    border-radius: .25em;
+    color: #fafafa;
+    background: #009688;
+}
+
+ion-view.mam-news-view.layout-view .padding-10 {
+    padding: 10px 0 !important;
+}
+
+ion-view.mam-news-view.layout-view button[ng-click="uploadPhoto()"]:after {
+    content: "Unggah Gambar";
+    display: block;
+    font-size: 12px;
+    margin: 0;
+    padding: 0 30px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    /*background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/add-3.png);
+    background-position: center right 40px;
+    background-repeat: no-repeat;
+    background-size: 30px;*/
+    color: #387ef5 !important;
+    border: 0;
+}
+
+ion-view.mam-news-view.layout-view button[ng-click="uploadPhoto()"] {
+    background-color: transparent !important;
+    font-size: 0;
+    width: 70%;
+    margin-left: 15%;
+    border: 0;
+}
+
+ion-view.mam-news-view.layout-view  button[ng-click="saveNews()"] {
+    width: 60%;
+    border-radius: 30px;
+    background-color: #387ef5 !important;
+    margin-left: 20%;
+    border: 0 !important;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+ion-view.mam-news-view.layout-view .list.list-inset .rcrop-preview-wrapper canvas {
+    width: 100%;
+    border-radius: 15px;
+    margin: 10px 0 !important;
+    top: 0;
+    border: 0;
+}
+
+
+
+/* Galerry */
+ion-header-bar.bar-custom.bar.bar-header.disable-user-behavior.mam-gallery-view {
+    background-color: #fff !important;
+    border: 0 !important;
+}
+
+ion-header-bar.bar-custom.bar.bar-header.disable-user-behavior.mam-gallery-view .ion-ios-arrow-back::before,
+ion-header-bar.bar-custom.bar.bar-header.disable-user-behavior.mam-gallery-view .ion-home::before {
+    color: #000 !important;
+}
+
+ion-view.mam-gallery-view.layout-view ion-content.gallery {
+    background-color: #fff !important;
+    border: 0 !important;
+    padding: 10px;
+}
+
+ion-view.mam-gallery-view.layout-view ion-content.gallery:before {
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/appteam_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: " ";
+    display: block;
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+ion-view.mam-gallery-view.layout-view ion-content.gallery .list.list-inset:before {
+    content: "Create Your Gallery Now";
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #000;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+ion-view.mam-gallery-view.layout-view ion-content.gallery .card.mt-1 {
+    padding: 0;
+    margin: 0;
+    border: 0 !important;
+    box-shadow: none !important;
+    background: linear-gradient(45deg, rgb(106, 120, 209), rgb(0, 164, 189));
+    border-radius: 10px;
+}
+
+ion-view.mam-gallery-view.layout-view ion-content.gallery .card.mt-1 .item.item-divider.ng-binding:after {
+    content: "Nama Gallery";
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+ion-view.mam-gallery-view.layout-view ion-content.gallery .card.mt-1 .item.item-divider.ng-binding {
+    background-color: transparent !important;
+    color: #fff !important;
+    border: 0;
+    font-size: 0;
+}
+
+ion-view.mam-gallery-view.layout-view ion-content.gallery .item.item-text-wrap.no-padding {
+    background-color: transparent;
+    border: 0;
+    padding: 0 5px !important;
+}
+
+ion-view.mam-gallery-view.layout-view ion-content.gallery .card.mt-1 label.item.item-input {
+    border: 0;
+    border-radius: 5px !important;
+}
+
+ion-view.mam-gallery-view.layout-view ion-content.gallery .padding-10.center img {
+    width: 100% !important;
+    border-radius: 10px;
+}
+
+ion-view.mam-gallery-view.layout-view ion-content.gallery .padding-10.center {
+    padding: 5px 0 !important;
+}
+
+ion-view.mam-gallery-view.layout-view ion-content.gallery .mb1 {
+    border-bottom: 2px dashed #387ef5 !important;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+ion-view.mam-gallery-view.layout-view ion-content.gallery button[ng-click="createNewGallery()"]:after {
+    content: "Buat Galery";
+    font-size: 12px !important;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    display: block;
+    color: #007aff !important;
+}
+
+ion-view.mam-gallery-view.layout-view ion-content.gallery button[ng-click="saveGallery()"] {
+    border: 2px solid #ecf0f6 !important;
+    width: 50% !important;
+    border-radius: 30px;
+    margin-left: 25%;
+}
+
+ion-view.mam-gallery-view.layout-view ion-content.gallery button[ng-click="createNewGallery()"] {
+    font-size: 0;
+    background-color: transparent !important;
+    top: 0;
+    margin: 0;
+    bottom: 0;
+    padding: 0;
+}
+
+ion-view.mam-gallery-view.layout-view ion-content.gallery .list.list-inset .padding-10 button[ng-click="uploadPhoto()"] {
+    background-color: transparent !important;
+    font-size: 0;
+    width: 70%;
+    margin-left: 15%;
+    border: 0;  
+}
+
+ion-view.mam-gallery-view.layout-view ion-content.gallery .list.list-inset .padding-10 button[ng-click="uploadPhoto()"]:after {
+    content: "Unggah Gambar";
+    display: block;
+    font-size: 12px;
+    margin: 0;
+    padding: 0 30px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    /*background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/add-3.png);
+    background-position: center right 40px;
+    background-repeat: no-repeat;
+    background-size: 30px;*/
+    color: #387ef5 !important;
+    border: 0;
+}
+
+ion-view.mam-gallery-view.layout-view ion-content.gallery .padding-10 [ng-click="saveGalleryImages()"] {
+    width: 60%;
+    border-radius: 30px;
+    background-color: #387ef5 !important;
+    margin-left: 20%;
+    border: 0 !important;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: bold;  
+}
+
+
+/* EVENT */
+ion-header-bar.bar-custom.bar.bar-header.disable-user-behavior.mam-event-view {
+    background-color: #fff !important;
+    border: 0 !important;
+}
+
+ion-header-bar.bar-custom.bar.bar-header.disable-user-behavior.mam-event-view .ion-ios-arrow-back::before,
+ion-header-bar.bar-custom.bar.bar-header.disable-user-behavior.mam-event-view .ion-home::before {
+    color: #000 !important;
+}
+
+ion-view.mam-event-view.layout-view ion-content.event {
+    background-color: #fff !important;
+    border: 0 !important;
+    padding: 10px;
+}
+
+ion-view.mam-event-view.layout-view ion-content.event:before {
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/appteam_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: " ";
+    display: block;
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+ion-view.mam-event-view.layout-view ion-content.event .list.list-inset:before {
+    content: "Create New Event Now";
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #000;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+ion-view.mam-event-view.layout-view ion-content.event button[ng-click="createNewCalendar()"] {
+    background-color: transparent !important;
+    width: 60%;
+    margin-left: 20%;
+    font-size: 0;
+}
+
+ion-view.mam-event-view.layout-view ion-content.event button[ng-click="createNewCalendar()"]:after {
+    content: "Buat Calender";
+    font-size: 12px !important;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    display: block;
+    color: #007aff !important;
+}
+
+ion-view.mam-event-view.layout-view ion-content.event button[ng-click="saveCalendar()"] {
+    border: 2px solid #ecf0f6 !important;
+    width: 50% !important;
+    border-radius: 30px;
+    margin-left: 25%;
+}
+
+ion-view.mam-event-view.layout-view ion-content.event button[ng-click="addWebsite()"] {
+    background-color: transparent !important;
+    color: #387ef5;
+    font-size: 12px;
+}
+
+ion-view.mam-event-view.layout-view ion-content.event .list.list-inset .padding-10 button[ng-click="uploadPhoto()"]:before {
+    display: none;
+}
+
+ion-view.mam-event-view.layout-view ion-content.event .list.list-inset .padding-10 button[ng-click="uploadPhoto()"] {
+    background-color: transparent !important;
+    font-size: 0;
+    width: 70%;
+    margin-left: 15%;
+    border: 0;  
+}
+
+ion-view.mam-event-view.layout-view ion-content.event .list.list-inset .padding-10 button[ng-click="uploadPhoto()"]:after {
+    content: "Unggah Gambar";
+    display: block;
+    font-size: 12px;
+    margin: 0;
+    padding: 0 30px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    /*background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/add-3.png);
+    background-position: center right 40px;
+    background-repeat: no-repeat;
+    background-size: 30px;*/
+    color: #387ef5 !important;
+    border: 0;
+}
+
+ion-view.mam-event-view.layout-view ion-content.event button[ng-click="saveEvent()"] {
+    width: 60%;
+    border-radius: 30px;
+    background-color: #387ef5 !important;
+    margin-left: 20%;
+    border: 0 !important;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+ion-view.mam-event-view.layout-view ion-content.event .card.mt-1 {
+    padding: 0;
+    margin: 10px 0;
+    border: 0 !important;
+    box-shadow: none !important;
+    background: linear-gradient(45deg, #6a78d1, #00a4bd);
+    border-radius: 10px;
+}
+
+ion-view.mam-event-view.layout-view ion-content.event .card.mt-1 .item.item-divider.ng-binding {
+    background: transparent;
+    border: 0;
+    color: #fff;
+}
+
+ion-view.mam-event-view.layout-view ion-content.event .card.mt-1 .item.item-text-wrap.no-padding {
+    background: transparent;
+    border: 0;
+}
+
+ion-view.mam-event-view.layout-view ion-content.event .card.mt-1 .item.item-text-wrap.no-padding label.item.item-input {
+    width: 96%;
+    margin: 0 2% !important;
+}
+
+ion-view.mam-event-view.layout-view ion-content.event .list.list-inset {
+    margin: 0 !important;
+}
+
+
+ion-view.mam-event-view.layout-view ion-content.event .list.list-inset label.item.item-input {
+    border: 2px solid #ecf0f6;
+    border-radius: 10px;
+    margin: 10px 0 !important;
+}
+
+ion-view.mam-event-view.layout-view ion-content.event .rcrop-preview-wrapper canvas {
+    width: 100%;
+    border-radius: 10px;
+}
+
+ion-view.mam-event-view.layout-view ion-content.event .mb1 {
+    border-bottom: 2px dashed #387ef5 !important;
+    margin-bottom: 1px !important;
+}
+
+
+
+/* DISCOUNT */
+ion-header-bar.bar-custom.bar.bar-header.disable-user-behavior.mam-discount-view {
+    background-color: #fff !important;
+    border: 0 !important;
+}
+
+ion-header-bar.bar-custom.bar.bar-header.disable-user-behavior.mam-discount-view .ion-ios-arrow-back::before,
+ion-header-bar.bar-custom.bar.bar-header.disable-user-behavior.mam-discount-view .ion-home::before {
+    color: #000 !important;
+}
+
+ion-view.mam-discount-view.layout-view ion-content.discount {
+    background-color: #fff !important;
+    border: 0 !important;
+    padding: 10px;
+}
+
+ion-view.mam-discount-view.layout-view ion-content.discount .padding-10.pt0 button[ng-click="uploadPicture()"]:before {
+    display: none;
+}
+
+
+ion-view.mam-discount-view.layout-view ion-content.discount .list.list-inset {
+    margin: 0;
+}
+
+
+ion-view.mam-discount-view.layout-view ion-content.discount .padding-10.pt0 button[ng-click="uploadPicture()"] {
+    background: transparent !important;
+    color: #387ef5;
+    font-size: 12px;
+    font-size: 0;
+}
+
+ion-view.mam-discount-view.layout-view ion-content.discount .padding-10.pt0 button[ng-click="uploadPicture()"]:after {
+    content: "Gambar (960*450)";
+    color: #387ef5;
+    font-size: 12px;
+    border: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin-left: 15%;
+}
+
+ion-view.mam-discount-view.layout-view ion-content.discount .padding-10.pt0 button[ng-click="uploadThumbnail()"]:before {
+    display: none;
+}
+
+ion-view.mam-discount-view.layout-view ion-content.discount .padding-10.pt0 button[ng-click="uploadThumbnail()"] {
+    background: transparent !important;
+    color: #387ef5;
+    font-size: 0;
+}
+
+ion-view.mam-discount-view.layout-view ion-content.discount .padding-10.pt0 button[ng-click="uploadThumbnail()"]:after {
+    content: "Gambar (256 x 256)";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+ion-view.mam-discount-view.layout-view ion-content.discount:before {
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/appteam_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: " ";
+    display: block;
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+ion-view.mam-discount-view.layout-view ion-content.discount .list.list-inset:before {
+    content: "Create New Discount Now";
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #000;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+ion-view.mam-discount-view.layout-view ion-content.discount ul.list li.item.item-toggle.ng-binding {
+    border: 0;
+}
+
+ion-view.mam-discount-view.layout-view ion-content.discount .handle {
+    background-color: #008000 !important;
+}
+
+ion-view.mam-discount-view.layout-view ion-content.discount .toggle.toggle-assertive input:checked+.track {
+    border-color: #387ef5 !important;
+    background-color: #ffffff !important;
+}
+
+ion-view.mam-discount-view.layout-view ion-content.discount .toggle .track {
+    border: solid 2px #008000;
+    border-radius: 20px;
+    background-color: #ecf0f6;
+    content: ' ';
+    cursor: pointer;
+    pointer-events: none;
+}
+
+ion-view.mam-discount-view.layout-view ion-content.discount .toggle input:checked+.track .handle {
+    -webkit-transform: translate3d(20px,0,0);
+    transform: translate3d(20px,0,0);
+    background-color: #387df3 !important;
+}
+
+ion-view.mam-discount-view.layout-view ion-content.discount .toggle .handle {
+    background-color: #008000;
+    box-shadow: 0 2px 7px rgb(0 0 0 / 35%), 0 1px 1px rgb(0 0 0 / 15%);
+    border: 1px solid #fff;
+}
+
+ion-view.mam-discount-view.layout-view ion-content.discount [ng-click="saveDiscount()"] {
+    width: 60%;
+    border-radius: 30px;
+    background-color: #387ef5 !important;
+    margin-left: 20%;
+    border: 0 !important;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: bold;  
+}
+
+/* APPOINTMENT */
+ion-view.migaappmanager-view.layout-view ion-content.migaappmanager [ng-click="navigateTo('mam-appointment');"] {
+    display: none;
+}
+
+
+/* POPUP */
+.popup-container.active .popup {
+    border-radius: 30px !important;
+    box-shadow: none !important;
+    background-color: #ecf0f6;
+}
+
+.platform-browser .popup-buttons,
+.platform-overview .popup-buttons,
+.platform-ios .popup-buttons,
+.platform-android .popup-buttons {
+    text-align: center !important;
+    background-color: transparent !important;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    width: 100% !important;
+    margin: 10px 0 !important;
+    display: inline-block !important;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+}
+
+.platform-browser .popup .popup-head,
+.platform-overview .popup .popup-head,
+.platform-ios .popup .popup-head,
+.platform-android .popup .popup-head {
+    padding: 20px 20px 0;
+    border-bottom: 0;
+    text-align: center !important;
+    font-size: 22px;
+    font-weight: bold !important;
+}
+
+h3.popup-title.ng-binding:before {
+    content: " ";
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/checked.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.platform-browser .popup button.button:first-of-type,
+.platform-overview .popup button.button:first-of-type,
+.platform-ios .popup button.button:first-of-type,
+.platform-android .popup button.button:first-of-type {
+    width: 60% !important;
+    text-align: center !important;
+    border-radius: 30px !important;
+    background-color: #30b826 !important;
+    padding: 10px !important;
+    color: #fff !important;
+    font-size: 16px !important;
+    margin: 10px 0 !important;
+    display: block !important;
+    margin-left: 20% !important;
+}
+
+.platform-browser .popup button.button,
+.platform-overview .popup button.button,
+.platform-ios .popup button.button,
+.platform-android .popup button.button {
+    display: block !important;
+    background-color: #30b826 !important;
+    width: 60% !important;
+    text-align: center !important;
+    padding: 10px !important;
+    border-radius: 30px !important;
+    color: #fff !important;
+    font-size: 16px !important;
+    margin-left: 20% !important;
+}
+
+.platform-browser .popup .popup-body,
+.platform-overview .popup .popup-body,
+.platform-ios .popup .popup-body,
+.platform-android .popup .popup-body {
+    padding: 5px 10px;
+    border-bottom: 0;
+    text-align: center !important;
+}
+
+.popup-body img {
+    margin: 0 !important;
+    border-radius: 20px !important;
+}
+
+
+
+

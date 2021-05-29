@@ -1,0 +1,381 @@
+/* HEADER START */
+/* header title */
+.bar.bar-custom .title {
+	display: none !important;
+}
+
+/* HEADER END */
+
+
+/* HOMEPAGE START */
+/* homepage top shadow */
+.always .layout.l1 .tabs {
+    box-shadow: 0 0 3px #000;
+}
+
+/* homepage button */
+.layout.l1 .tab-item img {
+    border: 2px solid #eaeaea;
+    border-radius: 5px;
+  	margin: 0;
+	width: 40px;
+    height: 40px;
+}
+
+/* menu title */
+.layout.l1 p {
+    display: none;
+}
+
+/* homepage button */
+.layout.l1 .tabs li.col.col-20.tab-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* HOMEPAGE END */
+
+
+/* SOCIAL WALL START */
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 ion-content.scroll-content.ionic-scroll.overflow-scroll.has-header.has-subheader {
+    top: calc(var(--safe-area-inset-top) + 140px) !important;  
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 ion-header-bar.bar-subheader.bar.bar-header {
+	background-color: rgb(254,143,40) !important;
+    padding: 0 !important;
+    background-image: none !important;
+    border: 0 !important;
+    padding-top: 10px !important;
+	height: 95px;
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 ion-header-bar.bar-subheader.bar.bar-header .button-bar {
+	background-color: #fff !important;
+    border-radius: 30px 30px 0 0 !important;
+    background-image: none !important;
+    border: 0 !important;
+    display: flex;
+    flex-direction: row;
+	height: 95px;
+}
+
+.module-fanwall.fanwall-list-l1 .bar-subheader .button-bar > .button:last-child  {
+	order: 1;
+	width: 100%;
+    flex: 0 0 100%;
+}
+
+.module-fanwall.fanwall-list-l1 .bar-subheader .button-bar > .button:first-child {
+	order: 2;
+}
+
+.module-fanwall.fanwall-list-l1 .bar-subheader .button-bar > .button:nth-child(2) {
+	order: 3;
+}
+
+.module-fanwall.fanwall-list-l1 .bar-subheader .button-bar > .button:nth-child(3) {
+	order: 4;
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 .button.button-positive-custom {
+    border: 0;
+    background-color: transparent;
+    color: #000 !important;
+    font-size: 0 !important;
+    display: inline-block;
+    align-items: center;
+    width: 25% !important;
+    max-width: 25%;
+}
+
+.module-fanwall.fanwall-list-l1 button.button.button-custom.button-positive.button-positive-custom.ng-binding.fw-icon-selected.icon-active-custom.activated {
+    background-color: transparent !important;
+}
+
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 button[ng-if="displayProfile()"] img {
+    width: 70px;
+    height: 70px !important;
+    border: 3px dashed #eaeaea;
+    border-radius: 50px;
+    padding: 4px !important;
+}
+
+
+.module-fanwall.fanwall-list-l1 .item {
+    margin: 0 !important;
+    border-bottom: 2px solid #ecf0f6;
+    margin-bottom: 0 !important;
+}
+
+/* button post social wall */
+/*button[ng-class="classTab('post')"] {
+    display: none !important;
+} */
+
+/* user name social wall post */
+.module-fanwall.fanwall-list-l1 .item .post-author h2 {
+    font-weight: bold;
+    line-height: 16px;
+    height: 16px;
+    margin-top: 3px;
+    text-align: left;
+}
+
+/* post date social wall post */
+.module-fanwall.fanwall-list-l1 .item .post-author .post-date {
+    font-size: 11px;
+    text-align: left;
+}
+
+/* body post social wall */
+.module-fanwall.fanwall-list-l1 .item .post-body p {
+    overflow: initial;
+    text-overflow: initial;
+    white-space: normal;
+    text-align: left;
+}
+
+/* social wall post image */
+.module-fanwall.fanwall-list-l1 .item .post-image a.fanwall-image-bg {
+    display: inline-block;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    height: 30vh;
+    width: 90% !important;
+    border-radius: 10px;
+}
+
+/* border bottom - like & comment */
+.module-fanwall.fanwall-list-l1 .item .post-body ~ .post-actions {
+    border: 0;
+}
+
+/* button[ng-if="displayProfile()"] {
+    display: none !important;
+} */
+
+
+/* titik tiga */
+.module-fanwall.popover.popover-custom .item-custom span {
+    text-align: left;
+}
+
+.buttons.buttons-right.header-item i.icon.ion-sb-refresh {
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/message-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  	color: transparent;
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 .buttons.buttons-right.header-item .ion-sb-refresh:before {
+	font-size: 48px !important;
+}
+
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 .post-body ~ .post-actions .row .text-center.col-33 span.ng-binding {
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/like_user-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 28px;
+    color: transparent;
+    visibility: visible;
+    display: inline-block;
+    font-size: 28px;
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 .post-body ~ .post-actions .row .text-center.col-33 span.positive.positive-custom.ng-binding {
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/like_user.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 28px;
+    color: transparent;
+    visibility: visible;
+    display: inline-block;
+    font-size: 28px;
+}
+
+.module-fanwall.fanwall-list-l1 .item .post-body ~ .post-actions [ng-click="commentModal()"] {
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/comment.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: transparent;	
+}
+
+.module-fanwall.fanwall-list-l1 .item .post-body ~ .post-actions [ng-click="sharePost()"] {
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/sharing-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: transparent;		
+}
+
+/* Social Wall Comment */
+/* user name */
+.module-fanwall.fanwall-comment-l1 .item-comment .comment-author h2 {
+    text-align: left;
+}
+
+/* date post */
+.module-fanwall.fanwall-comment-l1 .item-comment .comment-author p.comment-date {
+    text-align: left;
+}
+
+/* post body */
+.module-fanwall.fanwall-comment-l1 .item-comment .comment-author p.comment-text {
+    white-space: normal;
+    text-align: left;
+}
+
+/* comment img */
+.module-fanwall.fanwall-comment-l1 .item-comment .comment-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    width: 100%;
+    height: 100% !important;
+    max-height: 100% !important;
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+/* Social Wall img */
+.module-fanwall .fanwall-gallery .gallery-item {
+    width: 48% !important;
+    margin: 10px 1% !important;
+    border-radius: 10px;
+}
+
+/* Social wall nearby */
+.module-fanwall.fanwall-list-l1 .item b:after {
+    content: "your video goes here";
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.module-fanwall.fanwall-list-l1 .item {
+    margin: 0 !important;
+    border-bottom: 2px solid #ecf0f6;
+    margin-bottom: 0 !important;
+    font-size: 0;
+}
+
+/* SOCIAL WALL END */
+
+
+/* MARKETPLACE MODULE */
+ion-view.module-marketplace.marketplace-list.marketplace-list-l1 ion-content {
+    border-radius: 30px 30px 0 0 !important;
+    background-color: #fff !important;
+}
+
+ion-view.module-marketplace.marketplace-list.marketplace-list-l1 .list:last-child .item.text-center.item-custom.card {
+    padding: 0;
+    margin: 0;
+}
+
+.module-marketplace.marketplace-list-l1 .item.card {
+    margin-top: 0;
+    margin-bottom: 6px;
+    border: 0;
+    box-shadow: none;
+}
+
+ion-view.module-marketplace.marketplace-list.marketplace-list-l1 .list:last-child .item.text-center.item-custom.card h3 {
+    white-space: normal !important;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.module-marketplace .store-name {
+    min-height: 150px;
+    padding: 30px 0;
+    box-shadow: none;
+}
+
+ion-view.module-marketplace.marketplace-list.marketplace-list-l1 button[ng-click="goToCreateStore(2)"]:before {
+    content: "Buat";
+  	font-size: 16px;
+}
+
+ion-view.module-marketplace.marketplace-list.marketplace-list-l1 button[ng-click="goToCreateStore(2)"] {
+    font-size: 0;
+    background-color: #fe8f28;
+    width: 60%;
+    padding: 10px 0;
+    border-radius: 30px;
+    text-transform: uppercase;
+  	border: 0 !important;
+}
+
+ion-view.module-marketplace.marketplace-list.marketplace-list-l1 button[ng-click="goToCreateStore(2)"] span {
+    font-size: 16px ;
+  	margin-left: 5px;
+}
+
+ion-view.module-marketplace.marketplace-list.marketplace-list-l1 .item-custom .checkbox-custom {
+    border: none!important;
+    text-align: left;
+}
+
+ion-view.module-marketplace.marketplace-list.marketplace-list-l1 .list label.item.item-custom.item-input .input-label.ng-binding {
+	text-align: left;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+ion-view.module-marketplace.marketplace-list.marketplace-list-l1 input {
+    border-bottom: 2px solid #ecf0f6;
+  	text-align: left;
+  	max-width: 100%;
+  	width: 100%;
+}
+
+ion-view.module-marketplace.marketplace-list.marketplace-list-l1 .item.item-divider.item-divider-custom h2 {
+    font-size: 20px !important;
+    font-weight: bold;
+}
+
+ion-view.module-marketplace.marketplace-list.marketplace-list-l1 .list .item.item-custom {
+    border: 0;
+    background-color: transparent;
+    color: #6b6b6b;
+    width: 100%;
+    display: inline-block;
+}
+
+ion-view.module-marketplace.marketplace-list.marketplace-list-l1 .button.button-custom {
+    border: 0;
+    background-color: #fe8f28;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    width: 60%;
+    border-radius: 30px;
+    margin-left: 20%;
+}
+
+
+/* MARKETPLACE END */
+
+
+/* PUSH NOTIFICATION START */
+ion-view.module-push.push-list.push-list-l1 ion-content {
+	background-color: #fff !important
+}
+
+ion-view.module-push.push-list.push-list-l1 ion-content .list .item.item-custom h2 {
+	text-align: left;
+  	font-weight: bold;
+}
+
+ion-view.module-push.push-list.push-list-l1 ion-content  .list .item.item-custom p {
+	text-align: left;
+}
+
+/* PUSH NOTIFICATION START */
+
+

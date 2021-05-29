@@ -1,0 +1,308 @@
+/* MENU ICON */
+.icon.ion-navicon-round {
+  visibility: hidden;
+}
+
+.icon.ion-navicon-round {
+  visibility: visible;
+  content: url(https://ensiklopediakesaguan.com/wp-content/uploads/2020/12/icon_menu-1.png);
+  margin-top: 10px;
+}
+
+/* homepage */
+ion-view[state="music-playlist-list"] ion-content {
+  top: calc(var(--safe-area-inset-top) + 60px) !important;
+}
+
+ion-view[state="music-playlist-list"] ion-header-bar {
+  top: calc(var(--safe-area-inset-top) + 0px) !important; 
+}
+
+
+/* change the bg color in page */
+ion-modal-view.audio-player.media-player.media-player-modal ion-content,
+ion-view[state="music-playlist-list"] ion-content,
+ion-view[state="music-playlist-albums"] ion-content,
+ion-view[state="music-track-list"] ion-content {
+  background: rgb(207,224,234);
+  background: linear-gradient(180deg, rgba(207,224,234,1) 0%, rgba(244,242,247,1) 100%);
+}
+
+.item.item-custom.item-avatar {
+  padding-left: 10px;
+}
+
+.item.item-custom.item-avatar img {
+  display: none;
+}
+
+[state="music-playlist-list"] .item.item-image.item-custom img {
+  width: 120px;
+  padding-top: 10px;
+}
+
+[state="music-playlist-list"] div.col-50 {
+    background-color: #adcdff !important;
+    border-radius: 10px;
+    max-width: 48% !important;
+    margin: 0 1%;
+    left: 0 !important;
+    padding: 0 !important;
+    background: rgb(242,220,207); background: linear-gradient(103deg, rgba(242,220,207,1) 0%, rgba(228,222,222,1) 100%);
+}
+
+.button.button-custom.active,
+.button.button-custom.activated {
+    border: 0 !important;
+    background-color: #ffede5 !important;
+}
+
+ion-modal-view.audio-player.media-player.media-player-modal.modal {
+    display: block;
+    position: absolute;
+    top: 40vh !important;
+    z-index: 10;
+    overflow: hidden;
+    min-height: 60vh !important;
+    width: 100%;
+    background-color: #ebe7e7 !important;
+}
+
+ion-modal-view.audio-player.media-player ion-content .scroll>div[ng-if="player.currentTab == 'cover'"] {
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2020/12/sasando-1.png) !important;
+    background-size: 60% !important;
+    background-position: center top !important;
+    background-repeat: no-repeat !important;
+    height: 100% !important;
+}
+
+[state="music-playlist-list"] .list.row .col-50 p span:nth-child(2) {
+    display: none;
+}
+
+[state="music-playlist-list"] .list.row .col-50 .item.item-custom {
+    text-align: center;
+    background-color: transparent;
+}
+
+[state="music-playlist-list"] .list.row .col-50 .item.item-custom>p.ng-binding:first-child {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: MaisonNeue-Book,sans-serif;
+    color: #00245c;
+}
+
+
+[state="music-playlist-list"] ion-header-bar {
+    display: none;
+}
+
+[state="music-playlist-list"] .item.item-custom.text-center.ng-binding {
+    height: 300px;
+    background-image: url("https://ensiklopediakesaguan.com/wp-content/uploads/2020/12/sasando_ntt.png");
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center;
+    color: #d0e0ea;
+    pointer-events: none;
+}
+
+[state="music-playlist-list"] .list:first-child:after {
+    content: "New Release";
+    display: block !important;
+    width: 100vw !important;
+    font-size: 20px;
+    font-weight: bold;
+    color: #d86666;
+    padding-left: 10px;
+    font-family: MaisonNeue-Book,sans-serif;
+}
+
+[paged-albums="playlist.paged_albums"] {
+    display: none !important;
+}
+
+.button.button-custom.active.item-icon-left.ng-binding {
+    display: none;
+}
+
+[state="music-playlist-albums"] [ng-click="playAll()"] {
+    visibility: hidden;
+}
+
+[state="music-playlist-albums"] [ng-click="playAll()"]:after {
+    visibility: visible;
+    content: "Putar Semua";
+    text-align: right;
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    height: 100px;
+    color: #6c63ff;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2020/12/play_btn.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: center right;
+}
+
+[state="music-playlist-albums"] .list {
+    height: 400px;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2020/12/undraw_Recording_re_5xyq.svg);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center;
+    color: #d0e0ea;
+}
+
+.remote-control {
+    bottom: 0;
+    position: fixed;
+    width: 96vw;
+    margin-left: 2vw;
+    background-color: #f3304e;
+    z-index: 1000;
+    border-radius: 20px;
+    bottom: 2vh;
+    background: linear-gradient(90deg, rgba(242,220,209,1) 0%, rgba(230,222,220,1) 100%);
+}
+
+.button.button-light.button-clear {
+    border-color: transparent;
+    background: 0 0;
+    box-shadow: none;
+    color: #000;
+}
+
+button[ng-click="player.openPlayerModal(player.currentTab === 'cover' ? 'playlist' : 'cover')"],
+[ng-click="player.shuffle()"],
+button[ng-click="player.backward()"],
+button[ng-click="player.forward()"],
+[ng-click="player.playerModalIsOpen ? player.closePlayerModal() : player.openPlayerModal('cover')"],
+[ng-click="player.openPlayerModal('cover')"] {
+    display: none;
+}
+
+[ng-click="player.next()"] {
+  margin-right: 20vw !important;
+}
+
+[ng-click="player.prev()"] {
+  margin-left: 20vw !important;
+}
+
+
+[ng-click="player.playPause()"] {
+    color: #fff !important;
+    padding: 4px !important;
+    border-radius: 10px !important;
+    background: url(https://ensiklopediakesaguan.com/wp-content/uploads/2020/12/play-2.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important;
+    z-index: 1;
+    max-height: 100px !important;
+}
+
+.mini-controls .button {
+    min-width: 80px !important;
+    height: 60px !important;
+    min-height: 30px;
+    padding-top: 20px !important;
+    padding-left: 5px !important;
+}
+
+.mini-controls,
+.seekbar-flex {
+    color: #f1304d;
+    font-weight: bold;
+}
+
+[state="music-track-list"] .list .item.item-custom.item-avatar h2.ng-binding {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: MaisonNeue-Book,sans-serif;
+    text-transform: capitalize;
+}
+
+.audio-player.media-player.media-player-modal.modal ion-header-bar i,
+.bar .back-button .icon:before {
+  color: #f1304d !important;
+}
+
+
+[state="music-playlist-list"] div.scroll div:nth-child(3) {
+  margin-bottom: 50px;
+    width: 50%;
+    float: left;
+    top:0;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+[state="music-playlist-list"] div.scroll div:nth-child(4) {
+  margin-bottom: 50px;
+    width: 50%;
+    float: right;
+    top:0;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+[state="music-playlist-list"] div.scroll div:nth-child(5):before {
+  content: "Popular Song";
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    color: #00245c;
+    margin-top: -30px !important;
+    min-width: 100vw !important;
+    flex-direction: row;
+    position: absolute;
+    padding-left: 10px;
+}
+
+[state="music-playlist-list"] div.scroll div:nth-child(3) .col-50,
+[state="music-playlist-list"] div.scroll div:nth-child(4) .col-50 {
+  border-radius: 50%;
+    background: transparent !important;
+}
+
+[state="music-playlist-list"] div.scroll div:nth-child(3) .col-50 img,
+[state="music-playlist-list"] div.scroll div:nth-child(4) .col-50 img {
+  width: 50%;
+}
+
+[state="music-playlist-list"] div.scroll div:nth-child(3) .col-50 .item.item-custom> p,
+[state="music-playlist-list"] div.scroll div:nth-child(4) .col-50 .item.item-custom> p {
+    font-weight: bold;
+    font-size: 12px !important;
+    font-family: MaisonNeue-Book,sans-serif;
+    color: #d86666 !important;
+}
+
+
+[ng-click="player.playerModalIsOpen ? player.closePlayerModal() : player.openPlayerModal('cover')"] {
+    display: inline !important;
+    margin-left: -100px;
+}
+
+
+ion-modal-view.audio-player.media-player.media-player-modal {
+    background-color: #ebe7e7 !important;
+}
+
+.seekbar-flex [ng-click="player.reset()"] {
+  visibility: visible !important;
+  display: inline !important;
+}
+
+[ng-click="player.reset()"] .ion-power-off-thin:before {
+  color: #f1304d;
+}
+
+[ng-click="player.repeat()"] {
+    display: inline !important;
+    margin-right: -100px;
+}

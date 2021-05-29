@@ -1,0 +1,387 @@
+.layout.l1 ul {
+  	background-color: #fff !important;
+	box-shadow: none !important;
+  	border-top: 1px solid #ffc850 !important;
+}
+
+
+.cabride.cabride-view.cabride-vehicle-information .button.button-assertive-custom,
+[state="cabride-vehicle-information"] .button.button-full.button-positive.button-positive-custom.ng-binding {
+	bottom: 10vh;
+}
+
+
+.cabride.cabride-view.cabride-vehicle-information .button.button-small.button-positive.button-positive-custom.ng-binding {
+	bottom: 0 !important;
+}
+
+.tabs.tabs-icon-top [ng-click="statusFilter('card')"],
+.tabs.tabs-icon-top [ng-click="statusFilter('cash')"] {
+	bottom: 5vh;
+}
+
+/* MENU ICON */
+.ion-sb-more:before {
+	visibility: hidden;
+}
+
+.ion-sb-more:before {
+	visibility: visible;
+  	content: url(https://justapp.id/assets/images/toggler_icon_white.svg);
+  	margin-top: 0;
+  	transform: rotate(180deg);
+}
+
+/* mengubah kolom jemput dan turun */
+.cabride .cr-passenger-home #cr-map-overlay .cr-map-location {
+    width: 100vw !important;
+    margin: 0 !important;
+    border: 0 !important;
+    border-radius: 0 0 20px 20px !important;
+    background-color: #ffc850;
+    box-shadow: none !important;
+    height: 120px !important;
+}
+
+.cabride .cr-passenger-home #cr-map-overlay .cr-map-location .cr-map-pickup label input,
+.cabride .cr-passenger-home #cr-map-overlay .cr-map-location .cr-map-dropoff label input {
+    height: 50px !important;
+    background-color: #ffc850;
+  	border: 0 !important;
+}
+
+.cabride .cr-passenger-home #cr-map-overlay .cr-map-location .cr-map-pickup,
+.cabride .cr-passenger-home #cr-map-overlay .cr-map-location .cr-map-dropoff {
+    border-bottom: 0 !important;
+}
+
+/* mengubah lebar menu sidebar */
+.menu.menu-right.menu-right-open {
+    z-index: 1!important;
+    transition: transform 200ms ease-in 200ms !important;
+    transform: translateX(0);
+    width: 100vw !important;
+}
+
+/* mengubah bagian estimasi jarak dan waktu jalan */
+.cabride .cr-passenger-home #cr-map-overlay .cr-map-request {
+    left: 15vw !important;
+    border: 0 !important;
+    background-color: #ffc850 !important;
+    border-radius: 10px !important;
+    box-shadow: none !important;
+    width: 70vw !important;
+    margin: 0 !important;
+}
+
+/* mengubah information & vehicles type */
+.cabride.cabride-model-vehicle {
+	min-height: 60vh !important;
+  	top: 40vh !important;
+  	margin-bottom: 0 !important;
+}
+
+.cabride.cabride-model-vehicle .button.button-assertive.button-assertive-custom.button-full.validate-button {
+    background-color: #ffc850 !important;
+  	font-weight: bold;
+  	text-transform: uppercase;
+  	border: 0 !important;
+}
+
+
+.customer-view.customer-layout1 div.scroll div:nth-child(3) div.list div.item.item-input.item-custom:nth-child(1) .input-label.ng-binding  {
+	visibility: hidden;
+	padding-top: 0;
+  	margin-top: -10px;
+}
+
+.customer-view.customer-layout1 div.scroll div:nth-child(3) div.list div.item.item-input.item-custom:nth-child(1) .input-label.ng-binding:after  {
+	visibility: visible;
+  	content: "ID";
+  	display: block;
+  	width: 100%;
+  	text-align: left;
+}
+
+.customer-view.customer-layout1 div.scroll div:nth-child(3) div.list label div#_label-1.input-label.ng-binding  {
+	visibility: hidden;
+	padding-top: 0;
+  	margin-top: -10px;
+}
+
+.customer-view.customer-layout1 div.scroll div:nth-child(3) div.list label div#_label-1.input-label.ng-binding:after  {
+	visibility: visible;
+  	content: "Nama Lengkap";
+  	display: block;
+  	width: 100%;
+  	text-align: left;
+}
+
+/* placeholder */
+.customer-view.customer-layout1 div.scroll div:nth-child(3) input::-webkit-input-placeholder {
+   color: #bea709 !important;
+  	visibility: hidden;
+}
+
+.customer-view.customer-layout1 div.scroll div:nth-child(3) input:-moz-placeholder { /* Firefox 18- */
+   color: #bea709 !important;
+  	visibility: hidden;
+}
+
+.customer-view.customer-layout1 div.scroll div:nth-child(3) input::-moz-placeholder {  /* Firefox 19+ */
+   color: #bea709 !important;
+  	visibility: hidden;
+}
+
+.customer-view.customer-layout1 div.scroll div:nth-child(3) input:-ms-input-placeholder {  
+   color: #bea709 !important;
+  	visibility: hidden;
+}
+/* placeholder */
+
+
+[state="cabride-home"] .cr-map-pin .cr-pin-icon img {
+  	visibility: hidden !important;
+}
+
+[state="cabride-home"] .cr-map-pin .cr-pin-icon img:after {
+  	visibility: visible !important;
+  	content: ".." !important;
+	background-image: url(https://www.flaticon.com/svg/static/icons/svg/684/684908.svg);
+	background-repeat: no-repeat !important;
+	background-size: 50% !important;
+	background-position: center !important;
+}
+
+
+/* HOMESCREEN TAXI */
+/* Penumpang */
+/* menambah gambar bg */
+ion-view[state="cabride-home"] .cr-passenger.ng-binding {
+  	text-indent: 0 !important;  
+	background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/02/undraw_mobile_user_7oqo.svg) !important;
+    background-repeat: no-repeat;
+    width: 96% !important;
+    background-position: center;
+    background-size: contain;
+    margin-left: 2%;
+    border-radius: 10px;
+  	border: 2px solid #e6e6e6;
+    background-color: #e6e6e6;
+    font-size: 0;
+}
+
+ion-view[state="cabride-home"] .cr-passenger.ng-binding img {
+    width: 20% !important;
+    object-position: right !important;
+    text-align: right !important;
+    top: 0;
+    bottom: 0;
+    margin-top: -42px !important;
+    display: block;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    float: right;
+}
+/* menambah tulisan Saya Penumpang */
+ion-view[state="cabride-home"] .cr-passenger.ng-binding:before {
+    content: "Penumpang";
+    z-index: 999;
+    display: block;
+    height: 45px !important;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: left;
+    width: 80%;
+    float: left;
+}
+
+/* ion-view[state="cabride-home"] .cr-passenger.ng-binding:after {
+content: "Saya Penumpang";
+    text-align: left;
+    font-size: 19px;
+    margin-top: -27%;
+    display: block !important;
+    margin-left: 23% !important;
+    text-transform: capitalize;
+    font-weight: bold;
+    opacity: 1;
+    color: #000;
+    position: fixed;
+} */
+
+/* Sopir */
+/* menambah gambar bg */
+ion-view[state="cabride-home"] .cr-driver.ng-binding {
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/mechanic-02-533x287-1.png) !important;
+    background-repeat: no-repeat;
+    width: 96% !important;
+    background-position: center;
+    background-size: contain;
+    margin-left: 2%;
+    border-radius: 10px;
+  	border: 2px solid #e6e6e6;
+    background-color: #e6e6e6;
+    font-size: 0;
+}
+
+/* mengatur gambar default driver */
+ion-view[state="cabride-home"] .cr-driver.ng-binding img {
+	width: 20% !important;
+    object-position: right !important;
+    text-align: right !important;
+    top: 0;
+    bottom: 0;
+    margin-top: 18vh !important;
+    display: block;
+    float: left;
+    background-color: #ffc850;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+/* menambah tulisan Saya Sopir */
+ion-view[state="cabride-home"] .cr-driver.ng-binding:before {
+    content: "Sopir";
+    z-index: 999;
+    display: block;
+    height: 45px !important;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: left;
+    width: 80%;
+    float: left;
+}
+
+/*
+ion-view[state="cabride-home"] .cr-driver.ng-binding:after {
+    content: "Saya Sopir";
+    text-align: left;
+    font-size: 19px;
+    margin-top: 28%;
+    display: block !important;
+    margin-left: 23% !important;
+    text-transform: capitalize;
+    font-weight: bold;
+    opacity: 1;
+    color: #fff;
+} */
+
+
+/* menu layout taxi */
+ion-side-menu.menu.menu-right.menu-right-open,
+ion-side-menu.menu.menu-right {
+	height: 55vh !important;
+    top: 45vh !important;
+    border-radius: 50px 50px;
+    padding-top: 20px;
+}
+
+ion-side-menu.menu.menu-right.menu-right-open ion-content {
+    margin-top: 20px;
+    border-radius: 50px 50px 0 0;
+}
+
+ion-side-menu.menu.menu-right.menu-right-open .scroll {
+    transform: none !important;
+}
+
+ul.items.homepage-custom.cabride-contextual-menu {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+li.lines.border-custom:nth-child(1) {
+    display: block !important;
+    width: 96% !important;
+    margin: 10px 2%;
+  	display: none !important;
+}
+
+li.lines.border-custom {
+    width: 21% !important;
+    display: inline-flex;
+    margin: 5px 1.6%;
+    left: 0 !important;
+    right: 0 !important;
+    background-color: #ecf0f6;
+    padding: 10px;
+    border-radius: 10px;
+    height: 80px;
+}
+
+.contextual-menu .line-box {
+	display: inline-block !important;
+    align-items: center !important;
+    width: 100% !important;
+}
+
+.contextual-menu .line-icon {
+    height: 32px !important;
+    font-size: 25px !important;
+    line-height: normal !important;
+    width: 32px !important;
+    margin: 0 auto !important;
+    display: block !important;
+    text-align: center !important;
+    color: #ffc850 !important;
+}
+
+.contextual-menu .line-title {
+    line-height: normal !important;
+    margin: 0 !important;
+    display: block !important;
+    font-weight: normal !important;
+    text-transform: capitalize !important;
+    font-variant: none !important;
+    font-size: 9px !important;
+    text-align: center !important;
+    white-space: normal !important;
+    margin-top: 8px !important;
+}
+
+.contextual-menu .line-status span {
+    font-size: 11px;
+    text-transform: capitalize !important;
+    font-variant: no-common-ligatures;
+    text-align: left;
+    margin-right: 10px;
+}
+
+span.online-text.ng-binding {
+    color: #ffc850;
+}
+
+span.offline-text.ng-binding {
+    color: #000;
+}
+
+.contextual-menu .status-toggler.on .status-pill {
+	background-color: #ffc850;
+}
+
+.contextual-menu .status-toggler.off .status-pill {
+    right: 50%;
+    background-color: black !important;
+}
+
+.contextual-menu .status-toggler {
+    background-color: transparent !important;
+    border: 2px solid #a5a5a5 !important;
+}
+
+.taxi-header div[ng-if="isLoggedIn"] .text-center.col-50 {
+    flex: 0 0 35%;
+    max-width: 35%;
+}
+
+.taxi-header div[ng-if="isLoggedIn"] .col-50 {
+    flex: 0 0 65%;
+    max-width: 65%;
+}

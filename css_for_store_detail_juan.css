@@ -1,0 +1,249 @@
+[state="commercepro-store-product-list"] .col.store-details .row.p-0.text-center .ng-binding {
+  text-align: center;
+    display: block;
+    white-space: normal;
+}
+
+[ng-if="cover.subtitle"],
+[ng-if="cover.description"] {
+    text-align: center;
+    display: block;
+    white-space: normal;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid;  
+}
+
+
+
+
+.card.store-card.item-custom.item .rectangle-card .col.store-details div.row.p-0.text-center:nth-child(3)>div.col.p-0 {
+  display: flex;
+    flex-direction: column;
+}
+
+.card.store-card.item-custom.item .rectangle-card .col.store-details .row.p-0.text-center:nth-child(3) .col.p-0 .col.p-0:nth-child(1) {
+  order: 1;
+}
+
+.card.store-card.item-custom.item .rectangle-card .col.store-details .row.p-0.text-center:nth-child(3) .col.p-0 div[ng-if="cover.email"] {
+    order: 3;
+}
+
+.card.store-card.item-custom.item .rectangle-card .col.store-details .row.p-0.text-center:nth-child(3) .col.p-0 div[ng-if="is_chat_enable || cover.phone"] {
+    order: 2;
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+
+.card.store-card.item-custom.item .rectangle-card .col.store-details .row.p-0.text-center:nth-child(3) .col.p-0 div[ng-if="is_chat_enable || cover.phone"] {
+  
+}
+
+
+span[ng-show="cover.phone"] {
+    text-align: center;
+    display: inline-block;
+    width: 45%;
+    border-radius: 5px;
+    margin: 0 2.5%;
+    padding: 5px !important;
+}
+
+
+span[ng-show="cover.phone"] a:before {
+    content: "";
+    background-image: url("https://androjex.com/wp-content/uploads/2021/02/telephone.png");
+   /* background-color: #eaeaea; */
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    top: 10px;
+    left: 0;
+    display: block;
+    visibility: visible;
+    padding: 0;
+}
+
+[ng-show="is_chat_enable"] {
+  text-align: center;
+    display: inline-block;
+    width: 45%;
+    border-radius: 5px;
+    margin: 0 2.5%;
+    padding: 5px !important;
+}
+[ng-if="cover.email"] a,
+[ng-show="is_chat_enable"] i,
+span[ng-show="cover.phone"] a {
+  visibility: hidden; 
+}
+
+
+[ng-show="is_chat_enable"]:before {
+    content: "";
+    background-image: url("https://androjex.com/wp-content/uploads/2021/02/whatsapp.png");
+    /*background-color: #eaeaea;*/
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    top: 10px;
+    left: 0;
+    display: block;
+    visibility: visible;
+    padding: 0;
+}
+
+div[ng-if="cover.email"]  {
+  text-align: center;
+    display: block;
+    width: 40%;
+    border-radius: 5px;
+    margin: 0 30%;
+    padding: 5px;  
+  margin-top: -20px !important;
+}
+
+[ng-if="cover.email"] .col.p-0 span a:before {
+    content: ".";
+    background-image: url("https://androjex.com/wp-content/uploads/2021/02/email-2.png");
+    /*background-color: #eaeaea; */
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    top: 10px;
+    left: 0;
+    display: block;
+    visibility: visible;
+    padding: 0;
+}
+
+[ng-if="cover.email"] .icon-location.icon-cus img,
+[ng-if="is_chat_enable || cover.phone"] .icon-location.icon-cus img,
+[ng-if="is_chat_enable || cover.phone"] .icon-location.icon-cus {
+    display: none;
+}
+
+
+span[ng-show="cover.phone"] a:after {
+    content: "Call";
+    text-align: center;
+    display: block;
+    width: 100%;
+    visibility: visible;
+  margin-top: -30px;
+}
+
+[ng-if="cover.email"] .col.p-0 span a:after {
+    content: "Email";
+    text-align: center;
+    display: block;
+    width: 100%;
+    visibility: visible;
+  margin-top: -30px;
+}
+
+[ng-show="is_chat_enable"]:after {
+    content: "Chat";
+    text-align: center;
+    display: block;
+    width: 100%;
+    visibility: visible;
+  margin-top: -30px;
+}
+
+span[ng-show="labels.chat_text"],
+.icon-location.icon-cus img {
+    display: none !important;
+}
+
+
+
+[ng-show="is_chat_enable"]:link {
+    text-decoration: none;
+}
+
+[ng-show="is_chat_enable"]:visited {
+    text-decoration: none;
+}
+
+[ng-show="is_chat_enable"]:hover {
+    text-decoration: underline;
+}
+
+[ng-show="is_chat_enable"]:active {
+    text-decoration: underline;
+}
+
+
+[ng-if="cover.email"] .col.p-0 span a:link {
+    text-decoration: none;
+}
+
+[ng-if="cover.email"] .col.p-0 span a:visited {
+    text-decoration: none;
+}
+
+[ng-if="cover.email"] .col.p-0 span a:hover {
+    text-decoration: underline;
+}
+
+[ng-if="cover.email"] .col.p-0 span a:active {
+    text-decoration: underline;
+}
+
+
+
+span[ng-show="cover.phone"] a:link {
+    text-decoration: none;
+}
+
+span[ng-show="cover.phone"] a:visited {
+    text-decoration: none;
+}
+
+span[ng-show="cover.phone"] a:hover {
+    text-decoration: underline;
+}
+
+span[ng-show="cover.phone"] a:active {
+    text-decoration: underline;
+}
+
+
+.circle-store {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    border: 3px solid white;
+    top: -50px;
+    background: #cccccc;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 30%);
+    margin-left: auto !important;
+    margin-right: auto !important;
+    left: 0 !important;
+    right: 0 !important;
+}
+
+.store-details {
+    margin-top: 100px !important;
+    color: #000;
+    padding: 10px!important;
+}
+
+

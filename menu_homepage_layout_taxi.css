@@ -1,0 +1,134 @@
+
+/* UPDATE 23032021 */
+.layout.layout_taxi ion-content {
+    background-color: #fff !important;
+  	height: 96vh;
+  	margin: 2vh 0 2vh 2vh;
+  	border-radius: 30px;
+}
+
+ion-side-menu.menu.menu-left,
+ion-side-menu.menu.menu-left.menu-left-open {
+	background-color: transparent !important;
+}
+
+
+/* MENU ICON */
+.icon.ion-navicon-round {
+  	visibility: hidden;
+}
+
+.icon.ion-navicon-round {
+  	visibility: visible;
+    content: url(https://justapp.id/assets/images/toggler_icon_white.svg);
+	margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+.layout.layout_taxi .taxi-header {
+    width: 100%;
+    background: none !important;
+    background-position: center right -30px !important;
+    background-size: 44% !important;
+    background-repeat: no-repeat !important;
+    border-bottom: 2px solid #8cdc52 !important;
+    background-color: #ecf0f6 !important;
+    top: 0;
+    margin-top: -3px;
+}
+
+.layout_taxi .line-title {
+    line-height: 6vw;
+    margin-left: 1em;
+    font-weight: normal;
+    font-variant: normal;
+    font-size: 13px;
+}
+
+.layout_taxi li {
+    height: 60px !important;
+}
+
+ion-modal-view {
+    box-shadow: none!important;
+    border-radius: 30px 30px 0 0;
+}
+
+.layout_taxi .customer-name {
+    width: 100%;
+    font-size: 14px;
+    text-transform: capitalize !important;
+    font-variant: normal !important;
+    color: #1a9b45;
+}
+
+.layout_taxi ul:after {
+    content: "Versi: 1.5";
+    display: block;
+    width: 100%;
+    color: #189a44;
+    margin-top: 20px;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 11px;
+}
+
+span[ng-click="showPrivacyPolicy()"],
+div[ng-click="requestGdprToken()"] {
+    color: #000 !important;
+  	font-size: 11px;
+  	text-align: right;
+}
+
+ion-modal-view.privacy-policy-view ion-content {
+    background-color: #fff !important;
+    border-radius: 40px 40px 0 0 !important;
+    padding-top: 20px;
+    border-top: 15px solid #fff;
+    margin-top: 5px;
+}
+
+.layout_taxi ul:after {
+    content: "Versi: 1.5";
+    display: block;
+    width: 100%;
+    color: #189a44;
+    margin-top: 0;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 11px;
+    background-color: #fff !important;
+    padding-top: 60px;
+}
+
+.layout_taxi li:nth-child(1) {
+	border-radius: 50px 0 0 0;
+}
+
+.layout_taxi li {
+    height: 60px !important;
+    background-color: #fff !important;
+    padding-top: 60px;
+}
+
+.layout.layout_taxi .taxi-header {
+    width: 100%;
+    background: none !important;
+    background-position: center right -30px !important;
+    background-size: 44% !important;
+    background-repeat: no-repeat !important;
+    border: 0 !important;
+    background-color: #ecf0f6 !important;
+    top: 0;
+    margin-top: -3px;
+    height: 160px;
+    border-radius: 0 0 50px 0;
+}
+
+.layout_taxi ul {
+    margin-top: 0;
+    background: rgb(236,240,246);
+    background: linear-gradient(90deg, rgba(236,240,246,1) 49%, rgba(255,255,255,1) 49%) !important;
+    padding-top: 0 !important;
+}

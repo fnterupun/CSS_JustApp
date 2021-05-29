@@ -1,0 +1,1472 @@
+/* icon menu layout 9 */
+.bar.bar-custom .icon.ion-navicon-round {
+  visibility: hidden;
+}
+
+.bar.bar-custom .icon.ion-navicon-round {
+  visibility: visible;
+    content: url(https://justapp.id/assets/images/toggler_icon_white.svg);
+}
+
+.bar.bar-custom span.nav-bar-title.ng-binding {
+    display: none !important;
+}
+
+[ng-if="listing_settings.enable_favorite && collection.length > 0"] {
+    position: fixed !important;
+    top: 92vh !important;
+    right: 80% !important;
+    left: 20% !important;
+    border-radius: 10px !important;
+    border-width: 0 !important;
+    padding: 5px 12px 5px 12px !important;
+    z-index: 999 !important;
+    box-shadow: none !important;
+    color: #fff !important;
+    width: 32px !important;
+    height: 32px !important;
+}
+
+[ng-click="filterMenuModal()"] {
+    position: fixed !important;
+    top: 92vh !important;
+    right: 30%  !important;
+    left: 70% !important;
+    border-radius: 10px !important;
+    border-width: 0 !important;
+    padding: 5px 12px 5px 12px !important;
+    z-index: 999 !important;
+    box-shadow: none !important;
+    color: #fff !important;
+    width: 32px !important;
+    height: 32px !important;
+}
+
+/* PROPERTY LISTING HOME */
+.title.title-center.header-item span.nav-bar-title.ng-binding {
+    color: #131c55;
+    display: none !important;
+}
+
+[state="propertylisting-home"] ion-content#listing-content .scroll:before {
+    content: "Temukan Hunian Idaman Anda di Sini";
+    text-align: left;
+    display: block;
+    width: 70%;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.3;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.button-bar.text-center {
+    display: none;
+}
+
+[state="propertylisting-home"] .list.list-inset {
+    border-radius: 30px;
+}
+
+[state="propertylisting-home"] .item.item-divider.item-divider-custom.ng-binding {
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #131c55;
+    margin: 10px 0;
+    display: none;
+}
+
+[state="propertylisting-home"] .list .item.item-custom {
+    border: 0;
+    background-color: transparent;
+    color: #ffffff !important;
+    margin: 20px 0;
+    border-radius: 10px !important;
+}
+
+[state="propertylisting-home"] .listingBounceInUp {
+    background: #375b95 !important;
+    border-radius: 10px !important;
+    width: 96%;
+    margin-left: 2%;
+}
+
+[state="propertylisting-home"] .listingBounceInUp p,
+[state="propertylisting-home"] .listingBounceInUp h2,
+[state="propertylisting-home"] .listingBounceInUp span {
+    color: #fff;
+}
+
+[state="propertylisting-home"] .list .item.item-custom p.listing-customer-name.ng-binding {
+    color: #fff;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: normal;
+    opacity: 1;
+}
+
+[state="propertylisting-home"] .list .item.item-custom h2 {
+    color: #b1c1db !important;
+    font-size: 12px;
+}
+
+[state="propertylisting-home"] button.button.light.ion-plus-round.button-floating-action.button-positive.button-positive-custom {
+    position: fixed !important;
+    top: 92vh !important;
+    right: 0 !important;
+    left: 0 !important;
+    border-radius: 10px !important;
+    border-width: 0 !important;
+    padding: 5px 12px 5px 12px !important;
+    z-index: 999 !important;
+    box-shadow: none !important;
+    color: #fff !important;
+    width: 32px !important;
+    height: 32px !important;
+    margin: 0 auto !important;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/02/plus.svg);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+[state="propertylisting-home"] button.ion-plus-round:before {
+    display: none;
+}
+
+.always .layout.l1 .tabs {
+    box-shadow: none !important;
+    background: transparent !important;
+}
+
+li.col.col-20.tab-item:nth-child(3) {
+    visibility: hidden !important;
+}
+
+li.col.col-20.tab-item:nth-child(3):after {
+    visibility: hidden !important;
+}
+
+li.col.col-20.tab-item p.ng-binding {
+    display: none;
+}
+
+.platform-android.platform-cordova:not(.fullscreen) .has-subheader,
+.platform-ios.platform-cordova:not(.fullscreen) .has-subheader,
+.platform-overview.platform-cordova:not(.fullscreen) .has-subheader,
+.platform-browser.platform-cordova:not(.fullscreen) .has-subheader {
+    top: 55px !important;
+    bottom: 70px !important;
+    padding-top: 12px;
+}
+
+ion-header-bar.bar-subheader.bar-custom.bar.bar-header {
+    display: none !important;
+}
+
+ion-view.listing.listing-list .ion-location:before {
+    display: none;
+}
+
+.layout .tab-item {
+    top: 10px;
+}
+
+.layout.l1 .tab-item img {
+    width: 25px;
+    height: 25px;
+}
+
+.listing .listing-feature-img {
+    height: 100px;
+    object-fit: cover;
+}
+
+[state="propertylisting-home"] .badge.badge-assertive-custom {
+    background-color: #ef473a;
+    color: #ffffff;
+    border-radius: 0 0 0 5px;
+    top: 0;
+    right: 12px;
+}
+
+[state="propertylisting-home"] .item.item-custom.item-avatar.listing-header img {
+    border-radius: 5px;
+}
+
+.listing .listing-post-time {
+    font-size: 11px;
+    padding-left: 5%;
+    opacity: 1;
+    font-weight: normal;
+    text-align: right !important;
+    float: right;
+}
+
+[state="propertylisting-home"] span.icon-active-custom.ng-binding {
+    color: #fff !important;
+    opacity: 1;
+}
+
+.col.col-40.listing-type span.ng-binding {
+    color: #fff !important;
+    opacity: 1 !important;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+.listing .listing-other-info img,
+.listing_deails.bedrooms img,
+.listing_deails.bathrooms img {
+    filter: grayscale(1) invert(1) !important;
+}
+
+.col.col-60.listing-location {
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 320px) {
+[state="propertylisting-home"] button.button.light.ion-plus-round.button-floating-action.button-positive.button-positive-custom {
+    position: fixed !important;
+    top: 88vh !important;
+    right: 0 !important;
+    left: 0 !important;
+    border-radius: 10px !important;
+    border-width: 0 !important;
+    padding: 5px 12px 5px 12px !important;
+    z-index: 999 !important;
+    box-shadow: none !important;
+    color: #fff !important;
+    width: 32px !important;
+    height: 32px !important;
+    margin: 0 auto !important;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/02/plus.svg);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+[ng-if="listing_settings.enable_favorite && collection.length > 0"] {
+    position: fixed !important;
+    top: 90vh !important;
+    right: 80% !important;
+    left: 20% !important;
+    border-radius: 10px !important;
+    border-width: 0 !important;
+    padding: 5px 12px 5px 12px !important;
+    z-index: 999 !important;
+    box-shadow: none !important;
+    color: #fff !important;
+    width: 32px !important;
+    height: 32px !important;
+}
+
+[ng-click="filterMenuModal()"] {
+    position: fixed !important;
+    top: 90vh !important;
+    right: 30%  !important;
+    left: 70% !important;
+    border-radius: 10px !important;
+    border-width: 0 !important;
+    padding: 5px 12px 5px 12px !important;
+    z-index: 999 !important;
+    box-shadow: none !important;
+    color: #fff !important;
+    width: 32px !important;
+    height: 32px !important;
+}
+}
+
+/* LAYOUT TAXY */
+.layout.l9 ul.items li p {
+    font-size: 13px;
+    float: right;
+    text-align: left !important;
+    display: block;
+    width: 70%;
+}
+
+.layout_taxi .line-title {
+    line-height: 6vw;
+    margin-left: 1em;
+    font-weight: normal;
+    font-variant: none;
+    font-size: 13px !important;
+}
+
+.layout.layout_taxi .taxi-header {
+    width: 100%;
+    background: url(https://image.freepik.com/free-vector/building-concept-illustration_114360-4469.jpg) !important;
+    background-position: bottom right 5px !important;
+    background-size: 50% !important;
+    background-repeat: no-repeat !important;
+    background-color: #fff !important;
+    border-radius: 0 0 30px 0;
+    height: 200px !important;
+}
+
+.layout_taxi .taxi-signup span:nth-child(3) {
+    color: #ffffff !important;
+    width: 40% !important;
+    display: block !important;
+    height: 40px !important;
+    text-align: center;
+    padding-left: 20px;
+    background-color: #f6c851;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.layout_taxi .taxi-signup span:nth-child(1),
+.layout_taxi .taxi-signup span:nth-child(2) {
+    display: none !important;
+}
+
+.layout_taxi .taxi-header .taxi-avatar-wrapper {
+    height: 25vw;
+    width: 25vw;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 40vw;
+}
+
+.layout_taxi .customer-name {
+    width: 100%;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 10px;
+    color: #131c55 !important;
+    text-transform: capitalize !important;
+    font-variant: none !important;
+}
+
+/* PROPERTY LISTING DETAILS */
+ion-modal-view.propertylisting.propertylisting-details.listing div#propertylisting_slider {
+    height: 250px !important;
+}
+
+ion-modal-view.propertylisting.propertylisting-details.listing .listing-feature-img {
+    height: 250px;
+    object-fit: cover;
+}
+
+ion-modal-view.propertylisting.propertylisting-details.listing .list .item-divider.item-divider-custom {
+    margin-top: 20px;
+    border-radius: 20px 20px 0 0;
+    padding-top: 15px;
+    text-transform: capitalize;
+}
+
+ion-modal-view.propertylisting.propertylisting-details .listing-details-favorite,
+ion-modal-view.propertylisting.propertylisting-details.listing .ion-record:before {
+    color: #ef473a !important;
+}
+
+ion-modal-view.propertylisting.propertylisting-details .listing-details-listing-for {
+    margin-top: -12px !important;
+    margin-right: -25px;
+    border-radius: 0 0 0 20px;
+    color: #fff;
+    font-weight: normal !important;
+    width: 50%;
+    padding: 7px 14px;
+    text-align: center;
+    display: block;
+    font-size: 11px;
+}
+
+ion-modal-view.propertylisting.propertylisting-details.listing .list.listing-list {
+    background-color: #131c55 !important;
+    width: 96%;
+    margin: 15px 2%;
+    border-radius: 10px !important;
+}
+
+ion-modal-view.propertylisting.propertylisting-details.listing .item.item-custom.listing-slider {
+    background-color: transparent;
+    color: #fff;
+    border: 0 !important;
+    border-radius: 20px 20px 0 0;
+    padding: 0 0 10px 0;
+}
+
+ion-modal-view.propertylisting.propertylisting-details.listing .slider-slide {
+    width: 100% !important;
+}
+
+ion-modal-view.propertylisting.propertylisting-details.listing .list .item.item-custom {
+    border: 0;
+    background-color: #022d71;
+    color: #fff;
+}
+
+ion-modal-view.propertylisting.propertylisting-details.listing .listing .item.listing-info {
+    padding-top: 0px;
+    border-radius: 0 0 20px 20px;
+}
+
+ion-modal-view.propertylisting.propertylisting-details.listing .item.item-custom.item-body:last-child {
+    border-radius: 0 0 20px 20px;
+}
+
+ion-modal-view.propertylisting.propertylisting-details.listing .item.item-custom.propertylisting-row-values.ng-binding:last-child {
+    border-radius: 0 0 20px 20px;
+    padding-bottom: 20px;
+}
+
+ion-modal-view.propertylisting.propertylisting-details.listing .item.item-custom.listing-info {
+    border-radius: 0 0 20px 20px;
+}
+
+ion-modal-view.propertylisting.propertylisting-details.listing .list.amenities-list {
+    border-radius: 20px;
+}
+
+ion-modal-view.propertylisting.propertylisting-details.listing .listing-basic-info p,
+ion-modal-view.propertylisting.propertylisting-details.listing .listing-basic-info h2,
+ion-modal-view.propertylisting.propertylisting-details.listing .listing-basic-info span {
+    color: #fff !important;
+    opacity: 1 !important;
+    font-weight: normal !important;
+}
+
+ion-modal-view.propertylisting.propertylisting-details.listing span.item-note.ng-binding {
+    text-transform: capitalize !important;
+    font-weight: normal !important;
+    font-size: 12px !important;
+    width: 50%;
+    display: block !important;
+    text-align: left;
+}
+
+ion-modal-view.propertylisting.propertylisting-details.listing .item.item-custom.propertylisting-row-values.ng-binding {
+    display: block !important;
+    width: 100%;
+    font-size: 13px !important;
+}
+
+ion-modal-view.propertylisting.propertylisting-details.listing .list {
+    width: 96%;
+    margin-left: 2%;
+}
+
+ion-modal-view.propertylisting.propertylisting-details.listing .list:nth-child(2) div.item.item-custom.item-body:nth-child(2) {
+    display: none !important;
+}
+
+ion-modal-view.propertylisting.propertylisting-details.listing a.item.item-avatar.item-custom.item-amenities {
+    display: inline-block;
+    width: 31% !important;
+    margin: 5px 1%;
+    height: 55px !important;
+    background-color: transparent !important;
+}
+
+ion-modal-view.propertylisting.propertylisting-details.listing a.item.item-avatar.item-custom.item-amenities img {
+    width: 50px !important;
+    display: block !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    height: 50px !important;
+    margin: 2px auto !important;
+}
+
+ion-modal-view.propertylisting.propertylisting-details.listing a.item.item-avatar.item-custom.item-amenities h2 {
+    display: block !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: 2px 0 2px -54px !important;
+    text-align: center !important;
+    margin-top: 29px !important;
+    white-space: normal;
+    font-size: 10px;
+}
+
+ion-modal-view.propertylisting.propertylisting-details.listing .list.amenities-list {
+    display: inline-block !important;
+}
+
+.list.amenities-list {
+    background-color: #022d71;
+    margin-bottom: 25px !important;
+}
+
+ion-modal-view.propertylisting.propertylisting-details.listing .item.item-custom.item-icon-right.ng-binding a {
+    visibility: visible !important;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    margin: 0 auto !important;
+    border: 0 !important;
+    background-image: url("https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/telephone-1.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ion-ios-telephone-outline:before {
+    font-size: 0;
+}
+
+[ng-if="listing_deails.bedrooms"] img {
+    filter: brightness(33.5);
+}
+
+[ng-if="listing_deails.bathrooms"] img {
+    filter: grayscale(1) invert(1) !important;
+}
+
+.bar.bar-footer.bar-footer-custom.bar-listing-footer {
+    width: 100%;
+    border: 0 !important;
+    background-color: #022d71;
+    background-size: 0;
+    border-radius: 10px 10px 0 0;
+    box-shadow: none !important;
+    height: 80px !important;
+    border-top: 4px solid #131c55 !important;
+}
+
+.bar.bar-footer.bar-footer-custom.bar-listing-footer button.button.pull-right.bottom-action-button {
+    padding: 0;
+    min-width: 40px;
+    min-height: 40px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 32px;
+    margin-top: 10px !important;
+    height: 40px !important;
+    margin-right: 10px !important;
+}
+
+.bar.bar-footer.bar-footer-custom.bar-listing-footer h2.listing-customer-name.ng-binding {
+  text-transform: capitalize;
+}
+
+.listing-basic-info h2 {
+    font-size: 23px !important;
+}
+
+.listing-basic-info p {
+    visibility: hidden;
+}
+
+.listing-basic-info span {
+    visibility: visible;
+    float: left;
+    width: 100% !important;
+    text-align: left !important;
+    font-size: 18px !important;
+    margin-top: -10px;
+}
+
+.row.listing-size-info {
+    padding-left: 0;
+    margin-left: -15px;
+}
+
+ion-list.disable-user-behavior div.list label {
+    background-color: #131c55 !important;
+    color: #000 !important;
+}
+
+
+/* LISTING FEEDBACK */
+ion-header-bar h1.title.ng-binding {
+  display: none !important;
+}
+
+ion-modal-view.propertylisting.propertylisting-feedback.listing .bar.bar-footer.bar-footer-custom {
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 25%;
+}
+
+ion-modal-view.propertylisting.propertylisting-feedback.listing .button.button-positive-custom {
+    border: 0;
+    background-color: transparent;
+    color: rgb(19 28 85);
+    opacity: 1;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    top: 0;
+    bottom: 0;
+    padding-top: 5px;
+}
+
+ion-modal-view.propertylisting.propertylisting-feedback.listing .scroll {
+    width: 96%;
+    margin-left: 2%;
+}
+
+ion-modal-view.propertylisting.propertylisting-feedback.listing .item.item-divider.item-divider-custom p {
+    font-size: 16px !important;
+    opacity: 1;
+    border: 0 !important;
+    color: #131c55;
+}
+
+ion-modal-view.propertylisting.propertylisting-feedback.listing ion-list.disable-user-behavior .list label {
+    border: 0 !important;
+    color: #ffffff !important;
+}
+
+ion-list.disable-user-behavior .list label .item-content.disable-pointer-events {
+    background: #022d71;
+    padding-left: 10px;
+}
+
+ion-modal-view.propertylisting.propertylisting-feedback .item-divider {
+    background-color: #022d71;
+    border: 0;
+}
+
+ion-modal-view.propertylisting.propertylisting-feedback.listing .item-divider p {
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 16px !important;
+    padding: 10px 0;
+}
+
+ion-modal-view.propertylisting.propertylisting-feedback .item-content.disable-pointer-events span {
+    padding-left: 10px;
+}
+
+ion-modal-view.propertylisting.propertylisting-feedback .bar.bar-footer.bar-footer-custom {
+    border: 0 !important;
+    background-position: unset !important;
+    height: 57px !important;
+    background-color: transparent !important;
+}
+
+ion-modal-view.propertylisting.propertylisting-feedback .title {
+    height: 60px !important;
+    width: 100% !important;
+}
+
+ion-modal-view.propertylisting.propertylisting-feedback [ng-click="sendFeedback(feedbackFrom)"] {
+    border: 2px solid #022d71 !important;
+    background-color: #ffffff !important;
+    color: #000 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    height: 50px !important;
+    font-weight: bold !important;
+    font-size: unset !important;
+    text-transform: uppercase !important;
+    border-radius: 10px !important;
+}
+
+ion-modal-view.propertylisting.propertylisting-feedback ion-content {
+    background-color: #022d71 !important;
+    border-radius: 30px;
+    margin-top: 20px !important;
+}
+
+/* PROPERTY LISTING MESSAGE */
+ion-modal-view.propertylisting.propertylisting-messages.listing .item.item-body.item-custom.text-right {
+    border-radius: 10px;
+    width: 80%;
+    margin: 10px 2% 10px 18%;
+}
+
+ion-modal-view.propertylisting.propertylisting-messages.listing .ion-ios-paperplane:before {
+    color: #022d71;
+}
+
+ion-modal-view.propertylisting.propertylisting-messages.listing .scroll .list .item.item-body.item-custom.text-left {
+    width: 80%;
+    margin-left: 2%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #1f3e6e;
+}
+
+
+/* PROPERTY LISTING FAVORITE */
+ion-view.listing.listing-favorite .tabs.tabs-striped.tabs-top.tabs-background-positive-custom.propertylisting-tabs.tabs-icon-left {
+    position: fixed !important;
+    top: 92vh !important;
+}
+
+ion-view.listing.listing-favorite .listingBounceInUp {
+    width: 96%;
+    margin-left: 2%;
+}
+
+ion-view.listing.listing-favorite .list.listing-list .item.item-divider.item-divider-custom {
+  background-color: transparent;
+    font-size: 18px;
+    padding: 0 0 10px 0;
+    margin-left: 2%;
+    text-align: center;
+}
+
+ion-view.listing.listing-favorite .item.item-custom.item-body.listing-body {
+  margin: 0 0 10px 0;
+    border-radius: 0 0 20px 20px;
+}
+
+ion-view.listing.listing-favorite .item.item-custom.item-avatar.listing-header {
+    border-radius: 20px 20px 0 0;
+}
+
+ion-view.listing.listing-favorite span.badge.badge-assertive.badge-assertive-custom.listing-listing-for.ng-binding {
+  margin-top: -12px !important;
+    margin-right: -12px;
+    border-radius: 0 0 0 5px;
+    color: #fff;
+    font-weight: normal !important;
+}
+
+ion-view.listing.listing-favorite span.icon-active-custom.ng-binding {
+  color: #fff !important;
+    opacity: 1;
+} 
+
+ion-view.listing.listing-favorite .list .item.item-divider.item-divider-custom.ng-binding {
+  background-color: transparent;
+    font-size: 18px;
+    padding: 0 0 10px 0;
+    margin-left: 2%;
+    text-align: center; 
+}
+
+ion-view.listing.listing-favorite .item.item-avatar.item-custom.item-icon-left {
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+ion-view.listing.listing-favorite .item.item-avatar.item-custom.item-icon-left img {
+    height: 52% !important;
+    min-width: 90px;
+    min-height: 90px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 10px;
+}
+
+
+ion-view.listing.listing-favorite .item.item-avatar.item-custom.item-icon-left h2.ng-binding,
+ion-view.listing.listing-favorite .item.item-avatar.item-custom.item-icon-left p {
+    margin-left: 35px;
+    text-transform: capitalize;
+}
+
+/* PROPERTY LISTING FILTER */
+ion-modal-view.listing.propertylisting.propertylisting-filter-menu ion-content {
+    background-color: #022d71 !important;
+    border-radius: 30px;
+    width: 96%;
+    margin-left: 2%;
+}
+
+ion-modal-view.listing.propertylisting.propertylisting-filter-menu .radio-content {
+    color: #fff !important;
+}
+
+ion-modal-view.listing.propertylisting.propertylisting-filter-menu .item-content.disable-pointer-events span {
+    padding-left: 20px !important;
+}
+
+ion-modal-view.listing.propertylisting.propertylisting-filter-menu .list .item.item-custom {
+    border: 0 !important;
+    background-color: #022d71 !important;
+    color: #fff !important; 
+}
+
+ion-modal-view.listing.propertylisting.propertylisting-filter-menu .item-content.disable-pointer-events span {
+    color: #fff !important;
+    padding-left: 0 !important;
+}
+
+ion-modal-view.listing.propertylisting.propertylisting-filter-menu .checkbox-custom .checkbox input:before, .checkbox-custom .checkbox .checkbox-icon:before {
+    border-color: #fff;
+    margin-left: 10px;
+}
+
+ion-modal-view.listing.propertylisting.propertylisting-filter-menu .checkbox-custom .checkbox input:before, .checkbox-custom .checkbox-icon:before {
+    background: #e91e63;
+    border-radius: 10px;
+}
+
+ion-modal-view.listing.propertylisting.propertylisting-filter-menu .checkbox-custom .checkbox input:checked:before, .checkbox-custom .checkbox input:checked + .checkbox-icon:before {
+  background: #ffffff;
+    border-color: #e91e63;
+    border-radius: 10px;
+}
+
+ion-modal-view.listing.propertylisting.propertylisting-filter-menu .checkbox-custom .checkbox input:checked:after, input:checked + .checkbox-icon:after {
+    border-color: rgb(233 30 99);
+    margin-left: 10px;
+}
+
+
+
+ion-modal-view.listing.propertylisting.propertylisting-filter-menu .row.budget-row label.item.item-input.item-stacked-label {
+    padding-left: 7px;
+}
+
+ion-modal-view.listing.propertylisting.propertylisting-filter-menu .row.budget-row label.item.item-input.item-stacked-label span {
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+ion-modal-view.listing.propertylisting.propertylisting-filter-menu .row.budget-row label.item.item-input.item-stacked-label input {
+    background-color: #131c55;
+    padding-left: 10px;
+    color: #fff !important;
+}
+
+ion-modal-view.listing.propertylisting.propertylisting-filter-menu .item.item-divider.item-divider-custom.listing-filter-divider.ng-binding {
+    text-transform: capitalize;
+}
+
+ion-modal-view.listing.propertylisting.propertylisting-filter-menu .bar.bar-custom.bar-footer button {
+    background-color: #387ef5;
+    font-size: 10px !important;
+    width: 43%;
+    margin: 0 2%10px 2%;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+ion-modal-view.listing.propertylisting.propertylisting-filter-menu i.icon.pull-right.ion-chevron-down {
+    background-color: #131c55;
+    height: 30px;
+    width: 30px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+ion-modal-view.listing.propertylisting.propertylisting-filter-menu .ion-chevron-down:before {
+    margin-left: 10px !important;
+    margin-top: 10px;
+}
+
+ion-modal-view.listing.propertylisting.propertylisting-filter-menu span.badge.badge-positive-custom {
+    display: none;
+}
+
+/* ADD NEW LISTING */
+ion-view.listing.propertylisting.propertylisting-filter-menu.propertylisting-add .ion-home:before,
+ion-view.listing.propertylisting.propertylisting-filter-menu.propertylisting-add .icon.ion-location:before,
+ion-view.listing.propertylisting.propertylisting-filter-menu.propertylisting-add .ion-pricetag:before,
+ion-view.listing.propertylisting.propertylisting-filter-menu.propertylisting-add .ion-briefcase:before,
+ion-view.listing.propertylisting.propertylisting-filter-menu.propertylisting-add .ion-images:before,
+ion-view.listing.propertylisting.propertylisting-filter-menu.propertylisting-add .ion-android-done-all:before,
+ion-view[state="propertylisting-add-locations"] .ion-home:before,
+ion-view[state="propertylisting-add-locations"] .icon.ion-location:before,
+ion-view[state="propertylisting-add-locations"] .ion-pricetag:before,
+ion-view[state="propertylisting-add-locations"] .ion-briefcase:before,
+ion-view[state="propertylisting-add-locations"] .ion-images:before,
+ion-view[state="propertylisting-add-locations"] .ion-image:before,
+ion-view[state="propertylisting-add-locations"] .ion-android-done-all:before,
+[state="propertylisting-add-price"] .ion-home:before,
+[state="propertylisting-add-price"] .icon.ion-location:before,
+[state="propertylisting-add-price"] .ion-pricetag:before,
+[state="propertylisting-add-price"] .ion-briefcase:before,
+[state="propertylisting-add-price"] .ion-images:before,
+[state="propertylisting-add-price"] .ion-image:before,
+[state="propertylisting-add-price"] .ion-android-done-all:before,
+[state="propertylisting-add-amenities"] .ion-home:before,
+[state="propertylisting-add-amenities"] .icon.ion-location:before,
+[state="propertylisting-add-amenities"] .ion-pricetag:before,
+[state="propertylisting-add-amenities"] .ion-briefcase:before,
+[state="propertylisting-add-amenities"] .ion-images:before,
+[state="propertylisting-add-amenities"] .ion-image:before,
+[state="propertylisting-add-amenities"] .ion-android-done-all:before,
+[state="propertylisting-add-images"] .ion-home:before,
+[state="propertylisting-add-images"] .icon.ion-location:before,
+[state="propertylisting-add-images"] .ion-pricetag:before,
+[state="propertylisting-add-images"] .ion-briefcase:before,
+[state="propertylisting-add-images"] .ion-images:before,
+[state="propertylisting-add-images"] .ion-image:before,
+[state="propertylisting-add-images"] .ion-android-done-all:before,
+[state="propertylisting-add-owner-info"] .ion-home:before,
+[state="propertylisting-add-owner-info"] .icon.ion-location:before,
+[state="propertylisting-add-owner-info"] .ion-pricetag:before,
+[state="propertylisting-add-owner-info"] .ion-briefcase:before,
+[state="propertylisting-add-owner-info"] .ion-images:before,
+[state="propertylisting-add-owner-info"] .ion-image:before,
+[state="propertylisting-add-owner-info"] .ion-android-done-all:before {
+  font-size: 28px;
+}
+
+.calm.calm-custom, a.calm.calm-custom {
+    color: #387ef5;
+    text-align: center;
+}
+
+.assertive.assertive-custom, a.assertive.assertive-custom {
+    color: rgba(239, 71, 58, 1);
+    text-align: center;
+}
+
+.light.light-custom, a.light.light-custom {
+    color: #ffffff;
+    text-align: center;
+}
+
+ion-view.listing.listing-list .list.listing-list {
+    width: 96%;
+    margin-left: 2%;
+    margin-bottom: 20px;
+}
+
+ion-view.listing.listing-list span.badge.badge-assertive.badge-assertive-custom.listing-listing-for.ng-binding {
+    background-color: #ef473a;
+    color: #ffffff;
+    border-radius: 0 0 0 5px;
+    top: 0;
+    right: 12px;
+}
+
+ion-view.listing.listing-list span.icon-active-custom.ng-binding {
+  color: #fff !important;
+    opacity: 1;
+}
+
+ion-view.listing.propertylisting.propertylisting-filter-menu.propertylisting-add .bar.bar-subheader,
+ion-view[state="propertylisting-add-locations"]  .bar.bar-subheader,
+[state="propertylisting-add-price"] .bar.bar-subheader,
+[state="propertylisting-add-amenities"] .bar.bar-subheader,
+[state="propertylisting-add-images"] .bar.bar-subheader,
+[state="propertylisting-add-owner-info"] .bar.bar-subheader {
+    position: fixed !important;
+    top: 92vh !important;
+    border: 0;
+    background-color: transparent;
+}
+
+ion-view.listing.propertylisting.propertylisting-filter-menu.propertylisting-add .item-floating-label {
+    display: block;
+    background-color: transparent;
+    box-shadow: none;
+    border: 0;
+}
+
+ion-view.listing.propertylisting.propertylisting-filter-menu.propertylisting-add .item-floating-label .input-label.has-input {
+    opacity: 1;
+    top: 0;
+    color: #fff;
+}
+
+ion-view.listing.propertylisting.propertylisting-filter-menu.propertylisting-add .item-floating-label .input-label {
+    color: #fff !important;
+    opacity: 1;
+    margin-bottom: 10px;
+}
+
+ion-view.listing.propertylisting.propertylisting-filter-menu.propertylisting-add div.list label input {
+    padding-left: 10px;
+    border: 2px solid #fff !important;
+    border-radius: 5px;
+    height: 40px;
+    color: #fff !important;
+    width: 96%;
+}
+
+ion-view.listing.propertylisting.propertylisting-filter-menu.propertylisting-add label.item.item-input.item-select {
+    background-color: transparent;
+    border: 0;
+}
+
+ion-view.listing.propertylisting.propertylisting-filter-menu.propertylisting-add label.item.item-input.item-select .input-label {
+    color: #fff;
+}
+
+ion-view.listing.propertylisting.propertylisting-filter-menu.propertylisting-add label.item.item-input.item-select select {
+    background-color: transparent;
+}
+
+ion-view.listing.propertylisting.propertylisting-filter-menu.propertylisting-add .item-select:after {
+  color: #fff;
+}
+
+ion-view.listing.propertylisting.propertylisting-filter-menu.propertylisting-add .list .item-divider.item-divider-custom {
+    background-color: transparent;
+    color: #fff;
+    border: 0;
+}
+
+ion-view.listing.propertylisting.propertylisting-filter-menu.propertylisting-add .item-floating-label {
+    display: block;
+    background-color: transparent;
+    box-shadow: none;
+    border: 0;
+    padding-left: 12px;
+}
+
+ion-view.listing.propertylisting.propertylisting-filter-menu.propertylisting-add textarea.ng-dirty.ng-valid-parse.ng-touched.ng-empty.ng-invalid.ng-invalid-required {
+    border: 2px solid red;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+ion-view.listing.propertylisting.propertylisting-filter-menu.propertylisting-add input.ng-dirty.ng-invalid, textarea.ng-dirty.ng-invalid {
+    border: 2px solid red;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+ion-view.listing.propertylisting.propertylisting-filter-menu.propertylisting-add .button.button-positive-custom {
+    border: 0;
+    background-color: #387ef5;
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 50%;
+    margin-left: 25%;
+}
+
+ion-view.listing.propertylisting.propertylisting-filter-menu.propertylisting-add .button.button-positive-custom.active,
+ion-view.listing.propertylisting.propertylisting-filter-menu.propertylisting-add .button.button-positive-custom.activated {
+    background-color: #022d71;  
+    border: 0;
+}
+
+ion-view[state="propertylisting-add-basicinfo"] textarea.ng-pristine.ng-untouched.ng-empty.ng-invalid.ng-invalid-required {
+    background-color: transparent !important;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    padding: 10px;
+}
+
+select.ng-not-empty.ng-dirty.ng-valid-parse.ng-valid.ng-valid-required.ng-touched {
+    color: #fff !important;
+}
+
+/* ADD LOCATION */
+label.item.item-input.item-floating-label {
+    border: 0;
+}
+
+ion-view[state="propertylisting-add-locations"] form span {
+    font-size: 12px;
+    border: 0;
+    color: #fff;
+    opacity: 1;
+    margin-bottom: 10px;
+}
+
+ion-view[state="propertylisting-add-locations"] input[type=text] {
+  color: #fff;
+}
+
+ion-view[state="propertylisting-add-locations"] input {
+    width: 96% !important;
+    border-radius: 5px !important;
+    border: 2px solid #fff !important;
+    height: 40px !important;
+    padding-left: 10px !important;
+    color: #fff !important;
+}
+
+ion-view[state="propertylisting-add-locations"] .pac-target-input:not(:-webkit-autofill) {
+    animation-name: endBrowserAutofill;
+    color: #fff;
+}
+
+ion-view[state="propertylisting-add-locations"] .button.button-positive-custom {
+    border: 0;
+    background-color: #387ef5;
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 50%;
+    margin-left: 25%;
+}
+
+/* ADD PRICE */
+[state="propertylisting-add-price"] .scroll,
+[state="propertylisting-add-amenities"] .scroll,
+[state="propertylisting-add-images"] .scroll,
+[state="propertylisting-add-owner-info"] .scroll {
+    width: 96%;
+    margin-left: 2%;
+    background-color: #022d71;
+    border-radius: 20px !important;
+}
+
+[state="propertylisting-add-price"] label.item-custom.checkbox-custom.item.item-checkbox.ng-valid.ng-not-empty,
+[state="propertylisting-add-amenities"] label.item-custom.checkbox-custom.item.item-checkbox.ng-empty.ng-valid {
+    background-color: #022d71 !important;
+}
+
+[state="propertylisting-add-price"] span {
+  color: #fff;
+}
+
+[state="propertylisting-add-price"] input,
+[state="propertylisting-add-owner-info"] input {
+    padding-left: 10px;
+    border: 2px solid #fff !important;
+    border-radius: 5px;
+    height: 40px;
+    color: #fff !important;
+    width: 96%;
+}
+
+[state="propertylisting-add-price"] .button.button-positive-custom,
+[state="propertylisting-add-amenities"] .button.button-positive-custom,
+[state="propertylisting-add-images"] .button.button-positive-custom,
+[state="propertylisting-add-owner-info"] .button.button-positive-custom {
+    border: 0;
+    background-color: #387ef5;
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 50%;
+    margin-left: 25%;
+}
+
+/* ADD AMENITIES */
+[state="propertylisting-add-amenities"] .item-content.disable-pointer-events span,
+[state="propertylisting-add-owner-info"] label span.input-label.ng-binding.has-input {
+  color: #fff;
+}
+
+[state="propertylisting-add-owner-info"] label.item.item-input.item-stacked-label {
+    border: 0;
+}
+
+/* LIST PROPERTY */
+ion-view[state="propertylisting-list"] .listingBounceInUp {
+    margin-bottom: 20px;
+    background-color: #022d71;
+    border-radius: 10px;
+}
+
+ion-view[state="propertylisting-list"] .list .item.item-custom {
+  background-color: transparent;
+  border: 0;
+}
+
+/* LISTING EDIT */
+ion-view.listing.propertylisting.propertylisting-edit .list .item-divider.item-divider-custom {
+    background-color: #022d71;
+    color: #ffffff;
+    border: #f7f7f700;
+    margin-top: 20px;
+    padding: 10px 10px;
+    width: 96%;
+    margin-left: 2%;
+}
+
+ion-view.listing.propertylisting.propertylisting-edit .item.item-custom.propertylisting-row-values,
+ion-view.listing.propertylisting.propertylisting-edit .item.item-custom.item-body,
+ion-view.listing.propertylisting.propertylisting-edit a.item.item-avatar.item-custom.item-amenities {
+    background-color: #022d71;
+    width: 96%;
+    margin-left: 2%;
+}
+
+ion-view.listing.propertylisting.propertylisting-edit ion-list.propertylisting-edit-view-image-icon-box.disable-user-behavior {
+    padding-bottom: 40px;
+}
+
+ion-view.listing.propertylisting.propertylisting-edit [ng-if="listing_deails.approval_status == 'approved'"] {
+    padding-bottom: 20px !important;
+}
+
+/* EDIT ITEM PROPERTY */
+[state="propertylisting-edit"] .item.item-custom.propertylisting-row-values.ng-binding span {
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+[ng-show="listing_deails.enable_owner_info"] .item.item-custom.item-icon-right.ng-binding {
+    border-radius: 0 0 20px 20px;
+    padding-bottom: 25px;
+    text-transform: capitalize;
+}
+
+[state="propertylisting-home"] .col.col-60.listing-location .ion-location::before {
+    display: none !important;
+}
+
+button.button.button-clear.header-item span.badge.badge-assertive.badge-assertive-custom.badge-message.ng-binding {
+    background-color: transparent;
+    color: #387ef5;
+    margin-top: -2px;
+    margin-right: 2px !important;
+}
+
+ion-view.listing.propertylisting.propertylisting-edit select[ng-model="propertystatus"] {
+    background-color: #131c55 !important;
+    border: 0 !important;
+    border-radius: 10px !important;
+    padding: 10px !important;
+    color: #fff !important;
+}
+
+ion-modal-view.listing.propertylisting.propertylisting-edit.image.modal.slide-in-up.ng-enter.active.ng-enter-active .item.item-icon-left.item-custom.ng-binding {
+    width: 96%;
+    margin-left: 2%;
+}
+
+ion-modal-view.listing.propertylisting.propertylisting-edit.image.modal.slide-in-up.ng-enter.active.ng-enter-active .button.button-positive-custom {
+    border: 0;
+    background-color: #387ef5;
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 50%;
+    margin-left: 25%;
+}
+
+/* PROPERTY EDIT BASIC INFO */
+ion-modal-view.listing.propertylisting.propertylisting-edit.basicinfo .list label span {
+  color: #fff;
+}
+
+ion-modal-view.listing.propertylisting.propertylisting-edit.basicinfo .list label input {
+  border: 2px solid #fff;
+    border-radius: 5px;
+    height: 40px;
+    color: #fff;
+    width: 96%;
+    padding: 0 10px;
+}
+
+ion-modal-view.listing.propertylisting.propertylisting-edit.basicinfo .list input[type=text] {
+  background-color: transparent ;
+}
+
+ion-modal-view.listing.propertylisting.propertylisting-edit.basicinfo .list {
+    background-color: #022d71;
+    border-radius: 20px;
+    width: 96%;
+    margin-left: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+label.item.item-input.item-select {
+    background-color: transparent;
+    width: 96%;
+    margin-left: 2%;
+    color: #fff !important;
+    border: 0;
+    padding-left: 7px;
+}
+
+.input-label.ng-binding {
+    color: #fff;
+}
+
+select.ng-pristine.ng-valid.ng-not-empty.ng-valid-required.ng-touched {
+    background-color: transparent;
+    color: #fff !important;
+}
+
+select.ng-valid.ng-not-empty.ng-valid-required.ng-touched.ng-dirty.ng-valid-parse {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+select.ng-pristine.ng-untouched.ng-valid.ng-not-empty.ng-valid-required {
+    background-color: transparent;
+    color: #fff !important;
+}
+
+textarea.ng-pristine.ng-untouched.ng-valid.ng-not-empty.ng-valid-required {
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff !important;
+    margin-left: -3px;
+}
+ion-modal-view.listing.propertylisting.propertylisting-edit.location .button.button-positive-custom,
+ion-modal-view.listing.propertylisting.propertylisting-edit.basicinfo .list .button.button-positive-custom,
+ion-modal-view.listing.propertylisting.propertylisting-edit.price .button.button-positive-custom,
+ion-modal-view.listing.propertylisting.propertylisting-edit.ownerinfo .button.button-positive-custom {
+    border: 0;
+    background-color: #387ef5;
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 50%;
+    margin-left: 25%;
+}
+
+label.item.item-input.item-select:after {
+    color: #fff;
+}
+
+option.ng-binding {
+    background-color: transparent;
+}
+
+textarea.ng-valid.ng-not-empty.ng-valid-required.ng-dirty.ng-valid-parse.ng-touched {
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    margin-left: -3px;
+    font-size: 12px;
+}
+
+ion-modal-view.listing.propertylisting.propertylisting-edit.location .scroll {
+  background-color: #022d71;
+    border-radius: 20px;
+    padding: 20px 0;
+    width: 96%;
+    margin-left: 2%;
+}
+
+input.ng-pristine.ng-untouched.ng-valid.ng-not-empty.ng-valid-required {
+    width: 96%;
+    border: 2px solid #fff;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0 10px;
+    color: #fff;
+}
+
+input.ng-pristine.ng-valid.ng-empty.ng-touched {
+    width: 96%;
+    border: 2px solid #fff;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0 10px;
+    color: #fff;
+    opacity: 1;
+}
+
+ion-modal-view.listing.propertylisting.propertylisting-edit.price .scroll {
+  background-color: #022d71;
+    border-radius: 20px;
+    padding: 20px 0;
+    width: 96%;
+    margin-left: 2%;
+}
+
+label.item-custom.checkbox-custom.item.item-checkbox.ng-not-empty.ng-valid {
+    background-color: #022d71 !important;
+}
+
+label.item-custom.checkbox-custom.item.item-checkbox.ng-not-empty.ng-valid span.ng-binding {
+    color: #fff !important;
+}
+
+ion-modal-view.listing.propertylisting.propertylisting-edit.ownerinfo .scroll {
+  background-color: #022d71;
+    border-radius: 20px;
+    padding: 20px 0;
+    width: 96%;
+    margin-left: 2%;
+}
+
+input.ng-pristine.ng-untouched.ng-valid.ng-not-empty.ng-valid-required{
+    background-color: transparent;
+    color: #fff !important;
+    border: 2px solid #fff;
+    width: 96%;
+    border-radius: 5px;
+    height: 40px;
+}
+
+input.ng-pristine.ng-valid.ng-not-empty.ng-valid-required.ng-touched {
+    background-color: transparent;
+    color: #fff !important;
+    border: 2px solid #fff;
+    width: 96%;
+    border-radius: 5px;
+    height: 40px;
+    padding: 0 10px;
+}
+
+ion-view.listing.propertylisting.propertylisting-filter-menu.propertylisting-add textarea.ng-pristine.ng-empty.ng-invalid.ng-invalid-required.ng-touched {
+    background-color: transparent;
+    color: #fff !important;
+    border: 2px solid #fff;
+    width: 96%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+input[type=color],
+input[type=date],
+input[type=datetime-local],
+input[type=datetime],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week],
+textarea {
+  color: #fff;
+}
+
+
+.list label.item.item-input.item-stacked-label {
+    border: 0;
+}
+
+ion-modal-view.listing.propertylisting.propertylisting-edit.amenities .scroll {
+  background-color: #022d71;
+    border-radius: 20px;
+    padding: 20px 0;
+    width: 96%;
+    margin-left: 2%;  
+}
+
+label.item-custom.checkbox-custom.item.item-checkbox.ng-empty.ng-valid {
+  background-color: #022d71 !important;
+}
+
+ion-modal-view.listing.propertylisting.propertylisting-edit.amenities span.ng-binding {
+    color: #fff !important;
+}
+
+ion-view.listing.propertylisting.propertylisting-filter-menu.propertylisting-add.scroll .list {
+    width: 96%;
+    border-radius: 20px !important;
+    margin-left: 2%;
+    padding: 20px 0;
+} 
+
+.bar.bar-subheader {
+  border: 0;
+}
+
+input.ng-pristine.ng-untouched.ng-empty.ng-invalid.ng-invalid-required,
+input.ng-not-empty.ng-dirty.ng-valid-date.ng-valid.ng-valid-required.ng-touched,
+input.ng-pristine.ng-untouched.ng-valid.ng-empty.ng-valid-required,
+input.ng-not-empty.ng-dirty.ng-valid-date.ng-valid.ng-valid-required.ng-touched{
+    background-color: transparent;
+}
+
+ion-modal-view.propertylisting.propertylisting-feedback.listing label.item.item-input.item-custom textarea {
+    border: 2px solid #fff;
+    padding: 20px;
+    border-radius: 10px;
+    height: 100px;
+}
+
+

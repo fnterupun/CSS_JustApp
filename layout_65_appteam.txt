@@ -1,0 +1,236 @@
+ion-view[state="home"] {
+    background-image: none !important;
+    background-color: #fff !important;
+}
+
+[state="home"]>ion-content:before {
+    content: " ";
+    background-image: linear-gradient(180deg,rgba(12,12,12,0.5) 27%,rgba(12,12,12,0.5) 100%),url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/appteam_bg.jpg)!important;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-top: 20px !important;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    z-index: 999;
+    position: absolute;
+    animation: myAn 10s infinite linear;
+    color: #fff;
+    border: 4px solid #fff;
+}
+
+@keyframes myAn {
+    0% {
+        content:"Wecome";
+        /*background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/coffe01-scaled.jpg);
+        background-size: cover;
+        background-position: center;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        height: 200px;
+        margin-top: 20px !important;
+        width: 90%; */
+  }
+    20% { content:"To";
+        /*background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/zahra-tavakoli-fard-uRrBqB53So-unsplash-scaled.jpg);
+        background-size: cover;
+        background-position: center;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        height: 200px;
+        margin-top: 20px !important;
+        width: 90%;*/
+  }
+    40% { content:"This";
+        /*background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/Image_01-2.jpg);
+        background-size: cover;
+        background-position: center;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        height: 200px;
+        margin-top: 20px !important;
+        width: 90%;*/
+  }
+    60% { content: "Usefull";
+        /*background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/bed-and-breakfast-09.jpg);
+        background-size: cover;
+        background-position: center;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        height: 200px;
+        margin-top: 20px !important;
+        width: 90%;*/
+  }
+    80% { content: "App";
+      /*background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/Image_01-2.jpg);
+        background-size: cover;
+        background-position: center;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        height: 200px;
+        margin-top: 20px !important;
+        width: 90%;*/
+  }
+    100% { content: "Baby";
+        /*background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/Image_01-2.jpg);
+        background-size: cover;
+        background-position: center;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        height: 200px;
+        margin-top: 20px !important;
+        width: 90%;*/
+  }
+}
+
+.layout.l65 div.tab button#defaultOpen {
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/list_ion.png) !important;
+    background-size: 30px !important;
+    background-position: center left 20px !important;
+    background-color: transparent;
+    background-repeat: no-repeat !important;
+    text-align: right !important;   
+    color: #fff !important;
+    border-radius: 10px;
+}
+
+.layout.l65 div.tab button#defaultOpen.active {
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/list-outline.svg) !important;
+    background-size: 30px !important;
+    background-position: center left 20px !important;
+    background-color: #fff !important;
+    background-repeat: no-repeat !important;
+    text-align: right !important;   
+    color: #000 !important;
+    border-radius: 10px;
+}
+
+.layout.l65 div.tab>button:last-child {
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/more-2.png) !important;
+    background-size: 30px !important;
+    background-position: center left 20px !important;
+    background-color: transparent;
+    background-repeat: no-repeat !important;
+    text-align: right !important;   
+    color: #fff !important;
+    border-radius: 10px;
+}
+
+
+.layout.l65 div.tab>button:last-child.active {
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/grid-outline-1.png) !important;
+    background-size: 30px !important;
+    background-position: center left 20px !important;
+    background-color: #fff !important;
+    background-repeat: no-repeat !important;
+    text-align: right !important;   
+    color: #000 !important;
+    border-radius: 10px;
+}
+
+
+.layout.l65 div#list1 a.item.item-avatar.item-avatar-square.homepage-custom.border-custom.translucent h2 {
+    color: #fff;
+}
+
+.layout.l65 {
+    height: 85%;
+    border-radius: 20px 20px 0 0;
+    background-color: #452b4e;
+    padding-top: 130px;
+}
+
+.layout.l65 div.tab {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 0;
+    padding: 0 5px;
+}
+
+.layout.l65 div.tab button {
+    margin: 0 5px;
+}
+
+.layout.l65 div.tab button.active {
+    border-radius: 10px !important;
+    background-color: #fff !important;
+    color: #000;
+}
+
+.layout.l65 div#list1 a.item.item-avatar.item-avatar-square.homepage-custom.border-custom.translucent {
+    background: transparent;
+}
+
+.layout.l65 div.tab button:hover {
+    background: transparent;
+}
+
+.layout.l65 .grid1 ion-content,
+.layout.l65 .list1 ion-content {
+    top: 195px !important;
+}
+
+.layout.l65 .grid1 li {
+    display: inline-flex;
+    width: 29%;
+    height: 115px;
+    border: 0;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 2%;
+    border-radius: 10px;
+}
+
+.layout.l65 .grid1 li {
+    display: inline-flex;
+    width: 29%;
+    height: 135px;
+    border: 0;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 2%;
+    border-radius: 10px;
+}
+
+.layout.l65 .grid1 li .items {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    border: 0;
+}
+
+.layout.l65 .grid1 li img {
+    height: 60px;
+    width: 60px;
+}
+
+.layout.l65 .grid1 li p {
+    line-height: 36px;
+    height: 30px;
+    overflow: hidden;
+    margin-bottom: 0;
+    font-size: 14px !important;
+    text-transform: capitalize;
+}
+
+
+.layout.l65 div#list1 .list1 a.item.item-avatar.item-avatar-square.homepage-custom.border-custom.translucent img {
+    border-radius: 0;
+    filter: invert(1);
+}
+
+

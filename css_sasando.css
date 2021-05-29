@@ -1,0 +1,1218 @@
+ion-content.scroll-content.ionic-scroll.overflow-scroll.has-subheader {
+    top: 0 !important;
+    bottom: 0 !important;
+}
+
+.nav-bar-block ion-header-bar.bar-custom.bar.bar-header {
+    height: 0 !important;
+}
+
+.bar.bar-custom .title {
+    display: none !important;
+}
+
+.bar-custom .button.button-clear {
+    border-color: transparent;
+    background: none;
+    box-shadow: none;
+    color: rgb(177 35 65);
+    font-size: 16px;
+}
+
+/* HOMEPAGE */
+.layout.l1 .tabs {
+    height: 65px !important;
+    box-shadow: none !important;
+    margin-bottom: 20px;
+    width: 70%;
+    border-radius: 30px;
+    margin-left: 15%;
+    background: rgb(23,60,101);
+    background: linear-gradient(90deg, rgba(23,60,101,1) 0%, rgba(10,38,79,1) 100%) !important;
+  	padding: 0 !important;
+}
+
+.layout.l1 .tabs li {
+	flex: 0 0 25%;
+    max-width: 25%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding: 0 !important;
+    height: 45px !important;
+    margin-top: 20px;
+}
+
+.layout.l1 .tabs li:nth-child(4) {
+    display: none;
+}
+
+.layout.l1 .tabs li p {
+	display: none;
+}
+
+.layout.l1 .tabs li img {
+    width: 25px;
+    height: 25px;
+    max-height: 80%;
+    margin-top: 0;
+  	margin-left: 0;
+}
+
+/* MORE */
+ion-modal-view.layout.modal.slide-top.layout_modal_generic {
+    background: linear-gradient(90deg, rgba(23,60,101,1) 0%, rgba(10,38,79,1) 100%) !important;
+    opacity: 1 !important;
+    height: 70vh !important;
+    margin-top: 30vh;
+    border-radius: 30px 30px 0 0;
+    padding: 0 !important;
+}
+
+.layout_modal_generic .list {
+    padding-top: 0 !important;
+    padding-bottom: var(--safe-area-inset-bottom);
+}
+
+
+ion-modal-view.layout.modal.slide-top.layout_modal_generic ion-content {
+    height: 75%;
+    background-image: url(https://company.toku.co/hubfs/Group%2037-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+    color: #d0e0ea;
+    border-radius: 30px 30px 0 0;
+    background-color: #fff !important;
+}
+
+ion-modal-view.layout.modal.slide-top.layout_modal_generic .item.item-avatar.item-center.item-avatar-square.item-custom h2 {
+    color: #fff;
+}
+
+ion-modal-view.layout.modal.slide-top.layout_modal_generic .item.item-avatar.item-center.item-avatar-square.item-custom:nth-child(-n+3) {
+    display: none;
+}
+
+ion-modal-view.layout.modal.slide-top.layout_modal_generic .item.item-avatar.item-center.item-avatar-square.item-custom:nth-child(4) {
+    margin-bottom: 40px;
+    border-bottom: 2px solid #fff;
+    padding-left: 80px;
+    min-height: 90px;
+}
+
+ion-modal-view.layout.modal.slide-top.layout_modal_generic .item.item-avatar.item-center.item-avatar-square.item-custom:nth-child(4) img {
+    display: inline;
+    background-color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    width: 60px !important;
+    height: 60px !important;
+    max-width: 60px !important;
+    max-height: 60px !important;
+}
+
+
+ion-modal-view.layout.modal.slide-top.layout_modal_generic .item.item-avatar.item-center.item-avatar-square.item-custom:nth-child(4) h2 {
+    margin-left: 0;
+    text-align: left;
+    font-size: 18px;
+    width: 100% !important;
+}
+
+ion-modal-view.layout.modal.slide-top.layout_modal_generic .item.item-avatar.item-center.item-avatar-square.item-custom:nth-child(4) h2:after {
+    content: "Now you can see your file from here";
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+ion-modal-view.layout.modal.slide-top.layout_modal_generic .item.item-avatar.item-center.item-avatar-square.item-custom:nth-child(n+5) {
+    width: 23% !important;
+    display: inline-block;
+    max-width: 23%;
+    left: 0;
+    right: 0;
+    margin: 0 1%;
+    min-height: 80px;
+    background: #ffffff !important;
+    padding: 5px;
+    border-radius: 10px;
+	border: 3px solid #e6e6e6;
+}
+
+ion-modal-view.layout.modal.slide-top.layout_modal_generic .item.item-center.item-avatar.item-icon-left.item-custom {
+    margin-top: 60px;
+    width: 50%;
+    margin-left: 25%;
+    background-color: #fff;
+    border-radius: 30px;
+    font-size: 0;
+}
+
+ion-modal-view.layout.modal.slide-top.layout_modal_generic .item.item-center.item-avatar.item-icon-left.item-custom i {
+    display: none;
+}
+
+ion-modal-view.layout.modal.slide-top.layout_modal_generic .item.item-center.item-avatar.item-icon-left.item-custom h2 {
+    text-align: center !important;
+    text-transform: uppercase;
+    color: #0c2a53;
+    left: 0;
+    display: block !important;
+    width: 100%;
+    font-weight: bold;
+}
+
+ion-modal-view.layout.modal.slide-top.layout_modal_generic .item.item-avatar.item-center.item-avatar-square.item-custom:nth-child(n+5) img {
+    display: block;
+    width: 30px;
+    left: 0;
+    right: 0;
+    height: 30px;
+    margin: 5px auto;
+}
+
+ion-modal-view.layout.modal.slide-top.layout_modal_generic .item.item-avatar.item-center.item-avatar-square.item-custom:nth-child(n+5) h2 {
+    width: 100% !important;
+    display: block;
+    margin-top: 25px;
+    color: #0c2a53;
+    text-align: center;
+    left: 0;
+    font-size: 12px;
+}
+
+/* AUDIO */
+[state="music-playlist-albums"] ion-content .scroll {
+    margin-top: 0;
+    background-color: #e6e6e6;
+    border-radius: 50px 50px 0 0;
+}
+
+[state="music-playlist-albums"] ion-header-bar.bar-subheader.bar-custom.bar.bar-header {
+    background-color: #ecf0f6;
+    border: 2px solid #e9ddd9;
+    font-size: 0;
+    bottom: 0;
+    position: fixed !important;
+    top: calc(66vh - 0px) !important;
+    border-radius: 100px !important;
+    border-width: 0 !important;
+    padding: 5px 12px 5px 12px !important;
+    z-index: 999 !important;
+    box-shadow: 5px 5px 5px #888 !important;
+    width: 60px !important;
+    height: 60px !important;
+    color: #fff !important;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/05/song_list.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    margin: 0 auto;
+}
+
+[state="music-playlist-albums"]button.button-custom.activated {
+    background-color: transparent !important
+}
+
+[state="music-playlist-albums"] ion-header-bar.bar-subheader.bar-custom.bar.bar-header .button-bar.text-center {
+	background-color: transparent;
+}
+
+[state="music-playlist-albums"] [ng-click="showPlaylistTracks()"] {
+	background-color: transparent;
+    font-size: 0;	
+  	padding: 0;
+}
+
+[state="music-playlist-albums"] .ion-ios-musical-note:before {
+    font-size: 45px !important;
+    color: #fff;
+  	display: none;
+}
+
+i.icon.ion-ios-musical-note {
+    width: 100%;
+    text-align: center;
+    left: 0;
+}
+
+.button.button-custom.item-icon-left.ng-binding.activated {
+    background-color: transparent !important;
+}
+
+[state="music-playlist-albums"] ion-content.scroll-content.ionic-scroll.overflow-scroll.has-subheader {
+    top: 0 !important;
+    bottom: 0 !important;
+    padding-top: 100px;
+}
+
+
+[state="music-track-list"] ion-content.scroll-content.ionic-scroll.overflow-scroll.has-subheader {
+    padding-top: 76px;
+}
+
+[state="music-track-list"] ion-header-bar.bar-subheader.bar-custom.bar.bar-header {
+    height: 60px;
+    width: 50%;
+    font-size: 0;
+    top: 4%;
+    border-radius: 30px;
+    background-color: #fff;
+    left: 25%;
+    border: 2px solid #e9ddd9;
+    display: none;
+}
+
+[state="music-track-list"] .button.button-custom.item-icon-left.ng-binding,
+[state="music-track-list"] .button.button-custom.item-icon-left.ng-binding.activated {
+    background-color: transparent !important;
+    font-size: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+}
+
+[state="music-track-list"] i.icon.ion-ios-albums-outline {
+    left: 0;
+    right: 0;
+}
+
+[state="music-track-list"] .ion-ios-albums-outline:before {
+	display: none !important;
+}
+
+[state="music-track-list"] i.icon.ion-ios-albums-outline:after {
+    content: "Daftar Putar";
+    font-weight: bold;
+    font-size: 16px;
+    color: #6c63ff;
+    text-align: center !important;
+    width: 100%;
+}
+
+[state="music-track-list"] .list {
+    margin-bottom: 0;
+}
+
+[state="music-track-list"] .list:first-child:before {
+    content: "Daftar Lagu";
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 10px 0 10px;
+    color: #103059;
+    display: block;
+}
+
+[state="music-track-list"] .list.transparent {
+    background-color: #fffffff0;
+    box-shadow: none;
+    padding-top: 30px;
+    border-radius: 50px 50px 0 0;
+}
+
+[state="music-track-list"] .item.item-custom.text-center.ng-binding {
+    background-color: #ecf0f6;
+    border: 2px solid #e9ddd9;
+    font-size: 0;
+    bottom: 0;
+    position: fixed !important;
+    top: calc(66vh - 0px) !important;
+    right: 5vw !important;
+    border-radius: 100px !important;
+    border-width: 0 !important;
+    padding: 5px 12px 5px 12px !important;
+    z-index: 999 !important;
+    box-shadow: 5px 5px 5px #888 !important;
+    width: 60px !important;
+    height: 60px !important;
+    color: #fff !important;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/05/play-button.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    display: none;
+}
+
+/*
+[state="music-playlist-albums"] ion-content .scroll:after {
+    height: 300px;
+    /*background-image: url(https://company.toku.co/hubfs/Group%2037-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;*/
+   /* color: #d0e0ea;
+    border-radius: 50px 50px 0 0;
+    content: ".";
+    display: block;
+    transform: rotate(180deg);
+    margin-top: -35px;
+    background-color: #fbf2e2;
+} */
+
+/*
+[state="music-playlist-albums"] ion-content .scroll:before {
+    content: "Kamu dapat mendengarkan semua lagu dengan menekan tombol Putar Semua atau melihat daftar lagu dengan menekan tombol Play List di bawah ini.";
+    display: block;
+    line-height: 1.8;
+    font-size: 14px;
+    margin: 10px 0;
+    font-style: italic;
+    width: 100% !important;
+    background-image: url(https://www.nicehash.com/img/intro-tr.02698d1a.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+    color: #103059;
+    border-radius: 50px 50px 0 0;
+    background-color: #fbf2e2;
+    padding-top: 50px;
+    padding: 50px 5px 0 5px;
+} */
+
+[state="music-playlist-albums"] ion-content .scroll {
+    background-color: #fbf2e2;
+}
+
+
+[state="music-playlist-albums"] ion-content:before {
+    content: "Kamu dapat mendengarkan semua lagu dengan menekan tombol Putar Semua atau melihat daftar lagu dengan menekan tombol Play List di bawah ini.";
+    display: block;
+    line-height: 1.8;
+    font-size: 11px;
+    margin: 10px;
+    font-style: italic;
+}
+
+
+/* homepage */
+ion-view[state="music-playlist-list"] ion-content {
+  top: calc(var(--safe-area-inset-top) + 0px) !important;
+}
+
+ion-view[state="music-playlist-list"] ion-header-bar,
+ion-view.module-push.push-list.push-list-l1 ion-content {
+    top: calc(var(--safe-area-inset-top) + 0px) !important;
+    bottom: calc(var(--safe-area-inset-bottom) + 0px);
+}
+
+/* change the bg color in page */
+ion-modal-view.audio-player.media-player.media-player-modal ion-content,
+ion-view[state="music-playlist-list"] ion-content,
+ion-view[state="music-playlist-albums"] ion-content,
+ion-view[state="music-track-list"] ion-content {
+  background: rgb(207,224,234);
+  background: linear-gradient(180deg, rgba(207,224,234,1) 0%, rgba(244,242,247,1) 100%);
+}
+
+[state="music-playlist-list"] .item.item-image.item-custom img {
+  width: 120px;
+  padding-top: 10px;
+}
+
+.audio-player .cover {
+  background: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/02/undraw_podcast_q6p7.svg) !important;
+    background-size: 60% !important;
+    background-position: center top !important;
+    background-repeat: no-repeat !important;
+    overflow: hidden !important;
+    height: 100% !important;
+}
+
+[state="music-playlist-list"] div.col-50 {
+    background-color: #adcdff !important;
+    border-radius: 10px;
+    max-width: 48% !important;
+    margin: 0 1%;
+    left: 0 !important;
+    padding: 0 !important;
+    background: rgb(242,220,207); background: linear-gradient(103deg, rgba(242,220,207,1) 0%, rgba(228,222,222,1) 100%);
+}
+
+.button.button-custom.active,
+.button.button-custom.activated {
+    border: 0 !important;
+    background-color: #ffede5 !important;
+}
+
+ion-modal-view.audio-player.media-player.media-player-modal.modal {
+    display: block;
+    position: absolute;
+    top: 40vh !important;
+    z-index: 10;
+    overflow: hidden;
+    min-height: 60vh !important;
+    width: 100%;
+    background-color: #ebe7e7 !important;
+}
+
+ion-modal-view.audio-player.media-player ion-content .scroll>div[ng-if="player.currentTab == 'cover'"] {
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2020/12/sasando-1.png) !important;
+    background-size: 45% !important;
+    background-position: center top 10px !important;
+    background-repeat: no-repeat !important;
+    height: 280px !important;
+    display: block;
+}
+
+[state="music-playlist-list"] .list.row .col-50 p span:nth-child(2) {
+    display: none;
+}
+
+[state="music-playlist-list"] .list.row .col-50 .item.item-custom {
+    text-align: center;
+    background-color: transparent;
+}
+
+[state="music-playlist-list"] .list.row .col-50 .item.item-custom>p.ng-binding:first-child {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: MaisonNeue-Book,sans-serif;
+    color: #00245c;
+}
+
+
+[state="music-playlist-list"] ion-header-bar {
+    display: none;
+}
+
+[state="music-playlist-list"] .item.item-custom.text-center.ng-binding {
+    height: 300px;
+    background-image: url("https://ensiklopediakesaguan.com/wp-content/uploads/2020/12/sasando_ntt.png");
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center;
+    color: #d0e0ea;
+    pointer-events: none;
+}
+
+[state="music-playlist-list"] .list:first-child:after {
+    content: "Album";
+    display: block !important;
+    width: 100vw !important;
+    font-size: 20px;
+    font-weight: bold;
+    color: #d86666;
+    padding-left: 10px;
+    font-family: MaisonNeue-Book,sans-serif;
+}
+
+[paged-albums="playlist.paged_albums"] {
+    display: none !important;
+}
+
+.button.button-custom.active.item-icon-left.ng-binding {
+    display: none;
+}
+
+[state="music-playlist-albums"] [ng-click="playAll()"] {
+    visibility: hidden;
+}
+
+[state="music-playlist-albums"] [ng-click="playAll()"]:after {
+    visibility: visible;
+    content: "Putar Semua";
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    width: 50%;
+    color: #6c63fe;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: center right;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 50%;
+    border: 2px solid #e9ddd9;
+    margin-top: 10px;
+}
+
+[state="music-playlist-albums"] .list {
+    height: 400px;
+    background-image: url(https://www.nicehash.com/img/intro-tr.02698d1a.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+    color: #d0e0ea;
+    border-radius: 50px 50px 0 0;
+    background-color: #fbf2e2;
+}
+
+[state="music-playlist-albums"] .list:after {
+    content: ".";
+    display: block;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/undraw_Meditating_re_aiqa.svg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 45%;
+    width: 100%;
+    height: 230px;
+    margin-top: -20px;
+}
+
+.remote-control {
+    bottom: 0;
+    position: fixed;
+    width: 96vw;
+    margin-left: 2vw;
+    background-color: #f3304e;
+    z-index: 1000;
+    border-radius: 20px;
+    bottom: 2vh !important;
+    background: linear-gradient(90deg, rgba(242,220,209,1) 0%, rgba(230,222,220,1) 100%);
+}
+
+.button.button-light.button-clear {
+    border-color: transparent;
+    background: 0 0;
+    box-shadow: none;
+    color: #000;
+}
+
+button[ng-click="player.openPlayerModal(player.currentTab === 'cover' ? 'playlist' : 'cover')"],
+[ng-click="player.shuffle()"],
+button[ng-click="player.backward()"],
+button[ng-click="player.forward()"],
+[ng-click="player.playerModalIsOpen ? player.closePlayerModal() : player.openPlayerModal('cover')"],
+[ng-click="player.openPlayerModal('cover')"] {
+    display: none;
+}
+
+[ng-click="player.next()"] {
+  margin-right: 20vw !important;
+}
+
+[ng-click="player.prev()"] {
+  margin-left: 20vw !important;
+}
+
+
+[ng-click="player.playPause()"] {
+    color: #fff !important;
+    padding: 4px !important;
+    border-radius: 10px !important;
+    background: url(https://ensiklopediakesaguan.com/wp-content/uploads/2020/12/play-2.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important;
+    z-index: 1;
+    max-height: 100px !important;
+}
+
+.mini-controls .button {
+    min-width: 80px !important;
+    height: 60px !important;
+    min-height: 30px;
+    padding-top: 20px !important;
+    padding-left: 5px !important;
+}
+
+.mini-controls,
+.seekbar-flex {
+    color: #f1304d;
+    font-weight: bold;
+}
+
+[state="music-track-list"] .list .item.item-custom.item-avatar h2.ng-binding {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: MaisonNeue-Book,sans-serif;
+    text-transform: capitalize;
+}
+
+.audio-player.media-player.media-player-modal.modal ion-header-bar i,
+.bar .back-button .icon:before {
+  color: #f1304d !important;
+}
+
+
+[state="music-playlist-list"] div.scroll div:nth-child(3) {
+  margin-bottom: 50px;
+    width: 50%;
+    float: left;
+    top:0;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+[state="music-playlist-list"] div.scroll div:nth-child(4) {
+  margin-bottom: 50px;
+    width: 50%;
+    float: right;
+    top:0;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+[state="music-playlist-list"] div.scroll div:nth-child(5):before {
+  content: "Terbaru";
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    color: #00245c;
+    margin-top: -30px !important;
+    min-width: 100vw !important;
+    flex-direction: row;
+    position: absolute;
+    padding-left: 10px;
+}
+
+ion-view[state="music-playlist-list"] .list:last-child {
+    margin-bottom: 0;
+    padding-bottom: 120px !important;
+}
+
+[state="music-playlist-list"] div.scroll div:nth-child(3) .col-50,
+[state="music-playlist-list"] div.scroll div:nth-child(4) .col-50 {
+  border-radius: 50%;
+    background: transparent !important;
+}
+
+[state="music-playlist-list"] div.scroll div:nth-child(3) .col-50 img,
+[state="music-playlist-list"] div.scroll div:nth-child(4) .col-50 img {
+  width: 50%;
+}
+
+[state="music-playlist-list"] div.scroll div:nth-child(3) .col-50 .item.item-custom> p,
+[state="music-playlist-list"] div.scroll div:nth-child(4) .col-50 .item.item-custom> p {
+    font-weight: bold;
+    font-size: 12px !important;
+    font-family: MaisonNeue-Book,sans-serif;
+    color: #d86666 !important;
+}
+
+
+[ng-click="player.playerModalIsOpen ? player.closePlayerModal() : player.openPlayerModal('cover')"] {
+    display: inline !important;
+    margin-left: -100px;
+}
+
+
+ion-modal-view.audio-player.media-player.media-player-modal {
+    background-color: #ebe7e7 !important;
+}
+
+.seekbar-flex [ng-click="player.reset()"] {
+  visibility: visible !important;
+  display: inline !important;
+}
+
+[ng-click="player.reset()"] .ion-power-off-thin:before {
+  color: #f1304d;
+}
+
+[ng-click="player.repeat()"] {
+    display: inline !important;
+    margin-right: -100px;
+}
+
+
+/* PUSH NOTIFICATION */
+ion-view.module-push.push-list.push-list-l1 ion-content:before {
+    content: "Notifikasi";
+    display: block;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 55px 3% 30px 3%;
+    color: #10315a;
+}
+
+ion-view.module-push.push-list.push-list-l1 .item.item-custom.item-avatar {
+    padding-left: 64px;
+    min-height: 64px;
+}
+
+ion-view.module-push.push-list.push-list-l1 ion-item.item-custom.item.item-avatar {
+    width: 96%;
+    background-color: #ecf0f6;
+    border-radius: 5px;
+    margin: 2%;
+}
+
+ion-view.module-push.push-list.push-list-l1 span[ng-if="item.details.date.mt_text"] {
+    float: left;
+    color: #387ef5;
+}
+
+ion-view.module-push.push-list.push-list-l1 span[ng-if="hasItem(item)"] i,
+ion-view.module-push.push-list.push-list-l1 span[ng-if="item.details.date"] i {
+    display: none;
+}
+
+ion-view.module-push.push-list.push-list-l1 span[ng-if="hasItem(item)"] span {
+    width: 60px !important;
+    height: 20px !important;
+    background-color: #387ef5 !important;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+ion-view.module-push.push-list.push-list-l1 ion-item.item-custom.item.item-avatar h2.ng-binding {
+    font-weight: bold !important;
+    color: #0d2b54 !important;
+}
+
+ion-view.module-push.push-list.push-list-l1 p.text-no-wrap.ng-binding {
+    color: #0d2c55 !important;
+}
+
+ion-view.module-push.push-list.push-list-l1 .item.item-custom.item-avatar img {
+    border-radius: 5px;
+    box-shadow: inset 0 0 1em rgb(0 0 0 / 30%), 0.4em 0.4em 0.4em rgb(0 0 0 / 30%);
+}
+
+
+ion-view[state="music-track-list"] .list.transparent .item.item-custom.item-avatar img {
+    display: none;
+}
+
+
+ion-view[state="music-track-list"] .item.item-custom.item-avatar {
+    padding: 10px;
+}
+
+
+ion-view[state="music-track-list"] .item.item-custom.item-avatar:last-child {
+    padding-bottom: 100px !important;
+}
+
+ion-view[state="music-track-list"] .item.item-custom.item-avatar h2 span.item-note.ng-binding {
+    color: #f0324f !important;
+}
+
+
+/* MY ACCOUNT START */
+ion-modal-view.customer-view.customer-layout1 ion-header-bar.bar-custom.bar.bar-header {
+    height: 0 !important;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content {
+    background-color: #cfe0ea !important;
+    top: 0 !important;
+    bottom: 0 !important;
+}
+
+/* Login Page */
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_login_form"] {
+    padding: 0 30px;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_login_form"] .list .item.item-custom {
+    border: 0 !important;
+    background-color: transparent;
+    color: #363636;
+    padding: 15px 0;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_login_form"] .list:before {
+    content: "Hey, Login Now";
+    display: block;
+    text-align: left;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 30px 2%;    
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_login_form"]:before {
+    content: " ";
+    height: 200px;
+    display: block;
+    background-size: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/undraw_Login_re_4vu2.svg);
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_login_form"] label.item.item-input.item-custom input {
+    border-bottom: 2px solid #ecf0f6 !important;
+    padding-bottom: 0px;
+    height: 60px !important;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_login_form"] i.icon.ion-ios-person,
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_login_form"] i.icon.ion-locked {
+    display: none;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_login_form"] .button.button-positive-custom {
+    border: 0;
+    background-color: #b12341;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_login_form"] div[ng-click="displayAccountForm()"] {
+    font-size: 11px;
+    text-align: left;
+    padding: 5px 0;
+    color: #007aff;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_login_form"] .padding.text-right {
+    padding: 0 0 50px 0;
+    margin-top: -15px;
+    text-align: right;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_login_form"] span[ng-click="displayForgotPasswordForm()"] {
+    color: #3498db !important;
+    font-size: 11px !important;
+    text-align: left;
+    display: block;
+}
+/* LOGIN PAGE END */
+
+
+/* FORGOT PASSWORD PAGE */
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_forgot_password_form"] {
+    padding: 0 30px;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_forgot_password_form"] .padding.text-left {
+    padding: 0;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_forgot_password_form"] .padding.text-left:before {
+    content: "Forgot Password?";
+    display: block;
+    text-align: left;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 30px 2% 10px 0;
+    line-height: 1.8;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_forgot_password_form"]:before {
+    content: " ";
+    height: 200px;
+    display: block;
+    background-size: 220px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/undraw_emails_6uqr.svg);
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_forgot_password_form"] label.item.item-input.item-custom input {
+    border-bottom: 2px solid #ecf0f6 !important;
+    padding-bottom: 0px;
+    height: 60px !important;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_forgot_password_form"] i.icon.ion-ios-person {
+    display: none;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_forgot_password_form"] .button.button-positive-custom {
+    border: 0;
+    background-color: #b12341;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_forgot_password_form"] div[ng-click="displayLoginForm()"] {
+    padding: 0;
+    text-align: left;
+    font-size: 11px;
+    color: #3498db;
+}
+
+/* FORGOT PASSWORD PAGE END*/
+
+
+/* SIGNUP PAGE */
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) {
+    padding: 0 30px;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) .item.item-input.item-custom .input-label.ng-binding,
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) label.item.item-input.item-custom .input-label {
+    display: none;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) .item.item-input.item-custom input {
+    max-width: 100%;
+    text-align: left;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) label.checkbox-custom h2 span,
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) .checkbox-custom .item-content.disable-pointer-events span {
+    color: #387ef5 !important;
+    padding-left: 0;
+    font-size: 0;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll > div:nth-child(3) label.checkbox-custom h2>span:nth-child(1):after {
+    content: "Kebijakan Privasi";
+    font-size: 11px;
+    color: #387ef5;
+    padding-left: 0 !important;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll > div:nth-child(3) label.checkbox-custom .item-content.disable-pointer-events>span.ng-binding:after {
+    content: "Pemberitahuan Terbaru";
+    font-size: 11px;
+    color: #387ef5;
+    padding-left: 0 !important;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) .button.button-positive-custom {
+    border: 0;
+    background-color: #b12341;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) div[ng-click="displayLoginForm()"] {
+    padding: 0;
+    text-align: left;
+    font-size: 11px;
+    color: #3498db;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll > div:nth-child(3) span[ng-click="showPrivacyPolicy()"],
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll > div:nth-child(3) div[ng-click="requestGdprToken()"] {
+    font-size: 11px;
+    text-align: left !important;
+    display: block;
+}
+
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll > div:nth-child(3) div[ng-click="logout()"] {
+    text-align: left;
+    width: 40%;
+    margin-left: 30%;
+    background-color: transparent;
+    background-size: 35px;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/05/log-out.png);
+    border: 2px solid #ecf0f6;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+ion-modal-view.customer-view.customer-layout1 label[ng-if="myAccount.settings.extra_civility"] .input-label.ng-binding {
+    display: inline !important;
+}
+
+ion-modal-view.customer-view.customer-layout1 label[ng-if="myAccount.settings.extra_civility"] {
+    height: 60px;
+}
+/* SIGNUP PAGE END */
+
+/* MY ACCOUNT SETTING */
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_settings"] {
+    padding-top: 57px;
+}
+/* END MY ACCOUNT SETTING */
+
+
+/* CONTACT */
+ion-view.contact-view ion-content {
+    background-color: #cfe0ea !important;
+    top: 0 !important;
+    bottom: 0 !important;
+}
+
+ion-view.contact-view ion-content .list.card {
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    margin: -5px 0 0 0;
+    border: 0;
+}
+
+.item.item-icon-left.item-custom i {
+    display: none;
+}
+
+.item.item-icon-left.item-custom h2 {
+    text-align: center;
+    width: 100%;
+    color: #0e7bc4;
+    text-transform: capitalize !important;
+}
+
+ion-view.contact-view ion-content .list.card div[ng-show="contact.name"] {
+    order: 3;
+    padding: 10px 0;
+    margin-top: -120px;
+    background-color: transparent;
+    z-index: 999;
+}
+
+ion-view.contact-view ion-content .list.card div.item.item-custom.text-center.ng-hide {
+    order: 1
+}
+
+ion-view.contact-view ion-content .list.card .item.item-image.item-custom {
+    order: 2;
+    background-image: url(https://generatepress.com/wp-content/themes/generatepress_official/images/bg.png);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 270px;
+    border: 0;
+}
+
+ion-view.contact-view ion-content .list.card .item.item-image.item-custom img {
+    width: 100px;
+    margin: 40px auto 0 auto !important;
+    border-radius: 50%;
+    object-fit: cover;
+    height: 100px;
+    padding: 0;
+    left: 0;
+    right: 0;
+}
+
+ion-view.contact-view ion-content .list.card div[ng-show="contact.description"] {
+    order: 4 !important;
+    padding: 0 0 10px 0 !important;
+    background-color: transparent;
+}
+
+ion-view.contact-view ion-content .list.card div[ng-show="contact.description"] p {
+    text-align: center;
+    padding: 0;
+    font-weight: bold;
+}
+
+ion-view.contact-view ion-content .list.card div[ng-show="contact.street"] {
+    order: 5 !important;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ecf0f6;
+    width: 90%;
+    margin-left: 5%;
+    padding-bottom: 10px;
+    background-color: transparent;
+}
+
+/* PADDING */
+ion-view.contact-view ion-content .padding {
+    padding: 0 0 50px 0;
+    color: #919191;
+}
+
+button.button.button-custom.item-icon-left.ng-binding.button-block.activated {
+    background: transparent;
+    color: #0e7bc4;
+}
+
+ion-view.contact-view ion-content .padding button.button.button-custom.item-icon-left.ng-binding.button-block i {
+    margin-left: -35px;
+    color: #0e7bc4;
+    margin-top: 16px;
+}
+
+ion-view.contact-view ion-content .padding button.button.button-custom.item-icon-left.ng-binding.button-block {
+    border: 0;
+    text-align: left;
+    margin-left: 40px;
+    background-color: transparent;
+}
+
+/* tambah nomor HP */
+ion-view.contact-view ion-content i.icon.ion-ios-telephone-outline:after {
+    content: "0812458555";
+    margin-top: 15px;
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+/* tambah lokasi */
+ion-view.contact-view ion-content i.icon.ion-ios-location-outline:after {
+    content: "Manokwari - Papua Barat";
+    margin-top: 15px;
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+/* tambah email */
+ion-view.contact-view ion-content i.icon.ion-ios-email-outline:after {
+    content: "kuli@sublime.com";
+    margin-top: 15px;
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+/* website */
+ion-view.contact-view ion-content i.icon.ion-ios-world-outline:after {
+    content: "ariesrutung.com";
+    margin-top: 15px;
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+/* FACEBOOK */
+ion-view.contact-view ion-content .padding button:nth-child(5) {
+    background-color: #ecf0f6 !important;
+    margin: 25px 5% 0 5% !important;
+    width: 90%;
+    height: 150px;
+    color: #0e7bc4;
+    font-weight: bold;
+    font-size: 18px;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/facebook.svg);
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: center right 20px;
+    margin-top: 40px !important;
+    border-radius: 10px;    
+}
+
+ion-view.contact-view ion-content .padding button:nth-child(6) {
+    background-color: #ecf0f6 !important;
+    margin: 25px 5% 0 5% !important;
+    width: 90%;
+    height: 150px;
+    color: #0e7bc4;
+    font-weight: bold;
+    font-size: 0;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/whatsapp.svg);
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: center right 20px;
+    border-radius: 10px;    
+}
+
+ion-view.contact-view ion-content .padding button:nth-child(6):before {
+    padding: 0 !important;
+    margin: 0 !important;
+    content: "WhatsApp";
+    font-weight: bold;
+    font-size: 18px;
+    color: #0e7bc4;
+    visibility: visible !important;
+}
+
+ion-view.contact-view ion-content .padding button:nth-child(5) i,
+ion-view.contact-view ion-content .padding button:nth-child(6) i {
+    display: none;
+}
+
+/* Send Email Contact module */
+ion-view[state="contact-form"] ion-content {
+    padding-top: 80px;
+}

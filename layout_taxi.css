@@ -1,0 +1,64 @@
+/* LAYOUT TAXY */
+.layout.l9 ul.items li p {
+    font-size: 13px;
+    float: right;
+    text-align: left !important;
+    display: block;
+    width: 70%;
+}
+
+.layout_taxi .line-title {
+    line-height: 6vw;
+    margin-left: 1em;
+    font-weight: normal;
+    font-variant: none;
+    font-size: 13px !important;
+}
+
+.layout.layout_taxi .taxi-header {
+    width: 100%;
+    background: url(https://image.freepik.com/free-vector/building-concept-illustration_114360-4469.jpg) !important;
+    background-position: bottom right 5px !important;
+    background-size: 50% !important;
+    background-repeat: no-repeat !important;
+    background-color: #fff !important;
+    border-radius: 0 0 30px 0;
+    height: 200px !important;
+}
+
+.layout_taxi .taxi-signup span:nth-child(3) {
+    color: #ffffff !important;
+    width: 40% !important;
+    display: block !important;
+    height: 40px !important;
+    text-align: center;
+    padding-left: 20px;
+    background-color: #f6c851;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.layout_taxi .taxi-signup span:nth-child(1),
+.layout_taxi .taxi-signup span:nth-child(2) {
+    display: none !important;
+}
+
+.layout_taxi .taxi-header .taxi-avatar-wrapper {
+    height: 25vw;
+    width: 25vw;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 40vw;
+}
+
+.layout_taxi .customer-name {
+    width: 100%;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 10px;
+    color: #131c55 !important;
+    text-transform: capitalize !important;
+    font-variant: none !important;
+}

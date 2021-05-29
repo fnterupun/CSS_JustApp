@@ -1,0 +1,185 @@
+
+/* remote control minimize */
+[ng-if="player.isMinimized && player.isInitialized"] {
+    background-color: #5789b0;
+    height: 10vh;
+    padding-top: 20px;
+    border: 2px solid #5789b0;
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 10px;
+    bottom: 10px;
+}
+
+[ng-click="player.repeat()"],
+[ng-click="player.shuffle()"],
+[ng-click="player.prev()"],
+[ng-click="player.backward()"],
+[ng-click="player.forward()"],
+[ng-click="player.next()"],
+[ng-click="player.openPlayerModal(player.currentTab === 'cover' ? 'playlist' : 'cover')"],
+[ng-click="player.playerModalIsOpen ? player.closePlayerModal() : player.openPlayerModal('cover')"] {
+  display: none !important;
+}
+
+.mini-seekbar .mini-trackname {
+    display: flex;
+    flex-direction: row;
+    width: 100% !important;
+}
+
+.mini-seekbar .mini-trackname span {
+  order: 2;
+    margin: 0;
+    width: 80%;
+  text-align: center;
+    white-space: normal;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 0 !important;
+    color: #fff;
+}
+
+.mini-seekbar .mini-trackname button {
+  order: 1;
+}
+
+.mini-controls {
+  display: inline-block;
+    margin: 0;
+    width: 20%;
+    float: right;
+}
+
+
+.audio-player div[ng-if="player.currentTab == 'cover'"] {
+  background-color: transparent !important;
+}
+
+.audio-player div[ng-if="player.currentTab == 'cover'"]:before {
+  content: "Your Tagline is Over Here"; /* replace with your text */
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+    color: #4e80a6;
+    margin-top: 20px;
+    line-height: 28px;
+    background-color: #fff !important;
+}
+
+/*
+.audio-player.media-player.media-player-modal ion-content.scroll-content.ionic-scroll.has-header {
+    background: url("https://ensiklopediakesaguan.com/wp-content/uploads/2021/02/undraw_podcast_q6p7.svg") !important; /* replace with your image */
+    background-size: 80% !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-color: #fff !important;
+} */
+
+.audio-player.media-player.media-player-modal ion-content.scroll-content.ionic-scroll.has-header:before {
+  content: "My Radio Name"; /* replace with your text */
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 28px;
+    color: #4e80a6;
+    margin-top: 20px;
+}
+
+ion-modal-view.audio-player.media-player.media-player-modal {
+  background: #fff !mportant;
+}
+
+
+.icon.ion-play:before {
+  width: 50px !important;
+    height: 50px !important;
+    display: block !important;
+    position: relative !important;
+    font-size: 35px !important;
+    border-radius: 50%;
+    background-color: #fff !important;
+    padding-top: 15px;
+    color: #4e80a6 !important;
+}
+
+.icon.ion-play:focus {
+  outline: 0;
+  border: 1px solid hsl(210, 58%, 69%);
+  box-shadow: 0 0 0 3px hsla(210, 76%, 57%, 0.5);
+}
+
+
+.icon.ion-ios-pause:before {
+  width: 50px !important;
+    height: 50px !important;
+    display: block !important;
+    position: relative !important;
+    font-size: 35px !important;
+    border-radius: 40%;
+    background-color: #fff !important;
+    padding-top: 15px;
+    color: red !important;
+}
+
+.mini-controls>button {
+    border-color: transparent;
+    background: 0 0;
+    box-shadow: none;
+    color: #000;
+    height: 70px !important;
+    min-height: 70px !important;
+}
+
+.mini-controls {
+    padding-top: 20px;
+    padding-bottom: 0;
+    height: 80px !important;
+}
+
+[ng-click="player.playPause()"] {
+    margin-top: -60px;
+}
+
+.homepage .scroll .item.item-avatar img {
+    background-color: #fff;
+    padding: 2px;
+    border-radius: 50px;
+}
+
+/* mengubah warna pada header */
+ion-modal-view.audio-player.media-player .bar-custom {
+    border-color: #ffffff;
+    background-color: #ffffff;
+}
+
+.mini-trackname .ion-power-off-thin:before {
+  font-size: 30px !important;
+}
+
+/* icon minimize */
+.ion-arrow-shrink:before {
+    color: #4e80a6;
+    position: relative;
+    width: 100vw;
+    content: "==";
+    display: inline-block;
+    font-family: "Ionicons";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+ion-view.pane.has-background-image {
+    background: #4e80a6 !important;
+}
+

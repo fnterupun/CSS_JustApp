@@ -1,0 +1,29 @@
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) div#_label-1:after {
+    content: "Nomor Registrasi";
+    visibility: visible;
+    display: block;
+    margin-top: -20px;
+}
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) div#_label-1 {
+    display: inline !important;
+    visibility: hidden;
+}
+
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) input::-webkit-input-placeholder {
+   color: #fff;
+}
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) input:-moz-placeholder { /* Firefox 18- */
+   color: #fff; 
+}
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) input::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff; 
+}
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) input:-ms-input-placeholder {  
+   color: #ffff;
+}

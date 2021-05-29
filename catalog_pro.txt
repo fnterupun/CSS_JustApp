@@ -1,0 +1,398 @@
+
+
+/* CATALOG PRO */
+/* Category page */
+/* mengatur judul */
+ion-view.catalogpro.catalogpro-home .item.item-divider {
+    background-color: transparent;
+  	border: 0;
+}
+
+ion-view.catalogpro.catalogpro-home .item.item-divider h2 {
+    background-color: transparent !important;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+  	color: #fff;
+}
+
+/* 4 menu pertama */
+ion-view.catalogpro.catalogpro-home .item.item-custom.item-thumbnail-left.item-icon-right.categories-list{
+	width: 45% !important;
+    display: inline-block;
+    background-color: #fff;
+    margin: 5px 2%;
+    border-radius: 20px;
+    padding: 0;
+}
+
+ion-view.catalogpro.catalogpro-home .item.item-custom.item-thumbnail-left.item-icon-right.categories-list img {
+	display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 5px auto;
+    max-width: 100px;
+    max-height: 100px;
+  	border-radius: 50%;
+}
+
+ion-view.catalogpro.catalogpro-home .item.item-custom.item-thumbnail-left.item-icon-right.categories-list h2 {
+	display: block;
+  	width: 100%;
+  	text-align: center;
+  	color: #000;
+  	font-size: 18px;
+  	margin-top: 110px;
+  	font-weight: bold;
+}
+
+ion-view.catalogpro.catalogpro-home .item.item-custom.item-thumbnail-left.item-icon-right.categories-list p {
+  	width: 100%;
+  	text-align: center;
+  	color: #000;
+  	display: block;
+}
+ ion-view.catalogpro.catalogpro-home .item.item-custom.item-thumbnail-left.item-icon-right.categories-list p:nth-of-type(1) {
+   margin-top: 5px;
+}
+ ion-view.catalogpro.catalogpro-home .item.item-custom.item-thumbnail-left.item-icon-right.categories-list p:nth-of-type(2) {
+   	color: green;
+   margin-top: 5px;
+	margin-bottom: 20px;
+}	
+
+ ion-view.catalogpro.catalogpro-home .item.item-custom.item-thumbnail-left.item-icon-right.categories-list p:nth-of-type(2):after {
+	content: "More Details";
+   	display: block;
+   	width: 80%;
+   	margin-left: 10%;
+   	background-color: green;
+   	padding: 10px;
+   	border-radius: 10px;
+   color: #fff;
+   margin-top: 10px;
+}	
+
+ion-view.catalogpro.catalogpro-home .item.item-custom.item-thumbnail-left.item-icon-right.categories-list i {
+	display: none;
+}
+
+/* Product page */
+.item.item-custom.catalogpro-product-item.product_grid.remove-border {
+    padding: 0 !important;
+}
+
+.item.item-custom.catalogpro-product-item.product_grid.remove-border .row {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+ion-view.catalogpro.catalogpro-products .col.col-50.product-border-bottom.product-border-right,
+ion-view.catalogpro.catalogpro-products  .col.col-50.product-border-bottom {
+	background-color: #fff;
+    border-radius: 20px;
+    margin: 100px 1% 10px 1%;
+    flex: 0 0 50%;
+    max-width: 48%;
+    padding: 5px 0 20px 0;
+}
+
+/* image */
+ion-view.catalogpro.catalogpro-products  .product_grid .catalogpro-product-grid-img {
+    min-height: 158px;
+    z-index: 2;
+    margin-top: -100px;
+}
+
+/* h2 */
+ion-view.catalogpro.catalogpro-products .col.col-50 h2.product_name.ng-binding {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+  	text-transform: capitalize;
+  	color: #000 !important;
+}
+
+ion-view.catalogpro.catalogpro-products p.product_short_description.ng-binding {
+    color: #000 !important;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+ion-view.catalogpro.catalogpro-products p.product_price.ng-binding {
+    color: green !important;
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    margin-top: 10px;
+}
+
+ ion-view.catalogpro.catalogpro-products p.product_price.ng-binding:after {
+	content: "Details";
+   	display: block;
+   	width: 60%;
+   	margin-left: 20%;
+   	background-color: green;
+   	padding: 10px 5px;
+   	border-radius: 10px;
+   color: #fff;
+   margin-top: 10px;
+   	font-size: 12px;
+}	
+
+ion-view.catalogpro.catalogpro-products del.icon-danger-custom.ng-binding {
+    color: #ad3830 !important;
+    text-align: center;
+    font-size: 13px;
+    display: block;
+    margin-top: 5px;
+}
+
+
+/* Detail Product Page */
+ion-modal-view.catalogpro.catalogpro-filter-orders ion-header-bar,
+ion-modal-view.catalogpro.catalogpro-reating-review ion-header-bar {
+	display: none;
+}
+
+ion-modal-view.catalogpro.catalogpro-filter-orders div.scroll div.list {
+	display: flex;
+  	flex-direction: column;
+}
+
+ion-modal-view.catalogpro.catalogpro-filter-orders ion-content {
+	top: calc(var(--safe-area-inset-top) + 0px) !important;	
+}
+
+ion-modal-view.catalogpro.catalogpro-filter-orders .list .item.item-custom.product-slider.remove-border {
+	border: 0;
+    background-color: #ecf0f6 !important;
+    border-radius: 30px;
+    margin: 10px 5%;
+    width: 90%;
+    padding: 15px 0 100px 0;
+  	z-index: 999;
+}
+
+ion-modal-view.catalogpro.catalogpro-filter-orders i.icon.ion-record {
+    color: green;
+}
+
+ion-modal-view.catalogpro.catalogpro-filter-orders ion-slide.slider-slide img {
+	width: 60% !important;
+    margin-left: 20%;
+}
+
+ion-modal-view.catalogpro.catalogpro-filter-orders .list .icon-active-custom {
+    color: red !important;
+}
+
+ion-modal-view.catalogpro.catalogpro-filter-orders .list .item.item-custom:nth-child(2) h2,
+ion-modal-view.catalogpro.catalogpro-filter-orders .list .item.item-custom:nth-child(2) p {
+    color: #000 !important;
+}
+
+ion-modal-view.catalogpro.catalogpro-filter-orders .list .item.item-custom:nth-child(2) {
+	margin-top: -110px;
+    background-color: transparent !important;
+    z-index: 999;
+    color: #000 !important;
+    margin-bottom: 40px;
+    padding: 0 20px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+ion-modal-view.catalogpro.catalogpro-filter-orders item.item-divider h2 {
+    color: #000;
+    font-weight: bold;
+    color: #fff;
+}
+
+ion-modal-view.catalogpro.catalogpro-filter-orders .item-divider {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    min-height: 30px;
+    background-color: transparent;
+    color: #222 !important;
+    font-weight: 500;
+    border: 0;
+}
+
+ion-modal-view.catalogpro.catalogpro-filter-orders .item.item-custom.item-body.remove-border {
+    padding: 0 10px;
+    margin-bottom: 0;
+}
+
+ion-modal-view.catalogpro.catalogpro-filter-orders .item.item-custom.remove-border h2 {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ion-modal-view.catalogpro.catalogpro-filter-orders .item.item-custom.remove-border h2 span {
+    display: block !important;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 5px;
+    color: green;
+    margin-bottom: 10px;
+}
+
+ion-modal-view.catalogpro.catalogpro-filter-orders p.short_description.ng-binding {
+    display: none;
+}
+
+
+ion-modal-view.catalogpro.catalogpro-filter-orders button.pull-right.button.button-small.button-positive-custom.ng-binding {
+	border: 0;
+    background-color: #ecf0f6;
+    color: #ff0000;
+    padding: 0px 10px;
+}
+
+
+ion-modal-view.catalogpro.catalogpro-reating-review .icon-active-custom {
+    color: #ff0000 !important;
+}
+
+ion-modal-view.catalogpro.catalogpro-reating-review label textarea {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin: 10px 0;
+  	padding: 10px;
+}
+
+ion-modal-view.catalogpro.catalogpro-reating-review .item.item-body.item-custom.feedback-submit-button.remove-border button {
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 10px !important;
+    border: 0;
+    background-color: #fff;
+}
+
+/* Deskripsi */
+ion-modal-view.catalogpro.catalogpro-filter-orders.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active [ng-if="product_details.product.description!=''"] p {
+	padding-top: 10px;
+}
+
+ion-modal-view.catalogpro.catalogpro-filter-orders.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .item.item-divider[ng-if="product_details.product.description!=''"] h2 {
+    color: #000 !important;
+    padding-top: 210px;
+  	font-weight: bold;
+  	font-size: 18px;
+}
+
+/* judul deskripsi */
+ion-modal-view.catalogpro.catalogpro-filter-orders.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .item.item-divider[ng-if="product_details.product.description!=''"] {
+    background-color: #fff;
+	border-radius: 0% 90% 0 0 / 31% 20% 0 0;
+    margin-top: -200px;
+}
+
+ion-modal-view.catalogpro.catalogpro-filter-orders.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active [ng-if="product_details.product.description!=''"] {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+/* isi deskripsi */
+ion-modal-view.catalogpro.catalogpro-filter-orders.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .item.item-custom.item-body.remove-border[ng-if="product_details.product.description!=''"] p.ng-binding {
+    color: #000 !important;
+  	padding: 0 5px 20px 5px;
+  	margin-top: 0;	
+}
+
+ion-modal-view.catalogpro.catalogpro-filter-orders.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .item.item-custom.item-body.remove-border[ng-if="product_details.product.description!=''"] p>p {
+    color: #000 !important;
+  	padding: 10px 0;
+  	margin: 0;	
+}
+
+/* Peringkat dan ulasan */
+ion-modal-view.catalogpro.catalogpro-filter-orders.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .item.item-divider {
+    background-color: #fff;
+}
+
+ion-modal-view.catalogpro.catalogpro-filter-orders.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .item.item-divider h2 {
+    color: #000 !important;
+  	font-weight: bold;
+  	font-size: 18px;
+}
+
+ion-modal-view.catalogpro.catalogpro-filter-orders.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .item.item-custom {
+    background-color: #fff;
+}
+
+ion-modal-view.catalogpro.catalogpro-filter-orders.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .item.item-custom p,
+ion-modal-view.catalogpro.catalogpro-filter-orders.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .item.item-custom h2 {
+    color: #000 !important;
+}
+
+/* favarite icon */
+span.icon.icon-active-custom.pull-right.product-favorite {
+    order: 2;
+    right: 25px;
+  	color: #ffaa00 !important;
+}
+
+/* rate page */
+ion-modal-view.catalogpro.catalogpro-reating-review .scroll {
+    background-color: #fff !important;
+    padding: 20px 10px;
+    border-radius: 30px 30px 0 0;
+}
+
+.item.item-body.item-custom.text-center.ion-star-item.feedback-star-box.remove-border,
+.item.item-body.item-custom.text-center.ion-star-item.feedback-star-box.remove-border,
+.item.item-body.item-custom.feedback-submit-button.remove-border,
+label.item.item-input.item-custom.item-stacked-label.padding.message-input-box.remove-border {
+    background: transparent;
+}
+
+label.item.item-input.item-custom.item-stacked-label.padding.message-input-box.remove-border span.input-label.ng-binding {
+  color: #000 !important;
+}
+
+label.item.item-input.item-custom.item-stacked-label.padding.message-input-box.remove-border textarea {
+	color: #000;
+  	border: 2px solid #000;
+  	border-radius: 5px;
+  	padding: 10px;
+}
+
+ion-modal-view.catalogpro.catalogpro-reating-review .list:before {
+	content: "Your Feedback";
+    font-weight: bold;
+    font-size: 20px;
+    color: #000 !important;
+    margin-top: 20px !important;
+    display: block;
+}
+
+ion-modal-view.catalogpro.catalogpro-reating-review .item.item-body.item-custom.feedback-submit-button.remove-border button {
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 10px !important;
+    border: 0;
+    background-color: green;
+    text-transform: uppercase;
+    color: #fff;
+    opacity: 1;
+}
+
+ion-modal-view.catalogpro.catalogpro-filter-orders button.pull-right.button.button-small.button-positive-custom.ng-binding {
+    border: 0;
+    background-color: green;
+    color: #ffffff;
+    padding: 0px 10px;
+}
+
+ion-modal-view.catalogpro.catalogpro-filter-orders.modal .item.item-divider.item-divider-custom.ng-binding {
+    font-size: 18px;
+    padding: 20px;
+}

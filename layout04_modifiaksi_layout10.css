@@ -1,0 +1,156 @@
+[state="home"] {
+  	background-color: #4d4aef;
+  	background-image: none !important;
+    /* background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/coffe01-scaled.jpg) !important; */
+}
+
+[state="home"] div.new_slider {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 90% !important;
+    border-radius: 50px;
+    margin-top: 8% !important;
+}
+
+/* LAYOUT 10 */
+.layout.l10 .more-circle {
+    height: 60px;
+    margin-top: -25px !important;
+    padding-top: 0;
+    box-shadow: none;
+    opacity: 1;
+    border-radius: 10px;
+    background-color: #ffffff !important;
+    border: 3px solid #4d4aef;
+}
+
+.layout.l10 .tab-item img {
+    width: 30px;
+    height: 30px;
+    max-height: 80%;
+    margin-left: 0 !important;
+  	filter: invert(1);
+}
+
+.layout.l10 ul {
+    padding: 0 !important;
+    width: 96%;
+    border-radius: 30px;
+    margin-left: 2%;
+    bottom: 10px;
+  	background-color: #fff;
+  	box-shadow: none !important;
+    height: 60px !important;
+  	border: 2px solid #4d4aef !important;
+}
+
+.layout.l10 ul li {
+	padding: 0 !important
+}
+
+.layout.l10 p {
+    display: none;
+}
+
+.layout.l10 .tab-item img {
+    width: 30px;
+    height: 30px;
+    max-height: 80%;
+    margin-left: 0 !important;
+    margin-top: 15px;
+}
+
+.layout.l10 .tab-item:nth-child(3) img {
+    width: 30px;
+    height: 30px;
+    max-height: 80%;
+    margin-left: 0 !important;
+    margin-top: 12px;
+}
+
+/* MORE */
+ion-modal-view.layout.l10.modal.slide-top.layout_10_modal ion-content {
+    background-color: #4d4aef !important;
+    border-radius: 50px;
+    height: 94%;
+    margin-top: 4%;
+}
+
+ion-modal-view.layout.l10.modal.slide-top.layout_10_modal .icon {
+    font-size: 20PX;
+    float: left;
+    margin: 40px 0 20px 25px;
+    background-color: #fff !important;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+ion-modal-view.layout.l10.modal.slide-top.layout_10_modal ul.row {
+    background-color: transparent !important;
+  	border: 0 !important;
+}
+
+ion-modal-view.layout.l10.modal.slide-top.layout_10_modal li.col.col-33.text-center.homepage-custom.transparent {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+  	height: 80px;
+}
+
+ion-modal-view.layout.l10.modal.slide-top.layout_10_modal li.col.col-33.text-center.homepage-custom.transparent .items.homepage-custom.border-custom {
+    background-color: transparent !important;
+  	border: 0 !important;
+}
+
+ion-modal-view.layout.l10.modal.slide-top.layout_10_modal li.col.col-33.text-center.homepage-custom.transparent p.ng-binding {
+    display: inline !important;
+    color: #fff;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left !important;
+    width: 85% !important;
+    float: right;
+    padding-top: 6px;
+    height: 74px;
+}
+
+ion-modal-view.layout.l10.modal.slide-top.layout_10_modal ul li img {
+    width: 40px;
+    height: 40px;
+    float: left;
+    background-color: transparent !important;
+    border-radius: 10px;
+    padding: 5px;
+  	filter: invert(1);
+}
+
+/* my account more */
+ion-modal-view.layout.l10.modal.slide-top.layout_10_modal li:first-child {
+    float: right;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/02/undraw_male_avatar_323b.svg);
+    background-position: center right 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  	margin-bottom: 20px;
+}
+
+ion-modal-view.layout.l10.modal.slide-top.layout_10_modal li:first-child p {
+	font-size: 0 !important;
+  	width: 100% !important;
+}
+
+ion-modal-view.layout.l10.modal.slide-top.layout_10_modal li:first-child p:before {
+	content: "Welcome";
+    font-size: 28px;
+    text-align: left;
+    font-weight: bold;
+    width: 100% !important;
+    margin-left: -45px;
+    z-index: 999;
+    position: absolute;
+}
+
+ion-modal-view.layout.l10.modal.slide-top.layout_10_modal li:first-child img {
+	display: none;
+}

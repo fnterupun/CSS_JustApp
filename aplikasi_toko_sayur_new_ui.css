@@ -1,0 +1,5016 @@
+/* mrngganti icon menu di kiri atas */
+.icon.ion-navicon-round {
+  visibility: hidden;
+}
+
+.icon.ion-navicon-round {
+    visibility: visible;
+    content: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/menu_002.png);
+    margin-top: -10px !important;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: top;
+}
+
+/* Layout 9 */
+.layout.l9 ion-content {
+    top: 0 !important;
+}
+
+ion-side-menu.menu.menu-left.menu-left-open,
+ion-side-menu.menu.menu-left {
+    background-color: transparent !important;
+}
+
+.layout.l9 ion-content {
+    top: 0 !important;
+    background-image: linear-gradient(-60deg,#57ac5a 0%,#7db667 100%);
+    height: 90vh;
+    border-bottom-right-radius: 30px;
+}
+
+.layout.l9 ion-content ul:before {
+    content: ".";
+    display: block;
+    height: 180px;
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/03/Image_01-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-bottom-right-radius: 50%;
+}
+
+.layout.l9 ion-content ul {
+    background-color: transparent;
+}
+
+.layout.l9 ul.items li:nth-child(1) {
+    margin-top: -52px;
+}
+
+.layout.l9 ul.items li {
+    position: relative;
+    height: 70px;
+    display: block;
+    padding: 10px;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid #fff;
+    background-image: linear-gradient(-60deg, #57ac5a 0%, #9bd087 100%) !important;
+    background-color: transparent !important;
+}
+.layout.l9 ul.items li p {
+    font-size: 13px;
+    float: right;
+    margin-top: 14px;
+    text-align: left !important;
+    width: 70%;
+}
+
+.layout.l9 li img {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    max-height: 100%;
+    margin-top: 8px;
+    float: left;
+}
+
+/* Akhir Layout 9 */
+.bar.bar-custom .title {
+    color: rgba(0, 0, 0, 1);
+    display: block;
+    text-align: center;
+    display: none;
+}
+
+/* BARU */
+/* Mengatur Bagian Content */
+ion-content {
+    top: 8vh !important;
+   /* height: 100vh !important; */
+}
+
+/* Pindahkan Homepage Menu */
+.always .layout.l1 .tabs {
+    box-shadow: none;
+    display: block;
+    top: 0 !important;
+    z-index: 999;
+    height: 75px;
+    padding-top: 12px;
+    border-bottom-left-radius: 100% 20%;
+}
+
+/* menghilangkan menu more */
+.always .layout.l1 .tabs li.col.col-20.tab-item:nth-child(5) {
+    display: none;
+}
+
+/* mengubah jarak bagian bawah */
+.has-footer-fixed ion-nav-view.nav-view-l1 ion-content {
+    bottom: calc(var(--safe-area-inset-bottom) + 0px) !important;
+}
+
+/* mengubah lebar menu */
+.always .layout.l1 .tabs .col-20 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 25%;
+    -moz-box-flex: 0;
+    -moz-flex: 0 0 25%;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+/* mengatur gambar menu */
+.layout .tab-item img {
+    margin-left: 0;
+}
+
+.layout.l1 .tab-item img,
+.layout.l10 .tab-item img,
+.layout.l2 .tab-item img {
+    width: 25px;
+    height: 25px;
+    max-height: 80%;
+}
+
+/* mengatur ukuran huruf menu */
+.layout.l1 p, .layout.l10 p, .layout.l2 p {
+    line-height: 11px;
+    font-size: 10px;
+    height: 16px;
+    margin-top: 2px;
+    overflow: hidden;
+}
+
+/* FOLDER V2 */
+/* menghilangkan shadow card */
+ion-view.module-folder2.folder2-layout2 .list.card {
+    box-shadow: none;
+    margin: 0 10px;
+    background-color: transparent;
+}
+
+ion-view.module-folder2.folder2-layout2 div.item.item-image.item-custom {
+    background-color: #070c08 !important;
+    overflow: hidden !important;
+    margin-top: 20px !important;
+    border-radius: 10px !important;
+    z-index: 999 !important;
+}
+
+/* menghilangkan judul gambar */
+ion-view.module-folder2.folder2-layout2 div.item.item-image.item-custom img {
+    width: 100% !important;
+    vertical-align: middle !important;
+    border-radius: 5px !important;
+    object-fit: cover !important;
+    opacity: 0.4 !important;
+    z-index: 1;
+}
+
+ion-view.module-folder2.folder2-layout2 [ng-if="current.showTitle"] {
+    visibility: hidden;
+}
+
+/* mengatur 3 menu pertama */
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(1) {
+    width: 80%;
+    margin-left: 10%;
+}
+
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(1) .folder-l6-col.item.item-custom {
+    width: 65px;
+    height: 65px;
+    margin: 10px auto !important;
+}
+
+/* ukuran huruf */
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(1) .folder-l6-col.item.item-custom p.folder-title.ng-binding {
+    font-size: 11px;
+    display: none;
+}
+
+/* mengatur gambar */
+ion-view.module-folder2.folder2-layout2 .folder-l6-col.item.item-custom img {
+    width: 60px !important;
+    min-height: 60px !important;
+}
+
+/* mengatur gambar menu */
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(1) .folder-l6-col.item.item-custom {
+    background-image: url(https://builder.justapp.id//var/cache/images/a511285984fd793758d563dcf2ed2e73.png);
+    background-position: center;
+    background-size: 40% !important;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: 2px solid #ecf0f6;
+}
+
+/* menambahkan judul setiap menu pertama */
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(1) .folder-l6-col.item.item-custom:nth-child(1):after {
+    content: "Bonus";
+    display: block;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 !important;
+    padding: 0;
+    text-align: center;
+    font-size: 11px;
+}
+
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(1) .folder-l6-col.item.item-custom:nth-child(2):after {
+    content: "Belanja";
+    display: block;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 !important;
+    padding: 0;
+    text-align: center;
+    font-size: 11px;
+}
+
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(1) .folder-l6-col.item.item-custom:nth-child(3):after {
+    content: "Katalog";
+    display: block;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 !important;
+    padding: 0;
+    text-align: center;
+    font-size: 11px;
+}
+
+/* mengatur 3 menu kedua - scroll menu */
+/* mengatur menu bg */
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(2) .folder-l6-col.item.item-custom {
+    background-color: #ecf0f6;
+    border-radius: 10px !important;
+}
+
+/* mengatur scroll */
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(2) {
+    white-space: nowrap !important;
+    width: 100% !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    white-space: nowrap !important;
+    -webkit-overflow-scrolling: touch !important;
+}
+
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(2) {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(2) .folder-l6-col.item.item-custom {
+    width: 100% !important;
+    min-width: 80% !important;
+    display: inline-block !important;
+    height: 150px;
+}
+
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(2) .folder-l6-col.item.item-custom img {
+  width: 50% !important;
+}
+
+/* menu scroll image */
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(2) .folder-l6-col.item.item-custom {
+    background-image: url(https://builder.justapp.id//var/cache/images/a511285984fd793758d563dcf2ed2e73.png);
+    background-position: top 10px left 10px;
+    background-size: 40px !important;
+    background-repeat: no-repeat;
+    z-index: 2px !important;
+}
+
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(2) .folder-l6-col.item.item-custom:nth-child(1) img {
+    width: 100% !important;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/undraw_Gift_card_re_5dyy.svg);
+    background-position: center right 10px;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    height: 100% !important;
+    z-index: -999 !important;
+}
+
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(2) .folder-l6-col.item.item-custom:nth-child(2) img {
+    width: 100% !important;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/undraw_Mobile_app_re_catg.svg);
+    background-position: center right 10px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    height: 100% !important;
+    z-index: -999 !important;
+}
+
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(2) .folder-l6-col.item.item-custom:nth-child(3) img {
+    width: 100% !important;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/undraw_Messaging_fun_re_vic9.svg);
+    background-position: center right 10px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    height: 100% !important;
+    z-index: -999 !important;
+}
+
+/* menu scroll name */
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(2) .folder-l6-col.item.item-custom p.folder-title.ng-binding {
+    margin-bottom: 50px !important;
+    z-index: 9999;
+    background-color: #fff;
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+
+
+
+/* mengatur 3 menu ketiga - scroll menu */
+/* mengatur menu bg */
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(3) .folder-l6-col.item.item-custom {
+    background-color: #ecf0f6;
+    border-radius: 10px !important;
+}
+
+/* mengatur scroll */
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(3) {
+    white-space: nowrap !important;
+    width: 100% !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    white-space: nowrap !important;
+    -webkit-overflow-scrolling: touch !important;
+}
+
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(3) {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(3) .folder-l6-col.item.item-custom {
+    width: 100% !important;
+    min-width: 80% !important;
+    display: inline-block !important;
+    height: 150px;
+}
+
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(3) .folder-l6-col.item.item-custom img {
+    width: 50% !important;
+}
+
+/* menu scroll image */
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(3) .folder-l6-col.item.item-custom {
+    background-image: url(https://builder.justapp.id//var/cache/images/a511285984fd793758d563dcf2ed2e73.png);
+    background-position: top 10px left 10px;
+    background-size: 40px !important;
+    background-repeat: no-repeat;
+    z-index: 2px !important;
+}
+
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(3) .folder-l6-col.item.item-custom:nth-child(1) img {
+    width: 100% !important;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/undraw_Gift_card_re_5dyy.svg);
+    background-position: center right 10px;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    height: 100% !important;
+    z-index: -999 !important;
+}
+
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(3) .folder-l6-col.item.item-custom:nth-child(2) img {
+    width: 100% !important;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/undraw_Mobile_app_re_catg.svg);
+    background-position: center right 10px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    height: 100% !important;
+    z-index: -999 !important;
+}
+
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(3) .folder-l6-col.item.item-custom:nth-child(3) img {
+    width: 100% !important;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/undraw_Messaging_fun_re_vic9.svg);
+    background-position: center right 10px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    height: 100% !important;
+    z-index: -999 !important;
+}
+
+/* menu scroll name */
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(3) .folder-l6-col.item.item-custom p.folder-title.ng-binding {
+    margin-bottom: 50px !important;
+    z-index: 9999;
+    background-color: #fff;
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+
+
+/* icon backward dan keranjang */
+.bar .back-button .icon:before,
+.ion-ios-cart::before,
+.bar .buttons-right span,
+.ion-clipboard::before,
+.ion-android-arrow-back:before {
+    color: #30aaed;
+}
+
+[state="home"] ion-content .slider:before {
+    content: "JustApp Laundry";
+    text-align: center;
+    display: block;
+    color: #fff;
+    z-index: 999;
+    margin-top: 42vh;
+    font-family: MaisonNeue-Book,sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 0 0 3px #FF0000; 
+}
+
+.layout.l6 ion-content {
+    height: 45vh !important;
+}
+
+.layout.l6 ion-content div> div> a h2 {
+    font-family: MaisonNeue-Book,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* mengatur shadow card & list */
+.card, .list {
+    box-shadow: none !important;
+}
+
+/* list bagian atas */
+ion-view[state="mcommerce-category-list"] ion-content .list>div> div.item.item-custom>h2 {
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: bold;
+    color: #30aaed;
+    margin-top: -15px;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list>div> div.item.item-custom>p {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* kolom cari bagian kategori */
+ion-view[state="mcommerce-category-list"] ion-content .list>div>label {
+    width: 100%;
+    margin-left: 0%;
+    border-radius: 30px;
+    border: 2px solid #eceeff; 
+}
+
+/* mengatur bagian kategori */
+
+ion-view[state="mcommerce-category-list"] ion-content .list>.item.item-custom{
+    margin: 10px 0;
+    border-radius: 10px;
+    background: #ecf0f6;
+    overflow: hidden;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list>.item.item-custom h2 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: bold;
+    color: #30aaed;
+    margin-top: 0;
+    height: 100px;
+    padding: 20px 10px;
+
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list>.item.item-custom p {
+    font-family: 'Poppins';
+    font-size: 11px !important;
+    color: #fff;
+    width: 100%;
+    padding: 10px 20px 0 20px !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Subkategori */
+/* menambahkan tulisan beli pada produk */
+[state="mcommerce-subcategory-list"] .item.item-custom.item-thumbnail-left p.three-lines.ng-binding:after {
+    content: "Beli";
+    display: block;
+    width: 80%;
+    padding: 7px;
+    background-image: linear-gradient(-60deg, #57ac5a 0%, #7db667 100%) !important;
+    color: #fff;
+    font-weight: normal;
+    margin: 10px 10%;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
+ion-view[state="mcommerce-subcategory-list"] ion-content .item.item-custom.item-thumbnail-left:last-child(-n+2) {
+    margin-bottom: 60px;
+}
+
+ion-view[state="mcommerce-subcategory-list"] ion-content .scroll>div.list:nth-child(2) {
+    display: none;
+}
+
+/* cari subkategori */
+ion-view[state="mcommerce-subcategory-list"] ion-content .list>div>label {
+    width: 96%;
+    margin: 5px 2%;
+    border-radius: 10px;
+    border: 2px solid #008000;
+}
+
+ion-view[state="mcommerce-subcategory-list"] ion-content .item.item-custom.item-thumbnail-left {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px #dbdbdb;
+    margin: 10px 2%;
+    border: 1px solid #ecf0f6;
+    background-color: #ecf0f6;
+    width: 46% !important;
+}
+
+ion-view[state="mcommerce-subcategory-list"] ion-content .item.item-custom.item-thumbnail-left h2 {
+    font-family: 'Poppins';
+    font-size: 16px !important;
+    font-weight: bold;
+    margin-left: 0 !important;
+}
+
+ion-view[state="mcommerce-subcategory-list"] ion-content .item.item-custom.item-thumbnail-left p.three-lines.ng-binding {
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #2196f3;
+    font-size: 13px !important;
+    margin-left: 0 !important;
+}
+
+/* bagian produk view */
+/* menghilangkan titik di bawah gambar, icon price tag, cart */
+/*.ion-record::before, */
+.ion-pricetag:before,
+.ion-ios-cart-outline:before,
+.ion-information-circled:before {
+    display: none !important;
+}
+
+ion-view.mcommerce-view.mcommerce-product .slider-pager .slider-pager-page {
+    color: #008000;
+}
+
+/* mengatur card pertama/harga */
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(1) {
+    padding: 0 20px;
+    margin: 0 !important;
+}
+
+/* mengatur card kedua/qty & add cart */
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(2) {
+    border-radius: 40px 40px 0 0 !important;
+    background-color: #fff !important;
+    padding: 10px 20px;
+    margin: 0 !important;
+    display: none;
+}
+
+/* mengatur card ketiga/qty & add cart */
+ion-view.mcommerce-view.mcommerce-product .card .item.item-custom {
+    border: 0;
+    background-color: transparent !important;
+    padding: 0;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(3) .item.item-input.item-custom.input-number-sb.ng-not-empty.ng-valid {
+    width: 100% !important;
+    left: 0;
+    right: 0;
+    float: left;
+    height: 48px;
+    padding-left: 0;
+    border-radius: 30px;
+    background-color: transparent !important;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(3) .item.item-input.item-custom.input-number-sb.ng-not-empty.ng-valid .input-label.ng-binding {
+    display: none;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(3) .input-number-sb .input-container {
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+    display: block;
+    height: 35px;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(3) .item-input-wrapper input {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(3) .button.button-small.button-custom.button-left,
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(3) .button.button-small.button-custom.button-right {
+    background-color: #008000;
+    border: 0;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    transform: rotate(45deg);
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(3) .ion-plus:before,
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(3) .ion-minus:before {
+    transform: rotate(-45deg);    
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(3) .input-label.ng-binding {
+    visibility: hidden;
+}
+
+.input-number-sb .item-input-wrapper {
+    border-radius: 0;
+    height: 31px;
+    display: inline-block;
+    max-width: 50px;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(2) .item.item-body.item-custom {
+    background-color: #fff !important;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(2) .item.item-body.item-custom span {
+    font-family: MaisonNeue-Book,sans-serif;
+    font-size: 18px !important;
+    font-weight: bold;
+    color: #000;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(3) {
+    padding: 140px 20px 0 20px;
+    width: 100% !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+    margin-top: -140px !important;
+    background: linear-gradient(90deg, rgba(123, 182, 103, 1) 0%, rgba(89, 172, 90, 1) 100%);
+    border-radius: 40px 40px 0 0 !important;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(3) .item.item-text-wrap.item-icon-left.item-custom.ng-binding {
+    width: 70% !important;
+    top: 10px;
+    padding: 15px 5px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 0px 15% 20px 15%;
+    text-transform: capitalize;
+    font-weight: normal;
+    color: #fff;
+    background-color: green !important;
+}
+
+/* deskripsi produk */
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(4) {
+    padding: 20px;
+    width: 100% !important;
+    margin: 0 !important;
+    border-radius: 0 0 40px 40px !important;
+    background: linear-gradient(90deg, rgba(123,182,103,1) 0%, rgba(89,172,90,1) 100%);
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(4) .item.item-divider.item-divider-custom {
+    background-color: transparent;
+    color: #fff;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(4) .item.item-divider.item-divider-custom,
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(4) .item.item-body.item-custom.ng-binding {
+    background-color: transparent;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(4) .item.item-divider.item-divider-custom h2 {
+    margin-top: 0;
+    color: #fff !important;
+    font-family: 'Poppins';
+    font-weight: normal;
+    font-size: 16px;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(4) .item-body p {
+    margin-top: 0;
+    color: #fff !important;
+    font-family: 'Poppins';
+    font-size: 14px;
+    margin-bottom: 50px !important;
+    padding-bottom: 200px;
+}
+
+/* Commerce cart view */
+/* DETAIL PRODUCT - CART VIEW */
+ion-view.mcommerce-view.mcommerce-cart ion-content .scroll:before {
+    display: block;
+    content: "Keranjang Saya";
+    width: 100%;
+    margin: 20px 5%;
+    font-weight: bold;
+    font-size: 20px;
+    color: #5bad5b;
+}
+
+ion-view.mcommerce-view.mcommerce-cart ion-content .scroll .card {
+    background-color: transparent;
+    border-radius: 20px;
+    margin: 0 !important;
+    width: 100%;
+}
+
+ion-view[state="commercepro-cart-view"] ion-content {
+    background-color: #fff !important;
+    border-radius: 40px 40px 0 0 !important;
+    margin-top: 5px !important; 
+}
+
+ion-view[state="commercepro-cart-view"] ion-content .card {
+    box-shadow: none;
+}
+
+ion-view.mcommerce-view.mcommerce-cart .item.item-input.item-custom.input-number-sb .input-label.ng-binding {
+    display: none;
+}
+
+ion-view.mcommerce-view.mcommerce-cart .input-number-sb .input-container {
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+    display: block;
+}
+
+ion-view.mcommerce-view.mcommerce-cart .button.button-small.button-custom.button-left,
+ion-view.mcommerce-view.mcommerce-cart .button.button-small.button-custom.button-right,
+ion-view.mcommerce-view.mcommerce-cart .button.button-small.button-custom.button-left.activated,
+ion-view.mcommerce-view.mcommerce-cart .button.button-small.button-custom.button-right.activated {
+    border: 0;
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg);
+    border-radius: 50px;
+    background-image: none;
+    background-color: green;
+    color: #000 !important;
+    padding: 0;
+    left: 0;
+}
+
+ion-view.mcommerce-view.mcommerce-cart .ion-trash-a:before {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+ion-view.mcommerce-view.mcommerce-cart .item.item-text-wrap.item-icon-left.item-custom.ng-binding {
+    width: 50% !important;
+    left: 0;
+    right: 0;
+    float: right;
+    height: 48px;
+    background-color: #03ad53;
+    color: #fff;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+
+.mcommerce-view.mcommerce-cart .item.item-divider.item-divider-custom p {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.mcommerce-view.mcommerce-cart .icon.ion-clipboard:before,
+.mcommerce-view.mcommerce-cart .icon.ion-calculator:before,
+.mcommerce-view.mcommerce-product .icon.ion-ios-upload-outline {
+    display: none;
+}
+
+.mcommerce-view.mcommerce-cart .item.item-thumbnail-left.item-icon-right.item-custom img {
+    border-radius: 50%;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-customer .list .item.item-custom .input-label {
+    text-align: left;
+}
+
+ion-view.mcommerce-view.mcommerce-cart ion-content div.scroll div.card div.item.item-input.item-custom.input-number-sb {
+    height: 60px;
+    width: 60%;
+    margin-left: 40%;
+    background-color: transparent;
+    padding-bottom: 25px;
+    margin-top: -60px;
+    position: fixed;
+}
+
+ion-view.mcommerce-view.mcommerce-cart ion-content .scroll .card:last-child {
+    background-color: transparent;
+    background-image: none;
+    margin-top: 20px !important;
+}
+
+
+/* CART */
+/* Total */
+.mcommerce-view.mcommerce-cart div.card:nth-last-child(2) {
+    width: 100% !important;
+    background-image: linear-gradient(-60deg, #57ac5a 0%, #7db667 100%) !important;
+    margin: 0 !important;
+}
+
+.mcommerce-view.mcommerce-cart div.card:nth-last-child(2) div {
+    width: 96%;
+    background-image: none !important;
+    margin: 0 !important;
+    background-color: transparent;
+}
+
+.mcommerce-view.mcommerce-cart div.card:nth-last-child(2) div:nth-child(1) {
+    background: #fff !important;
+    margin: 20px 0 0 0 !important; 
+    width: 90%;
+    margin-left: 5% !important;
+    border-radius: 10px 10px 0 0;
+}
+
+.mcommerce-view.mcommerce-cart div.card:nth-last-child(2) div:last-child {
+    width: 96%;
+    margin-left: 5% !important;
+    border-radius: 0 0 10px 10px;
+    background-image: linear-gradient(-60deg, #57ac5a 0%, #7db667 100%) !important;
+    margin: 0 !important;
+    margin-bottom: 30px !important;
+}
+
+.mcommerce-view.mcommerce-cart div.card:nth-last-child(2) .item.item-divider.item-divider-custom {
+    text-align: center;
+    background-color: transparent !important;
+    display: inline !important;
+    width: 100% !important;
+}
+
+.mcommerce-view.mcommerce-cart div.card:nth-last-child(2) .item.item-divider.item-divider-custom strong {
+    font-size: 18px;
+}
+
+.mcommerce-view.mcommerce-cart div.card:nth-last-child(2) div span {
+    font-weight: normal;
+    font-size: 16px;
+    color: #fff;
+}
+
+.mcommerce-view.mcommerce-cart div.card:nth-last-child(2) div span strong {
+    font-weight: normal;
+    font-size: 16px;
+    color: #fff;
+}
+
+
+/* Continue Shopping */
+.mcommerce-view.mcommerce-cart div.card:nth-last-child(1) div.item.item-icon-left.item-custom.ng-binding {
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 10px;
+    margin-bottom: 70px;
+    text-align: center;
+    padding: 10px 0;
+    background-color: green;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.mcommerce-view.mcommerce-cart div.card:nth-last-child(1) .ion-ios-arrow-back:before {
+    display: none;
+}
+
+
+ion-view[state="mcommerce-cart-view"] .item.item-thumbnail-left.item-icon-right.item-custom {
+    margin-bottom: 10px;
+    bottom: 10px;
+    border-radius: 20px !important;
+    background-color: #e6e6e6;
+    width: 94%;
+    margin: 10px 3% !important;
+    min-height: 120px;
+    padding-top: 20px;
+}
+
+/* add gratuity (optional) */
+[state="mcommerce-cart-view"] div.item.item-custom.ng-binding:nth-child(6) {
+    display: none !important;
+}
+
+/* Modul Places */
+/* icon bagian kanan header */
+.ion-sb-list1:before,
+.ion-sb-map:before,
+.ion-sb-grid-33:before,
+.ion-sb-grid-50:before,
+ion-view[state="places-list-map"] .ion-sb-turn-right:before,
+ion-view[state="places-list-map"] .ion-android-call:before,
+ion-view[state="places-list-map"] .ion-close:before {
+    color: #fab212 !important;
+}
+
+/* button cari pada places */
+.module-places .svg_filter_bg {
+    fill: #30aaed !important;
+}
+
+/* modal location */
+.module-places .info-window .info-window-icon {
+    padding: 10px;
+    border-bottom: 0;
+    border-radius: 10px 10px 0 0;
+}
+
+ion-view[state="places-list-map"] #mapInfoWindow {
+    bottom: 30vh;
+    border: 0 !important;
+}
+
+ion-view[state="places-list-map"] #mapInfoWindow .info-window-title.ng-binding {
+    font-size: 18px;
+    color: #fab212;
+}
+
+ion-view[state="places-list-map"] #mapInfoWindow span,
+ion-view[state="places-list-map"] #mapInfoWindow h2,
+ion-view[state="places-list-map"] #mapInfoWindow p {
+    font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;  
+}
+
+ion-view[state="places-list-map"] #mapInfoWindow .info-window-more.ng-binding {
+    visibility: hidden;
+}
+
+ion-view[state="places-list-map"] #mapInfoWindow .info-window-more.ng-binding:after {
+    visibility: visible;
+    content: "Detail";
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin: 0 0 0 100%;
+    border-radius: 10px;
+    background-color: #fab212;
+    padding: 10px;
+    color: #fff;
+}
+
+ion-view[state="places-list-map"] #mapInfoWindow .ion-android-open::before {
+    display: none;
+}
+
+
+/* Form v2 */
+.module-form2 .form2-divider:nth-of-type(1) p {
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px !important;
+    margin-top: 10px;
+}
+
+label.radio-custom.radio-item.item.item-radio.ng-valid.ng-not-empty,
+label.radio-custom.radio-item.item.item-radio.ng-empty.ng-valid {
+    border: 0;
+}
+
+.item.item-custom.item-icon-left.form2-datetime .row .col-50:nth-child(1) {
+    flex: 0 0 100%;
+    max-width: 100%;  
+    display: block;
+}
+
+.item.item-custom.item-icon-left.form2-datetime .row .col-50:nth-child(2) {
+    flex: 0 0 100%;
+    max-width: 100%;  
+    display: block;
+}
+
+.item.item-custom.item-icon-left.form2-datetime .row {
+    display: inline-block;
+}
+
+.module-form2 .form2-datetime input[type="text"],
+.module-form2 .form2-date input[type="text"] {
+    width: 100%;
+    text-align: left;
+    font-size: 14px !important;
+    font-weight: bold;
+    color: #df3b3b;
+}
+
+.ion-clock:before {
+    color: #df3b3b;
+}
+
+.item.item-custom.item-icon-left.form2-datetime p {
+    overflow: visible;
+    text-overflow: unset;
+    white-space: normal;  
+}
+
+.radio-content {
+    width: 96%;
+    margin: 0 .5% 0 3.5%;
+    border: 2px solid #e1e1e1;
+    border-radius: 5px; 
+}
+
+.module-form2.form2.form2-home.form2-home-l1 label {
+    display: inline-block;
+    width: 100%;
+  
+}
+
+.module-form2.form2.form2-home.form2-home-l1 label input,
+.module-form2.form2.form2-home.form2-home-l1 label textarea {
+    display: block;
+    width: 100%;
+    margin: 0 0 0 -.5%;
+    text-align: left;
+    padding: 20px;
+    border: 2px solid #e1e1e1;
+    border-radius: 5px;
+}
+
+.module-form2.form2.form2-home.form2-home-l1 label.item-select.form2-select {
+    width: 96%;
+    margin: 0 .5% 0 3.5%;
+    border: 2px solid #e1e1e1;
+    border-radius: 5px;
+}
+
+.module-form2.form2.form2-home.form2-home-l1 .button.button-positive-custom {
+    width: 30%;
+    margin-left: 35%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #18bd5b;
+}
+
+.module-form2.form2.form2-home.form2-home-l1 .input-label {
+    width: 100% !important;
+    display: block;
+    margin: 0;
+}
+
+img.form2-illustration {
+    width: 96% !important;
+    border-radius: 5px;
+    margin-left: 2%;
+}
+
+.module-form2 ion-item.item-custom.radio-title.item.ng-binding {
+    overflow: visible;
+    text-overflow: unset;
+    white-space: normal;  
+    font-weight: normal;
+}
+
+/* mengatur buton LAYANAN DAN PESAN SEKARANG */
+.module-places.places.places-view .place-block .card .item.item-text-wrap.item-custom.sb-cms-text div p a {
+    background-color: orange;
+    border-radius: 5px;
+    padding: 10px;
+    height: 25px;
+    text-transform: uppercase;
+    top: 10px;
+  
+}
+
+/* menu ke-4, 5, dan 6 */
+.folder-l6-row:nth-child(4) .folder-l6-col.item.item-custom,
+.folder-l6-row:nth-child(5) .folder-l6-col.item.item-custom,
+.folder-l6-row:nth-child(6) .folder-l6-col.item.item-custom {
+    background-color: #ecf0f6;
+    border-radius: 10px !important;   
+    background-image: url(https://builder.justapp.id//var/cache/images/6b717c2….png);
+    background-size: 43px !important;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.folder-l6-row:nth-child(4) .folder-l6-col.item.item-custom p.folder-title.ng-binding,
+.folder-l6-row:nth-child(5) .folder-l6-col.item.item-custom p.folder-title.ng-binding,
+.folder-l6-row:nth-child(6) .folder-l6-col.item.item-custom p.folder-title.ng-binding {
+    font-size: 11px;
+}
+
+[state="mcommerce-category-list"] .list .button-bar a.button.button-custom.icon-left.ion-clipboard.ng-binding,
+[state="mcommerce-category-list"] .list .button-bar a.button.button-custom.icon-left.ion-ios-cart {
+    background-color: #eceeff;
+    color: #000 !important;
+    border-radius: 20px;
+    border: 0;
+    margin-bottom: 10px;
+    max-width: 45% !important;
+    margin: 2.5%;
+    font-size: 10px;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list {
+    width: 96%;
+    margin-left: 2%;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list>.item.item-custom {
+    background-color: #eceeff;
+}
+
+[state="mcommerce-category-list"] .list [ng-click="showItem(cover)"] .item.item-image.item-custom {
+    display: none;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list>div> div.item.item-custom>h2:before {
+    content: "Welcome to ";
+    font-size: 16px;
+    color: #000;
+    margin-top: 20px !important;
+    font-family: 'Poppins';
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list>div> div.item.item-custom>h2 {
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: bold;
+    color: #30aaed;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list>div> div.item.item-custom>p {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: bold;
+    color: #070c08;
+}
+
+/* mengatur button left dan right */
+button[ng-click="goBack()"] {
+    position: fixed !important;
+    top: 90vh !important;
+    right: 90% !important;
+    left: 5vh !important;
+    border-radius: 10px !important;
+    border-width: 0 !important;
+    padding: 5px 12px 5px 12px !important;
+    z-index: 999 !important;
+    box-shadow: none !important;
+    color: #fff !important;
+    background-color: #070c08 !important;
+    float: left !important;
+    width: 40% !important;
+    display: inline-block !important;
+    display: none !important;
+}
+
+button[ng-click="right_button.action()"] {
+    position: fixed !important;
+    top: 91vh !important;
+    right: 30vw !important;
+    border-radius: 10px !important;
+    border-width: 0 !important;
+    padding: 5px 12px 5px 12px !important;
+    z-index: 999 !important;
+    box-shadow: none !important;
+    color: #fff !important;
+    float: right !important;
+    width: 40vw !important;
+    display: inline-block !important;
+    border: 2px solid #fff !important;
+    min-height: 55px !important;
+    max-height: 55px !important;
+    height: 55px !important;
+    background-image: linear-gradient(-60deg,#57ac5a 0%,#7db667 100%) !important;
+}
+
+button[ng-click="right_button.action()"] span {
+    color: #fff !important;
+    font-size: 11px !important;
+    margin-left: 0 !important;
+}
+
+button[ng-click="right_button.action()"] .ion-ios-cart:before {
+    color: #fff !important;
+}
+
+[state="mcommerce-subcategory-list"] .item.item-custom.item-thumbnail-left {
+    width: 45% !important;
+    display: inline-block;
+    left: 0;
+    right: 0;
+    margin: 5px 2.5%;
+    min-height: 180px;
+    padding: 0;
+    border: 0;
+    box-shadow: 0 2px 4px #dbdbdb;
+}
+
+[state="mcommerce-subcategory-list"] .item.item-custom.item-thumbnail-left img {
+    display: block;
+    right: 0;
+    margin: 0 !important;
+    object-fit: cover;
+    border-radius: 10px;
+    max-width: 120%;
+    max-height: 120px;
+    top: 0;
+    left: 0;
+    border-bottom-left-radius: 100px 30px;
+    border-bottom-right-radius: 100px 30px;
+}
+
+[state="mcommerce-subcategory-list"] .item.item-custom.item-thumbnail-left h2 {
+    width: 100% !important;
+    display: block !important;
+    left: 0 !important;
+    right: 0 !important;
+    white-space: normal;
+    margin-top: 130px !important;
+    padding: 0 !important;
+    text-align: center;
+    margin-left: 0 !important;
+}
+
+[state="mcommerce-subcategory-list"] .item.item-custom.item-thumbnail-left p.three-lines.ng-binding {
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Poppins';
+    font-size: 13px !important;
+    margin-left: 0;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-error .list .item-radio.radio-custom,
+ion-view.mcommerce-view.mcommerce-sales-payment .list .item-radio.radio-custom {
+    color: #070c08;
+    background-color: transparent;
+    border: 0 !important;
+    margin-bottom: 10px;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-error .radio-content,
+ion-view.mcommerce-view.mcommerce-sales-payment .radio-content {
+    color: #30aaed;
+    border: 0;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card:last-child {
+    padding-bottom: 150px;
+}
+
+ion-modal-view.customer-view.customer-layout1 .ion-ios-gear-outline:before,
+ion-modal-view.customer-view.customer-layout1 .ion-ios-arrow-back:before {
+    color: #fff;
+}
+
+
+
+/* CSS MY ACCOUNT */
+/* mengatur ion content */
+ion-modal-view.customer-view.customer-layout1 ion-content {
+    top: 44px !important;
+}
+
+/* LOGIN */
+/* tambah gambar */
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"]:before {
+    content: ".";
+    color: #fff;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/undraw_my_app_re_gxtj.svg);
+    background-position: center;
+    background-size: 240px;
+    background-repeat: no-repeat;
+    height: 250px;
+    display: block;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"] .list {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 0;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"]>div>div:first-child:before {
+    content: "Welcome Back";
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 18px;
+    color: #76b465;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"]>div>div:first-child {
+    margin-bottom: 7px !important;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"] .list:before {
+    content: "Kami senang melihatmu kembali. Silakan login lagi dan lanjutkan aktivitas terakhir Anda.";
+    display: block;
+    width: 100%;
+    font-size: 13px;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"] .list .item.item-custom {
+    border-bottom: 2px solid #ecf0f6;
+    height: 75px;
+    margin: 5px 0;
+    width: 100%;
+    padding-left: 0;
+    padding-top: 40px;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"] label i,
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"] label i {
+    display: none;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"] label,
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"] label {
+    padding-bottom: 0;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"] .padding.text-right {
+    padding: 0 0 10px 0 !important;
+    font-size: 10px;
+    margin-right: 5%;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"] .padding.text-right span {
+    color: #070c08;
+    text-transform: capitalize;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"] .button.button-positive-custom {
+    border: 0;
+    background-image: linear-gradient(-60deg,#57ac5a 0%,#7db667 100%);
+    color: #ffffff;
+    width: 50%;
+    border-radius: 30px;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"] .padding.text-center.ng-binding {
+    font-size: 10px;
+}
+
+/* FORGOT PASSWORD */
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_forgot_password_form"]:before {
+    content: ".";
+    color: #fff;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/undraw_develop_app_re_bi4i.svg);
+    background-position: center;
+    background-size: 240px;
+    background-repeat: no-repeat;
+    height: 250px;
+    display: block;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_forgot_password_form"]>div:before {
+    content: "Hmm, lupa sandi yah?";
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_forgot_password_form"] div.padding.text-left {
+    visibility: hidden !important;
+    padding: 10px 0;
+}
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_forgot_password_form"] div.padding.text-left p {
+    display: none;
+}
+
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_forgot_password_form"] div.padding.text-left:before {
+    content: "Kirimkan email yang pernah Anda pakai untuk mendaftar di periode sebelumnya. Kami akan mengganti sandi Anda dengan yang baru.";
+    display: block;
+    width: 100%;
+    font-size: 13px;
+    visibility: visible !important;
+    margin-left: 5%;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_forgot_password_form"] .list .item.item-custom {
+    border-bottom: 2px solid #ecf0f6;
+    margin: 5px 0;
+    width: 100%;
+    padding-left: 0;
+    width: 90%;
+    margin-left: 5%;
+    height: 50px;
+    padding-top: 20px;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_forgot_password_form"] label i {
+    display: none;
+}
+
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_forgot_password_form"] .button.button-positive-custom,
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3)  .button.button-positive-custom {
+    border: 0;
+    background-image: linear-gradient(-60deg,#57ac5a 0%,#7db667 100%);
+    color: #ffffff;
+    width: 50%;
+    border-radius: 30px;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_forgot_password_form"] .padding.text-center.ng-binding,
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) .padding.text-center.ng-binding {
+    font-size: 10px;
+}
+
+
+/* REGISTER */
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) {
+    width: 90%;
+    margin-left: 5%;
+}
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) section.avatar.text-center.padding {
+    padding: 10px 0;
+}
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) section.avatar.text-center.padding:after {
+    content: "Hai, Selamat Datang";
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: left;
+    padding: 0;
+    margin-left: 0;
+}
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) .list .item.item-custom {
+    padding-left: 0;
+    display: inline-block;
+    width: 100%;
+}
+
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) .list:before {
+    content: "Buat akun baru dan segera bergabung dengan kami sekarang.";
+    display: block;
+    width: 100%;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) .list .input-label.ng-binding {
+    max-width: 100%;
+    margin: 0 !important;
+    display: block !important;
+    width: 100% !important;   
+    display: none !important;
+}
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) input.text-right.ng-pristine.ng-untouched.ng-valid.ng-empty,
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) input.text-right.ng-pristine.ng-valid.ng-empty.ng-touched,
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) input.text-right.ng-pristine.ng-untouched.ng-valid.ng-not-empty,
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) input.text-right.ng-pristine.ng-valid.ng-not-empty.ng-touched,
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) input.text-right.ng-valid.ng-touched.ng-empty.ng-dirty.ng-valid-parse,
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) input.text-right.ng-valid.ng-touched.ng-not-empty.ng-dirty.ng-valid-parse,
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) input.text-right.ng-valid.ng-touched.ng-dirty.ng-not-empty {
+    max-width: 100%;
+    margin: 0 !important;
+    display: block !important;
+    width: 100% !important;
+    padding: 0;
+    text-align: left !important;
+}
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) .item.item-input.item-custom {
+    border-bottom: 2px solid #ecf0f6;
+}
+
+[ng-if="customer.change_password || !customer.is_logged_in"] .input-label {
+    display: none;
+}
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) label.item.item-input.item-custom:last-of-type div#_label-6.input-label,
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) label.item.item-input.item-custom div#_label-13.input-label,
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) div#_label-8.input-label,
+ {
+    display: none !important;
+}
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) label.item.item-input.item-custom div#_label-8.input-label {
+    display: none;
+}
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) [ng-if="myAccount.settings.extra_civility"] div#_label-5 {
+    display: inline !important;
+}
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) [ng-if="myAccount.settings.extra_civility"] {
+    padding: 20px;
+}
+
+[ng-if="myAccount.settings.enable_password_verification && (customer.change_password || !customer.is_logged_in)"] .input-label {
+    display: none;
+}
+
+/* persetujuan layanan */
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) .item-content.disable-pointer-events span.ng-binding {
+    margin-left: 45px;
+    color: #070c08;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    display: block;
+    width: 90%;
+    text-overflow: ellipsis;
+}
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) span[ng-if="field.is_required"] {
+    display: none;
+}
+
+
+/* privacy policy radio */
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) .checkbox-custom .checkbox input:before,
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) .checkbox-custom .checkbox-icon:before {
+    background: #63af5e;
+    border-color: #74b464;
+}
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) .checkbox-custom .checkbox input:checked:after,
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) input:checked + .checkbox-icon:after {
+    border-color: #fff;
+}
+
+
+[ng-click="showItem(cover)"] .item.item-custom {
+    background-color: transparent;
+    margin-top: -15px;
+    margin-bottom: 18px;
+    width: 90%;
+    border-radius: 0 83px 0 15px;
+    padding: 10px 10px 0 10px;
+    margin-left: 4px;
+    border: 0 !important;
+}
+
+
+/* gambar produk */
+ion-view[state="mcommerce-product-view"] ion-slide.slider-slide img {
+    border-radius: 0 0 20px 20px;
+    background-color: #eaeaea;
+    padding: 5px;
+    width: 80% !important;
+    margin-left: 10%;
+}
+
+ion-view[state="mcommerce-product-view"] .card:nth-child(1)>div.item.item-text-wrap.text-center.item-custom {
+    background-color: transparent;
+}
+
+ion-view[state="mcommerce-product-view"] .item.item-text-wrap.text-center.item-custom h2 {
+    background: transparent !important;
+    padding: 0px;
+    border-radius: 0;
+    padding-bottom: 0;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+/* Modul Social Wall - Feed */
+/* sub header */
+ion-view[state="fanwall-home"] ion-header-bar.bar-subheader {
+    top: calc(var(--safe-area-inset-top) + 91vh) !important;
+    border: 0 !important;
+    background-color: #fff !important;
+}
+ion-view[state="fanwall-home"] ion-header-bar.bar-subheader button,
+ion-view[state="fanwall-home"] ion-header-bar.bar-subheader .button-bar {
+    border: 0 !important;   
+}
+
+
+
+button.button.button-custom.button-positive.button-positive-custom.ng-binding.fw-icon-selected.icon-active-custom {
+    background-color: transparent;
+}
+
+button.button.button-custom.button-positive.button-positive-custom.ng-binding.icon-custom {
+    border: 0;
+    background-color: transparent;
+    color: #a8a8a8 !important;
+}
+
+button.button.button-custom.button-positive.button-positive-custom.ng-binding.fw-icon-selected.icon-active-custom img {
+    filter: invert(1);  
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 ion-content {
+    bottom: calc(var(--safe-area-inset-bottom) + 30px) !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    box-sizing: unset !important;
+}
+
+button.button.button-custom.button-positive.button-positive-custom.ng-binding.fw-icon-selected.icon-active-custom {
+    background-color: #144c63;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+button.button.button-custom.button-positive.button-positive-custom.ng-binding.fw-icon-selected.icon-active-custom img,
+button.button.button-custom.button-positive.button-positive-custom.ng-binding.fw-icon-selected.icon-active-custom.activated img,
+button.button.button-custom.button-positive.button-positive-custom.ng-binding.icon-custom.activated img {
+    margin: 5px;
+}
+
+button.button.button-custom.button-positive.button-positive-custom.ng-binding.fw-icon-selected.icon-active-custom.activated,
+button.button.button-custom.button-positive.button-positive-custom.ng-binding.icon-custom.activated {
+    background-color: green !important;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+/* mengatur card postingan */
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 ion-item.item-custom.item {
+    width: 96%;
+    border-radius: 10px;
+    margin-left: 2%;
+    border: 0;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);  
+}
+
+/* Homepage Commerce */
+ion-view[state="mcommerce-category-list"] ion-content .list>.item.item-custom {
+    background-color: #eceeff;
+    background-image: linear-gradient(-60deg, #57ac5a 0%, #7db667 100%) !important;
+    border: 0 !important;
+    padding: 0 !important;
+    width: 46%;
+    display: inline-block;
+    margin: 10px 2%;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list .item.item-custom.item-thumbnail-left img {
+    min-width: 100% !important;
+    display: block;
+    padding: 0;
+    left: 0;
+    right: 0;
+    object-fit: contain !important;
+    opacity: 1;
+    border-radius: 10px !important;
+    top: 0;
+    border-bottom-left-radius: 100px 30px !important;
+    border-bottom-right-radius: 100px 30px !important;
+    background-color: white !important;
+    border: 2px solid #77b465;
+    min-height: 109px !important;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list > .item.item-custom h2 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    color: #ffffff;
+    margin-top: 100px;
+    height: 40px;
+    text-align: center;
+    padding: 15px 0 0 0;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list > .item.item-custom p.three-lines.ng-binding:after {
+    content: "Lihat Produk";
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin-left: 0;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid #fff;
+    background-image: linear-gradient(-60deg, #57ac5a 0%, #9bd087 100%) !important;
+}
+
+
+[ng-show="!is_loading && cover"]:before {
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2019/04/farm-08.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    content: ".";
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 189px;
+    margin-left: 0%;
+    border-radius: 10px;
+    border-bottom-left-radius: 100px 30px !important;
+    border-bottom-right-radius: 100px 30px !important;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list > div > div.item.item-custom > h2 {
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+div[ng-if="use_button_header"] {
+    margin-top: -218px;
+    margin-bottom: 135px;
+}
+
+[state="mcommerce-category-list"] .list .button-bar a.button.button-custom.icon-left.ion-clipboard.ng-binding,
+[state="mcommerce-category-list"] .list .button-bar a.button.button-custom.icon-left.ion-ios-cart {
+    background-color: #eceeff;
+    color: #000 !important;
+    border-radius: 10px;
+    border: 0;
+    margin-bottom: 10px;
+    max-width: 45% !important;
+    margin: 2.5%;
+    font-size: 10px;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list > div > label {
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 10px;
+    border: 2px solid #68b160;
+    margin-bottom: 10px;
+}
+
+/* Choose a Store - Pilih Toko*/
+ion-view.mcommerce-view.mcommerce-sales-store .scroll:before {
+    content: "Pilih Toko Langganan Kamu";
+    display: block;
+    width: 100%;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: green;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-store ion-item.item-divider.item-divider-custom.item h2.ng-binding,
+ion-view.mcommerce-view.mcommerce-sales-store ion-item.item-divider.item-divider-custom.item {
+    font-size: 20px;
+    color: green;
+    text-transform: capitalize;
+    display: none !important;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-store .item-radio.radio-custom {
+    color: #fff;
+    background-color: #6baa84;
+    border: 0 !important;
+    margin-bottom: 10px;
+    width: 94%;
+    margin-left: 3%;
+    height: 100px;
+    border-radius: 10px;
+    background-image: linear-gradient(-60deg,#57ac5a 0%,#7db667 100%) !important;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-store .radio-content {
+    width: 100%;
+    margin: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-store .radio-content span {
+    white-space: normal;
+}
+
+/* tanda centang pada halaman pilih toko */
+ion-view.mcommerce-view.mcommerce-sales-store .radio-content i.radio-icon.disable-pointer-events.icon.ion-checkmark {
+    color: #fff;
+}
+
+/* warna latar item yang dipilih */
+ion-view.mcommerce-view.mcommerce-sales-store .item-radio input:checked+.radio-content .item-content {
+    background-color: transparent !important;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* ukuran tulisan pilih toko */
+ion-view.mcommerce-view.mcommerce-sales-customer ion-item.item-divider.item-divider-custom.item h2.ng-binding,
+ion-view.mcommerce-view.mcommerce-sales-store ion-item.item-divider.item-divider-custom.item h2.ng-binding {
+    font-size: 20px;
+    color: green;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-store .item-radio.radio-custom.item-radio .item-content {
+    background-color: transparent;
+    padding: 10px !important;
+}
+
+/* Halaman Informasi Pembeli dan Alamat pengiriman */
+ion-view.mcommerce-view.mcommerce-sales-customer ion-list.disable-user-behavior .list label {
+    border: 0;
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+}
+
+/* mengatur judul form */
+ion-view.mcommerce-view.mcommerce-sales-customer ion-list.disable-user-behavior .list label .input-label.ng-binding {
+    width: 100% !important;
+    margin: 0 !important;
+    display: block !important;
+    max-width: 100% !important;
+    text-transform: capitalize;
+}
+
+/* untuk bagian input */
+ion-view.mcommerce-view.mcommerce-sales-customer input {
+    width: 96%;
+    text-align: left;
+    border: 2px solid green;
+    padding: 10px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+/* Pilih Metode Pengiriman */
+ion-view.mcommerce-view.mcommerce-sales-error ion-item.item-divider.item-divider-custom.item h2.ng-binding {
+    font-size: 20px;
+    color: green;
+    text-transform: capitalize;;
+}
+
+
+ion-view.mcommerce-view.mcommerce-sales-error .item-radio.radio-custom {
+    color: rgba(107, 170, 132, 1);
+    background-color: transparent;
+    border: 0 !important;
+    margin-bottom: 10px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-error .radio-content {
+    width: 100%;
+    margin: 0;
+    border: 0;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    background-image: linear-gradient(-60deg,#57ac5a 0%,#7db667 100%);
+}
+
+/* tanda centang pada halaman metode pengiriman */
+ion-view.mcommerce-view.mcommerce-sales-error .radio-content i.radio-icon.disable-pointer-events.icon.ion-checkmark {
+    color: #fff;
+}
+
+/* warna latar item yang dipilih */
+ion-view.mcommerce-view.mcommerce-sales-error .item-radio input:checked+.radio-content .item-content {
+    background-image: linear-gradient(-60deg,#57ac5a 0%,#7db667 100%) !important;
+    color: #fff;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-error .item-radio.radio-custom.item-radio .item-content {
+    background-color: transparent;
+}
+
+/* Pilih Metode Pembayaran */
+ion-view.mcommerce-view.mcommerce-sales-payment ion-item.item-divider.item-divider-custom.item h2.ng-binding {
+    font-size: 20px;
+    color: green;
+    text-transform: capitalize;;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-payment .item-radio.radio-custom {
+    color: rgba(107, 170, 132, 1);
+    background-color: transparent;
+    border: 0 !important;
+    margin-bottom: 10px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-payment .radio-content {
+    width: 100%;
+    margin: 0;
+    border: 2px solid #5cad5c;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+/* tanda centang pada halaman metode pengiriman */
+ion-view.mcommerce-view.mcommerce-sales-payment .radio-content i.radio-icon.disable-pointer-events.icon.ion-checkmark {
+    color: #fff;
+}
+
+/* warna latar item yang dipilih */
+ion-view.mcommerce-view.mcommerce-sales-payment .item-radio input:checked+.radio-content .item-content {
+    background-image: linear-gradient(-60deg,#57ac5a 0%,#7db667 100%) !important;
+    color: #fff;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-payment .item-radio.radio-custom.item-radio .item-content {
+    background-color: transparent;
+}
+
+
+ion-view.mcommerce-view.mcommerce-sales-error .list .item-radio.radio-custom {
+    color: #000 !important;
+    margin-bottom: 10px;
+    height: 100px;
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2019/05/food-bank_38.jpg);
+    width: 90%;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: 79%;
+    border: 2px solid #75b465 !important;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-error .scroll:before {
+    content: "Pilih Metode Pengiriman";
+    display: block;
+    width: 100%;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: green;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-error ion-item.item-divider.item-divider-custom.item h2.ng-binding,
+ion-view.mcommerce-view.mcommerce-sales-error ion-item.item-divider.item-divider-custom.item {
+    font-size: 20px;
+    color: green;
+    text-transform: capitalize;
+    display: none !important;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-error .list {
+    width: 100% !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    white-space: nowrap !important;
+    -webkit-overflow-scrolling: touch !important;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-error .list {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+
+ion-view.mcommerce-view.mcommerce-product div.card .item.item-input.item-custom.input-number-sb {
+    height: 100px;
+}
+
+
+/* Metode Pembayaran */
+ion-view.mcommerce-view.mcommerce-sales-payment .scroll:before {
+    content: "Pilih Metode Pembayaran";
+    display: block;
+    width: 100%;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: green;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-payment ion-item.item-divider.item-divider-custom.item h2.ng-binding,
+ion-view.mcommerce-view.mcommerce-sales-payment ion-item.item-divider.item-divider-custom.item {
+    font-size: 20px;
+    color: green;
+    text-transform: capitalize;
+    display: none !important;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-payment .list {
+    width: 100% !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    white-space: nowrap !important;
+    -webkit-overflow-scrolling: touch !important;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-payment .list {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+ion-view.mcommerce-view.mcommerce-sales-payment .list .item-radio.radio-custom:nth-child(2) {
+    color: #070c08;
+    background-color: transparent;
+    margin-bottom: 10px;
+    background-image: url(https://mukisi.com/wp-content/uploads/2018/08/14-andikafm.com_.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 60%;
+    border: 2px solid #75b465 !important;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-payment .list .item-radio.radio-custom:nth-child(3) {
+    color: #070c08;
+    background-color: transparent;
+    margin-bottom: 10px;
+    background-image: url(https://thumbs.dreamstime.com/b/bank-155279102.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 60%;
+    border: 2px solid #75b465 !important;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-payment .list .item-radio.radio-custom:nth-child(4) {
+    color: #070c08;
+    background-color: transparent;
+    margin-bottom: 10px;
+    background-image: url(https://img10.jd.id/Indonesia/s956x438_/amZzL3Q3OS82MC8yOTM1MTkxNzAxLzE5MDEyMC82N2E0NzdlMS82MDA4MDQ4MU5kMGU0ZGU3ZA.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 60%;
+    border: 2px solid #75b465 !important;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-payment .list .item-radio.radio-custom:nth-child(5) {
+    color: #070c08;
+    background-color: transparent;
+    margin-bottom: 10px;
+    background-image: url(https://risetcdn.jatimtimes.com/images/2020/05/22/Transfer-uang-Foto-Globalgate-Forex-PVT-LTDe36ab17f681e205c.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 60%;
+    border: 2px solid #75b465 !important;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+
+ion-view.mcommerce-view.mcommerce-sales-payment .radio-content {
+    width: 100%;
+    margin: 0;
+    border: 0;
+    border-radius: 5px 5px 0 0;
+    background-image: linear-gradient(-60deg,#57ac5a 0%,#7db667 100%) !important;
+    color: #fff;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-store .list {
+    width: 100%;
+}
+
+/* customer memilih pengantaran */
+ion-view.mcommerce-view.mcommerce-sales-error div[ng-if="clients_calculate_change_form_is_visible"] ion-item.item-custom.item {
+    border: 0;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-error div[ng-if="clients_calculate_change_form_is_visible"] ion-item.item-custom.item .row {
+    width: 100%;
+    display: inline-block;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-error div[ng-if="clients_calculate_change_form_is_visible"] ion-item.item-custom.item .row .col-65 {
+    max-width: 100%;
+    font-size: 12px;
+    text-align: left;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-error div[ng-if="clients_calculate_change_form_is_visible"] ion-item.item-custom.item .row .col-35,
+ion-view.mcommerce-view.mcommerce-sales-error div[ng-if="clients_calculate_change_form_is_visible"] ion-item.item-custom.item .row .col-35 input {
+    max-width: 100%;
+    text-align: left !important;
+    font-size: 18px;
+    color: green;
+    margin-top: 10px;
+}
+
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card {
+    width: 96%;
+    margin-left: 2%;
+    background-color: #6db262 !important;
+    border-radius: 10px;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card .item-divider.item-divider-custom {
+    background-color: #ecf0f6;
+    color: #000 !important;
+    border: 0;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card .item-divider.item-divider-custom strong.ng-binding {
+    color: #fff;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card .item-divider.item-divider-custom strong.ng-binding i {
+    display: none;
+}
+
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card .item.item-custom {
+    border: 0;
+    background-color: #6db262;
+    color: #fff;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .item.item-thumbnail-left.item-icon-right.item-custom p {
+    color: #fff;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .item.item-thumbnail-left.item-icon-right.item-custom img {
+    border-radius: 50px;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .item.item-thumbnail-left.item-icon-right.item-custom p strong {
+    color: #fff;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .item.item-divider.item-divider-custom strong.ng-binding {
+    font-size: 18px;
+    color: #000 !important;
+    background-color: transparent;
+}
+
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .item.item-divider.item-divider-custom p strong {
+    color: #000 !important;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card .item.item-custom {
+    display: inline-block;
+    width: 100%;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card .item.item-custom strong.ng-binding {
+    width: 100%;
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card .item.item-custom span,
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card .item.item-custom span strong.ng-binding {
+    width: 100%;
+    margin-top: 5px;
+    color: black;
+    font-size: 16px;
+    text-align: right;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card:nth-last-child(1)>.item {
+    border: 2px solid #eaeaea;
+    border-top: 0;
+    border-radius: 0 0 10px 10px;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card:nth-last-child(1)>.item.item-divider.item-divider-custom {
+    border-radius: 10px 10px 0 0;
+}
+
+
+/* mengatur bagian review/ualasan - saya akan membayar*/
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card:nth-last-child(3) div:last-child ion-item.item-divider.item-divider-custom.item {
+    display: none;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card:nth-last-child(3) div:last-child ion-item.item-custom.item .row {
+    display: inline-block !important;
+    width: 100% !important;
+}
+
+ ion-view.mcommerce-view.mcommerce-sales-confirmation .card:nth-last-child(3) div:last-child .row .col-75 {
+    width: 100% !important;
+    display: block !important;
+    max-width: 100% !important;
+    font-size: 13px !important;
+    text-align: left !important;
+    text-transform: capitalize !important;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card:nth-last-child(3) div:last-child .row .col-25 {
+    width: 100% !important;
+    display: inline-block !important;
+    max-width: 100% !important;
+    font-size: 16px !important;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card:nth-last-child(2) div:last-child ion-item.item-divider.item-divider-custom.item {
+    display: none;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card:nth-last-child(2) div:last-child ion-item.item-custom.item .row {
+    display: inline-block !important;
+    width: 100% !important;
+}
+
+ ion-view.mcommerce-view.mcommerce-sales-confirmation .card:nth-last-child(2) div:last-child .row .col-75 {
+    width: 100% !important;
+    display: block !important;
+    max-width: 100% !important;
+    font-size: 13px !important;
+    text-align: left !important;
+    text-transform: capitalize !important;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card:nth-last-child(2) div:last-child .row .col-25 {
+    width: 100% !important;
+    display: inline-block !important;
+    max-width: 100% !important;
+    font-size: 16px !important;
+}
+
+
+/* Halaman Riwayat Pesanan */
+/* menambahkan gambar */
+ion-view.mcommerce-view.mcommerce-sales-history .scroll:before {
+content: ".";
+    color: #6203c1;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    height: 150px;
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/03/Image_01-2.jpg);
+    object-fit: cover;
+    border-bottom-left-radius: 100% 50px;
+    border-bottom-right-radius: 100% 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 96%;
+    margin-left: 2%;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-history .list .item.item-text-wrap.item-custom {
+    border: 0;
+    width: 96%;
+    margin: 10px 2%;
+    border-radius: 10px;
+    background-image: linear-gradient(-60deg,#57ac5a 0%,#7db667 100%);
+}
+
+/*text */
+ion-view.mcommerce-view.mcommerce-sales-history .list .item.item-text-wrap.item-custom h2,
+ion-view.mcommerce-view.mcommerce-sales-history .list .item.item-text-wrap.item-custom strong,
+ion-view.mcommerce-view.mcommerce-sales-history .list .item.item-text-wrap.item-custom span,
+ion-view.mcommerce-view.mcommerce-sales-history .list .item.item-text-wrap.item-custom p {
+    color: #fff !important;
+    font-weight: normal;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+
+/* icon */
+ion-view.mcommerce-view.mcommerce-sales-history .list .item.item-text-wrap.item-custom i {
+    display: none;
+}
+
+
+/* Halaman Detail dari Riwayat Pesanan */
+ion-view.mcommerce-view.mcommerce-sales-history-details .item.item-custom.ng-binding {
+    border: 0;
+}
+
+/* Kolom detail pesanan */
+ion-view.mcommerce-view.mcommerce-sales-history-details .item.item-custom.item-icon-left {
+    border-top: 1px solid green;
+    width: 96%;
+    margin-left: 2%;
+    border-left: 0;
+    border-right: 0;
+    font-weight: normal;
+    padding: 5px;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-history-details .item.item-custom.item-icon-left strong {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+
+/* PADLOCK */
+ion-view.padlock-view ion-content .scroll:before {
+    content: ".";
+    background-color: transparent;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/you-x-ventures-6hDWAajuDv8-unsplash-scaled.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    height: 450px;
+    border-bottom-right-radius: 50px;
+    opacity: 0.1;
+}
+
+ion-view.padlock-view ion-content .scroll .card.padlock {
+    margin-top: -400px;
+    width: 90%;
+    margin-left: 5%;
+    background-image: linear-gradient(-60deg,#57ac5a 0%,#7db667 100%);
+    border-radius: 30px;
+    border: 3px solid #7db667;
+    padding-bottom: 50px;
+}
+
+ion-view.padlock-view ion-content .scroll .card.padlock .item.item-text-wrap.item-custom {
+    background: transparent;
+    text-align: center;
+    display: none;
+}
+
+ion-view.padlock-view ion-content .scroll .item.item-icon-left.item-custom.ng-binding {
+    border-radius: 0;
+}
+
+ion-view.padlock-view ion-content .scroll .card.padlock .item.item-text-wrap.item-custom h2 {
+    visibility: hidden;
+}
+
+ion-view.padlock-view ion-content .scroll .item.item-body.item-custom.text-center {
+    background: transparent;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/brokoli.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+ion-view.padlock-view ion-content .scroll .item.item-body.item-custom.text-center i.icon.ion-locked {
+    font-size: 0;
+}
+
+ion-view.padlock-view ion-content .scroll .item.item-icon-left.item-custom {
+    border-top-left-radius: 118px;
+}
+
+/*
+ion-view.padlock-view ion-content .scroll .item.item-body.item-custom.text-center:after {
+    content: ".";
+    display: block;
+    background: transparent;
+    width: 100%;
+    height: 150px;
+    margin-left: 51%;
+    left: 0;
+    right: 0;
+    margin-top: 39px;
+    border-top-left-radius: 100%;
+    border-left: 135px solid #fff;
+    transform: rotate(192deg);
+    color: #fff;
+} */
+
+ion-view.padlock-view ion-content .scroll .item.item-icon-left.item-custom:first-child {
+    border-radius: 50px 50px 0 0;
+    padding: 20px 5px;
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2019/05/ebook-17-1.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+ion-view.padlock-view ion-content .scroll .item.item-icon-left.item-custom span.ng-binding {
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    width: 94%;
+    margin: 0 3%;
+    padding-top: 25px;
+}
+
+ion-view.padlock-view ion-content .scroll .item.item-icon-left.item-custom span.ng-binding:before {
+    content: "Toko Sayur";
+    display: block;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 28px;
+    color: #76b465;
+}
+
+ion-view.padlock-view ion-content .scroll .item.item-icon-left.item-custom i {
+    display: none;
+}
+
+
+.icon.ion-navicon-round {
+  visibility: hidden;
+}
+
+.icon.ion-navicon-round {
+    visibility: visible;
+    content: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/menu_002.png);
+    margin-top: -10px !important;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: top;
+}
+
+/* Layout 9 */
+.layout.l9 ion-content {
+    top: 0 !important;
+}
+
+ion-side-menu.menu.menu-left.menu-left-open,
+ion-side-menu.menu.menu-left {
+    background-color: transparent !important;
+}
+
+.layout.l9 ion-content {
+    top: 0 !important;
+    background-image: linear-gradient(-60deg,#57ac5a 0%,#7db667 100%);
+    height: 90vh;
+    border-bottom-right-radius: 30px;
+}
+
+.layout.l9 ion-content ul:before {
+    content: ".";
+    display: block;
+    height: 180px;
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/03/Image_01-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-bottom-right-radius: 50%;
+}
+
+.layout.l9 ion-content ul {
+    background-color: transparent;
+}
+
+.layout.l9 ul.items li:nth-child(1) {
+    margin-top: -52px;
+}
+
+.layout.l9 ul.items li {
+    position: relative;
+    height: 70px;
+    display: block;
+    padding: 10px;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid #fff;
+    background-image: linear-gradient(-60deg, #57ac5a 0%, #9bd087 100%) !important;
+    background-color: transparent !important;
+}
+.layout.l9 ul.items li p {
+    font-size: 13px;
+    float: right;
+    margin-top: 14px;
+    text-align: left !important;
+    width: 70%;
+}
+
+.layout.l9 li img {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    max-height: 100%;
+    margin-top: 8px;
+    float: left;
+}
+
+/* Akhir Layout 9 */
+
+
+.bar.bar-custom .title {
+    color: rgba(0, 0, 0, 1);
+    display: block;
+    text-align: center;
+    display: none;
+}
+
+/* BARU */
+/* Mengatur Bagian Content */
+ion-content {
+    top: 8vh !important;
+   /* height: 100vh !important; */
+}
+
+/* Pindahkan Homepage Menu */
+.always .layout.l1 .tabs {
+    box-shadow: none;
+    display: block;
+    top: 0 !important;
+    z-index: 999;
+    height: 75px;
+    padding-top: 12px;
+    border-bottom-left-radius: 100% 20%;
+}
+
+/* menghilangkan menu more */
+.always .layout.l1 .tabs li.col.col-20.tab-item:nth-child(5) {
+    display: none;
+}
+
+/* mengubah jarak bagian bawah */
+.has-footer-fixed ion-nav-view.nav-view-l1 ion-content {
+    bottom: calc(var(--safe-area-inset-bottom) + 0px) !important;
+}
+
+/* mengubah lebar menu */
+.always .layout.l1 .tabs .col-20 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 25%;
+    -moz-box-flex: 0;
+    -moz-flex: 0 0 25%;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+/* mengatur gambar menu */
+.layout .tab-item img {
+    margin-left: 0;
+}
+
+.layout.l1 .tab-item img,
+.layout.l10 .tab-item img,
+.layout.l2 .tab-item img {
+    width: 25px;
+    height: 25px;
+    max-height: 80%;
+}
+
+/* mengatur ukuran huruf menu */
+.layout.l1 p, .layout.l10 p, .layout.l2 p {
+    line-height: 11px;
+    font-size: 10px;
+    height: 16px;
+    margin-top: 2px;
+    overflow: hidden;
+}
+
+/* FOLDER V2 */
+/* menghilangkan shadow card */
+ion-view.module-folder2.folder2-layout2 .list.card {
+    box-shadow: none;
+    margin: 0 10px;
+    background-color: transparent;
+}
+
+
+ion-view.module-folder2.folder2-layout2 div.item.item-image.item-custom {
+    background-color: #070c08 !important;
+    overflow: hidden !important;
+    margin-top: 20px !important;
+    border-radius: 10px !important;
+    z-index: 999 !important;
+}
+
+/* menghilangkan judul gambar */
+ion-view.module-folder2.folder2-layout2 div.item.item-image.item-custom img {
+    width: 100% !important;
+    vertical-align: middle !important;
+    border-radius: 5px !important;
+    object-fit: cover !important;
+    opacity: 0.4 !important;
+    z-index: 1;
+}
+
+ion-view.module-folder2.folder2-layout2 [ng-if="current.showTitle"] {
+    visibility: hidden;
+}
+
+
+/* mengatur 3 menu pertama */
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(1) {
+    width: 80%;
+    margin-left: 10%;
+}
+
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(1) .folder-l6-col.item.item-custom {
+    width: 65px;
+    height: 65px;
+    margin: 10px auto !important;
+}
+
+/* ukuran huruf */
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(1) .folder-l6-col.item.item-custom p.folder-title.ng-binding {
+    font-size: 11px;
+    display: none;
+}
+
+/* mengatur gambar */
+ion-view.module-folder2.folder2-layout2 .folder-l6-col.item.item-custom img {
+    width: 60px !important;
+    min-height: 60px !important;
+}
+
+/* mengatur gambar menu */
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(1) .folder-l6-col.item.item-custom {
+    background-image: url(https://builder.justapp.id//var/cache/images/a511285984fd793758d563dcf2ed2e73.png);
+    background-position: center;
+    background-size: 40% !important;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: 2px solid #ecf0f6;
+}
+
+/* menambahkan judul setiap menu pertama */
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(1) .folder-l6-col.item.item-custom:nth-child(1):after {
+    content: "Bonus";
+    display: block;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 !important;
+    padding: 0;
+    text-align: center;
+    font-size: 11px;
+}
+
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(1) .folder-l6-col.item.item-custom:nth-child(2):after {
+    content: "Belanja";
+    display: block;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 !important;
+    padding: 0;
+    text-align: center;
+    font-size: 11px;
+}
+
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(1) .folder-l6-col.item.item-custom:nth-child(3):after {
+    content: "Katalog";
+    display: block;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 !important;
+    padding: 0;
+    text-align: center;
+    font-size: 11px;
+}
+
+/* mengatur 3 menu kedua - scroll menu */
+/* mengatur menu bg */
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(2) .folder-l6-col.item.item-custom {
+    background-color: #ecf0f6;
+    border-radius: 10px !important;
+}
+
+/* mengatur scroll */
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(2) {
+    white-space: nowrap !important;
+    width: 100% !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    white-space: nowrap !important;
+    -webkit-overflow-scrolling: touch !important;
+}
+
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(2) {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(2) .folder-l6-col.item.item-custom {
+    width: 100% !important;
+    min-width: 80% !important;
+    display: inline-block !important;
+    height: 150px;
+}
+
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(2) .folder-l6-col.item.item-custom img {
+  width: 50% !important;
+}
+
+/* menu scroll image */
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(2) .folder-l6-col.item.item-custom {
+    background-image: url(https://builder.justapp.id//var/cache/images/a511285984fd793758d563dcf2ed2e73.png);
+    background-position: top 10px left 10px;
+    background-size: 40px !important;
+    background-repeat: no-repeat;
+    z-index: 2px !important;
+}
+
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(2) .folder-l6-col.item.item-custom:nth-child(1) img {
+    width: 100% !important;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/undraw_Gift_card_re_5dyy.svg);
+    background-position: center right 10px;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    height: 100% !important;
+    z-index: -999 !important;
+}
+
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(2) .folder-l6-col.item.item-custom:nth-child(2) img {
+    width: 100% !important;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/undraw_Mobile_app_re_catg.svg);
+    background-position: center right 10px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    height: 100% !important;
+    z-index: -999 !important;
+}
+
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(2) .folder-l6-col.item.item-custom:nth-child(3) img {
+    width: 100% !important;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/undraw_Messaging_fun_re_vic9.svg);
+    background-position: center right 10px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    height: 100% !important;
+    z-index: -999 !important;
+}
+
+/* menu scroll name */
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(2) .folder-l6-col.item.item-custom p.folder-title.ng-binding {
+    margin-bottom: 50px !important;
+    z-index: 9999;
+    background-color: #fff;
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+
+
+
+/* mengatur 3 menu ketiga - scroll menu */
+/* mengatur menu bg */
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(3) .folder-l6-col.item.item-custom {
+    background-color: #ecf0f6;
+    border-radius: 10px !important;
+}
+
+/* mengatur scroll */
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(3) {
+    white-space: nowrap !important;
+    width: 100% !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    white-space: nowrap !important;
+    -webkit-overflow-scrolling: touch !important;
+}
+
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(3) {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(3) .folder-l6-col.item.item-custom {
+    width: 100% !important;
+    min-width: 80% !important;
+    display: inline-block !important;
+    height: 150px;
+}
+
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(3) .folder-l6-col.item.item-custom img {
+    width: 50% !important;
+}
+
+/* menu scroll image */
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(3) .folder-l6-col.item.item-custom {
+    background-image: url(https://builder.justapp.id//var/cache/images/a511285984fd793758d563dcf2ed2e73.png);
+    background-position: top 10px left 10px;
+    background-size: 40px !important;
+    background-repeat: no-repeat;
+    z-index: 2px !important;
+}
+
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(3) .folder-l6-col.item.item-custom:nth-child(1) img {
+    width: 100% !important;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/undraw_Gift_card_re_5dyy.svg);
+    background-position: center right 10px;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    height: 100% !important;
+    z-index: -999 !important;
+}
+
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(3) .folder-l6-col.item.item-custom:nth-child(2) img {
+    width: 100% !important;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/undraw_Mobile_app_re_catg.svg);
+    background-position: center right 10px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    height: 100% !important;
+    z-index: -999 !important;
+}
+
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(3) .folder-l6-col.item.item-custom:nth-child(3) img {
+    width: 100% !important;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/undraw_Messaging_fun_re_vic9.svg);
+    background-position: center right 10px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    height: 100% !important;
+    z-index: -999 !important;
+}
+
+/* menu scroll name */
+ion-view.module-folder2.folder2-layout2 .folder-l6-row:nth-child(3) .folder-l6-col.item.item-custom p.folder-title.ng-binding {
+    margin-bottom: 50px !important;
+    z-index: 9999;
+    background-color: #fff;
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+
+
+
+
+/* COMMERCE */
+/* icon backward dan keranjang */
+.bar .back-button .icon:before,
+.ion-ios-cart::before,
+.bar .buttons-right span,
+.ion-clipboard::before,
+.ion-android-arrow-back:before {
+    color: #30aaed;
+}
+
+[state="home"] ion-content .slider:before {
+    content: "JustApp Laundry";
+    text-align: center;
+    display: block;
+    color: #fff;
+    z-index: 999;
+    margin-top: 42vh;
+    font-family: MaisonNeue-Book,sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 0 0 3px #FF0000; 
+}
+
+.layout.l6 ion-content {
+    height: 45vh !important;
+}
+
+.layout.l6 ion-content div> div> a h2 {
+    font-family: MaisonNeue-Book,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* mengatur shadow card & list */
+.card, .list {
+    box-shadow: none !important;
+}
+
+/* list bagian atas */
+ion-view[state="mcommerce-category-list"] ion-content .list>div> div.item.item-custom>h2 {
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: bold;
+    color: #30aaed;
+    margin-top: -15px;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list>div> div.item.item-custom>p {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* kolom cari bagian kategori */
+ion-view[state="mcommerce-category-list"] ion-content .list>div>label {
+    width: 100%;
+    margin-left: 0%;
+    border-radius: 30px;
+    border: 2px solid #eceeff; 
+}
+
+/* mengatur bagian kategori */
+
+ion-view[state="mcommerce-category-list"] ion-content .list>.item.item-custom{
+    margin: 10px 0;
+    border-radius: 10px;
+    background: #ecf0f6;
+    overflow: hidden;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list>.item.item-custom h2 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: bold;
+    color: #30aaed;
+    margin-top: 0;
+    height: 100px;
+    padding: 20px 10px;
+
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list>.item.item-custom p {
+    font-family: 'Poppins';
+    font-size: 11px !important;
+    color: #fff;
+    width: 100%;
+    padding: 10px 20px 0 20px !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Subkategori */
+/* menambahkan tulisan beli pada produk */
+[state="mcommerce-subcategory-list"] .item.item-custom.item-thumbnail-left p.three-lines.ng-binding:after {
+    content: "Beli";
+    display: block;
+    width: 80%;
+    padding: 7px;
+    background-image: linear-gradient(-60deg, #57ac5a 0%, #7db667 100%) !important;
+    color: #fff;
+    font-weight: normal;
+    margin: 10px 10%;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
+ion-view[state="mcommerce-subcategory-list"] ion-content .item.item-custom.item-thumbnail-left:last-child(-n+2) {
+    margin-bottom: 60px;
+}
+
+ion-view[state="mcommerce-subcategory-list"] ion-content .scroll>div.list:nth-child(2) {
+    display: none;
+}
+
+/* cari subkategori */
+ion-view[state="mcommerce-subcategory-list"] ion-content .list>div>label {
+    width: 96%;
+    margin: 5px 2%;
+    border-radius: 10px;
+    border: 2px solid #008000;
+}
+
+ion-view[state="mcommerce-subcategory-list"] ion-content .item.item-custom.item-thumbnail-left {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px #dbdbdb;
+    margin: 10px 2%;
+    border: 1px solid #ecf0f6;
+    background-color: #ecf0f6;
+    width: 46% !important;
+}
+
+ion-view[state="mcommerce-subcategory-list"] ion-content .item.item-custom.item-thumbnail-left h2 {
+    font-family: 'Poppins';
+    font-size: 16px !important;
+    font-weight: bold;
+    margin-left: 0 !important;
+}
+
+ion-view[state="mcommerce-subcategory-list"] ion-content .item.item-custom.item-thumbnail-left p.three-lines.ng-binding {
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #2196f3;
+    font-size: 13px !important;
+    margin-left: 0 !important;
+}
+
+/* bagian produk view */
+/* menghilangkan titik di bawah gambar, icon price tag, cart */
+/*.ion-record::before, */
+.ion-pricetag:before,
+.ion-ios-cart-outline:before,
+.ion-information-circled:before {
+    display: none !important;
+}
+
+ion-view.mcommerce-view.mcommerce-product .slider-pager .slider-pager-page {
+    color: #008000;
+}
+
+/* mengatur card pertama/harga */
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(1) {
+    padding: 0 20px;
+    margin: 0 !important;
+}
+
+/* mengatur card kedua/qty & add cart */
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(2) {
+    border-radius: 40px 40px 0 0 !important;
+    background-color: #fff !important;
+    padding: 10px 20px;
+    margin: 0 !important;
+    display: none;
+}
+
+/* mengatur card ketiga/qty & add cart */
+ion-view.mcommerce-view.mcommerce-product .card .item.item-custom {
+    border: 0;
+    background-color: transparent !important;
+    padding: 0;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(3) .item.item-input.item-custom.input-number-sb.ng-not-empty.ng-valid {
+    width: 100% !important;
+    left: 0;
+    right: 0;
+    float: left;
+    height: 48px;
+    padding-left: 0;
+    border-radius: 30px;
+    background-color: transparent !important;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(3) .item.item-input.item-custom.input-number-sb.ng-not-empty.ng-valid .input-label.ng-binding {
+    display: none;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(3) .input-number-sb .input-container {
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+    display: block;
+    height: 35px;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(3) .item-input-wrapper input {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(3) .input-label.ng-binding {
+    visibility: hidden;
+}
+
+.input-number-sb .item-input-wrapper {
+    border-radius: 0;
+    height: 31px;
+    display: inline-block;
+    max-width: 50px;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(2) .item.item-body.item-custom {
+    background-color: #fff !important;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(2) .item.item-body.item-custom span {
+    font-family: MaisonNeue-Book,sans-serif;
+    font-size: 18px !important;
+    font-weight: bold;
+    color: #000;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(3) {
+    padding: 140px 20px 0 20px;
+    width: 100% !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    margin-top: -140px !important;
+    border-top-left-radius: 100% 20% !important;
+    background: rgb(123,182,103);
+    background: linear-gradient(90deg, rgba(123,182,103,1) 0%, rgba(89,172,90,1) 100%);
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(3) .item.item-text-wrap.item-icon-left.item-custom.ng-binding {
+    width: 70% !important;
+    top: 10px;
+    padding: 15px 5px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 0px 15% 20px 15%;
+    text-transform: capitalize;
+    font-weight: normal;
+    color: #fff;
+    background-color: green !important;
+}
+
+/* deskripsi produk */
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(4) {
+    padding: 20px;
+    width: 100% !important;
+    margin: 0 !important;
+    border-radius: 0 0 40px 40px !important;
+    background: linear-gradient(90deg, rgba(123,182,103,1) 0%, rgba(89,172,90,1) 100%);
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(4) .item.item-divider.item-divider-custom {
+    background-color: transparent;
+    color: #fff;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(4) .item.item-divider.item-divider-custom,
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(4) .item.item-body.item-custom.ng-binding {
+    background-color: transparent;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(4) .item.item-divider.item-divider-custom h2 {
+    margin-top: 0;
+    color: #fff !important;
+    font-family: 'Poppins';
+    font-weight: normal;
+    font-size: 16px;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(4) .item-body p {
+    margin-top: 0;
+    color: #fff !important;
+    font-family: 'Poppins';
+    font-size: 14px;
+    margin-bottom: 50px !important;
+    padding-bottom: 200px;
+}
+
+/* Commerce cart view */
+/* DETAIL PRODUCT - CART VIEW */
+ion-view[state="commercepro-cart-view"] ion-content {
+    background-color: #fff !important;
+    border-radius: 40px 40px 0 0 !important;
+    margin-top: 5px !important; 
+}
+
+ion-view[state="commercepro-cart-view"] ion-content .card {
+    box-shadow: none;
+}
+
+ion-view.mcommerce-view.mcommerce-cart .item.item-input.item-custom.input-number-sb .input-label.ng-binding {
+    display: none;
+}
+
+ion-view.mcommerce-view.mcommerce-cart .input-number-sb .input-container {
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+    display: block;
+}
+
+ion-view.mcommerce-view.mcommerce-cart .item-input-wrapper input {
+    color: #008000;
+    font-size: 16px;
+}
+
+ion-view.mcommerce-view.mcommerce-cart .ion-minus:before,
+ion-view.mcommerce-view.mcommerce-cart .ion-plus:before {
+    color: #fff;
+    font-size: 16px;
+    transform: rotate(135deg);
+}
+
+ion-view.mcommerce-view.mcommerce-cart .item.item-text-wrap.item-icon-left.item-custom.ng-binding {
+    width: 50% !important;
+    left: 0;
+    right: 0;
+    float: right;
+    height: 48px;
+    background-color: #03ad53;
+    color: #fff;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+
+.mcommerce-view.mcommerce-cart .item.item-divider.item-divider-custom p {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.mcommerce-view.mcommerce-cart .icon.ion-clipboard:before,
+.mcommerce-view.mcommerce-cart .icon.ion-calculator:before,
+.mcommerce-view.mcommerce-product .icon.ion-ios-upload-outline {
+    display: none;
+}
+
+.mcommerce-view.mcommerce-cart .item.item-thumbnail-left.item-icon-right.item-custom img {
+    border-radius: 50%;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-customer .list .item.item-custom .input-label {
+    text-align: left;
+}
+
+
+/* Continue Shopping */
+.mcommerce-view.mcommerce-cart div.card:nth-last-child(1) div.item.item-icon-left.item-custom.ng-binding {
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 10px;
+    margin-bottom: 70px;
+    text-align: center;
+    padding: 10px 0;
+    background-color: green;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.mcommerce-view.mcommerce-cart div.card:nth-last-child(1) .ion-ios-arrow-back:before {
+    display: none;
+}
+
+
+/* add gratuity (optional) */
+[state="mcommerce-cart-view"] div.item.item-custom.ng-binding:nth-child(6) {
+    display: none !important;
+}
+
+/* Modul Places */
+/* icon bagian kanan header */
+.ion-sb-list1:before,
+.ion-sb-map:before,
+.ion-sb-grid-33:before,
+.ion-sb-grid-50:before,
+ion-view[state="places-list-map"] .ion-sb-turn-right:before,
+ion-view[state="places-list-map"] .ion-android-call:before,
+ion-view[state="places-list-map"] .ion-close:before {
+    color: #fab212 !important;
+}
+
+/* button cari pada places */
+.module-places .svg_filter_bg {
+    fill: #30aaed !important;
+}
+
+/* modal location */
+.module-places .info-window .info-window-icon {
+    padding: 10px;
+    border-bottom: 0;
+    border-radius: 10px 10px 0 0;
+}
+
+ion-view[state="places-list-map"] #mapInfoWindow {
+    bottom: 30vh;
+    border: 0 !important;
+}
+
+ion-view[state="places-list-map"] #mapInfoWindow .info-window-title.ng-binding {
+    font-size: 18px;
+    color: #fab212;
+}
+
+ion-view[state="places-list-map"] #mapInfoWindow span,
+ion-view[state="places-list-map"] #mapInfoWindow h2,
+ion-view[state="places-list-map"] #mapInfoWindow p {
+    font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;  
+}
+
+ion-view[state="places-list-map"] #mapInfoWindow .info-window-more.ng-binding {
+    visibility: hidden;
+}
+
+ion-view[state="places-list-map"] #mapInfoWindow .info-window-more.ng-binding:after {
+    visibility: visible;
+    content: "Detail";
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin: 0 0 0 100%;
+    border-radius: 10px;
+    background-color: #fab212;
+    padding: 10px;
+    color: #fff;
+}
+
+ion-view[state="places-list-map"] #mapInfoWindow .ion-android-open::before {
+    display: none;
+}
+
+
+/* Form v2 */
+.module-form2 .form2-divider:nth-of-type(1) p {
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px !important;
+    margin-top: 10px;
+}
+
+label.radio-custom.radio-item.item.item-radio.ng-valid.ng-not-empty,
+label.radio-custom.radio-item.item.item-radio.ng-empty.ng-valid {
+    border: 0;
+}
+
+.item.item-custom.item-icon-left.form2-datetime .row .col-50:nth-child(1) {
+    flex: 0 0 100%;
+    max-width: 100%;  
+    display: block;
+}
+
+.item.item-custom.item-icon-left.form2-datetime .row .col-50:nth-child(2) {
+    flex: 0 0 100%;
+    max-width: 100%;  
+    display: block;
+}
+
+.item.item-custom.item-icon-left.form2-datetime .row {
+    display: inline-block;
+}
+
+.module-form2 .form2-datetime input[type="text"],
+.module-form2 .form2-date input[type="text"] {
+    width: 100%;
+    text-align: left;
+    font-size: 14px !important;
+    font-weight: bold;
+    color: #df3b3b;
+}
+
+.ion-clock:before {
+    color: #df3b3b;
+}
+
+.item.item-custom.item-icon-left.form2-datetime p {
+    overflow: visible;
+    text-overflow: unset;
+    white-space: normal;  
+}
+
+.radio-content {
+    width: 96%;
+    margin: 0 .5% 0 3.5%;
+    border: 2px solid #e1e1e1;
+    border-radius: 5px; 
+}
+
+.module-form2.form2.form2-home.form2-home-l1 label {
+    display: inline-block;
+    width: 100%;
+  
+}
+
+.module-form2.form2.form2-home.form2-home-l1 label input,
+.module-form2.form2.form2-home.form2-home-l1 label textarea {
+    display: block;
+    width: 100%;
+    margin: 0 0 0 -.5%;
+    text-align: left;
+    padding: 20px;
+    border: 2px solid #e1e1e1;
+    border-radius: 5px;
+}
+
+.module-form2.form2.form2-home.form2-home-l1 label.item-select.form2-select {
+    width: 96%;
+    margin: 0 .5% 0 3.5%;
+    border: 2px solid #e1e1e1;
+    border-radius: 5px;
+}
+
+.module-form2.form2.form2-home.form2-home-l1 .button.button-positive-custom {
+    width: 30%;
+    margin-left: 35%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #18bd5b;
+}
+
+.module-form2.form2.form2-home.form2-home-l1 .input-label {
+    width: 100% !important;
+    display: block;
+    margin: 0;
+}
+
+img.form2-illustration {
+    width: 96% !important;
+    border-radius: 5px;
+    margin-left: 2%;
+}
+
+.module-form2 ion-item.item-custom.radio-title.item.ng-binding {
+    overflow: visible;
+    text-overflow: unset;
+    white-space: normal;  
+    font-weight: normal;
+}
+
+/* mengatur buton LAYANAN DAN PESAN SEKARANG */
+.module-places.places.places-view .place-block .card .item.item-text-wrap.item-custom.sb-cms-text div p a {
+    background-color: orange;
+    border-radius: 5px;
+    padding: 10px;
+    height: 25px;
+    text-transform: uppercase;
+    top: 10px;
+  
+}
+
+/* menu ke-4, 5, dan 6 */
+.folder-l6-row:nth-child(4) .folder-l6-col.item.item-custom,
+.folder-l6-row:nth-child(5) .folder-l6-col.item.item-custom,
+.folder-l6-row:nth-child(6) .folder-l6-col.item.item-custom {
+    background-color: #ecf0f6;
+    border-radius: 10px !important;   
+    background-image: url(https://builder.justapp.id//var/cache/images/6b717c2….png);
+    background-size: 43px !important;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.folder-l6-row:nth-child(4) .folder-l6-col.item.item-custom p.folder-title.ng-binding,
+.folder-l6-row:nth-child(5) .folder-l6-col.item.item-custom p.folder-title.ng-binding,
+.folder-l6-row:nth-child(6) .folder-l6-col.item.item-custom p.folder-title.ng-binding {
+    font-size: 11px;
+}
+
+[state="mcommerce-category-list"] .list .button-bar a.button.button-custom.icon-left.ion-clipboard.ng-binding,
+[state="mcommerce-category-list"] .list .button-bar a.button.button-custom.icon-left.ion-ios-cart {
+    background-color: #eceeff;
+    color: #000 !important;
+    border-radius: 20px;
+    border: 0;
+    margin-bottom: 10px;
+    max-width: 45% !important;
+    margin: 2.5%;
+    font-size: 10px;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list {
+    width: 96%;
+    margin-left: 2%;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list>.item.item-custom {
+    background-color: #eceeff;
+}
+
+[state="mcommerce-category-list"] .list [ng-click="showItem(cover)"] .item.item-image.item-custom {
+    display: none;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list>div> div.item.item-custom>h2:before {
+    content: "Welcome to ";
+    font-size: 16px;
+    color: #000;
+    margin-top: 20px !important;
+    font-family: 'Poppins';
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list>div> div.item.item-custom>h2 {
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: bold;
+    color: #30aaed;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list>div> div.item.item-custom>p {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: bold;
+    color: #070c08;
+}
+
+/* mengatur button left dan right */
+button[ng-click="goBack()"] {
+    position: fixed !important;
+    top: 90vh !important;
+    right: 90% !important;
+    left: 5vh !important;
+    border-radius: 10px !important;
+    border-width: 0 !important;
+    padding: 5px 12px 5px 12px !important;
+    z-index: 999 !important;
+    box-shadow: none !important;
+    color: #fff !important;
+    background-color: #070c08 !important;
+    float: left !important;
+    width: 40% !important;
+    display: inline-block !important;
+    display: none !important;
+}
+
+button[ng-click="right_button.action()"] {
+    position: fixed !important;
+    top: 91vh !important;
+    right: 30vw !important;
+    border-radius: 10px !important;
+    border-width: 0 !important;
+    padding: 5px 12px 5px 12px !important;
+    z-index: 999 !important;
+    box-shadow: none !important;
+    color: #fff !important;
+    float: right !important;
+    width: 40vw !important;
+    display: inline-block !important;
+    border: 2px solid #fff !important;
+    min-height: 55px !important;
+    max-height: 55px !important;
+    height: 55px !important;
+    background-image: linear-gradient(-60deg,#57ac5a 0%,#7db667 100%) !important;
+}
+
+button[ng-click="right_button.action()"] span {
+    color: #fff !important;
+    font-size: 11px !important;
+    margin-left: 0 !important;
+}
+
+button[ng-click="right_button.action()"] .ion-ios-cart:before {
+    color: #fff !important;
+}
+
+[state="mcommerce-subcategory-list"] .item.item-custom.item-thumbnail-left {
+    width: 45% !important;
+    display: inline-block;
+    left: 0;
+    right: 0;
+    margin: 5px 2.5%;
+    min-height: 180px;
+    padding: 0;
+    border: 0;
+    box-shadow: 0 2px 4px #dbdbdb;
+}
+
+[state="mcommerce-subcategory-list"] .item.item-custom.item-thumbnail-left img {
+    display: block;
+    right: 0;
+    margin: 0 !important;
+    object-fit: cover;
+    border-radius: 10px;
+    max-width: 120%;
+    max-height: 120px;
+    top: 0;
+    left: 0;
+    border-bottom-left-radius: 100px 30px;
+    border-bottom-right-radius: 100px 30px;
+}
+
+[state="mcommerce-subcategory-list"] .item.item-custom.item-thumbnail-left h2 {
+    width: 100% !important;
+    display: block !important;
+    left: 0 !important;
+    right: 0 !important;
+    white-space: normal;
+    margin-top: 130px !important;
+    padding: 0 !important;
+    text-align: center;
+    margin-left: 0 !important;
+}
+
+[state="mcommerce-subcategory-list"] .item.item-custom.item-thumbnail-left p.three-lines.ng-binding {
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Poppins';
+    font-size: 13px !important;
+    margin-left: 0;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-error .list .item-radio.radio-custom,
+ion-view.mcommerce-view.mcommerce-sales-payment .list .item-radio.radio-custom {
+    color: #070c08;
+    background-color: transparent;
+    border: 0 !important;
+    margin-bottom: 10px;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-error .radio-content,
+ion-view.mcommerce-view.mcommerce-sales-payment .radio-content {
+    color: #30aaed;
+    border: 0;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card:last-child {
+    padding-bottom: 150px;
+}
+
+ion-modal-view.customer-view.customer-layout1 .ion-ios-gear-outline:before,
+ion-modal-view.customer-view.customer-layout1 .ion-ios-arrow-back:before {
+    color: #fff;
+}
+
+
+
+/* CSS MY ACCOUNT */
+/* mengatur ion content */
+ion-modal-view.customer-view.customer-layout1 ion-content {
+    top: 44px !important;
+}
+
+/* LOGIN */
+/* tambah gambar */
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"]:before {
+    content: ".";
+    color: #fff;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/undraw_my_app_re_gxtj.svg);
+    background-position: center;
+    background-size: 240px;
+    background-repeat: no-repeat;
+    height: 250px;
+    display: block;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"] .list {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 0;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"]>div>div:first-child:before {
+    content: "Welcome Back";
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 18px;
+    color: #76b465;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"]>div>div:first-child {
+    margin-bottom: 7px !important;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"] .list:before {
+    content: "Kami senang melihatmu kembali. Silakan login lagi dan lanjutkan aktivitas terakhir Anda.";
+    display: block;
+    width: 100%;
+    font-size: 13px;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"] .list .item.item-custom {
+    border-bottom: 2px solid #ecf0f6;
+    height: 75px;
+    margin: 5px 0;
+    width: 100%;
+    padding-left: 0;
+    padding-top: 40px;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"] label i,
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"] label i {
+    display: none;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"] label,
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"] label {
+    padding-bottom: 0;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"] .padding.text-right {
+    padding: 0 0 10px 0 !important;
+    font-size: 10px;
+    margin-right: 5%;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"] .padding.text-right span {
+    color: #070c08;
+    text-transform: capitalize;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"] .button.button-positive-custom {
+    border: 0;
+    background-image: linear-gradient(-60deg,#57ac5a 0%,#7db667 100%);
+    color: #ffffff;
+    width: 50%;
+    border-radius: 30px;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"] .padding.text-center.ng-binding {
+    font-size: 10px;
+}
+
+/* FORGOT PASSWORD */
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_forgot_password_form"]:before {
+    content: ".";
+    color: #fff;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/undraw_develop_app_re_bi4i.svg);
+    background-position: center;
+    background-size: 240px;
+    background-repeat: no-repeat;
+    height: 250px;
+    display: block;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_forgot_password_form"]>div:before {
+    content: "Hmm, lupa sandi yah?";
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_forgot_password_form"] div.padding.text-left {
+    visibility: hidden !important;
+    padding: 10px 0;
+}
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_forgot_password_form"] div.padding.text-left p {
+    display: none;
+}
+
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_forgot_password_form"] div.padding.text-left:before {
+    content: "Kirimkan email yang pernah Anda pakai untuk mendaftar di periode sebelumnya. Kami akan mengganti sandi Anda dengan yang baru.";
+    display: block;
+    width: 100%;
+    font-size: 13px;
+    visibility: visible !important;
+    margin-left: 5%;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_forgot_password_form"] .list .item.item-custom {
+    border-bottom: 2px solid #ecf0f6;
+    margin: 5px 0;
+    width: 100%;
+    padding-left: 0;
+    width: 90%;
+    margin-left: 5%;
+    height: 50px;
+    padding-top: 20px;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_forgot_password_form"] label i {
+    display: none;
+}
+
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_forgot_password_form"] .button.button-positive-custom,
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3)  .button.button-positive-custom {
+    border: 0;
+    background-image: linear-gradient(-60deg,#57ac5a 0%,#7db667 100%);
+    color: #ffffff;
+    width: 50%;
+    border-radius: 30px;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_forgot_password_form"] .padding.text-center.ng-binding,
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) .padding.text-center.ng-binding {
+    font-size: 10px;
+}
+
+
+/* REGISTER */
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) {
+    width: 90%;
+    margin-left: 5%;
+}
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) section.avatar.text-center.padding {
+    padding: 10px 0;
+}
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) section.avatar.text-center.padding:after {
+    content: "Hai, Selamat Datang";
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: left;
+    padding: 0;
+    margin-left: 0;
+}
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) .list .item.item-custom {
+    padding-left: 0;
+    display: inline-block;
+    width: 100%;
+}
+
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) .list:before {
+    content: "Buat akun baru dan segera bergabung dengan kami sekarang.";
+    display: block;
+    width: 100%;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) .list .input-label.ng-binding {
+    max-width: 100%;
+    margin: 0 !important;
+    display: block !important;
+    width: 100% !important;   
+    display: none !important;
+}
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) input.text-right.ng-pristine.ng-untouched.ng-valid.ng-empty,
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) input.text-right.ng-pristine.ng-valid.ng-empty.ng-touched,
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) input.text-right.ng-pristine.ng-untouched.ng-valid.ng-not-empty,
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) input.text-right.ng-pristine.ng-valid.ng-not-empty.ng-touched,
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) input.text-right.ng-valid.ng-touched.ng-empty.ng-dirty.ng-valid-parse,
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) input.text-right.ng-valid.ng-touched.ng-not-empty.ng-dirty.ng-valid-parse,
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) input.text-right.ng-valid.ng-touched.ng-dirty.ng-not-empty {
+    max-width: 100%;
+    margin: 0 !important;
+    display: block !important;
+    width: 100% !important;
+    padding: 0;
+    text-align: left !important;
+}
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) .item.item-input.item-custom {
+    border-bottom: 2px solid #ecf0f6;
+}
+
+[ng-if="customer.change_password || !customer.is_logged_in"] .input-label {
+    display: none;
+}
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) label.item.item-input.item-custom:last-of-type div#_label-6.input-label,
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) label.item.item-input.item-custom div#_label-13.input-label,
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) div#_label-8.input-label,
+ {
+    display: none !important;
+}
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) label.item.item-input.item-custom div#_label-8.input-label {
+    display: none;
+}
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) [ng-if="myAccount.settings.extra_civility"] div#_label-5 {
+    display: inline !important;
+}
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) [ng-if="myAccount.settings.extra_civility"] {
+    padding: 20px;
+}
+
+[ng-if="myAccount.settings.enable_password_verification && (customer.change_password || !customer.is_logged_in)"] .input-label {
+    display: none;
+}
+
+/* persetujuan layanan */
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) .item-content.disable-pointer-events span.ng-binding {
+    margin-left: 45px;
+    color: #070c08;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    display: block;
+    width: 90%;
+    text-overflow: ellipsis;
+}
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) span[ng-if="field.is_required"] {
+    display: none;
+}
+
+
+/* privacy policy radio */
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) .checkbox-custom .checkbox input:before,
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) .checkbox-custom .checkbox-icon:before {
+    background: #63af5e;
+    border-color: #74b464;
+}
+
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) .checkbox-custom .checkbox input:checked:after,
+ion-modal-view.customer-view.customer-layout1 div.scroll div:nth-child(3) input:checked + .checkbox-icon:after {
+    border-color: #fff;
+}
+
+
+[ng-click="showItem(cover)"] .item.item-custom {
+    background-color: transparent;
+    margin-top: -15px;
+    margin-bottom: 18px;
+    width: 90%;
+    border-radius: 0 83px 0 15px;
+    padding: 10px 10px 0 10px;
+    margin-left: 4px;
+    border: 0 !important;
+}
+
+
+/* gambar produk */
+ion-view[state="mcommerce-product-view"] ion-slide.slider-slide img {
+    border-radius: 0 0 20px 20px;
+    background-color: #eaeaea;
+    padding: 5px;
+    width: 80% !important;
+    margin-left: 10%;
+}
+
+ion-view[state="mcommerce-product-view"] .card:nth-child(1)>div.item.item-text-wrap.text-center.item-custom {
+    background-color: transparent;
+}
+
+[state="mcommerce-cart-view"] .card .item.item-divider.item-divider-custom {
+    margin-bottom: 10px !important;
+    padding-top: 15px !important;
+    border-radius: 20px 20px 0 0 !important;
+    background-color: #e6e6e6;
+    width: 85%;
+}
+
+/* Modul Social Wall - Feed */
+/* sub header */
+ion-view[state="fanwall-home"] ion-header-bar.bar-subheader {
+    top: calc(var(--safe-area-inset-top) + 91vh) !important;
+    border: 0 !important;
+    background-color: #fff !important;
+}
+ion-view[state="fanwall-home"] ion-header-bar.bar-subheader button,
+ion-view[state="fanwall-home"] ion-header-bar.bar-subheader .button-bar {
+    border: 0 !important;   
+}
+
+
+
+button.button.button-custom.button-positive.button-positive-custom.ng-binding.fw-icon-selected.icon-active-custom {
+    background-color: transparent;
+}
+
+button.button.button-custom.button-positive.button-positive-custom.ng-binding.icon-custom {
+    border: 0;
+    background-color: transparent;
+    color: #a8a8a8 !important;
+}
+
+button.button.button-custom.button-positive.button-positive-custom.ng-binding.fw-icon-selected.icon-active-custom img {
+    filter: invert(1);  
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 ion-content {
+    bottom: calc(var(--safe-area-inset-bottom) + 30px) !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    box-sizing: unset !important;
+}
+
+button.button.button-custom.button-positive.button-positive-custom.ng-binding.fw-icon-selected.icon-active-custom {
+    background-color: #144c63;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+button.button.button-custom.button-positive.button-positive-custom.ng-binding.fw-icon-selected.icon-active-custom img,
+button.button.button-custom.button-positive.button-positive-custom.ng-binding.fw-icon-selected.icon-active-custom.activated img,
+button.button.button-custom.button-positive.button-positive-custom.ng-binding.icon-custom.activated img {
+    margin: 5px;
+}
+
+button.button.button-custom.button-positive.button-positive-custom.ng-binding.fw-icon-selected.icon-active-custom.activated,
+button.button.button-custom.button-positive.button-positive-custom.ng-binding.icon-custom.activated {
+    background-color: green !important;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+/* mengatur card postingan */
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 ion-item.item-custom.item {
+    width: 96%;
+    border-radius: 10px;
+    margin-left: 2%;
+    border: 0;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);  
+}
+
+/* Homepage Commerce */
+ion-view[state="mcommerce-category-list"] ion-content .list>.item.item-custom {
+    background-color: #eceeff;
+    background-image: linear-gradient(-60deg, #57ac5a 0%, #7db667 100%) !important;
+    border: 0 !important;
+    padding: 0 !important;
+    width: 46%;
+    display: inline-block;
+    margin: 10px 2%;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list .item.item-custom.item-thumbnail-left img {
+    min-width: 100% !important;
+    display: block;
+    padding: 0;
+    left: 0;
+    right: 0;
+    object-fit: contain !important;
+    opacity: 1;
+    border-radius: 10px !important;
+    top: 0;
+    border-bottom-left-radius: 100px 30px !important;
+    border-bottom-right-radius: 100px 30px !important;
+    background-color: white !important;
+    border: 2px solid #77b465;
+    min-height: 109px !important;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list > .item.item-custom h2 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    color: #ffffff;
+    margin-top: 100px;
+    height: 40px;
+    text-align: center;
+    padding: 15px 0 0 0;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list > .item.item-custom p.three-lines.ng-binding:after {
+    content: "Lihat Produk";
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin-left: 0;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid #fff;
+    background-image: linear-gradient(-60deg, #57ac5a 0%, #9bd087 100%) !important;
+}
+
+
+[ng-show="!is_loading && cover"]:before {
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2019/04/farm-08.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    content: ".";
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 189px;
+    margin-left: 0%;
+    border-radius: 10px;
+    border-bottom-left-radius: 100px 30px !important;
+    border-bottom-right-radius: 100px 30px !important;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list > div > div.item.item-custom > h2 {
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+div[ng-if="use_button_header"] {
+    margin-top: -218px;
+    margin-bottom: 135px;
+}
+
+[state="mcommerce-category-list"] .list .button-bar a.button.button-custom.icon-left.ion-clipboard.ng-binding,
+[state="mcommerce-category-list"] .list .button-bar a.button.button-custom.icon-left.ion-ios-cart {
+    background-color: #eceeff;
+    color: #000 !important;
+    border-radius: 10px;
+    border: 0;
+    margin-bottom: 10px;
+    max-width: 45% !important;
+    margin: 2.5%;
+    font-size: 10px;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list > div > label {
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 10px;
+    border: 2px solid #68b160;
+    margin-bottom: 10px;
+}
+
+/* Choose a Store - Pilih Toko*/
+ion-view.mcommerce-view.mcommerce-sales-store .scroll:before {
+    content: "Pilih Toko Langganan Kamu";
+    display: block;
+    width: 100%;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: green;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-store ion-item.item-divider.item-divider-custom.item h2.ng-binding,
+ion-view.mcommerce-view.mcommerce-sales-store ion-item.item-divider.item-divider-custom.item {
+    font-size: 20px;
+    color: green;
+    text-transform: capitalize;
+    display: none !important;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-store .radio-content {
+    width: 100%;
+    margin: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-store .radio-content span {
+    white-space: normal;
+}
+
+/* tanda centang pada halaman pilih toko */
+ion-view.mcommerce-view.mcommerce-sales-store .radio-content i.radio-icon.disable-pointer-events.icon.ion-checkmark {
+    color: #fff;
+}
+
+/* warna latar item yang dipilih */
+ion-view.mcommerce-view.mcommerce-sales-store .item-radio input:checked+.radio-content .item-content {
+    background-color: transparent !important;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* ukuran tulisan pilih toko */
+ion-view.mcommerce-view.mcommerce-sales-customer ion-item.item-divider.item-divider-custom.item h2.ng-binding,
+ion-view.mcommerce-view.mcommerce-sales-store ion-item.item-divider.item-divider-custom.item h2.ng-binding {
+    font-size: 20px;
+    color: green;
+}
+
+/* Halaman Informasi Pembeli dan Alamat pengiriman */
+ion-view.mcommerce-view.mcommerce-sales-customer ion-list.disable-user-behavior .list label {
+    border: 0;
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+}
+
+/* mengatur judul form */
+ion-view.mcommerce-view.mcommerce-sales-customer ion-list.disable-user-behavior .list label .input-label.ng-binding {
+    width: 100% !important;
+    margin: 0 !important;
+    display: block !important;
+    max-width: 100% !important;
+    text-transform: capitalize;
+}
+
+/* untuk bagian input */
+ion-view.mcommerce-view.mcommerce-sales-customer input {
+    width: 96%;
+    text-align: left;
+    border: 2px solid green;
+    padding: 10px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+/* Pilih Metode Pengiriman */
+ion-view.mcommerce-view.mcommerce-sales-error ion-item.item-divider.item-divider-custom.item h2.ng-binding {
+    font-size: 20px;
+    color: green;
+    text-transform: capitalize;;
+}
+
+
+ion-view.mcommerce-view.mcommerce-sales-error .item-radio.radio-custom {
+    color: rgba(107, 170, 132, 1);
+    background-color: transparent;
+    border: 0 !important;
+    margin-bottom: 10px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-error .radio-content {
+    width: 100%;
+    margin: 0;
+    border: 0;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    background-image: linear-gradient(-60deg,#57ac5a 0%,#7db667 100%);
+}
+
+/* tanda centang pada halaman metode pengiriman */
+ion-view.mcommerce-view.mcommerce-sales-error .radio-content i.radio-icon.disable-pointer-events.icon.ion-checkmark {
+    color: #fff;
+}
+
+/* warna latar item yang dipilih */
+ion-view.mcommerce-view.mcommerce-sales-error .item-radio input:checked+.radio-content .item-content {
+    background-image: linear-gradient(-60deg,#57ac5a 0%,#7db667 100%) !important;
+    color: #fff;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-error .item-radio.radio-custom.item-radio .item-content {
+    background-color: transparent;
+}
+
+/* Pilih Metode Pembayaran */
+ion-view.mcommerce-view.mcommerce-sales-payment ion-item.item-divider.item-divider-custom.item h2.ng-binding {
+    font-size: 20px;
+    color: green;
+    text-transform: capitalize;;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-payment .item-radio.radio-custom {
+    color: rgba(107, 170, 132, 1);
+    background-color: transparent;
+    border: 0 !important;
+    margin-bottom: 10px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-payment .radio-content {
+    width: 100%;
+    margin: 0;
+    border: 2px solid #5cad5c;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+/* tanda centang pada halaman metode pengiriman */
+ion-view.mcommerce-view.mcommerce-sales-payment .radio-content i.radio-icon.disable-pointer-events.icon.ion-checkmark {
+    color: #fff;
+}
+
+/* warna latar item yang dipilih */
+ion-view.mcommerce-view.mcommerce-sales-payment .item-radio input:checked+.radio-content .item-content {
+    background-image: linear-gradient(-60deg,#57ac5a 0%,#7db667 100%) !important;
+    color: #fff;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-payment .item-radio.radio-custom.item-radio .item-content {
+    background-color: transparent;
+}
+
+
+ion-view.mcommerce-view.mcommerce-sales-error .list .item-radio.radio-custom {
+    color: #000 !important;
+    margin-bottom: 10px;
+    height: 100px;
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2019/05/food-bank_38.jpg);
+    width: 60%;
+    display: inline-block;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: 79%;
+    border: 2px solid #75b465 !important;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-error .scroll:before {
+    content: "Pilih Metode Pengiriman";
+    display: block;
+    width: 100%;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: green;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-error ion-item.item-divider.item-divider-custom.item h2.ng-binding,
+ion-view.mcommerce-view.mcommerce-sales-error ion-item.item-divider.item-divider-custom.item {
+    font-size: 20px;
+    color: green;
+    text-transform: capitalize;
+    display: none !important;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-error .list {
+    width: 100% !important;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card .item.item-input.item-custom.input-number-sb {
+    height: 100px;
+}
+
+
+/* Metode Pembayaran */
+ion-view.mcommerce-view.mcommerce-sales-payment .scroll:before {
+    content: "Pilih Metode Pembayaran";
+    display: block;
+    width: 100%;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: green;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-payment ion-item.item-divider.item-divider-custom.item h2.ng-binding,
+ion-view.mcommerce-view.mcommerce-sales-payment ion-item.item-divider.item-divider-custom.item {
+    font-size: 20px;
+    color: green;
+    text-transform: capitalize;
+    display: none !important;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-payment .list {
+    width: 100% !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    white-space: nowrap !important;
+    -webkit-overflow-scrolling: touch !important;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-payment .list {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+ion-view.mcommerce-view.mcommerce-sales-payment .list .item-radio.radio-custom:nth-child(2) {
+    color: #070c08;
+    background-color: transparent;
+    margin-bottom: 10px;
+    background-image: url(https://mukisi.com/wp-content/uploads/2018/08/14-andikafm.com_.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 60%;
+    border: 2px solid #75b465 !important;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-payment .list .item-radio.radio-custom:nth-child(3) {
+    color: #070c08;
+    background-color: transparent;
+    margin-bottom: 10px;
+    background-image: url(https://thumbs.dreamstime.com/b/bank-155279102.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 60%;
+    border: 2px solid #75b465 !important;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-payment .list .item-radio.radio-custom:nth-child(4) {
+    color: #070c08;
+    background-color: transparent;
+    margin-bottom: 10px;
+    background-image: url(https://img10.jd.id/Indonesia/s956x438_/amZzL3Q3OS82MC8yOTM1MTkxNzAxLzE5MDEyMC82N2E0NzdlMS82MDA4MDQ4MU5kMGU0ZGU3ZA.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 60%;
+    border: 2px solid #75b465 !important;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-payment .list .item-radio.radio-custom:nth-child(5) {
+    color: #070c08;
+    background-color: transparent;
+    margin-bottom: 10px;
+    background-image: url(https://risetcdn.jatimtimes.com/images/2020/05/22/Transfer-uang-Foto-Globalgate-Forex-PVT-LTDe36ab17f681e205c.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 60%;
+    border: 2px solid #75b465 !important;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+
+ion-view.mcommerce-view.mcommerce-sales-payment .radio-content {
+    width: 100%;
+    margin: 0;
+    border: 0;
+    border-radius: 5px 5px 0 0;
+    background-image: linear-gradient(-60deg,#57ac5a 0%,#7db667 100%) !important;
+    color: #fff;
+}
+
+
+/* customer memilih pengantaran */
+ion-view.mcommerce-view.mcommerce-sales-error div[ng-if="clients_calculate_change_form_is_visible"] ion-item.item-custom.item {
+    border: 0;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-error div[ng-if="clients_calculate_change_form_is_visible"] ion-item.item-custom.item .row {
+    width: 100%;
+    display: inline-block;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-error div[ng-if="clients_calculate_change_form_is_visible"] ion-item.item-custom.item .row .col-65 {
+    max-width: 100%;
+    font-size: 12px;
+    text-align: left;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-error div[ng-if="clients_calculate_change_form_is_visible"] ion-item.item-custom.item .row .col-35,
+ion-view.mcommerce-view.mcommerce-sales-error div[ng-if="clients_calculate_change_form_is_visible"] ion-item.item-custom.item .row .col-35 input {
+    max-width: 100%;
+    text-align: left !important;
+    font-size: 18px;
+    color: green;
+    margin-top: 10px;
+}
+
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card {
+    width: 96%;
+    margin-left: 2%;
+    background-color: #6db262 !important;
+    border-radius: 10px;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card .item-divider.item-divider-custom {
+    background-color: #ecf0f6;
+    color: #000 !important;
+    border: 0;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card .item-divider.item-divider-custom strong.ng-binding {
+    color: #fff;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card .item-divider.item-divider-custom strong.ng-binding i {
+    display: none;
+}
+
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card .item.item-custom {
+    border: 0;
+    background-color: #6db262;
+    color: #fff;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .item.item-thumbnail-left.item-icon-right.item-custom p {
+    color: #fff;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .item.item-thumbnail-left.item-icon-right.item-custom img {
+    border-radius: 50px;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .item.item-thumbnail-left.item-icon-right.item-custom p strong {
+    color: #fff;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .item.item-divider.item-divider-custom strong.ng-binding {
+    font-size: 18px;
+    color: #000 !important;
+    background-color: transparent;
+}
+
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .item.item-divider.item-divider-custom p strong {
+    color: #000 !important;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card .item.item-custom {
+    display: inline-block;
+    width: 100%;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card .item.item-custom strong.ng-binding {
+    width: 100%;
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card .item.item-custom span,
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card .item.item-custom span strong.ng-binding {
+    width: 100%;
+    margin-top: 5px;
+    color: black;
+    font-size: 16px;
+    text-align: right;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card:nth-last-child(1)>.item {
+    border: 2px solid #eaeaea;
+    border-top: 0;
+    border-radius: 0 0 10px 10px;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card:nth-last-child(1)>.item.item-divider.item-divider-custom {
+    border-radius: 10px 10px 0 0;
+}
+
+
+/* mengatur bagian review/ualasan - saya akan membayar*/
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card:nth-last-child(3) div:last-child ion-item.item-divider.item-divider-custom.item {
+    display: none;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card:nth-last-child(3) div:last-child ion-item.item-custom.item .row {
+    display: inline-block !important;
+    width: 100% !important;
+}
+
+ ion-view.mcommerce-view.mcommerce-sales-confirmation .card:nth-last-child(3) div:last-child .row .col-75 {
+    width: 100% !important;
+    display: block !important;
+    max-width: 100% !important;
+    font-size: 13px !important;
+    text-align: left !important;
+    text-transform: capitalize !important;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card:nth-last-child(3) div:last-child .row .col-25 {
+    width: 100% !important;
+    display: inline-block !important;
+    max-width: 100% !important;
+    font-size: 16px !important;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card:nth-last-child(2) div:last-child ion-item.item-divider.item-divider-custom.item {
+    display: none;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card:nth-last-child(2) div:last-child ion-item.item-custom.item .row {
+    display: inline-block !important;
+    width: 100% !important;
+}
+
+ ion-view.mcommerce-view.mcommerce-sales-confirmation .card:nth-last-child(2) div:last-child .row .col-75 {
+    width: 100% !important;
+    display: block !important;
+    max-width: 100% !important;
+    font-size: 13px !important;
+    text-align: left !important;
+    text-transform: capitalize !important;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-confirmation .card:nth-last-child(2) div:last-child .row .col-25 {
+    width: 100% !important;
+    display: inline-block !important;
+    max-width: 100% !important;
+    font-size: 16px !important;
+}
+
+
+/* Halaman Riwayat Pesanan */
+/* menambahkan gambar */
+ion-view.mcommerce-view.mcommerce-sales-history .scroll:before {
+content: ".";
+    color: #6203c1;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    height: 150px;
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/03/Image_01-2.jpg);
+    object-fit: cover;
+    border-bottom-left-radius: 100% 50px;
+    border-bottom-right-radius: 100% 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 96%;
+    margin-left: 2%;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-history .list .item.item-text-wrap.item-custom {
+    border: 0;
+    width: 96%;
+    margin: 10px 2%;
+    border-radius: 10px;
+    background-image: linear-gradient(-60deg,#57ac5a 0%,#7db667 100%);
+}
+
+/*text */
+ion-view.mcommerce-view.mcommerce-sales-history .list .item.item-text-wrap.item-custom h2,
+ion-view.mcommerce-view.mcommerce-sales-history .list .item.item-text-wrap.item-custom strong,
+ion-view.mcommerce-view.mcommerce-sales-history .list .item.item-text-wrap.item-custom span,
+ion-view.mcommerce-view.mcommerce-sales-history .list .item.item-text-wrap.item-custom p {
+    color: #fff !important;
+    font-weight: normal;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+
+/* icon */
+ion-view.mcommerce-view.mcommerce-sales-history .list .item.item-text-wrap.item-custom i {
+    display: none;
+}
+
+
+/* Halaman Detail dari Riwayat Pesanan */
+ion-view.mcommerce-view.mcommerce-sales-history-details .item.item-custom.ng-binding {
+    border: 0;
+}
+
+/* Kolom detail pesanan */
+ion-view.mcommerce-view.mcommerce-sales-history-details .item.item-custom.item-icon-left {
+    border-top: 1px solid green;
+    width: 96%;
+    margin-left: 2%;
+    border-left: 0;
+    border-right: 0;
+    font-weight: normal;
+    padding: 5px;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-history-details .item.item-custom.item-icon-left strong {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+
+/* PADLOCK */
+ion-view.padlock-view ion-content .scroll:before {
+    content: ".";
+    background-color: transparent;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/you-x-ventures-6hDWAajuDv8-unsplash-scaled.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    height: 450px;
+    border-bottom-right-radius: 50px;
+    opacity: 0.1;
+}
+
+ion-view.padlock-view ion-content .scroll .card.padlock {
+    margin-top: -400px;
+    width: 90%;
+    margin-left: 5%;
+    background-image: linear-gradient(-60deg,#57ac5a 0%,#7db667 100%);
+    border-radius: 30px;
+    border: 3px solid #7db667;
+    padding-bottom: 50px;
+}
+
+ion-view.padlock-view ion-content .scroll .card.padlock .item.item-text-wrap.item-custom {
+    background: transparent;
+    text-align: center;
+    display: none;
+}
+
+ion-view.padlock-view ion-content .scroll .item.item-icon-left.item-custom.ng-binding {
+    border-radius: 0;
+}
+
+ion-view.padlock-view ion-content .scroll .card.padlock .item.item-text-wrap.item-custom h2 {
+    visibility: hidden;
+}
+
+ion-view.padlock-view ion-content .scroll .item.item-body.item-custom.text-center {
+    background: transparent;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/brokoli.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+ion-view.padlock-view ion-content .scroll .item.item-body.item-custom.text-center i.icon.ion-locked {
+    font-size: 0;
+}
+
+ion-view.padlock-view ion-content .scroll .item.item-icon-left.item-custom {
+    border-radius: 50px;
+}
+
+ion-view.padlock-view ion-content .scroll .item.item-icon-left.item-custom:first-child {
+    border-radius: 50px 50px 0 0;
+    padding: 20px 5px;
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2019/05/ebook-17-1.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+ion-view.padlock-view ion-content .scroll .item.item-icon-left.item-custom span.ng-binding {
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    width: 94%;
+    margin: 0 3%;
+    padding-top: 25px;
+}
+
+ion-view.padlock-view ion-content .scroll .item.item-icon-left.item-custom span.ng-binding:before {
+    content: "Toko Sayur";
+    display: block;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 28px;
+    color: #76b465;
+}
+
+ion-view.padlock-view ion-content .scroll .item.item-icon-left.item-custom i {
+    display: none;
+}
+
+ion-view.padlock-view ion-content .scroll div[ng-click="padlockLogin()"],
+ion-view.padlock-view ion-content .scroll div[ng-click="padlockLogout()"]  {
+    border-radius: 0;
+    visibility: hidden;
+    padding: 0;
+}
+
+ion-view.padlock-view ion-content .scroll div[ng-click="padlockLogin()"]:before {
+    content: ".";
+    display: block;
+    width: 100%;
+    visibility: visible;
+    background-color: #fff !important;
+    top: 0;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: inherit;
+    border-radius: 0 0 30px 30px;
+    height: 100px;
+    pointer-events: none;
+    margin-top: -10px;
+}
+
+ion-view.padlock-view ion-content .scroll div[ng-click="padlockLogout()"]:before {
+    content: "Saat ini akun Anda belum disetujui oleh Admin, silakan kembali lagi nanti. Terima Kasih.";
+    display: block;
+    width: 100%;
+    visibility: visible;
+    background-color: #fff !important;
+    top: 0;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    color: #fff;
+    font-size: 11px;
+    padding-bottom: inherit;
+    border-radius: 0 0 30px 30px;
+    height: 100px;
+    pointer-events: none;
+    margin-top: -10px;  
+}
+
+ion-view.padlock-view ion-content .scroll div[ng-click="padlockLogin()"]:after {
+    content: "Masuk";
+    display: block;
+    visibility: visible;
+    top: 0;
+    text-align: center;
+    margin: 0;
+    padding: 15px 5px;
+    color: #ffffff;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-image: none;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 30px;
+    background-image: linear-gradient(-60deg,#57ac5a 0%,#7db667 100%);
+    margin-top: -50px;
+    border: 2px solid #fff;
+}
+
+ion-view.padlock-view ion-content .scroll div[ng-click="padlockLogout()"]:after {
+    content: "Keluar";
+    display: block;
+    visibility: visible;
+    top: 0;
+    text-align: center;
+    margin: 0;
+    padding: 15px 5px;
+    color: #ffffff;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-image: none;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 30px;
+    background-image: linear-gradient(-60deg,#57ac5a 0%,#7db667 100%);
+    margin-top: -50px;
+    border: 2px solid #fff;
+}
+
+.slider-slide {
+    position: relative;
+    display: block;
+    float: left;
+    width: 100% !important;
+    height: 100% !important;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+
+ion-view[state="mcommerce-product-view"] ion-slide.slider-slide img {
+    background-color: #ffffff;
+    padding: 6px;
+    width: 250px !important;
+    border-radius: 50%;
+    height: 250px !important;
+    object-fit: cover;
+    margin: 0 auto !important;
+    left: 0;
+    right: 0;
+    display: block;
+    margin-bottom: 10px !important;
+}
+
+ion-view.mcommerce-view.mcommerce-product .card .item.item-custom {
+    border: 0;
+    background-color: transparent !important;
+    padding: 0;
+}
+
+
+/* 4 menu pertama */
+ion-view[state="mcommerce-category-list"] ion-content .list .item.item-custom.item-thumbnail-left:nth-child(-n+6) {
+    width: 21% !important;
+    margin: 0 2% !important;
+    background-color: transparent !important;
+    background: transparent !important;
+    min-height: 80px !important;
+    height: 80px !important;
+}
+
+/* gambar */
+ion-view[state="mcommerce-category-list"] ion-content .list .item.item-custom.item-thumbnail-left:nth-child(-n+6) img {
+    min-height: 51px !important;
+    height: 50px;
+    border-radius: 10px !important;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list .item.item-custom.item-thumbnail-left:nth-child(-n+6) h2 {
+    margin-top: 56px;
+    font-size: 12px !important;
+    margin-bottom: 0 !important;
+    bottom: 0 !important;
+    padding-bottom: 0 !important;
+    padding: 0 !important;
+    color: #000;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list .item.item-custom.item-thumbnail-left:nth-child(-n+6) p,
+ion-view[state="mcommerce-category-list"] ion-content .list .item.item-custom.item-thumbnail-left:nth-child(-n+6) .clear {
+    display: none;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list>div>label {
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 10px;
+    border: 0;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 0;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list>div>label input#search {
+    display: block !important;
+    border: 2px solid #61ae5d;
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list>div>label:after {
+    content: "Kategori" !important;
+    margin-bottom: 0;
+    display: block !important;
+    margin-top: 20px !important;
+    font-weight: bold !important;
+    font-size: 24px !important;
+    margin-left: 0;
+    color: #61af5d !important;
+}
+
+/* SUBCATEGORY */
+[state="mcommerce-subcategory-list"] ion-content .list label.item.item-input {
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 10px;
+    border: 0;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 0;
+}
+
+[state="mcommerce-subcategory-list"] ion-content .list label.item.item-input input#search {
+    display: block !important;
+    border: 2px solid #61ae5d;
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+
+[state="mcommerce-subcategory-list"] ion-content .list label.item.item-input:after {
+    color: #5cad5c;
+    content: "Semua Produk" !important;
+    display: block;
+    width: 100%;
+    height: 25px !important;
+    margin-top: 25px !important;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 3px;
+}
+[state="mcommerce-subcategory-list"] .item.item-custom.item-thumbnail-left p.three-lines.ng-binding:after {
+    content: ".";
+    display: block;
+    width: 40px;
+    padding: 10px;
+    color: #fff;
+    margin: 10px auto;
+    border-radius: 50px;
+    border: 0;
+    height: 40px;
+    top: 0;
+    bottom: 0;
+    object-position: center;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/add-2.png) !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #5dad5c !important;
+}
+
+ion-view.mcommerce-view.mcommerce-cart ion-content .scroll .card .item.item-thumbnail-left.item-icon-right.item-custom i.icon.ion-trash-a {
+    top: 0;
+    height: 35%;
+    font-size: 24px;
+    background-color: #5eae5d;
+    border-radius: 0 20px 0 20px;
+    width: 10%;
+    text-align: center;
+    padding: 5px;
+    right: 0px !important;
+}
+
+[state="mcommerce-cart-view"] .card .item.item-divider.item-divider-custom {
+    display: none;
+}
+
+.mcommerce-view.mcommerce-cart .item.item-thumbnail-left.item-icon-right.item-custom img {
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+ion-view.mcommerce-view.mcommerce-cart ion-content .scroll .card .item.item-thumbnail-left.item-icon-right.item-custom  p.text-right.ng-binding {
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+}

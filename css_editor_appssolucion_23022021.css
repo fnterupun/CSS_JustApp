@@ -1,0 +1,2184 @@
+/* DEFAULT CSS */
+.admin_access_management_edit.general,
+.admin_access_management_list.general,
+.admin_account_edit.general,
+.admin_application_list.general,
+.application_customization_design_colors_edit.general,
+.application_customization_design_style_edit.general,
+.application_customization_features_list.general,
+.application_customization_publication_app_index.general,
+.application_customization_publication_infos_index.general,
+.application_promote_index.general,
+.application_settings_advanced_index.general,
+.application_settings_apis_index.general,
+.application_settings_domain_index.general,
+.application_settings_tc_index.general,
+.customer_application_edit.general,
+.customer_application_list.general,
+.message_application_index.general,
+.subscription_application_create.general {
+	background:#0D5944!important;
+}
+
+
+
+#app-overview,
+#list-overview,
+#reload-overview {
+	background:#0EC972!important;
+}
+
+
+
+.admin_access_management_edit.general,
+.admin_access_management_list.general,
+.admin_account_edit.general,
+.admin_application_list.general,
+.application_customization_design_colors_edit.general,
+.application_customization_design_style_edit.general,
+.application_customization_publication_app_index.general,
+.application_customization_publication_infos_index.general,
+.application_promote_index.general,
+.application_settings_advanced_index.general,
+.application_settings_apis_index.general,
+.application_settings_domain_index.general,
+.application_settings_tc_index.general,
+.customer_application_edit.general,
+.customer_application_list.general,
+.message_application_index.general,
+.subscription_application_create.general {
+	color:#fff!important;
+}
+
+
+
+.admin_access_management_edit.general .content-color,
+.admin_access_management_list.general .subcontent.content-color,
+.admin_account_edit.general .content-color,
+.admin_application_list.general .content-color,
+.application_customization_design_colors_edit.general .subcontent.content-color,
+.application_customization_design_style_edit.general .subcontent.content-color,
+.application_customization_features_list.general #add_pages_content .subcontent.content-color,
+.application_customization_features_list.general #pages_content .subcontent.content-color,
+.application_customization_publication_app_index.general .subcontent.content-color,
+.application_customization_publication_infos_index.general .subcontent.content-color,
+.application_promote_index.general .subcontent.content-color,
+.application_settings_advanced_index.general .subcontent.content-color,
+.application_settings_apis_index.general .subcontent.content-color,
+.application_settings_domain_index.general .subcontent.content-color,
+.application_settings_tc_index.general .subcontent.content-color,
+.customer_application_edit.general .content-color,
+.customer_application_list.general .subcontent.content-color,
+.message_application_index.general .subcontent.content-color,
+.subscription_application_create.general .content-color {
+	color:#fff!important;
+	background:rgba(255,255,255,.05)!important;
+	box-shadow:0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23);
+}
+
+
+
+.admin_access_management_edit.general .navbar.navbar-default.content-white-bkg,
+.admin_access_management_list.general .navbar.navbar-default.content-white-bkg,
+.admin_account_edit.general .navbar.navbar-default.content-white-bkg,
+.admin_application_list.general .navbar.navbar-default.content-white-bkg,
+.application_customization_design_colors_edit.general .navbar.navbar-default.content-white-bkg,
+.application_customization_design_style_edit.general .navbar.navbar-default.content-white-bkg,
+.application_customization_features_list.general .navbar.navbar-default.content-white-bkg,
+.application_customization_publication_app_index.general .navbar.navbar-default.content-white-bkg,
+.application_customization_publication_infos_index.general .navbar.navbar-default.content-white-bkg,
+.application_promote_index.general .navbar.navbar-default.content-white-bkg,
+.application_settings_advanced_index.general .navbar.navbar-default.content-white-bkg,
+.application_settings_apis_index.general .navbar.navbar-default.content-white-bkg,
+.application_settings_domain_index.general .navbar.navbar-default.content-white-bkg,
+.application_settings_tc_index.general .navbar.navbar-default.content-white-bkg,
+.customer_application_edit.general .navbar.navbar-default.content-white-bkg,
+.customer_application_list.general .navbar.navbar-default.content-white-bkg,
+.message_application_index.general .navbar.navbar-default.content-white-bkg,
+.subscription_application_create.general .navbar.navbar-default.content-white-bkg {
+	background-color:rgba(255,255,255,.2)!important;
+}
+
+
+
+.admin_access_management_edit.general .navbar.navbar-default.content-white-bkg div.logo-block.content-white-bkg,
+.admin_access_management_list.general .navbar.navbar-default.content-white-bkg div.logo-block.content-white-bkg,
+.admin_account_edit.general .navbar.navbar-default.content-white-bkg div.logo-block.content-white-bkg,
+.admin_application_list.general .navbar.navbar-default.content-white-bkg div.logo-block.content-white-bkg,
+.application_customization_design_colors_edit.general .navbar.navbar-default.content-white-bkg div.logo-block.content-white-bkg,
+.application_customization_design_style_edit.general .navbar.navbar-default.content-white-bkg div.logo-block.content-white-bkg,
+.application_customization_features_list.general .navbar.navbar-default.content-white-bkg div.logo-block.content-white-bkg,
+.application_customization_publication_app_index.general .navbar.navbar-default.content-white-bkg div.logo-block.content-white-bkg,
+.application_customization_publication_infos_index.general .navbar.navbar-default.content-white-bkg div.logo-block.content-white-bkg,
+.application_promote_index.general .navbar.navbar-default.content-white-bkg div.logo-block.content-white-bkg,
+.application_settings_advanced_index.general .navbar.navbar-default.content-white-bkg div.logo-block.content-white-bkg,
+.application_settings_apis_index.general .navbar.navbar-default.content-white-bkg div.logo-block.content-white-bkg,
+.application_settings_domain_index.general .navbar.navbar-default.content-white-bkg div.logo-block.content-white-bkg,
+.application_settings_tc_index.general .navbar.navbar-default.content-white-bkg div.logo-block.content-white-bkg,
+.customer_application_edit.general .navbar.navbar-default.content-white-bkg div.logo-block.content-white-bkg,
+.customer_application_list.general .navbar.navbar-default.content-white-bkg div.logo-block.content-white-bkg,
+.message_application_index.general .navbar.navbar-default.content-white-bkg div.logo-block.content-white-bkg,
+.subscription_application_create.general .navbar.navbar-default.content-white-bkg div.logo-block.content-white-bkg {
+	background-color:transparent!important;
+	box-shadow:none!important;
+}
+
+
+
+.admin_access_management_edit.general .navbar.navbar-default.content-white-bkg .navbar-nav a,
+.admin_access_management_list.general .navbar.navbar-default.content-white-bkg .navbar-nav a,
+.admin_account_edit.general .navbar.navbar-default.content-white-bkg .navbar-nav a,
+.admin_application_list.general .navbar.navbar-default.content-white-bkg .navbar-nav a,
+.application_customization_design_colors_edit.general .navbar.navbar-default.content-white-bkg .navbar-nav a,
+.application_customization_design_style_edit.general .navbar.navbar-default.content-white-bkg .navbar-nav a,
+.application_customization_features_list.general .navbar.navbar-default.content-white-bkg .navbar-nav a,
+.application_customization_publication_app_index.general .navbar.navbar-default.content-white-bkg .navbar-nav a,
+.application_customization_publication_infos_index.general .navbar.navbar-default.content-white-bkg .navbar-nav a,
+.application_promote_index.general .navbar.navbar-default.content-white-bkg .navbar-nav a,
+.application_settings_advanced_index.general .navbar.navbar-default.content-white-bkg .navbar-nav a,
+.application_settings_apis_index.general .navbar.navbar-default.content-white-bkg .navbar-nav a,
+.application_settings_domain_index.general .navbar.navbar-default.content-white-bkg .navbar-nav a,
+.application_settings_tc_index.general .navbar.navbar-default.content-white-bkg .navbar-nav a,
+.customer_application_edit.general .navbar.navbar-default.content-white-bkg .navbar-nav a,
+.customer_application_list.general .navbar.navbar-default.content-white-bkg .navbar-nav a,
+.message_application_index.general .navbar.navbar-default.content-white-bkg .navbar-nav a,
+.subscription_application_create.general .navbar.navbar-default.content-white-bkg .navbar-nav a {
+	background-color:transparent!important;
+	color:#fff!important;
+}
+
+
+
+.admin_access_management_edit.general .navbar.navbar-default.content-white-bkg li.is_current,
+.admin_access_management_list.general .navbar.navbar-default.content-white-bkg li.is_current,
+.admin_account_edit.general .navbar.navbar-default.content-white-bkg li.is_current,
+.admin_application_list.general .navbar.navbar-default.content-white-bkg li.is_current,
+.application_customization_design_colors_edit.general .navbar.navbar-default.content-white-bkg li.is_current,
+.application_customization_design_style_edit.general .navbar.navbar-default.content-white-bkg li.is_current,
+.application_customization_features_list.general .navbar.navbar-default.content-white-bkg li.is_current,
+.application_customization_publication_app_index.general .navbar.navbar-default.content-white-bkg li.is_current,
+.application_customization_publication_infos_index.general .navbar.navbar-default.content-white-bkg li.is_current,
+.application_promote_index.general .navbar.navbar-default.content-white-bkg li.is_current,
+.application_settings_advanced_index.general .navbar.navbar-default.content-white-bkg li.is_current,
+.application_settings_apis_index.general .navbar.navbar-default.content-white-bkg li.is_current,
+.application_settings_domain_index.general .navbar.navbar-default.content-white-bkg li.is_current,
+.application_settings_tc_index.general .navbar.navbar-default.content-white-bkg li.is_current,
+.customer_application_edit.general .navbar.navbar-default.content-white-bkg li.is_current,
+.customer_application_list.general .navbar.navbar-default.content-white-bkg li.is_current,
+.message_application_index.general .navbar.navbar-default.content-white-bkg li.is_current,
+.subscription_application_create.general .navbar.navbar-default.content-white-bkg li.is_current {
+	background-color:transparent!important;
+	border-bottom:2px solid #fff!important;
+}
+
+
+
+.admin_access_management_edit.general .navbar-nav>li>.dropdown-menu,
+.admin_access_management_list.general .navbar-nav>li>.dropdown-menu,
+.admin_account_edit.general .navbar-nav>li>.dropdown-menu,
+.admin_application_list.general .navbar-nav>li>.dropdown-menu,
+.application_customization_design_colors_edit.general .navbar-nav>li>.dropdown-menu,
+.application_customization_design_style_edit.general .navbar-nav>li>.dropdown-menu,
+.application_customization_features_list.general .navbar-nav>li>.dropdown-menu,
+.application_customization_publication_app_index.general .navbar-nav>li>.dropdown-menu,
+.application_customization_publication_infos_index.general .navbar-nav>li>.dropdown-menu,
+.application_promote_index.general .navbar-nav>li>.dropdown-menu,
+.application_settings_advanced_index.general .navbar-nav>li>.dropdown-menu,
+.application_settings_apis_index.general .navbar-nav>li>.dropdown-menu,
+.application_settings_domain_index.general .navbar-nav>li>.dropdown-menu,
+.application_settings_tc_index.general .navbar-nav>li>.dropdown-menu,
+.customer_application_edit.general .navbar-nav>li>.dropdown-menu,
+.customer_application_list.general .navbar-nav>li>.dropdown-menu,
+.message_application_index.general .navbar-nav>li>.dropdown-menu,
+.subscription_application_create.general .navbar-nav>li>.dropdown-menu {
+	background-color:#0D5944!important;
+}
+
+
+
+.admin_access_management_edit.general #left-sidebar-wrapper,
+.admin_access_management_list.general #left-sidebar-wrapper,
+.admin_account_edit.general #left-sidebar-wrapper,
+.admin_application_list.general #left-sidebar-wrapper,
+.application_customization_design_colors_edit.general #left-sidebar-wrapper,
+.application_customization_design_style_edit.general #left-sidebar-wrapper,
+.application_customization_features_list.general #left-sidebar-wrapper,
+.application_customization_publication_app_index.general #left-sidebar-wrapper,
+.application_customization_publication_infos_index.general #left-sidebar-wrapper,
+.application_promote_index.general #left-sidebar-wrapper,
+.application_settings_advanced_index.general #left-sidebar-wrapper,
+.application_settings_apis_index.general #left-sidebar-wrapper,
+.application_settings_domain_index.general #left-sidebar-wrapper,
+.application_settings_tc_index.general #left-sidebar-wrapper,
+.customer_application_edit.general #left-sidebar-wrapper,
+.customer_application_list.general #left-sidebar-wrapper,
+.message_application_index.general #left-sidebar-wrapper,
+.subscription_application_create.general #left-sidebar-wrapper {
+	background:rgba(255,255,255,.05)!important;
+	backdrop-filter:blur(5px);box-shadow:0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23)
+}
+
+
+
+.admin_access_management_edit.general .bkg-sidebar-left,
+.admin_access_management_list.general .bkg-sidebar-left,
+.admin_account_edit.general .bkg-sidebar-left,
+.admin_application_list.general .bkg-sidebar-left,
+.application_customization_design_colors_edit.general .bkg-sidebar-left,
+.application_customization_design_style_edit.general .bkg-sidebar-left,
+.application_customization_features_list.general .bkg-sidebar-left,
+.application_customization_publication_app_index.general .bkg-sidebar-left,
+.application_customization_publication_infos_index.general .bkg-sidebar-left,
+.application_promote_index.general .bkg-sidebar-left,
+.application_settings_advanced_index.general .bkg-sidebar-left,
+.application_settings_apis_index.general .bkg-sidebar-left,
+.application_settings_domain_index.general .bkg-sidebar-left,
+.application_settings_tc_index.general .bkg-sidebar-left,
+.customer_application_edit.general .bkg-sidebar-left,
+.customer_application_list.general .bkg-sidebar-left,.message_application_index.general .bkg-sidebar-left,
+.subscription_application_create.general .bkg-sidebar-left {
+	background:rgba(255,255,255,.05)!important;
+	backdrop-filter:blur(5px);box-shadow:0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23);
+}
+
+
+
+
+.admin_access_management_edit.general #left-sidebar-wrapper .sidebar-nav a.active,
+.admin_access_management_list.general #left-sidebar-wrapper .sidebar-nav a.active,
+.admin_account_edit.general #left-sidebar-wrapper .sidebar-nav a.active,
+.admin_application_list.general #left-sidebar-wrapper .sidebar-nav a.active,
+.application_customization_design_colors_edit.general #left-sidebar-wrapper .sidebar-nav a.active,
+.application_customization_design_style_edit.general #left-sidebar-wrapper .sidebar-nav a.active,
+.application_customization_features_list.general #left-sidebar-wrapper .sidebar-nav a.active,
+.application_customization_publication_app_index.general #left-sidebar-wrapper .sidebar-nav a.active,
+.application_customization_publication_infos_index.general #left-sidebar-wrapper .sidebar-nav a.active,
+.application_promote_index.general #left-sidebar-wrapper .sidebar-nav a.active,
+.application_settings_advanced_index.general #left-sidebar-wrapper .sidebar-nav a.active,
+.application_settings_apis_index.general #left-sidebar-wrapper .sidebar-nav a.active,
+.application_settings_domain_index.general #left-sidebar-wrapper .sidebar-nav a.active,
+.application_settings_tc_index.general #left-sidebar-wrapper .sidebar-nav a.active,
+.customer_application_edit.general #left-sidebar-wrapper .sidebar-nav a.active,
+.customer_application_list.general #left-sidebar-wrapper .sidebar-nav a.active,
+.message_application_index.general #left-sidebar-wrapper .sidebar-nav a.active,
+.subscription_application_create.general #left-sidebar-wrapper .sidebar-nav a.active {
+	background:rgba(255,255,255,.3)!important;
+}
+
+
+
+
+.admin_access_management_edit.general .bkg-sidebar-left .active,
+.admin_access_management_list.general .bkg-sidebar-left .active,
+.admin_account_edit.general .bkg-sidebar-left .active,
+.admin_application_list.general .bkg-sidebar-left .active,
+.application_customization_design_colors_edit.general .bkg-sidebar-left .active,
+.application_customization_design_style_edit.general .bkg-sidebar-left .active,
+.application_customization_features_list.general .bkg-sidebar-left .active,
+.application_customization_publication_app_index.general .bkg-sidebar-left .active,
+.application_customization_publication_infos_index.general .bkg-sidebar-left .active,
+.application_promote_index.general .bkg-sidebar-left .active,
+.application_settings_advanced_index.general .bkg-sidebar-left .active,
+.application_settings_apis_index.general .bkg-sidebar-left .active,
+.application_settings_domain_index.general .bkg-sidebar-left .active,
+.application_settings_tc_index.general .bkg-sidebar-left .active,
+.customer_application_edit.general .bkg-sidebar-left .active,
+.customer_application_list.general .bkg-sidebar-left .active,
+.message_application_index.general .bkg-sidebar-left .active,
+.subscription_application_create.general .bkg-sidebar-left .active {
+	color: #fff
+}
+
+
+.admin_access_management_edit.general #sidebar-left-group-editor,
+.admin_access_management_list.general #sidebar-left-group-editor,
+.admin_account_edit.general #sidebar-left-group-editor,
+.admin_application_list.general #sidebar-left-group-editor,
+.application_customization_design_colors_edit.general #sidebar-left-group-editor,
+.application_customization_design_style_edit.general #sidebar-left-group-editor,
+.application_customization_features_list.general #sidebar-left-group-editor,
+.application_customization_publication_app_index.general #sidebar-left-group-editor,
+.application_customization_publication_infos_index.general #sidebar-left-group-editor,
+.application_promote_index.general #sidebar-left-group-editor,
+.application_settings_advanced_index.general #sidebar-left-group-editor,
+.application_settings_apis_index.general #sidebar-left-group-editor,
+.application_settings_domain_index.general #sidebar-left-group-editor,
+.application_settings_tc_index.general #sidebar-left-group-editor,
+.customer_application_edit.general #sidebar-left-group-editor,
+.customer_application_list.general #sidebar-left-group-editor,
+.message_application_index.general #sidebar-left-group-editor,
+.subscription_application_create.general #sidebar-left-group-editor {
+	background: rgba(255, 255, 255, .1)!important
+}
+
+
+.admin_access_management_edit.general #sidebar-left-group-analytics,
+.admin_access_management_list.general #sidebar-left-group-analytics,
+.admin_account_edit.general #sidebar-left-group-analytics,
+.admin_application_list.general #sidebar-left-group-analytics,
+.application_customization_design_colors_edit.general #sidebar-left-group-analytics,
+.application_customization_design_style_edit.general #sidebar-left-group-analytics,
+.application_customization_features_list.general #sidebar-left-group-analytics,
+.application_customization_publication_app_index.general #sidebar-left-group-analytics,
+.application_customization_publication_infos_index.general #sidebar-left-group-analytics,
+.application_promote_index.general #sidebar-left-group-analytics,
+.application_settings_advanced_index.general #sidebar-left-group-analytics,
+.application_settings_apis_index.general #sidebar-left-group-analytics,
+.application_settings_domain_index.general #sidebar-left-group-analytics,
+.application_settings_tc_index.general #sidebar-left-group-analytics,
+.customer_application_edit.general #sidebar-left-group-analytics,
+.customer_application_list.general #sidebar-left-group-analytics,
+.message_application_index.general #sidebar-left-group-analytics,
+.subscription_application_create.general #sidebar-left-group-analytics {
+	background: rgba(255, 255, 255, .1)!important
+}
+
+
+.admin_access_management_edit.general #sidebar-left-group-payment-gateways,
+.admin_access_management_list.general #sidebar-left-group-payment-gateways,
+.admin_account_edit.general #sidebar-left-group-payment-gateways,
+.admin_application_list.general #sidebar-left-group-payment-gateways,
+.application_customization_design_colors_edit.general #sidebar-left-group-payment-gateways,
+.application_customization_design_style_edit.general #sidebar-left-group-payment-gateways,
+.application_customization_features_list.general #sidebar-left-group-payment-gateways,
+.application_customization_publication_app_index.general #sidebar-left-group-payment-gateways,
+.application_customization_publication_infos_index.general #sidebar-left-group-payment-gateways,
+.application_promote_index.general #sidebar-left-group-payment-gateways,
+.application_settings_advanced_index.general #sidebar-left-group-payment-gateways,
+.application_settings_apis_index.general #sidebar-left-group-payment-gateways,
+.application_settings_domain_index.general #sidebar-left-group-payment-gateways,
+.application_settings_tc_index.general #sidebar-left-group-payment-gateways,
+.customer_application_edit.general #sidebar-left-group-payment-gateways,
+.customer_application_list.general #sidebar-left-group-payment-gateways,
+.message_application_index.general #sidebar-left-group-payment-gateways,
+.subscription_application_create.general #sidebar-left-group-payment-gateways {
+	background: rgba(255, 255, 255, .1)!important
+}
+
+
+.admin_access_management_edit.general #sidebar-left-group-settings,
+.admin_access_management_list.general #sidebar-left-group-settings,
+.admin_account_edit.general #sidebar-left-group-settings,
+.admin_application_list.general #sidebar-left-group-settings,
+.application_customization_design_colors_edit.general #sidebar-left-group-settings,
+.application_customization_design_style_edit.general #sidebar-left-group-settings,
+.application_customization_features_list.general #sidebar-left-group-settings,
+.application_customization_publication_app_index.general #sidebar-left-group-settings,
+.application_customization_publication_infos_index.general #sidebar-left-group-settings,
+.application_promote_index.general #sidebar-left-group-settings,
+.application_settings_advanced_index.general #sidebar-left-group-settings,
+.application_settings_apis_index.general #sidebar-left-group-settings,
+.application_settings_domain_index.general #sidebar-left-group-settings,
+.application_settings_tc_index.general #sidebar-left-group-settings,
+.customer_application_edit.general #sidebar-left-group-settings,
+.customer_application_list.general #sidebar-left-group-settings,
+.message_application_index.general #sidebar-left-group-settings,
+.subscription_application_create.general #sidebar-left-group-settings {
+	background: rgba(255, 255, 255, .1)!important
+}
+
+
+.admin_access_management_edit.general #sidebar-left-group-modules,
+.admin_access_management_list.general #sidebar-left-group-modules,
+.admin_account_edit.general #sidebar-left-group-modules,
+.admin_application_list.general #sidebar-left-group-modules,
+.application_customization_design_colors_edit.general #sidebar-left-group-modules,
+.application_customization_design_style_edit.general #sidebar-left-group-modules,
+.application_customization_features_list.general #sidebar-left-group-modules,
+.application_customization_publication_app_index.general #sidebar-left-group-modules,
+.application_customization_publication_infos_index.general #sidebar-left-group-modules,
+.application_promote_index.general #sidebar-left-group-modules,
+.application_settings_advanced_index.general #sidebar-left-group-modules,
+.application_settings_apis_index.general #sidebar-left-group-modules,
+.application_settings_domain_index.general #sidebar-left-group-modules,
+.application_settings_tc_index.general #sidebar-left-group-modules,
+.customer_application_edit.general #sidebar-left-group-modules,
+.customer_application_list.general #sidebar-left-group-modules,
+.message_application_index.general #sidebar-left-group-modules,
+.subscription_application_create.general #sidebar-left-group-modules {
+	background: rgba(255, 255, 255, .1)!important;
+}
+
+
+.admin_application_list.general .content.content-white-bkg {
+	background: rgba(255, 255, 255, .1)!important;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23)
+}
+
+.admin_application_list.general .input-flat {
+	background: rgba(255, 255, 255, .3)!important;
+	color: #fff!important
+}
+
+
+.admin_application_list.general .color-blue {
+	background: #0EC972!important
+}
+
+
+.admin_application_list.general .badge-sub-custom,
+.admin_application_list.general h4.app-name-title {
+	color: #fff!important
+}
+
+
+.admin_application_list.general .table>thead:first-child>tr:first-child>th {
+	background: 0 0!important;
+	color: #555!important
+}
+
+
+.admin_application_list.general input::placeholder {
+	color: #fff!important
+}
+
+
+.admin_application_list.general input::-webkit-input-placeholder {
+	color: #fff!important
+}
+
+
+.admin_application_list.general #analytics_visits.content-white-bkg {
+	background: rgba(255, 255, 255, .7)!important
+}
+
+
+.admin_application_list.general #analytics_installs.content-white-bkg {
+	background: rgba(255, 255, 255, .7)!important
+}
+
+
+.admin_application_list.general #sb-tour-install-table.content-white-bkg {
+	background: rgba(255, 255, 255, .7)!important
+}
+
+
+.admin_application_list.general #sb-tour-visit-table.content-white-bkg {
+	background: rgba(255, 255, 255, .7)!important
+}
+
+
+.admin_application_list.general #sb-tour-install-table .table>thead>tr>th {
+	color: #555!important
+}
+
+
+#sb-tour-install-table.table-striped>tbody>tr>th,
+.admin_application_list.general #sb-tour-install-table.table-striped>tbody>tr>td {
+	background: 0 0!important;
+	color: #555!important
+}
+
+
+#sb-tour-visit-table.table-striped>tbody>tr>th,
+.admin_application_list.general #sb-tour-visit-table.table-striped>tbody>tr>td {
+	background: 0 0!important;
+	color: #555!important
+}
+
+
+.admin_application_list.general .border-purple {
+	border-color: #555!important
+}
+
+
+.step-background {
+	background: rgba(255, 255, 255, .3)!important;
+	color: #fff!important
+}
+
+
+#step_1.color-red-hover.active,
+#step_1.color-red-hover:hover,
+#step_2.color-yellow-hover.active,
+#step_2.color-yellow-hover:hover,
+#step_3.color-blue-hover.active,
+#step_3.color-blue-hover:hover,
+#step_4.color-purple-hover.active,
+#step_4.color-purple-hover:hover,
+#step_5.color-green-hover.active,
+#step_5.color-green-hover:hover {
+	background: rgba(255, 255, 255, .55)!important;
+	color: #fff!important
+}
+
+
+.admin_access_management_edit.general .title-editor,
+.admin_access_management_list.general .title-editor,
+.admin_account_edit.general .title-editor,
+.admin_application_list.general .title-editor,
+.application_customization_design_colors_edit.general .title-editor,
+.application_customization_design_style_edit.general .title-editor,
+.application_customization_publication_app_index.general .title-editor,
+.application_customization_publication_infos_index.general .title-editor,
+.application_promote_index.general .title-editor,
+.application_settings_advanced_index.general .title-editor,
+.application_settings_apis_index.general .title-editor,
+.application_settings_domain_index.general .title-editor,
+.application_settings_tc_index.general .title-editor,
+.customer_application_edit.general .title-editor,
+.customer_application_list.general .title-editor,
+.message_application_index.general .title-editor,
+.subscription_application_create.general .title-editor {
+	background: rgba(255, 255, 255, .3)!important;
+	color: #fff!important
+}
+
+
+.title-editor.border-blue,
+.title-editor.border-green,
+.title-editor.border-purple,
+.title-editor.border-red,
+.title-editor.border-yellow {
+	border-bottom: 2px solid #fff!important
+}
+
+
+.application_customization_design_style_edit.general .content-options.content-white-bkg,
+.application_customization_features_list.general .content-options.content-white-bkg,
+.application_customization_publication_app_index.general .content-options.content-white-bkg {
+	background: rgba(255, 255, 255, .1)!important;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23)
+}
+
+
+#modal_preview .border-red {
+	border-bottom: 2px solid #fff!important
+}
+
+
+#modal_preview h3.template_title {
+	background: #0EC972!important;
+	color: #fff!important
+}
+
+
+#modal_preview .templates_content_preview {
+	border-left: transparent!important
+}
+
+
+#modal_preview .content-color {
+	background: rgba(255, 255, 255, .1)!important
+}
+
+
+#modal_preview ul {
+	backdrop-filter: blur(10px)
+}
+
+
+#modal_preview div.current p.template_image {
+	border: 2px solid #0EC972!important
+}
+
+
+.application_customization_design_style_edit.general img#layout_overview {
+	border: 1px dashed #fff
+}
+
+
+#modal_modal_layouts .border-red {
+	border-color: #0EC972!important
+}
+
+
+#modal_modal_layouts .title-editor.border-red {
+	border-bottom: 2px solid #fff!important
+}
+
+
+#modal_modal_layouts .template_title.color-red {
+	background: #0EC972!important;
+	color: #fff!important
+}
+
+
+#modal_modal_layouts .layouts_content_preview {
+	border-left: transparent!important
+}
+
+
+#modal_modal_layouts .content-color {
+	background: rgba(255, 255, 255, .1)!important
+}
+
+
+#modal_modal_layouts ul {
+	backdrop-filter: blur(10px)
+}
+
+
+#modal_modal_layouts .layout-size.current.border-red {
+	border: 2px solid #0EC972!important
+}
+
+
+#modal_modal_layouts div.current p.template_image {
+	border: 2px solid #0EC972!important
+}
+
+
+.application_customization_design_style_edit.general #font_content .custom-box {
+	background: rgba(255, 255, 255, .1)!important;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23)
+}
+
+
+.application_customization_design_style_edit.general .font-label {
+	background: rgba(255, 255, 255, .1)!important;
+	color: #fff!important
+}
+
+
+.application_customization_design_style_edit.general .input-flat {
+	background: rgba(255, 255, 255, .3)!important;
+	color: #fff!important
+}
+
+
+.application_customization_design_style_edit.general #fonts .font-group {
+	border-bottom: 2px solid #fff!important;
+	color: #fff!important
+}
+
+
+.application_customization_design_style_edit.general .btn-grey,
+.application_customization_design_style_edit.general .btn.color-red,
+.application_customization_design_style_edit.general .color-red,
+.application_customization_design_style_edit.general input[type=radio].color-red:after {
+	background: #0EC972!important
+}
+
+
+.application_customization_design_style_edit.general .font-label.checked,
+.application_customization_design_style_edit.general .font-label:hover,
+.application_customization_design_style_edit.general input[type=checkbox].color-red:after {
+	border-color: #0EC972!important
+}
+
+
+.application_customization_design_style_edit.general input[type=checkbox].color-red:before,
+.application_customization_design_style_edit.general input[type=radio].color-red:before {
+	background-color: #fff!important;
+	border: 2px solid #0EC972!important
+}
+
+
+.application_customization_design_colors_edit.general .keyb {
+	background: rgba(255, 255, 255, .3)!important
+}
+
+
+.application_customization_design_colors_edit.general .mini-color span.mini-text {
+	color: #fff!important;
+	filter: brightness(100%)!important
+}
+
+
+.application_customization_design_colors_edit.general #app_colors .custom-padding h6 {
+	background: rgba(255, 255, 255, .1)!important;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23)
+}
+
+
+.application_customization_design_colors_edit.general ul.color-sections.content-color {
+	background: rgba(255, 255, 255, .15)!important;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23)
+}
+
+
+.application_customization_design_colors_edit.general .color-yellow,
+.application_customization_design_colors_edit.general .input-flat.color-yellow,
+.application_customization_design_colors_edit.general .sb-tgl-flip+.sb-tgl-btn:before,
+.application_customization_design_colors_edit.general .sb-tgl-flip:checked+.sb-tgl-btn:after {
+	background: #0EC972!important
+}
+
+
+.application_customization_publication_app_index.general .input-flat {
+	background: rgba(255, 255, 255, .3)!important;
+	color: #fff!important
+}
+
+
+.application_customization_publication_app_index.general .btn-grey,
+.application_customization_publication_app_index.general .color-purple,
+.application_customization_publication_app_index.general .input-flat.color-purple {
+	background: #0EC972!important
+}
+
+
+.application_customization_publication_app_index.general input[type=radio].color-purple:after {
+	background: #0EC972!important
+}
+
+
+.application_customization_publication_app_index.general input[type=checkbox].color-purple:after {
+	border-color: #0EC972!important
+}
+
+
+.application_customization_publication_app_index.general i.active.border-purple {
+	border-color: #fff!important;
+	color: #fff!important
+}
+
+
+.application_customization_publication_app_index.general #sb-tour-push-settings i.appIcon {
+	background: rgba(255, 255, 255, .1)!important
+}
+
+
+.application_customization_publication_app_index.general input[type=radio].color-green:before,
+.application_customization_publication_app_index.general input[type=radio].color-purple:before,
+input[type=checkbox].color-green:before,
+input[type=checkbox].color-purple:before {
+	background-color: #fff!important;
+	border: 2px solid #0EC972!important
+}
+
+
+.application_customization_publication_infos_index.general .input-flat {
+	background: rgba(255, 255, 255, .3)!important;
+	color: #fff!important
+}
+
+
+.application_customization_publication_infos_index.general .color-green,
+.application_customization_publication_infos_index.general .color-red,
+.application_customization_publication_infos_index.general .input-flat.color-green {
+	background: #0EC972!important
+}
+
+
+.application_customization_publication_infos_index.general input[type=radio].color-green:after {
+	background: #0EC972!important
+}
+
+
+.application_customization_publication_infos_index.general input[type=checkbox].color-green:before,
+.application_customization_publication_infos_index.general input[type=radio].color-green:before {
+	background-color: #fff!important;
+	border: 2px solid #0EC972!important
+}
+
+
+.application_customization_publication_infos_index.general input[type=checkbox].color-green:after {
+	border-color: #0EC972!important
+}
+
+
+.application_customization_publication_infos_index.general .form-group input::placeholder {
+	color: #fff!important
+}
+
+
+.application_customization_publication_infos_index.general .form-group input::-webkit-input-placeholder {
+	color: #fff!important
+}
+
+
+.application_customization_features_list.general #add_pages_content .title-editor,
+.application_customization_features_list.general #pages_content .title-editor {
+	background: rgba(255, 255, 255, .3)!important;
+	color: #fff!important
+}
+
+.application_customization_features_list.general #page.content-color {
+	background: transparent !important;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23)
+	border-radius: 20px;
+}
+
+
+.application_customization_features_list.general .content-options.content-white-bkg {
+	background: rgba(255, 255, 255, .1)!important;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23)
+}
+
+
+.application_customization_features_list.general .list-search .input-flat {
+	background: rgba(255, 255, 255, .1)!important;
+	box-shadow: 0 0 5px rgb(0 0 0 / 30%);
+	border-radius: 15px;
+	border: transparent;
+	margin: 2px
+}
+
+
+.application_customization_features_list.general .list-search input::placeholder {
+	color: #fff!important
+}
+
+
+.application_customization_features_list.general .list-search input::-webkit-input-placeholder {
+	color: #fff!important
+}
+
+
+.application_customization_features_list.general #pages_content #option_values .content-white-bkg {
+	background: rgba(255, 255, 255, .1)!important
+}
+
+
+.application_customization_features_list.general #pages_content #option_values .option_value {
+	filter: brightness(0) invert(.9)!important
+}
+
+
+.application_customization_features_list.general #pages_content #option_values .option_value.selected,
+.application_customization_features_list.general #pages_content #option_values .option_value:hover {
+	filter: brightness(0) invert(1)!important;
+	box-shadow: 0 0 3px #fff
+}
+
+
+.application_customization_features_list.general #pages_content #carousel-container div.actions {
+	opacity: .9!important
+}
+
+
+.application_customization_features_list.general #pages_content #carousel-container .option_value.selected div.actions {
+	opacity: 1!important
+}
+
+
+.application_customization_features_list.general #add_pages_content .color-blue.block_add_pages_icon {
+	background-color: rgba(255, 255, 255, .15)!important;
+	border-radius: 15px
+}
+
+
+.application_customization_features_list.general #add_pages_content #sb-tour-add-pages-filter li a.active:after {
+	border-left-color: rgba(255, 255, 255, .4)!important
+}
+
+
+.application_customization_features_list.general #add_pages_content #sb-tour-add-pages-filter li a.active {
+	background: rgba(255, 255, 255, .3)!important
+}
+
+
+.application_customization_features_list.general #add_pages_content #sb-tour-add-pages-filter li a:hover {
+	background: rgba(255, 255, 255, .2)!important;
+	color: #fff!important
+}
+
+
+.application_customization_features_list.general #add_pages_content .carret li:hover {
+	background-color: rgba(255, 255, 255, .15)!important
+}
+
+
+.application_customization_features_list.general #add_pages_content .color-blue {
+	background-color: rgba(255, 255, 255, .15)!important;
+	color: #fff!important;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23)
+}
+
+
+.featherlight .featherlight-content {
+	background: rgba(255, 255, 255, .3)!important;
+	backdrop-filter: blur(10px)
+}
+
+
+.featherlight .featherlight-content .color-blue.btn {
+	background: #0EC972!important
+}
+
+
+.application_customization_features_list.general input[type=radio].color-blue:after {
+	background: #0EC972!important
+}
+
+
+.application_customization_features_list.general #header_editor .color-blue,
+.application_customization_features_list.general #pages_content .color-blue {
+	background-color: #0EC972!important
+}
+
+
+.application_customization_features_list.general #header_editor #add_page_list .color-blue {
+	background-color: #00000090!important
+}
+
+
+.application_customization_features_list.general .content-feature {
+	border: none!important
+}
+
+
+.application_customization_features_list.general input[type=checkbox].color-blue:before,
+.application_customization_features_list.general input[type=radio].color-blue:before {
+	border: 2px solid #0EC972!important
+}
+
+
+.application_customization_features_list.general input[type=checkbox].color-blue:after {
+	border-color: #0EC972!important
+}
+
+
+.application_customization_features_list.general input[type=radio].color-blue:after {
+	background: #0EC972!important
+}
+
+
+.application_customization_features_list.general #catalog-tree span.category-hover:hover {
+	border-left: 2px solid #0EC972!important
+}
+
+
+.application_customization_features_list.general li.folder-sortable.active>span.folder-hover,
+.application_customization_features_list.general span.folder-hover:hover {
+	background-color: #0EC972!important
+}
+
+
+.subscription_application_create.general p.or-separator span {
+	background: rgba(255, 255, 255, .5);
+	backdrop-filter: blur(10px)
+}
+
+
+.subscription_application_create.general p.or-separator:after {
+	background: rgba(255, 255, 255, .2)
+}
+
+
+.subscription_application_create.general .list-group.content-white-bkg {
+	background: rgba(255, 255, 255, .1)!important
+}
+
+
+.subscription_application_create.general .list-group-item {
+	background: rgba(255, 255, 255, .1)!important
+}
+
+
+.subscription_application_create.general input[type=radio].color-blue:after {
+	background: #0EC972!important
+}
+
+
+.subscription_application_create.general .color-blue {
+	background: #0EC972!important
+}
+
+
+.subscription_application_create.general input[type=radio].color-blue:before {
+	background-color: #fff!important;
+	border: 2px solid #0EC972!important
+}
+
+
+.subscription_application_create.general .input-flat {
+	background: rgba(255, 255, 255, .3)!important;
+	color: #fff!important
+}
+
+
+.customer_application_edit.general .color-blue,
+.customer_application_list.general .color-blue {
+	background: #0EC972!important
+}
+
+
+.customer_application_list.general .table.content-white-bkg {
+	background: rgba(255, 255, 255, .1)!important;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23)
+}
+
+
+.customer_application_list.general .border-grey {
+	background: rgba(255, 255, 255, .1)!important;
+	color: #fff!important
+}
+
+
+.customer_application_list.general .dynatable-pagination-links li {
+	background: rgba(255, 255, 255, .1)!important
+}
+
+
+.customer_application_list.general .dynatable-disabled-page,
+.customer_application_list.general .dynatable-disabled-page:hover {
+	background: rgba(255, 255, 255, .3)!important;
+	color: #fff!important
+}
+
+
+.customer_application_list.general .dynatable-active-page {
+	background: #0EC972!important;
+	color: #fff
+}
+
+
+.customer_application_edit.general .input-flat {
+	background: rgba(255, 255, 255, .3)!important;
+	color: #fff!important
+}
+
+
+.customer_application_edit.general input[type=checkbox].color-blue:before {
+	background-color: #fff!important;
+	border: 2px solid #0EC972!important
+}
+
+
+.customer_application_edit.general input[type=checkbox].color-blue:after {
+	border-color: #0EC972!important
+}
+
+
+.customer_application_list.general .input-flat {
+	background: rgba(255, 255, 255, .3)!important;
+	color: #fff!important
+}
+
+
+.customer_application_list.general input::placeholder {
+	color: #fff!important
+}
+
+
+.customer_application_list.general input::-webkit-input-placeholder {
+	color: #fff!important
+}
+
+
+.admin_access_management_edit.general .color-blue,
+.admin_access_management_list.general .color-blue {
+	background: #0EC972!important
+}
+
+
+.admin_access_management_edit.general .input-flat {
+	background: rgba(255, 255, 255, .3)!important;
+	color: #fff!important
+}
+
+
+.admin_access_management_list.general #sb-tour-table-account.table.table-striped {
+	background: rgba(255, 255, 255, .1)!important;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23)
+}
+
+
+.admin_access_management_list.general #sb-tour-table-account.table.table-striped>tbody>tr>th {
+	background: 0 0!important;
+	color: #fff!important
+}
+
+
+.admin_access_management_list.general #sb-tour-table-account.table.table-striped>tbody>tr>td {
+	background: 0 0!important;
+	color: #fff!important
+}
+
+
+.admin_access_management_list.general .border-blue {
+	border-color: #fff!important
+}
+
+
+.admin_access_management_edit.general input[type=checkbox].color-blue:before {
+	background-color: #fff!important;
+	border: 2px solid #0EC972!important
+}
+
+
+.admin_access_management_edit.general input[type=checkbox].color-blue:after {
+	border-color: #0EC972!important
+}
+
+
+.admin_access_management_edit.general .border-blue {
+	background: rgba(255, 255, 255, .1)!important;
+	color: #fff!important;
+	border-color: #fff!important
+}
+
+
+.admin_account_edit.general .color-blue {
+	background: #0EC972!important
+}
+
+
+.admin_account_edit.general .input-flat {
+	background: rgba(255, 255, 255, .3)!important;
+	color: #fff!important
+}
+
+
+.admin_account_edit.general input[type=checkbox].color-blue:before {
+	background-color: #fff!important;
+	border: 2px solid #0EC972!important
+}
+
+
+.admin_account_edit.general input[type=checkbox].color-blue:after {
+	border-color: #0EC972!important
+}
+
+
+.application_promote_index.general .color-blue {
+	background: #0EC972!important
+}
+
+
+.application_promote_index.general .input-flat {
+	background: rgba(255, 255, 255, .3)!important;
+	color: #fff!important
+}
+
+
+.message_application_index.general .color-blue {
+	background: #0EC972!important
+}
+
+
+.application_settings_tc_index.general .color-blue {
+	background: #0EC972!important
+}
+
+
+.application_settings_domain_index.general .color-blue {
+	background: #0EC972!important
+}
+
+
+.application_settings_domain_index.general .input-flat {
+	background: rgba(255, 255, 255, .3)!important;
+	color: #fff!important
+}
+
+
+.application_settings_advanced_index.general .color-blue {
+	background: #0EC972!important
+}
+
+
+.application_settings_advanced_index.general .input-flat {
+	background: rgba(255, 255, 255, .3)!important;
+	color: #fff!important
+}
+
+
+.application_settings_advanced_index.general input[type=checkbox]:before,
+input[type=radio]:before {
+	border: 2px solid #0EC972!important
+}
+
+
+.application_settings_apis_index.general .color-blue {
+	background: #0EC972!important
+}
+
+
+.application_settings_apis_index.general .input-flat {
+	background: rgba(255, 255, 255, .3)!important;
+	color: #fff!important
+}
+
+/* END OFF DEFAULT CSS */
+
+
+
+/* START OF NEW CUSTOME CSS */
+/* Custome CSS */
+@media only screen and (min-width: 640px) {
+.admin_application_list.general .row.item-application {
+    width: 30%;
+    display: inline-block;
+    margin: 10px 1%;
+    left: 0;
+    right: 0;
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+
+.admin_application_list.general .col-md-12.item-no-padding {
+    display: inline-block;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    left: 0;
+    right: 0;
+}
+
+
+.admin_application_list.general .item-application .floating-image {
+	float: none !important;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    right: 0;
+    height: 110px !important;
+}
+
+.admin_application_list.general .item-application .floating-image img.app-icon {
+	display: block;
+    margin: 10px auto;
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50px !important;
+    border: 5px solid #266a57;
+    z-index: 1;
+    position: relative;
+}
+
+.admin_application_list.general .item-application .floating-name-infos {
+	float: none;
+    height: 130px;
+    margin: 10px 0 0 0 !important;
+    display: block;
+    text-align: center;
+    left: 0;
+    right: 0;
+    background-color: #0ec972 !important;
+    padding: 5px;
+    border-radius: 20px 20px 0 0 !important;
+    margin-top: -60px !important;
+    padding-top: 60px !important;
+    z-index: -2 !important;
+}
+
+.admin_application_list.general h4.app-name-title {
+    font-weight: bold;
+    color: #000 !important;
+}
+
+.admin_application_list.general span.badge.badge-sub-custom.badge-sub-green {
+    text-align: center;
+    display: block;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: transparent !important;
+    padding: 5px;
+    color: #000 !important;
+    margin-left: -10px !important;
+}
+
+.admin_application_list.general .item-application .floating-actions.icons-center {
+	float: none !important;
+    text-align: center;
+    padding: 0;
+    height: 80px;
+    width: 100% !important;
+    margin: 0 !important;
+    background-color: #ffffff;
+    border-radius: 0 0 20px 20px;
+}
+
+.admin_application_list.general a.button-action-app.btn.btn-xs.color-blue {
+    width: 80%;
+    display: block;
+    margin: 0 10% 5px 10%;
+    border-radius: 5px;
+    padding: 5px;
+    top: 5px;
+}
+/*
+.admin_application_list.general a.button-action-app.btn.btn-xs.color-blue:after {
+	font-size: 28px;
+    display: block !important;
+    width: 100% !important;
+    font-family: 'FontAwesome' !important;
+    color: #000 !important;
+    visibility: visible !important;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    margin-top: -30px !important;
+    content: "\f044" !important;
+    float: left !important;
+	padding-top: 10px !important;
+	text-align: left;
+} */
+
+.admin_application_list.general a.button-action-app.btn.btn-xs.btn-danger.delete_app {
+    width: 80%;
+    display: block;
+    margin: 5px 10%;
+    border-radius: 5px;
+    padding: 5px;
+    top: 5px;
+}
+
+/*
+.admin_application_list.general a.button-action-app.btn.btn-xs.btn-danger.delete_app:after {
+	font-size: 28px;
+    display: block !important;
+    width: 100% !important;
+    content: "\f014" !important;
+    font-family: 'FontAwesome' !important;
+    color: red !important;
+    visibility: visible !important;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    margin-top: -30px !important;
+	padding-top: 10px !important;
+    text-align: right;
+}
+
+*/
+
+.admin_application_list.general .col-xs-6 button#sb-tour-button-create:after {
+    content: "Create App";
+    visibility: visible;
+    color: #fff;
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.admin_application_list.general .col-xs-6 button#sb-tour-button-create {
+    visibility: hidden;
+}
+
+
+.col-xs-6 button#sb-tour-button-create:after {
+    content: "Create App";
+    visibility: visible;
+    color: #fff;
+    width: 60%;
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+    float: right;
+    margin-top: -20px;
+}
+
+
+.col-xs-6 button#sb-tour-button-create:before {
+    display: block;
+    width: 40%;
+    text-align: left;
+    color: #ffffff !important;
+    content: "\f055";
+    visibility: visible;
+    font-family: 'FontAwesome' !important;
+    font-size: 28px;
+    padding: 0 !important;
+    background-color: transparent;
+}
+
+
+.col-xs-6#search_row input#app_search_box {
+    border-radius: 10px;
+    height: 40px;
+    box-shadow: none !important;
+    border: 2px solid #ffffff;
+    background-color: transparent !important;
+    background: transparent;
+}
+
+
+.wl_panel .create#create_application form#createForm .form-group .col-xs-8.col-md-10 input#app_name {
+    border-radius: 10px;
+    height: 40px;
+    box-shadow: none !important;
+    border: 2px solid #ffffff;
+    background-color: transparent !important;
+    background: transparent;	
+}
+
+.wl_panel .create#create_application form#createForm .form-group .col-xs-4.col-md-2 button {
+    background-color: #b7cec7 !important;
+    height: 40px;
+    border-radius: 10px;
+}
+}
+
+
+
+/* NAVBAR */
+.admin_application_list.general .navbar.navbar-default.content-white-bkg {
+	background-color: rgba(255,255,255,.2)!important;
+    height: 70px !important;
+    padding-top: 10px;
+}
+
+
+
+/* Second Modify */
+/* hide metrics */
+.admin_application_list.general #row_filter_metrics {
+    padding: 5px;
+    margin-right: 0px;
+    margin-left: 0;
+    display: none;
+}
+
+/* total install & total visit */
+.admin_application_list.general .col-md-6.col-xs-12 div.row:nth-child(2) {
+    display: none;
+}
+
+
+/* hidding top padding metrics */
+.admin_application_list.general .row.first-row-feature {
+    padding-top: 0;
+}
+
+/* change metrics color */
+.admin_application_list.general #analytics_visits.content-white-bkg {
+    background: rgb(255 255 255)!important;
+}
+
+/* change install and tour */
+.admin_application_list.general canvas#analytics_installs,
+.admin_application_list.general table#sb-tour-install-table {
+    border-radius: 20px;
+}
+
+/* heide visit */
+.admin_application_list.general table#sb-tour-visit-table {
+    display: none;
+}
+
+/* Change top install width */
+@media (min-width: 992px) {
+.admin_application_list.general .row .first-row-feature.col-md-4.col-xs-12:nth-child(2) {
+    width: 66.6%;
+}
+}
+
+/* add Analytic text */
+.admin_application_list.general .col-md-12.col-xs-12:before {
+    content: "Analitics";
+    display: block;
+    text-align: center;
+    font-size: 28px;
+    width: 100%;
+    background-color: #0ec972;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.admin_application_list.general .col-md-12.col-xs-12 {
+    margin-bottom: 50px;
+}
+
+.admin_application_list.general .row-list-application {
+    max-height: 100vh !important;
+    overflow: auto;
+}
+
+/* BARU 23022021 */
+div#create_application .col-xs-8.col-md-10 .input-flat {
+    border-color: #ffffff !important;
+}
+
+div#step_3 {
+    border-radius: 20px;
+}
+
+
+div#step_3 .fa {
+    position: absolute;
+    left: 97%;
+    top: 35px;
+    z-index: 1;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+div#step_3 a:before {
+    color: #568b7d;
+    content: "\f318";
+    display: inline-block;
+    font-family: "Ionicons";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 30px;
+}
+
+#step_3.color-blue-hover.active {
+	background: rgb(13 89 68)!important;
+    color: #fff!important;
+}
+
+div#step_3.step_menu_feature.f-bold.active.color-blue-hover.step-background.sb-tour a:before {
+    color: #fff !important;
+}
+
+div#step_3.step_menu_feature.f-bold.active.color-blue-hover.step-background.sb-tour li {
+    background: rgb(13 89 68 / 94%)!important;
+    color: #fff !important;
+    border: 0 !important;
+}
+
+li[data-color="background_color_on_active"] {
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize !important;
+    font-weight: bold;
+    border: 0;
+}
+
+
+.application_customization_features_list.general {
+
+}
+
+.application_customization_features_list.general img#header_app_icon {
+    border-radius: 50%;
+    width: 30%;
+}
+
+#pages_content h3.title-editor.border-blue.text-center,
+#add_pages_content h3.title-editor.border-blue.text-center,
+#page .content_editor h3.title-editor.border-blue.text-center {
+	height: 50px;
+    padding-top: 15px;
+    background-color: transparent !important;
+    border: 0 !important;
+    color: #000 !important;
+}
+
+
+.list-search {
+    width: 180px;
+}
+
+
+.application_customization_features_list.general .list-search .input-flat {
+	background: #19614e!important;
+    box-shadow: none;
+    border: 0;
+    margin: 2px;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px !important;
+    margin-left: 12px;
+}
+
+
+.list-search-content .list-search i.fa.fa-search.empty.active {
+    left: 150px;
+    position: relative;
+    top: -30px;
+    width: 20px;
+}
+
+.list-search-content .list-search  i.fa.fa-times.clear.active {
+	cursor: pointer;
+    display: block;
+    left: 150px;
+    position: relative;
+    top: -45px;
+    width: 20px;
+}
+
+i.fa.fa-search.empty.active {
+    left: 150px;
+    top: -30px;
+}
+
+/* border of YOUR PAGES */
+.application_customization_features_list.general #add_pages_content .color-blue.block_add_pages_icon {
+    background-color: rgb(19 78 62)!important;
+    border-radius: 15px;
+    box-shadow: none !important;
+}
+
+.carret li a.button_handler.active:before {
+	display: none;
+}
+
+.application_customization_features_list.general #add_pages_content #sb-tour-add-pages-filter li a.active:after {
+	display: none;
+}
+
+
+.application_customization_features_list.general #add_pages_content .title-editor.border-blue,
+.application_customization_features_list.general #pages_content .title-editor.border-blue {
+    border-bottom: 0 !important;
+    background-color: #92b4ab !important;
+    border-radius: 10px 10px 0 0;
+}
+
+.application_customization_features_list.general #pages_content .subcontent.content-color {
+	color: #fff!important;
+    background: rgb(146 180 171)!important;
+    box-shadow: none !important;
+    border-radius: 0 0 10px 10px;
+}
+
+#carousel_prev .fa-angle-left:before,
+#carousel_next .fa-angle-right:before {
+    color: #0d5944;
+    font-size: 50px !important;
+}
+
+
+.application_customization_features_list.general .content-options.content-white-bkg {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.application_customization_features_list.general #add_pages_content #sb-tour-add-pages-filter li a.active {
+    background: rgb(13 89 68)!important;
+    box-shadow: none !important;
+    border-radius: 10px;
+    height: 40px !important;
+    padding-top: 10px;
+}
+
+.application_customization_features_list.general #add_pages_content .subcontent.content-color {
+	color: #fff!important;
+    background: #92b4ab!important;
+    box-shadow: none !important;
+	border-radius: 0 0 10px 10px;
+}
+
+.application_customization_features_list.general #pages_content #option_values .content-white-bkg {
+    background: rgb(13 89 68 / 53%)!important;
+    border-radius: 10px;
+    margin-top: 2px;
+}
+
+/* SIDEBAR */
+#wrapper.left-toggled #left-sidebar-wrapper {
+    width: 205px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.application_customization_features_list.general #sidebar-left-group-editor {
+    background: #0d5944!important;
+}
+
+
+ul.sidebar-nav {
+    background-color: transparent;
+    box-shadow: none !important;
+}
+
+.application_customization_features_list.general #left-sidebar-wrapper .sidebar-nav a.active {
+    background: rgba(255,255,255,.3)!important;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 5px;
+}
+
+.sidebar-nav li a:active, .sidebar-nav li a:focus {
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.customer_application_list.general #left-sidebar-wrapper .sidebar-nav a.active {
+	background: rgba(255,255,255,.3)!important;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.customer_application_list.general #sidebar-left-group-editor {
+    background: rgb(13 89 68)!important;
+}
+
+
+/* STEP 1 */
+div#step_1 {
+    border-radius: 20px;
+}
+
+
+div#step_1 .fa {
+    position: absolute;
+    left: 97%;
+    top: 35px;
+    z-index: 1;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+div#step_1 a:before {
+    color: #568b7d;
+    content: "\f12c";
+    display: inline-block;
+    font-family: "Ionicons";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 30px;
+}
+
+#step_1.color-red-hover.active {
+	background: rgb(13 89 68)!important;
+    color: #fff!important;
+}
+
+div#step_1.step_menu_feature.first.f-bold.active.color-red-hover.step-background.sb-tour a:before {
+    color: #fff !important;
+}
+
+div#step_1.step_menu_feature.first.f-bold.active.color-red-hover.step-background.sb-tour li {
+    background: rgb(13 89 68 / 94%)!important;
+    color: #fff !important;
+    border: 0 !important;
+}
+
+
+/* STEP 2 */
+div#step_2 {
+    border-radius: 20px;
+}
+
+
+div#step_2 .fa {
+    position: absolute;
+    left: 97%;
+    top: 35px;
+    z-index: 1;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+div#step_2 a:before {
+    color: #568b7d;
+    content: "\f37b";
+    display: inline-block;
+    font-family: "Ionicons";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 30px;
+}
+
+#step_2.color-yellow-hover.active {
+	background: rgb(13 89 68)!important;
+    color: #fff!important;
+}
+
+div#step_2.step_menu_feature.f-bold.active.color-yellow-hover.step-background.sb-tour a:before {
+    color: #fff !important;
+}
+
+div#step_2.step_menu_feature.f-bold.active.color-yellow-hover.step-background.sb-tour li {
+    background: rgb(13 89 68 / 94%)!important;
+    color: #fff !important;
+    border: 0 !important;
+}
+
+/* STEP 4 */
+div#step_4 {
+    border-radius: 20px;
+}
+
+
+div#step_4 .fa {
+    position: absolute;
+    left: 97%;
+    top: 35px;
+    z-index: 1;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+div#step_4 a:before {
+    color: #568b7d;
+    content: "\f1f9";
+    display: inline-block;
+    font-family: "Ionicons";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 30px;
+}
+
+#step_4.color-purple-hover.active {
+	background: rgb(13 89 68)!important;
+    color: #fff!important;
+}
+
+div#step_4.step_menu_feature.f-bold.active.color-purple-hover.step-background.sb-tour a:before {
+    color: #fff !important;
+}
+
+div#step_4.step_menu_feature.f-bold.active.color-purple-hover.step-background.sb-tour li {
+    background: rgb(13 89 68 / 94%)!important;
+    color: #fff !important;
+    border: 0 !important;
+}
+
+/* STEP 5 */
+div#step_5 {
+    border-radius: 20px;
+}
+
+
+div#step_5 .fa {
+    position: absolute;
+    left: 97%;
+    top: 35px;
+    z-index: 1;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+div#step_5 a:before {
+    color: #568b7d;
+    content: "\f2c3";
+    display: inline-block;
+    font-family: "Ionicons";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 30px;
+}
+
+#step_5.color-green-hover.active {
+	background: rgb(13 89 68)!important;
+    color: #fff!important;
+}
+
+div#step_5.step_menu_feature.f-bold.active.color-green-hover.step-background.sb-tour a:before {
+    color: #fff !important;
+}
+
+
+.step_menu_feature.f-bold.active.wl_panel.color-green-hover.step-background.sb-tour li {
+    background: rgb(13 89 68 / 94%)!important;
+    color: #fff !important;
+    border: 0 !important;
+}
+
+.step-background {
+    background: rgb(255 255 255 / 0%)!important;
+    color: #fff!important;
+}
+
+.step_menu_feature li {
+    border-bottom: 2px solid;
+    display: inline-block;
+    padding: 4px 10px;
+    text-transform: uppercase;
+    width: 100%;
+    color: #568b7d !important;
+}
+
+.step_menu_feature.f-bold.active.wl_panel.color-green-hover.step-background.sb-tour li {
+    background: rgb(13 89 68 / 94%)!important;
+    color: #fff !important;
+    border: 0 !important;
+}
+
+.step_menu_feature .fa-angle-right:before {
+	color: #568b7d;
+}
+
+
+#step_1.color-red-hover.active,
+#step_1.color-red-hover:hover,
+#step_2.color-yellow-hover.active,
+#step_2.color-yellow-hover:hover,
+#step_3.color-blue-hover.active,
+#step_3.color-blue-hover:hover,
+#step_4.color-purple-hover.active,
+#step_4.color-purple-hover:hover,
+#step_5.color-green-hover.active,
+#step_5.color-green-hover:hover {
+    background: transparent !important;
+    color: #fff !important;
+}
+
+
+div#search_row.col-xs-6 .sb-tour.input-flat {
+    border: 2px solid #fff !important;
+}
+
+#step_4.color-purple-hover.active li,
+#step_5.color-green-hover.active li {
+    background: rgb(13 89 68)!important;
+    color: #fff!important;
+    text-transform: capitalize !important;
+    font-weight: bold;
+}
+
+
+@media (max-width: 900px) {
+#wrapper.left-toggled #left-sidebar-wrapper {
+    width: 68px !important;
+}
+}
+
+@media only screen and (min-width: 980px) {
+.admin_application_list.general .row.item-application {
+    width: 45%;
+    display: inline-block;
+    margin: 10px 2%;
+    left: 0;
+    right: 0;
+    padding: 0 !important;
+    border: 0 !important;
+}
+}
+
+@media only screen and (max-width: 1350px) {
+.admin_application_list.general .row.item-application {
+    width: 45%;
+    display: inline-block;
+    margin: 10px 2%;
+    left: 0;
+    right: 0;
+    padding: 0 !important;
+    border: 0 !important;
+}
+}
+
+
+@media only screen and (min-width: 1350px) {
+.admin_application_list.general .row.item-application {
+    width: 30.7%;
+    display: inline-block;
+    margin: 10px 1%;
+    left: 0;
+    right: 0;
+    padding: 0 !important;
+    border: 0 !important;
+}
+}
+
+
+
+#add_page_list .add_option_value {
+    text-align: center;
+    margin-bottom: 10px;
+    list-style: none;
+    padding-right: 0;
+    width: 25% !important;
+    display: inline-block;
+    padding-left: 15px;
+}
+
+
+.color-blue.block_add_pages_icon.btn.default_size_details {
+    background-size: 50px 50px;
+    background-position: center 5px !important;
+    background-repeat: no-repeat;
+}
+
+div#carousel-container {
+    background-color: #0d5944;
+    border-radius: 10px;
+}
+
+.menu_steps .step_menu_feature li:hover {
+    color: #fff !important;
+}
+
+.menu_steps .step_menu_feature:before::hover {
+    color: #fff !important;	
+}
+
+.application_customization_features_list.general div#page .content_editor {
+    background-color: #c4d0cd;
+    color: #000 !important;
+    border-radius: 20px;
+}
+
+
+.application_customization_features_list.general .content_editor #list.previewer2 .col-sm-7 input {
+    background-color: #92b4ab!important;
+    color: #fff !important;
+    border: 0 !important;
+    border-radius: 10px;
+    height: 40px;
+}
+
+
+/* AWESOME ADMIN */
+body.awesomeadmin_features_mobilelist.general #carousel-container_light .carousel-ul li {
+    width: 130px!important;
+    border-radius: 20px !important;
+}
+
+
+body.awesomeadmin_features_mobilelist.general .container-fluid {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+
+body.awesomeadmin_features_mobilelist.general .sidebars.has-sidebar ~ .subcontent {
+    padding-left: 0 !important;
+    border-radius: 0 0 20px 20px;
+}
+
+
+body.awesomeadmin_features_mobilelist.general .action-buttons-back {
+	position: absolute;
+    margin-left: 0 !important;
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+
+body.awesomeadmin_features_mobilelist.general .action-buttons-back .fa-power-off:before {
+    margin-right: 20px;
+    color: red;
+}
+
+
+body.awesomeadmin_features_mobilelist.general .title-editor.border-blue {
+	border-bottom: 2px solid #f00!important;
+    text-align: center !important;
+    display: block;
+    width: 100%;
+    background-color: #eaeaea !important;
+    border-radius: 10px 10px 0 0;
+    color: red !important;
+    height: 60px;
+}
+
+/*
+body.awesomeadmin_features_mobilelist.general #carousel-container_light .carousel-ul li {
+    width: 31.33% !important;
+    margin: 5px 1%;
+    padding: 0 !important;
+} */
+
+/* USE JUST 2 MODULE - PUSH & INBOX */
+
+body.awesomeadmin_features_mobilelist.general #carousel-container_light .carousel-ul li {
+    width: 30% !important;
+    margin: 25px 35%;
+    padding: 0 !important;
+	background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow: 5px 5px 10px #dbdbdb, -5px -5px 10px #ffffff;
+}
+
+body.awesomeadmin_features_mobilelist.general #carousel-container_light .carousel-ul li:nth-child(n+3) {
+	display: none;
+}
+
+
+body.awesomeadmin_features_mobilelist.general .action-buttons-back a {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px !important;
+}
+
+
+body.awesomeadmin_features_mobilelist.general #carousel-container_light .carousel-ul li.option_value span {
+    font-size: 11px !important;
+    text-transform: capitalize !important;
+    margin-top: 5px;
+    color: #0099c7;
+}
+
+
+body.awesomeadmin_features_mobilelist.general h3.title-editor.no-border-radius.title-feature-indent {
+    text-transform: capitalize;
+    font-weight: bold;
+    border-radius: 5px !important;
+    font-size: 14px;
+    height: 35px;
+    top: 0 !important;
+    border: 0;
+    bottom: 0 !important;
+    padding-top: 10px;
+}
+
+
+body.awesomeadmin_features_mobilelist.general .content-feature {
+    border: 0 !important;
+    margin-bottom: 0;
+    float: none;
+    padding: 0 !important;
+}
+
+body.awesomeadmin_features_mobilelist.general .content-feature .alert-info {
+    color: #000000;
+    background-color: #ffffff;
+    border: 0 !important;
+    font-size: 12px !important;
+    border-radius: 5px;
+    display: block !important;
+    text-align: center;
+}
+
+body.awesomeadmin_features_mobilelist.general .content-feature .alert-info button {
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    margin: 5px 30%;
+    border-radius: 5px;
+    background-color: #0099c7 !important;
+}
+
+
+body.awesomeadmin_features_mobilelist.general .edit_page.container-fluid.subcontent {
+    padding-top: 0;
+}
+
+body.awesomeadmin_features_mobilelist.general #form-inbox-option input.sb-input-recipient_email.input-flat {
+    background-color: #fff !important;
+    border: 0 !important;
+    border-radius: 5px;
+}
+
+
+#recipient_email .sb-input-recipient_email.input-flat,
+#message_limit .sb-input-message_limit.input-flat,
+#title .sb-input-title.input-flat {
+	background-color: #fff !important;
+    border: 0 !important;
+    border-radius: 5px;
+}	

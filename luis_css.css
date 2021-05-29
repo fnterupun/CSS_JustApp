@@ -1,0 +1,106 @@
+/* CIVILITY/NAME */
+body.customer_application_list.general .form-group table#dynamic-customers tr.border-grey th[data-dynatable-column="firstname"] a.dynatable-sort-header {
+	font-size: 0;
+}
+
+body.customer_application_list.general .form-group table#dynamic-customers tr.border-grey th[data-dynatable-column="firstname"] a.dynatable-sort-header:after {
+    content: "Civility/Name";
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+/* PHONE */
+body.customer_application_list.general .form-group table#dynamic-customers tr.border-grey  th[data-dynatable-column="phone"] a.dynatable-sort-header {
+	font-size: 0;
+}
+
+body.customer_application_list.general .form-group table#dynamic-customers tr.border-grey  th[data-dynatable-column="phone"] a.dynatable-sort-header:after {
+    content: "Civility/Name";
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+/* Create New user */
+body.customer_application_edit.general div#sb-tour-edit-user div#customer_forms div#customer_form_new form#customerForm .form-group .col-md-6:nth-child(1) .form-group:nth-child(1) {
+    display: none;
+}
+
+
+/* Civility */
+body.customer_application_edit.general div#sb-tour-edit-user div#customer_forms div#customer_form_new form#customerForm .form-group .col-md-6 .form-group .col-sm-4 label[for="civility"]:after {
+    content: " Civility";
+    font-size: 15px;
+}
+
+body.customer_application_edit.general div#sb-tour-edit-user div#customer_forms div#customer_form_new form#customerForm .form-group .col-md-6 .form-group .col-sm-4 label[for="civility"] {
+    font-size: 0;
+}
+
+
+/* Select a civility */
+
+.col-md-6 .col-sm-8 select#civility>option {
+    font-size: 0 !important;
+}
+
+
+/* Phone number */
+body.customer_application_edit.general div#sb-tour-edit-user div#customer_forms div#customer_form_new form#customerForm .form-group .col-md-6 .form-group .col-sm-4 label[for="mobile"]:after {
+    content: "Phone";
+    font-size: 15px;
+}
+
+body.customer_application_edit.general div#sb-tour-edit-user div#customer_forms div#customer_form_new form#customerForm .form-group .col-md-6 .form-group .col-sm-4 label[for="mobile"] {
+    font-size: 0;
+}
+
+
+
+/* Inapp message */
+body.application_customization_features_list.general .edit_page.container-fluid.subcontent div#edit div#push_step_one .block.container-fluid.content-feature form#pushFirstStepForm .form-group label#push_title-error {
+    font-size: 0;
+}
+
+body.application_customization_features_list.general .edit_page.container-fluid.subcontent div#edit div#push_step_one .block.container-fluid.content-feature form#pushFirstStepForm .form-group label#push_title-error:after {
+    content: "Harus Diisi Mas";
+    font-size: 14px;
+}
+
+
+body.application_customization_features_list.general .edit_page.container-fluid.subcontent div#edit div#push_step_one .block.container-fluid.content-feature form#pushFirstStepForm .form-group label#push_text-error {
+	font-size: 0;
+}
+
+body.application_customization_features_list.general .edit_page.container-fluid.subcontent div#edit div#push_step_one .block.container-fluid.content-feature form#pushFirstStepForm .form-group label#push_text-error {
+    content: "Harus Diisi Juga Mas";
+    font-size: 14px;
+}
+
+
+/* USers */
+body.application_customization_features_list.general .edit_page.push_notif div#push_step_three div#push_topics form#pushThirdStepForm .use_gmaps label[for="all_user_1"],
+body.application_customization_features_list.general .edit_page.push_notif div#push_step_three div#push_topics form#pushThirdStepForm .use_gmaps label[for="all_user_2"]  {
+    display: none;
+}
+
+
+
+/* Social Wall */
+body.application_customization_features_list.general dd#group_features-element fieldset#fieldset-group_features .form-group.sb-form-line.form-group-checkbox label[for="enable_user_like"]:after {
+    content: "USer Likes";
+    font-size: 14px;
+}
+
+body.application_customization_features_list.general dd#group_features-element fieldset#fieldset-group_features .form-group.sb-form-line.form-group-checkbox label[for="enable_user_like"] {
+    font-size: 0;
+}
+
+
+
+/* add to Colors menu of Editor */
+.module-fanwall.popover.popover-custom .item-custom:nth-child(1) {
+    display: none;
+}

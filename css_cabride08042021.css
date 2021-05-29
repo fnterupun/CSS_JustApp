@@ -1,0 +1,1230 @@
+/* ADD GAMBAR BAGIAN HEADER */
+/*.bar.bar-custom { 
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/taxi_001-removebg-preview-e1616706964351.png); 
+    background-color: transparent; 
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+/* MENU ICON */
+.icon.ion-navicon-round:before {
+    visibility: hidden;
+}
+
+.icon.ion-navicon-round:before {
+    visibility: visible;
+    content: url(https://justapp.id/assets/images/toggler_icon_white.svg);
+    margin-top: 0;
+}
+
+ion-side-menu.menu.menu-left.menu-left-open,
+ion-side-menu.menu.menu-left {
+    background-color: transparent !important;
+}
+
+.layout.layout_taxi ion-content {
+    height: 98vh !important;
+    margin: 1vh !important;
+    background-color: #fff !important;
+    border-radius: 30px;
+    border-top: 10px solid #0ebd57;
+}
+
+.layout.layout_taxi .taxi-header {
+    width: 100%;
+    background-image: none !important;
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    margin-top: -5px;
+    background-color: #0ebd57;
+    border-radius: 0 0 50px 0;
+}
+
+.layout_taxi .items {
+    padding-top: 0;
+    background: rgb(14,189,87);
+    background: linear-gradient(90deg, rgba(14,189,87,1) 49%, rgba(255,255,255,1) 49%);
+    margin-top: 0;
+}
+
+.layout_taxi .items li.lines.border-custom {
+    background-color: #fff;
+    padding-top: 60px;
+}
+
+.layout_taxi .items li.lines.border-custom:nth-child(1) {
+    border-radius: 50px 0 0 0;
+    padding-top: 40px;
+}
+
+.layout_taxi .items ion-content:after {
+    content: "Copyright @2021";
+    display: block;
+    color: #0ebd57;
+    margin-top: -50px;
+    text-align: center;
+    font-size: 11px;
+}
+
+.layout_taxi .taxi-header .taxi-avatar-wrapper {
+    height: 20vw;
+    width: 20vw;
+    border: 2px solid #fff !important;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.layout_taxi .taxi-header .taxi-avatar {
+    height: 20vw;
+    width: 20vw;
+}
+
+span.pull-left.customer-name.ng-binding {
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+}
+
+span.pull-left.customer-name.ng-binding:before {
+    content: "Hai ";
+    color: #000;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+/* gambar header sebelum user login */
+.layout_taxi span.taxi-signup span.taxi-signup-text.ng-binding {
+    display: block;
+    width: 80px;
+    margin-left: 10%;
+    background-color: #fff;
+    padding: 32px;
+    border-radius: 50px;
+    height: 80px;
+    margin: -50px auto 10px auto;
+    font-size: 0;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/add-3.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.layout_taxi span.taxi-or-text.ng-binding {
+    color: #fff;
+    text-transform: lowercase;
+    visibility: hidden;
+}
+
+.layout_taxi span.taxi-login-text.ng-binding {
+    display: block;
+    width: 60%;
+    margin-left: 20%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.layout_taxi span.taxi-or-text.ng-binding {
+    color: #fff;
+    text-transform: lowercase;
+}
+
+.layout_taxi .col-100.text-center {
+    margin-top: 20px;
+}
+
+.layout_taxi li span.line-title.ng-binding {
+    font-size: 12px;
+    font-variant: normal;
+    font-weight: normal;
+}
+
+.bar.bar-custom span.nav-bar-title.ng-binding {
+    text-align: center;
+    display: none !important;
+}
+
+
+/* HOMESCREEN TAXI */
+/* Penumpang */
+/* menambah gambar bg */
+ion-view[state="cabride-home"] .cr-passenger.ng-binding {
+    text-indent: 0 !important;  
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/02/undraw_mobile_user_7oqo.svg) !important;
+    background-repeat: no-repeat;
+    width: 90% !important;
+    background-position: center;
+    background-size: 70%;
+    margin-left: 5%;
+    border-radius: 10px;
+    border: 2px solid #0ebd57;
+    background-color: #fff;
+    font-size: 0;
+}
+
+ion-view[state="cabride-home"] .cr-passenger.ng-binding img {
+    width: 20% !important;
+    object-position: right !important;
+    text-align: right !important;
+    top: 0;
+    bottom: 0;
+    margin-top: 0px !important;
+    display: block;
+    background-color: #0ebd57;
+    padding: 5px;
+    border-radius: 50%;
+    float: right;
+}
+
+/* menambah tulisan Saya Penumpang */
+ion-view[state="cabride-home"] .cr-passenger.ng-binding:before {
+    content: "Penumpang";
+    z-index: 999;
+    display: block;
+    height: 45px !important;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: left;
+    width: 80%;
+    float: left;
+    color: #0a0c0c;
+}
+
+/* Sopir */
+/* menambah gambar bg */
+ion-view[state="cabride-home"] .cr-driver.ng-binding {
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/mechanic-02-533x287-1.png) !important;
+    background-repeat: no-repeat;
+    width: 90% !important;
+    background-position: center;
+    background-size: 70%;
+    margin-left: 5%;
+    border-radius: 10px;
+    border: 2px solid #0ebd57;
+    background-color: #fff;
+    font-size: 0;
+}
+
+/* mengatur gambar default driver */
+ion-view[state="cabride-home"] .cr-driver.ng-binding img {
+    width: 20% !important;
+    object-position: right !important;
+    text-align: right !important;
+    top: 0;
+    bottom: 0;
+    margin-top: 15vh !important;
+    display: block;
+    float: left;
+    background-color: #0ebd57;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+/* menambah tulisan Saya Sopir */
+ion-view[state="cabride-home"] .cr-driver.ng-binding:before {
+    content: "Sopir";
+    z-index: 999;
+    display: block;
+    height: 45px !important;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: left;
+    width: 80%;
+    float: left;
+    color: #0a0c0c;
+}
+
+/* menu layout taxi */
+ion-side-menu.menu.menu-right.menu-right-open,
+ion-side-menu.menu.menu-right {
+    height: 55vh !important;
+    top: 45vh !important;
+    border-radius: 50px 50px;
+    padding-top: 20px;
+}
+
+ion-side-menu.menu.menu-right.menu-right-open ion-content {
+    margin-top: 20px;
+    border-radius: 50px 50px 0 0;
+}
+
+ion-side-menu.menu.menu-right.menu-right-open .scroll {
+    transform: none !important;
+}
+
+ul.items.homepage-custom.cabride-contextual-menu {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.contextual-menu .line-box {
+    display: inline-block !important;
+    align-items: center !important;
+    width: 100% !important;
+}
+
+.contextual-menu .line-icon {
+    height: 32px !important;
+    font-size: 25px !important;
+    line-height: normal !important;
+    width: 32px !important;
+    margin: 0 auto !important;
+    display: block !important;
+    text-align: center !important;
+    color: #ffc850 !important;
+}
+
+.contextual-menu .line-title {
+    line-height: normal !important;
+    margin: 0 !important;
+    display: block !important;
+    font-weight: normal !important;
+    text-transform: capitalize !important;
+    font-variant: none !important;
+    font-size: 9px !important;
+    text-align: center !important;
+    white-space: normal !important;
+    margin-top: 8px !important;
+}
+
+.contextual-menu .line-status span {
+    font-size: 11px;
+    text-transform: capitalize !important;
+    font-variant: no-common-ligatures;
+    text-align: left;
+    margin-right: 10px;
+}
+
+span.online-text.ng-binding {
+    color: #ffc850;
+}
+
+span.offline-text.ng-binding {
+    color: #000;
+}
+
+.contextual-menu .status-toggler.on .status-pill {
+    background-color: #ffc850;
+}
+
+.contextual-menu .status-toggler.off .status-pill {
+    right: 50%;
+    background-color: black !important;
+}
+
+.contextual-menu .status-toggler {
+    background-color: transparent !important;
+    border: 2px solid #a5a5a5 !important;
+}
+
+.taxi-header div[ng-if="isLoggedIn"] .text-center.col-50 {
+    flex: 0 0 35%;
+    max-width: 35%;
+}
+
+.taxi-header div[ng-if="isLoggedIn"] .col-50 {
+    flex: 0 0 65%;
+    max-width: 65%;
+}
+
+.cabride .cr-passenger-home #cr-map-overlay .cr-map-request {
+    left: 15vw !important;
+    border: 0 !important;
+    background-color: #bcf3ff  !important;
+    border-radius: 10px !important;
+    box-shadow: none !important;
+    width: 70vw !important;
+    margin: 0 !important;
+    padding-bottom: 70px;
+    bottom: 1rem !important;
+}
+
+.cabride .cr-passenger-home #cr-map-overlay .cr-map-pin .cr-pin-text.balanced {
+    background-color: #00ccff !important;
+    border: 2px solid #fff !important;
+    color: #fff !important;
+    box-shadow: none !important;
+    width: 50%;
+    text-align: center;
+    border-radius: 30px !important;
+    padding: 10px !important;
+    position: absolute;
+    top: calc(91% - 4.5rem);
+    left: 50%;
+    font-weight: normal;
+    font-size: 15px !important;
+    text-transform: uppercase;
+    font-variant: normal;
+}
+
+label.cr-pickup-text:before {
+    content: "Lokasi Jemput";
+    display: block;
+    font-size: 16px;
+    margin-left: 0;
+    background-color: #bcf3ff;
+    padding: 10px;
+    color: #000;
+}
+
+label.cr-dropoff-text:before {
+    content: "Lokasi Turun";
+    display: block;
+    font-size: 16px;
+    margin-left: 0;
+    background-color: #bcf3ff;
+    padding: 10px;
+    color: #000;
+}
+
+.cabride .cr-passenger-home #cr-map-overlay .cr-map-location {
+    width: 100vw !important;
+    margin: 0 !important;
+    border-radius: 0;
+    background-color: #ffffff;
+    box-shadow: none !important;
+    padding: 0;
+    height: 225px !important;
+    border: 0;
+}
+
+.cabride .cr-passenger-home #cr-map-overlay .cr-map-location .cr-map-pickup label input,
+.cabride .cr-passenger-home #cr-map-overlay .cr-map-location .cr-map-dropoff label input,
+.cabride .cr-passenger-home .ng-pristine.ng-untouched.ng-valid.ng-empty.pac-target-input {
+    width: 100%;
+    font-variant: normal;
+    text-transform: capitalize;
+    letter-spacing: 0.05em;
+    font-size: 1rem;
+    text-overflow: unset;
+    white-space: normal !important;
+    background-color: #ffffff;
+    padding-left: 50px;
+}
+
+.cabride .cr-passenger-home #cr-map-overlay .cr-map-location .cr-map-dropoff i.dropoff,
+.cabride .cr-passenger-home #cr-map-overlay .cr-map-location .cr-map-pickup i.pickup,
+.cabride .cr-passenger-home #cr-map-overlay .cr-map-location .cr-map-dropoff i.pickup {
+    position: absolute;
+    right: 90% !important;
+    font-size: 1.5rem;
+    opacity: 1;
+    color: #0cf;
+    margin-top: -40px;
+}
+
+.cabride .cr-passenger-home #cr-map-overlay .cr-map-zoom {
+    display: none;
+}
+
+
+
+/* My Account */
+img.padding.stable-bg.stable-border.customer-image {
+    /*content: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/add-3.png); */
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 3px dotted #0ebd57 !important;
+    padding: 5px;
+    background-color: #fff;
+    z-index: -999;
+}
+
+section.avatar.text-center.padding>div:after {
+    content: "Tambahkan Foto";
+    display: block;
+    color: #fff;
+    font-size: 11px;
+}   
+
+section.avatar.text-center.padding {
+    background-color: #fff;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) {
+    background-color: #fff;
+}
+
+/*
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3)>div>div.list {
+    background: rgb(14,189,87);
+    background: linear-gradient(90deg, rgba(14,189,87,1) 49%, rgba(255,255,255,1) 49%);
+}
+
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) .item.item-input.item-custom:nth-child(1) {
+    border-radius: 50px 0 0 0;
+    padding-top: 25px;
+}
+*/
+
+.taxi-header .text-center.col-50 {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.taxi-header .row .col-50 {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+
+.taxi-header .row:last-child {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.taxi-header div[ng-if="isLoggedIn"] .text-center.col-50 span {
+    text-align: center;
+}
+
+.layout_taxi .status-toggler {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 0 9px 0;
+    color: #fff;
+    font-size: 120%;
+    font-variant: small-caps;
+    letter-spacing: .5px;
+    border: 2px solid transparent;
+    margin-right: 1vw;
+}
+
+.taxi-header div[ng-if="isLoggedIn"]:first-child .text-center.col-50 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    margin-top: 10px;
+}
+
+.taxi-header div[ng-if="isLoggedIn"]:fisrt-child .col-50 {
+    flex: 0 0 30% !important;
+    max-width: 30% !important;
+}
+
+.taxi-header div[ng-if="isLoggedIn"].row:nth-child(1) {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.taxi-header div[ng-if="isLoggedIn"].row:nth-child(1) .text-center.col-50 {
+    order: 2;
+}
+
+.taxi-header div[ng-if="isLoggedIn"].row:nth-child(1)  .col-50 {
+    order: 1;
+    max-width: 100%;
+}
+
+.online-text.ng-binding,
+.offline-text.ng-binding {
+    display: block !important;
+    text-align: center !important;
+    margin-top: -10px !important;
+    width: 100% !important;
+}
+
+.taxi-header div[ng-if="isLoggedIn"]:last-child .text-center.col-50 {
+    flex: 0 0 75% !important;
+    max-width: 75% !important;
+    display: inline-block;
+}
+
+.taxi-header div[ng-if="isLoggedIn"]:last-child .col-50 {
+    flex: 0 0 20% !important;
+    max-width: 20% !important;
+    display: inline-block;
+}
+
+
+/* Homepage PICK ME */
+ion-view.cabride.cabride-view.cabride-home ion-content {
+    background-color: #fff !important;
+    border-radius: 30px 30px 0 0;
+    margin-top: 10px;
+}
+
+
+.cabride .cr-home-title:before {
+    content: "PICK ME";
+    display: block;
+    font-weight: 700;
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+    visibility: visible;
+}
+
+.cabride .cr-home-title {
+    text-align: center;
+    margin: 15px 0;
+    visibility: hidden;
+    font-size: 0;
+}
+
+.cabride .cr-home-title:after {
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    color: #929292;
+    visibility: visible;
+    content: "Cukup dari genggaman, tidak perlu berdiri di jalan, kami siap menjemput dan mengantarmu ke tujuan.";
+    line-height: 1.8;
+    padding: 5px;
+    border-bottom: 2px solid #ecf0f6;
+    width: 94%;
+    margin-left: 3%;
+    margin-top: 15px;
+    font-style: italic;
+    margin-bottom: 29px;
+}
+
+/* HALAMAN LOGIN */
+ion-modal-view.customer-view.customer-layout1 ion-content {
+    background-color: #fff !important;
+    border-radius: 50px 50px 0 0;
+    /*border-top: 15px solid #fff;*/
+    margin-top: 10px;
+}
+
+ion-modal-view.customer-view.customer-layout1 .button.button-positive-custom {
+    background-color: #0ebd57;
+    width: 90%;
+    border-radius: 50px;
+    margin-left: 5%;
+    color: #fff;
+    border: 0;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div[ng-show="display_login_form"]:before {
+    content: "Login";
+    font-size: 24px;
+    display: block;
+    color: #000;
+    font-weight: bold;
+    width: 96%;
+    margin-left: 2%;
+    padding: 20px;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div[ng-show="display_login_form"]>div:before {
+    content: "Senang melihatmu kembali. Silakan login lagi dan lanjutkan aktivitas terakhirmu.";
+    font-size: 14px;
+    display: block;
+    color: #000;
+    width: 96%;
+    margin-left: 2%;
+    padding: 20px;  
+    line-height: 1.8;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div[ng-show="display_login_form"] .list {
+    width: 96%;
+    margin-left: 2%;    
+    margin-bottom: 0;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div[ng-show="display_login_form"] .list label {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div[ng-show="display_login_form"] .list label i {
+    color: #5f5f5f;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div[ng-show="display_login_form"] .list label i.icon.ion-ios-person:after {
+    content: "Email/Nomor HP";
+    padding-left: 5px;
+    font-weight: bold;
+    color: #5f5f5f;
+    font-weight: bold;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div[ng-show="display_login_form"] .list label i.icon.ion-locked:after {
+    content: "Kata Sandi";
+    padding-left: 5px;
+    font-weight: bold;
+    color: #5f5f5f;
+    font-weight: bold;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div[ng-show="display_login_form"] .list label input {
+    border-radius: 50px;
+    padding: 10px;
+    border: 2px solid #ecf0f6;
+    height: 50px;
+}
+
+
+ion-modal-view.customer-view.customer-layout1 ion-content div[ng-show="display_login_form"] .padding.text-right {
+    width: 96%;
+    margin-left: 2%;
+    padding: 0 20px;
+    margin-bottom: 50px;
+    font-size: 11px;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div[ng-show="display_login_form"] span {
+    color: #0ebd57;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div[ng-show="display_login_form"] .padding.text-center.ng-binding {
+    color: #000;
+    font-size: 11px;
+    width: 96%;
+    margin-left: 2%;
+    text-align: right;
+    padding-right: 20px;
+}
+
+
+/* placeholder */
+ion-modal-view.customer-view.customer-layout1 ion-content div[ng-show="display_login_form"] .list label input::-webkit-input-placeholder {
+    visibility: hidden;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div[ng-show="display_login_form"] .list label input:-moz-placeholder { /* Firefox 18- */
+    visibility: hidden;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div[ng-show="display_login_form"] .list label input::-moz-placeholder {  /* Firefox 19+ */
+    visibility: hidden;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div[ng-show="display_login_form"] .list label input:-ms-input-placeholder {  
+    visibility: hidden;
+}
+/* placeholder */
+
+
+/* LUPA KATA SANDI */
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_forgot_password_form"]:before {
+    content: "Lupa Kata Sandi";
+    font-size: 24px;
+    display: block;
+    color: #000;
+    font-weight: bold;
+    width: 96%;
+    margin-left: 2%;
+    padding: 20px;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_forgot_password_form"]>div:before {
+    content: "Lupa kata sandi yah? Silakan kirimkan email yang Kamu pakai sebelumnya, kami akan mengirimkan kata sandi baru.";
+    font-size: 14px;
+    display: block;
+    color: #000;
+    width: 96%;
+    margin-left: 2%;
+    padding: 20px;  
+    line-height: 1.8;
+}
+
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_forgot_password_form"] .padding.text-left {
+    display: none;
+}
+
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_forgot_password_form"] .list label {
+    display: inline-block;
+    padding: 10px 15px;
+    width: 96%;
+    margin-left: 2%;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_forgot_password_form"] .list label i {
+    color: #5f5f5f;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_forgot_password_form"] .list label i.icon.ion-ios-person:after {
+    content: "Email";
+    padding-left: 5px;
+    font-weight: bold;
+    color: #5f5f5f;
+    font-weight: bold;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_forgot_password_form"] .list label input {
+    border-radius: 50px;
+    padding: 10px;
+    border: 2px solid #ecf0f6;
+    height: 50px;
+}
+
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_forgot_password_form"] .padding.text-center.ng-binding {
+    padding-right: 20px;
+    display: block;
+    text-align: right;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_forgot_password_form"] .padding.text-center.ng-binding span {
+    color: #0ebd57;
+}
+
+
+/* Vehicoles Type */
+ion-view.cabride.cabride-view.cabride-vehicle-information ion-content,
+ion-view.cabride.cabride-view.cabride-pending ion-content,
+ion-view.cabride.cabride-view ion-content {
+    background-color: #fff !important;
+    margin-top: 0;
+    border-top: 0;
+    border-radius: 30px 30px 0 0;
+}
+
+
+ion-view.cabride.cabride-view .item.item-divider.item-divider-custom.text-center.ng-binding {
+    background: transparent;
+    font-weight: bold;
+    width: 100%;
+    display: block;
+    text-align: left;
+    font-size: 18px;
+    color: #5f5f5f;
+}
+
+ion-view.cabride.cabride-view .tabs {
+    background-color: transparent;
+    border: 0;
+    background-image: none;
+}
+
+ion-view.cabride.cabride-view button.button.button-full.button-positive.button-positive-custom.ng-binding,
+ion-view.cabride.cabride-view button.button.button-full.button-assertive.button-assertive-custom.ng-binding {
+    background-color: #0ebd57;
+    border: 0 !important;
+    width: 80%;
+    background-image: none !important;
+    border-radius: 50px;
+    color: #fff;
+    height: 50px;
+}
+
+ion-view.cabride.cabride-view button.button.button-small.button-positive.button-positive-custom.ng-binding {
+    color: #fff;
+    font-size: 10px !important;
+    text-transform: capitalize !important;
+    width: 100%;
+    border: 0;
+    background-color: transparent !important;
+}
+
+
+ion-view.cabride.cabride-view .cabride-vehicle-information ion-content .has-footer {
+    bottom: calc(var(--safe-area-inset-bottom) + -5px); 
+    background-color: #fff !important;
+}
+
+ion-view.cabride.cabride-view .item.item-custom.item.item-thumbnail-left.vehicle-type img {
+    top: 0;
+    left: 0;
+    max-width: 250px;
+    max-height: 250px;
+    width: 100% !important;
+    height: 250px;
+    display: block;
+    margin: 0 30% !important;
+    position: absolute;
+}
+
+ion-view.cabride.cabride-view.cabride-vehicle-information .item.item-custom.item.item-thumbnail-left.vehicle-type h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+ion-view.cabride.cabride-view.cabride-vehicle-information p.default-fares span.pull-right {
+    float: right;
+    display: block;
+    text-align: left;
+    margin-top: 30px;
+    padding-left: 20px;
+    background-color: #0ebd57;
+    width: 30%;
+    margin-right: 67%;
+    padding: 5px;
+    border-radius: 10px !important;
+}
+
+ion-view.cabride.cabride-view.cabride-vehicle-information .item.item-custom.item.item-thumbnail-left.vehicle-type {
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 200px !important;
+}
+
+
+ion-view.cabride.cabride-view.cabride-vehicle-information .list label {
+    width: 94%;
+    margin: 0 3%;
+    padding: 0;
+    display: inline-block;
+}
+
+ion-view.cabride.cabride-view.cabride-vehicle-information .list label .input-label {
+    max-width: 100%;
+    width: 100%;
+    margin: 0;  
+}
+
+ion-view.cabride.cabride-view.cabride-vehicle-information .list label input {
+    text-align: left;
+    border-radius: 10px;
+    height: 45px;
+    padding: 10px;
+    border: 2px solid #0ebd57;
+    background-color: #ecf0f6;
+}
+
+ion-view.cabride.cabride-view.cabride-vehicle-information .list label textarea {
+    text-align: left;
+    border-radius: 10px;
+    height: 70px;
+    padding: 10px;
+    border: 2px solid #0ebd57;
+    background-color: #ecf0f6;
+}
+
+ion-view.cabride.cabride-view.cabride-vehicle-information div[ng-if="pricingDriver()"] {
+    background-color: #ecf0f6;
+    border-radius: 50px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+ion-view.cabride.cabride-view.cabride-vehicle-information .list .item-divider.item-divider-custom {
+    background-color: transparent;
+    color: #fff;
+    border: 0;
+}
+
+ion-view.cabride.cabride-view.cabride-vehicle-information .list .item-divider.item-divider-custom h2 {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+}
+
+
+ion-view.cabride.cabride-view.cabride-vehicle-information .item.item-custom {
+    background-color: transparent !important;
+}
+
+
+.platform-cordova:not(.fullscreen) .has-footer {
+    bottom: calc(var(--safe-area-inset-bottom) + -5px) !important;
+}
+
+.layout_taxi .items li:last-child {
+    padding-bottom: 60px !important;
+}
+
+div[ng-if="pricingDriver()"]>.item.item-divider.item-divider-custom.text-center,
+div[ng-if="pricingDriver()"]>.item.item-custom {
+    display: none;
+}
+
+div[ng-if="pricingDriver()"] label:last-child {
+    padding-bottom: 50px !important;
+}
+
+
+/* PAYMENT HISTORY */
+ion-view.cabride.cabride-view.cabride-payment-history .item.item-divider.item-divider-custom {
+    background-color: transparent;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.bar.bar-custom .title {
+    color: rgba(255, 255, 255, 1);
+    display: none;
+}
+
+
+/* DETAIL PERJALANAN*/
+ion-modal-view.cabride.cabride-ride-details ion-content {
+    background-color: #fff !important;
+    border-radius: 50px 50px 0 0;
+    margin-top: 10px;
+}
+
+/* AKUN PAGE */
+ion-modal-view.customer-view.customer-layout1 ion-content .scroll>div:nth-child(3) .padding.text-right span {
+    color: #0ebd57;
+}
+ion-modal-view.customer-view.customer-layout1 ion-content .scroll>div:nth-child(3) .padding.text-right {
+    text-align: right;
+    padding-right: 20px;
+    font-size: 11px;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content .scroll>div:nth-child(3) .padding.text-center.ng-binding {
+    text-align: right;
+    padding-right: 20px;
+    font-size: 11px;
+    color: #000;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content .scroll>div:nth-child(3) .padding.text-center.ng-binding span {
+    color: #0ebd57;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content .scroll>div:nth-child(3) .padding.text-center span {
+    color: #0ebd57;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content .scroll>div:nth-child(3) .list .item.item-input.item-custom {
+    display: inline-block;
+    padding: 0;
+    margin: 0 !important;
+    width: 100%;
+    margin-top: -5px !important;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content .scroll>div:nth-child(3) .list .item.item-input.item-custom .input-label.ng-binding {
+    max-width: 100%;
+    display: block;
+    width: 100%;
+    padding: 20px 20px 5px 15px;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content .scroll>div:nth-child(3) .list .item.item-input.item-custom input {
+    text-align: left;
+    border-radius: 10px;
+    height: 45px;
+    border: 2px solid #0ebd57;
+    background-color: #ecf0f6;
+    margin: 0 3%;
+    width: 94%;
+    padding: 10px;
+}
+
+
+ion-modal-view.customer-view.customer-layout1 ion-content .scroll>div:nth-child(3) .list label.item.item-custom.ng-binding {
+    margin-top: -5px;
+}
+
+
+ion-modal-view.customer-view.customer-layout1 ion-content .scroll>div:nth-child(3) span[ng-show="customer.change_password"] {
+    padding-left: 20px;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content .scroll>div:nth-child(3) label.checkbox-custom.item-custom.item-text-wrap.item.item-checkbox.ng-not-empty.ng-valid {
+    margin-top: -5px;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content .scroll>div:nth-child(3) label[ng-click="customer.change_password = !customer.change_password"] {
+    text-align: right;
+    color: #0ebd57 !important;
+}
+
+
+/* BOOKING */
+ion-view.booking-view.booking-view-l1 ion-content {
+    background-color: #fff !important;
+}
+
+
+ion-view.booking-view.booking-view-l1 ion-content form .list img {
+    width: 80% !important;
+    padding: 10px;
+    margin: 20px 10%;
+}
+
+ion-view.booking-view.booking-view-l1 ion-content form .list [ng-if="settings.description"] {
+    border-left: 9px solid #707070 !important;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: -130px;
+    background-color: hsl(0deg 0% 0% / 53%) !important;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+ion-view.booking-view.booking-view-l1 ion-content form .list:nth-child(2) .item.item-divider.item-divider-custom.ng-binding {
+    font-weight: bold;
+    background-color: transparent;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+ion-view.booking-view.booking-view-l1 ion-content form .list:nth-child(2) label {
+    display: inline-block;
+    width: 100%;
+}
+
+ion-view.booking-view.booking-view-l1 ion-content form .list:nth-child(2) label i {
+    width: 100%;
+    display: block;
+    max-width: 100%;
+    text-align: left;
+}
+
+ion-view.booking-view.booking-view-l1 ion-content form .list:nth-child(2) label input {
+    width: 96%;
+    display: block;
+    max-width: 96%;
+    border: 2px solid #eaeaea;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left !important;
+}
+
+
+i.icon.ion-person:after {
+    content: "Nama";
+    margin-left: 5px;
+}
+
+i.icon.ion-ios-telephone:after {
+    content: "Nomor HP/WA";
+    margin-left: 5px;   
+}
+
+i.icon.ion-email:after {
+    content: "Email Aktif";
+    margin-left: 5px;   
+}
+
+i.icon.ion-ios-people:after {
+    content: "Jumlah Pesanan";
+    margin-left: 5px;   
+}
+
+[model="formData.checkIn"] i.icon.ion-ios-clock:after {
+    content: "Tanggal Pesan";
+    margin-left: 5px;       
+}
+
+[model="formData.checkOut"] i.icon.ion-ios-clock:after {
+    content: "Tanggal Antar";
+    margin-left: 5px;       
+}
+
+
+ion-view.booking-view.booking-view-l1 ion-content form .list:nth-child(2) .input-label.ng-binding {
+    display: none;
+}
+
+
+ion-view.booking-view.booking-view-l1 ion-content form .list:nth-child(3) .item.item-divider.item-divider-custom.ng-binding {
+    font-weight: bold;
+    background-color: transparent;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+ion-view.booking-view.booking-view-l1 ion-content form .list:nth-child(3) label textarea {
+    border: 2px solid #eaeaea;
+    border-radius: 10px;
+    padding: 10px;
+    width: 96%;
+}
+
+ion-view.booking-view.booking-view-l1 ion-content form .list:nth-child(4) .item.item-divider.item-divider-custom.ng-binding {
+    font-weight: bold;
+    background-color: transparent;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+ion-view.booking-view.booking-view-l1 ion-content form .list:nth-child(4) label textarea {
+    border: 2px solid #eaeaea;
+    border-radius: 10px;
+    padding: 10px;
+    width: 96%;
+}
+
+/* placeholder */
+ion-view.booking-view.booking-view-l1 form  input::-webkit-input-placeholder {
+   color: #284778 !important;
+    visibility: hidden;
+}
+
+ion-view.booking-view.booking-view-l1 form input:-moz-placeholder { /* Firefox 18- */
+   color: #284778 !important;
+    visibility: hidden;
+}
+ion-view.booking-view.booking-view-l1 form input::-moz-placeholder {  /* Firefox 19+ */
+   color: #284778 !important;
+    visibility: hidden;
+}
+
+ion-view.booking-view.booking-view-l1 form input:-ms-input-placeholder {  
+   color: #284778 !important;
+    visibility: hidden;
+}
+/* placeholder */
+
+ion-view.booking-view.booking-view-l1 .button.button-positive-custom {
+    border: 0;
+    background-color: #ffc850;
+    color: #fff;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+/* .cabride .cr-passenger-home #cr-map-overlay .cr-map-location {
+    height: 220px !important;
+}
+*/
+
+.cabride .cr-passenger-home #cr-map-overlay .cr-map-location .cr-map-pickup label input,
+.cabride .cr-passenger-home #cr-map-overlay .cr-map-location .cr-map-dropoff label input {
+    height: 69px;
+}
+
+.cabride .cr-passenger-home #cr-map-overlay .cr-map-location .cr-map-pickup i.pickup,
+.cabride .cr-passenger-home #cr-map-overlay .cr-map-location .cr-map-dropoff i.pickup,
+.cabride .cr-passenger-home #cr-map-overlay .cr-map-location .cr-map-pickup i.dropoff,
+.cabride .cr-passenger-home #cr-map-overlay .cr-map-location .cr-map-dropoff i.dropoff {
+    margin-top: -45px !important;
+    right: 10px !important;
+}
+
+.cabride .cr-passenger-home #cr-map-overlay .cr-map-location {
+    margin: 0 !important;
+    border: 0;
+    width: 100% !important;
+    box-shadow: none;
+}
+
+
+.cabride .cr-passenger-home #cr-map-overlay .cr-map-pin .cr-pin-text.positive {
+    background-color: #0ebd57 !important;
+    color: #fff !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: normal;
+    text-transform: capitalize;
+    font-variant: normal !important;
+}
+

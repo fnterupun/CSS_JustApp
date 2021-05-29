@@ -1,0 +1,906 @@
+/* Header Title */
+.bar.bar-custom span.nav-bar-title.ng-binding,
+.bar.bar-custom h1.title.ng-binding.title-left,
+.bar.bar-custom h1.title.ng-binding,
+.bar.bar-custom .title {
+    display: none;
+}
+
+/* JOB */
+.ion-ios-settings-strong::before,
+.job-icon-small:before,
+.ion-sb-list1:before {
+    color: #ffc900;
+}
+
+/* home */
+ion-view.module-job.job-list.job-view ion-content {
+    background-color: #fff !important;
+    border-radius: 50px 50px 0 0;
+    margin-top: 10px;
+    border-radius: 50px 50px 0 0;
+    margin-top: 10px;
+}
+
+ion-view.module-job.job-list.job-view ion-content:before {
+    content: "Daftar Lowongan";
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 29px 0 10px 0 !important;
+    color: #094a1b;
+    background-color: transparent !important;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+ion-view.module-job.job-list.job-view ion-content .scroll {
+    background-color: transparent;
+    border-radius: 50px 50px 0 0;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+}
+
+ion-view.module-job.job-list.job-view ion-content .scroll:before {
+    content: ".";
+    display: block;
+    width: 20%;
+    border-bottom: 5px solid #ffc900;
+    margin-bottom: 30px;
+    margin-top: -20px;
+    margin-left: 5%;
+}
+
+ion-view.module-job.job-list.job-view .svg_filter_bg {
+    fill: #094a1b !important;
+}
+
+ion-view.module-job.job-list.job-view .list>div {
+    width: 94%;
+    margin: 10px 3%;
+}
+
+ion-view.module-job.job-list.job-view .list .item.item-custom.item-place.item-thumbnail-custom {
+    background-color: #ecf0f6 !important;
+    border-radius: 5px;
+    padding-left: 120px;
+    box-shadow: 0 0 0 2px #ecf0f6;
+    border-left: 6px solid #094a1b;
+    padding-top: 10px;
+}
+
+ion-view.module-job.job-list.job-view .list .item.item-custom.item-place.item-thumbnail-custom p.subtitle.ng-binding {
+    white-space: nowrap;
+}
+
+ion-view.module-job.job-list.job-view .item-thumbnail-custom img {
+    position: absolute;
+    border: 0;
+    border-radius: 10%;
+    top: 10%;
+    left: 7px;
+    height: 100px;
+}
+
+ion-view.module-job.job-list.job-view p.subtitle-company {
+    color: #007aff !important;
+    opacity: 1 !important;
+    font-weight: bold;
+    font-size: 11px !important;
+    white-space: normal;
+}
+
+ion-view.module-job.job-list.job-view p.subtitle-company:after {
+    content: "Lihat";
+    display: block;
+    border: 2px solid #93b5cd;
+    width: 30%;
+    text-align: center;
+    font-weight: normal;
+    background-color: #fff;
+    margin-left: 70%;
+}
+
+ion-view.module-job.job-list.job-view .list .item.item-custom.item-place.item-thumbnail-custom h2.ng-binding:after {
+    content: ".";
+    color: #fff;
+    border-bottom: 4px solid #ffc900;
+    display: block;
+    width: 30%;
+    margin-top: -10px;
+}
+
+ion-view.module-job.job-list.job-view .list .item.item-custom.item-place.item-thumbnail-custom h2.ng-binding {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    color: #094a1b !important;
+    font-weight: bold !important;
+    font-size: 16px;
+}
+
+/* My Companies */
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-admin-modal ion-content {
+    background-color: #fff !important;
+    border-radius: 50px 50px 0 0;
+    margin-top: 10px;
+    border-radius: 50px 50px 0 0;
+    margin-top: 10px;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-admin-modal ion-content:before {
+    content: "Perusahan Penyedia";
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 29px 0 10px 0 !important;
+    color: #094a1b;
+    background-color: transparent !important;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-admin-modal ion-content .scroll {
+    background-color: transparent;
+    border-radius: 50px 50px 0 0;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-admin-modal ion-content .scroll:before {
+    content: ".";
+    display: block;
+    width: 20%;
+    border-bottom: 5px solid #ffc900;
+    margin-bottom: 30px;
+    margin-top: -20px;
+    margin-left: 5%;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-admin-modal .col.col-90 {
+    display: block;
+    min-width: 100%;
+    flex: 0 0 100%;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-admin-modal .col.col-10 {
+    display: none;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-admin-modal .scroll .list.job-more {
+    width: 94%;
+    margin: 10px 3%;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-admin-modal .row.item.item-custom.item-place.job-admin {
+    background-color: #094a1b !important;
+    border-radius: 10px;
+    border: 0;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-admin-modal .row.item.item-custom.item-place.job-admin h3 {
+    color: #ffffff !important;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-admin-modal .item-place p.subtitle {
+    font-size: 13px;
+    opacity: 1 !important;
+    color: #fff;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-admin-modal .module-job .item-place p.subtitle-company {
+    font-size: 13px;
+    opacity: 0.5;
+    color: #ffc900 !important;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-admin-modal p.subtitle.ng-binding {
+    white-space: normal;
+    margin-top: 10px;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-admin-modal p.subtitle-company.ng-binding {
+    color: #ffc900 !important;
+    opacity: 1 !important;
+    margin-top: 10px;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-admin-modal p.subtitle-company.ng-binding:after {
+    content: "Lihat";
+    display: block;
+    border: 3px solid #fff;
+    width: 40%;
+    text-align: center;
+    font-weight: normal;
+    background-color: #ffc900;
+    margin-top: 10px;
+    color: #fff;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+/* Job - Contact */
+ion-view.module-job.job-view.job-view-contact ion-content {
+    background-color: #fff !important;
+    border-radius: 50px 50px 0 0;
+    margin-top: 10px;
+    border-radius: 50px 50px 0 0;
+    margin-top: 10px;
+}
+
+ion-view.module-job.job-view.job-view-contact ion-content:before {
+    content: "Informasi Perusahan";
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 29px 0 10px 0 !important;
+    color: #094a1b;
+    background-color: transparent !important;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+ion-view.module-job.job-view.job-view-contact ion-content .scroll {
+    background-color: transparent;
+    border-radius: 50px 50px 0 0;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+}
+
+ion-view.module-job.job-view.job-view-contact ion-content .scroll:before {
+    content: ".";
+    display: block;
+    width: 20%;
+    border-bottom: 5px solid #ffc900;
+    margin-bottom: 30px;
+    margin-top: -20px;
+    margin-left: 5%;
+}
+
+ion-view.module-job.job-view.job-view-contact .item.item-image.item-custom {
+    width: 96%;
+    margin-left: 2%;
+}
+
+ion-view.module-job.job-view.job-view-contact .item.item-text-wrap.item-custom {
+    border: 0;
+    width: 96%;
+    margin-left: 2%;
+    padding: 10px;
+}
+
+ion-view.module-job.job-view.job-view-contact button.button.button-balanced.button-balanced-custom.ng-binding.button-full {
+    border: 0;
+    border-radius: 30px;
+    width: 90%;
+    margin-left: 5% !important;
+    background-color: #33cd5f;
+    color: #ffffff;
+    visibility: hidden;
+}
+
+ion-view.module-job.job-view.job-view-contact button.button.button-balanced.button-balanced-custom.ng-binding.button-full:before {
+    content: "Tambah Lowongan Baru";
+    display: block;
+    visibility: visible;
+    border: 0;
+    border-radius: 30px;
+    width: 90%;
+    padding: 5px;
+    margin-left: 5% !important;
+    background-color: #33cd5f;
+    color: #fff;
+}
+
+ion-view.module-job.job-view.job-view-contact .item.item-divider.item-divider-custom.item-button-right {
+    background: transparent;
+}
+
+ion-view.module-job.job-view.job-view-contact .item.item-divider.item-divider-custom.item-button-right h2 {
+    font-weight: bold !important;
+    font-size: 18px !important;
+    color: #000 !important;
+}
+
+ion-view.module-job.job-view.job-view-contact h2.ng-binding {
+    color: #fff !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+}
+
+ion-view.module-job.job-view.job-view-contact .item-place p.subtitle {
+    font-size: 13px;
+    opacity: 1 !important;
+    color: #fff !important;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+
+ion-view.module-job.job-view.job-view-contact .item.item-divider.item-divider-custom.item-button-right h2 span {
+    font-weight: bold !important;
+    font-size: 18px !important;
+    color: #007aff !important;
+}
+
+ion-view.module-job.job-view.job-view-contact .item.item-custom.item-place {
+    background-color: #094a1b !important;
+    border-radius: 10px;
+    border: 0;
+    margin: 10px 2%;
+    width: 96%;
+    padding: 10px;
+}
+
+ion-view.module-job.job-view.job-view-contact p.subtitle-company {
+    margin-top: 13px !important;
+    display: block;
+    white-space: normal;
+    color: #ffc900;
+    opacity: 1 !important;
+    font-size: 11px;
+}
+
+ion-view.module-job.job-view.job-view-contact span[ng-if="place.location"]:after {
+    content: "Lihat";
+    display: block;
+    border: 2px solid #ffc900;
+    width: 50%;
+    text-align: center;
+    font-weight: normal;
+    background-color: #fff;
+    margin: 10px 0 0 50%;
+    padding: 10px;
+    border-radius: 30px;
+    color: #094a1b;
+    font-size: 14px;
+}
+
+ion-view.module-job.job-view.job-view-contact .col.col-10 {
+    display: none;
+}
+
+ion-view.module-job.job-view.job-view-contact .col.col-90 {
+    max-width: 100% !important;
+    width: 100% !important;
+    flex: 0 0 100%;
+}
+
+/* Manage Company */
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-manage-company ion-content  {
+    background-color: #fff !important;
+    border-radius: 50px 50px 0 0;
+    margin-top: 10px;
+    border-radius: 50px 50px 0 0;
+    margin-top: 10px;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-manage-company ion-content:before {
+    content: "Data Perusahan";
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 29px 0 10px 0 !important;
+    color: #094a1b;
+    background-color: transparent !important;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-manage-company ion-content .scroll {
+    background-color: transparent;
+    border-radius: 50px 50px 0 0;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-manage-company ion-content .scroll:before {
+    content: ".";
+    display: block;
+    width: 20%;
+    border-bottom: 5px solid #ffc900;
+    margin-bottom: 30px;
+    margin-top: -20px;
+    margin-left: 5%;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-manage-company .list.job-manage {
+    border: 0;
+    width: 96%;
+    margin-left: 2%;
+    background-color: transparent !important;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-manage-company .item.item-custom {
+    background-color: transparent !important;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-manage-company .item.item-divider.item-divider-custom.job-small-text.job-line-return.ng-binding {
+    font-size: 16px;
+    color: #000;
+    background-color: transparent;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-manage-company .item.item-custom {
+    border: 0;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-manage-company label {
+    width: 100%;
+    display: inline-block;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-manage-company label span {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-manage-company label input {
+    border: 2px solid #ecf0f6;
+    background-color: #ecf0f6;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-manage-company button {
+    border: 0;
+    border-radius: 30px;
+    width: 90%;
+    margin-left: 5% !important;
+    background-color: #33cd5f;
+    color: #ffffff;
+    margin-bottom: 10px !important;
+}
+
+/* Create Position */
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-create-place ion-content {
+    background-color: #fff !important;
+    border-radius: 50px 50px 0 0;
+    margin-top: 10px;
+    border-radius: 50px 50px 0 0;
+    margin-top: 10px;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-create-place ion-content:before {
+    content: "Buat Lowongan Baru";
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 29px 0 10px 0 !important;
+    color: #094a1b;
+    background-color: transparent !important;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-create-place ion-content .scroll {
+    background-color: transparent;
+    border-radius: 50px 50px 0 0;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-create-place ion-content .scroll:before {
+    content: ".";
+    display: block;
+    width: 20%;
+    border-bottom: 5px solid #ffc900;
+    margin-bottom: 30px;
+    margin-top: -20px;
+    margin-left: 5%;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-create-place  label textarea {
+    border: 2px solid #094a1b;
+    width: 96%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-create-place input {
+    background-color: transparent;
+    border: 2px solid #094a1b;
+    width: 96%;
+}
+
+/* Detail Pekerjaan */
+ion-view.module-job.job-view.job-view-job ion-content {
+    background-color: #fff !important;
+    border-radius: 50px 50px 0 0;
+    margin-top: 10px;
+    border-radius: 50px 50px 0 0;
+    margin-top: 10px;
+}
+
+ion-view.module-job.job-view.job-view-job ion-content:before {
+    content: "Detail Pekerjaan";
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 29px 0 10px 0 !important;
+    color: #094a1b;
+    background-color: transparent !important;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+ion-view.module-job.job-view.job-view-job ion-content .scroll {
+    background-color: transparent;
+    border-radius: 50px 50px 0 0;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+}
+
+ion-view.module-job.job-view.job-view-job ion-content .scroll:before {
+    content: ".";
+    display: block;
+    width: 20%;
+    border-bottom: 5px solid #ffc900;
+    margin-bottom: 30px;
+    margin-top: -20px;
+    margin-left: 5%;
+}
+
+ion-view.module-job.job-view.job-view-job .item.item-divider.item-divider-custom h2 {
+    text-transform: capitalize;
+    color: #094a1b;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+ion-view.module-job.job-view.job-view-job ion-content .list .item.item-image.item-custom img {
+    width: 96%;
+    border-radius: 10px;
+}
+
+
+ion-view.module-job.job-view.job-view-job ion-content .item.item-text-wrap.item-icon-left.item-custom {
+    display: block;
+    width: 96%;
+    margin: 10px 0;
+    border-radius: 10px;
+    margin-left: 2%;
+    color: #000;
+    border: 1px solid #ffc900;
+    padding: 10px;
+}
+
+ion-view.module-job.job-view.job-view-job ion-content .item.item-text-wrap.item-icon-left.item-custom p {
+    display: block;
+    width: 96%;
+    margin-left: 0px;
+    padding: 10px 0;
+    color: #000;
+    border-radius: 10px;
+}
+
+ion-view.module-job.job-view.job-view-job ion-content .item.item-text-wrap.item-icon-left.item-custom i {
+    display: none;
+}
+
+ion-view.module-job.job-view.job-view-job ion-content .list [ng-if="place.location"]:before {
+    content: "Alamat Perusahan";
+    font-size: 12px;
+    font-weight: bold;
+    color: #094a1b;
+}
+
+ion-view.module-job.job-view.job-view-job ion-content .list .item.item-custom:nth-child(5):before {
+    content: "Standar Gaji";
+    display: block;
+    font-size: 12px;
+    color: #094a1b;
+    font-weight: bold;
+}
+
+ion-view.module-job.job-view.job-view-job ion-content .list .item.item-custom:nth-child(6):before {
+    content: "Email Penyedia";
+    display: block;
+    color: #094a1b;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+ion-view.module-job.job-view.job-view-job [ng-if="displayContactForm(place)"],
+ion-view.module-job.job-view.job-view-job [ng-if="place.display_contact == 'both'"] {
+    display: none;
+}
+
+ion-view.module-job.job-view.job-view-job ion-content .list [ng-if="place.company.title"]:before {
+    content: "Perusahan Penyedia";
+    font-size: 12px;
+    font-weight: bold;
+    color: #094a1b;
+}
+
+ion-view.module-job.job-view.job-view-job .col.col-90 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+ion-view.module-job.job-view.job-view-job .col.col-10 {
+    display: none;
+}
+
+ion-view.module-job.job-view.job-view-job [ng-if="displayContact(place)"] {
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/undraw_emails_6uqr.svg);
+    background-position: center right 10px;
+    background-repeat: no-repeat;
+    background-size: 140px;
+}
+
+ion-view.module-job.job-view.job-view-job [ng-if="place.company.title"] {
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/undraw_coming_home_52ir.svg);
+    background-position: center right 10px;
+    background-repeat: no-repeat;
+    background-size: 140px;   
+}
+
+ion-view.module-job.job-view.job-view-job [ng-if="displayContact(place)"] p:after {
+    content: "Kirim Lamaran";
+    display: block;
+    width: 60%;
+    text-align: center;
+    background-color: #33cd5f;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 11px;
+    margin-top: 15px;
+}
+
+ion-view.module-job.job-view.job-view-job [ng-if="place.company.title"] p:after {
+    content: "Lihat Profil";
+    display: block;
+    width: 60%;
+    text-align: center;
+    background-color: #33cd5f;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 11px;
+    margin-top: 15px; 
+}
+
+
+/* Email Penyedia Layanan */
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-contact ion-content {
+    background-color: #fff !important;
+    border-radius: 50px 50px 0 0;
+    margin-top: 10px;
+    border-radius: 50px 50px 0 0;
+    margin-top: 10px;
+    bottom: 0;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-contact ion-content:before {
+    content: "Kirim Lamaran";
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 29px 0 10px 0 !important;
+    color: #094a1b;
+    background-color: transparent !important;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-contact ion-content .scroll {
+    background-color: transparent;
+    border-radius: 50px 50px 0 0;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-contact ion-content .scroll:before {
+    content: ".";
+    display: block;
+    width: 20%;
+    border-bottom: 5px solid #ffc900;
+    margin-bottom: 30px;
+    margin-top: -20px;
+    margin-left: 5%;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-contact .item.item-divider.item-divider-custom.ng-binding {
+    font-weight: bold;
+    font-size: 18px;
+    color: #094a1b;
+    background-color: transparent;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-contact .list.job-contact label.item.item-input.item-custom {
+    display: inline-block;
+    width: 100%;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-contact i.icon.ion-person.icon-form:after {
+    content: "Nama Lengkap";
+    margin-left: 10px;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-contact i.icon.ion-email.icon-form:after {
+    content: "Email";
+    margin-left: 10px;  
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-contact i.icon.ion-ios-telephone.icon-form:after {
+    content: "Nomor HP/WA";
+    margin-left: 10px;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-contact i.icon.ion-ios-location.icon-form:after {
+    content: "Alamat Tinggal";
+    margin-left: 10px;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-contact input {
+    width: 96%;
+    padding: 15px;
+    border: 2px solid #094a1b;
+    height: 45px;
+    border-radius: 10px;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-contact label.item.item-input.item-custom textarea {
+    border: 2px solid #094a1b;
+    padding: 10px;
+    width: 96%;
+    border-radius: 10px;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-contact button.search-button.button.button-assertive.button-assertive-custom.button-full.ng-binding {
+    border: 0;
+    background-color: #33cd5f;
+    color: #fff;
+    width: 80%;
+    left: 10% !important;
+    border-radius: 30px;
+    bottom: 10px !important;
+    font-size: 0;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-contact button .ion-ios-paperplane:before {
+    font-size: 38px !important;
+}
+
+ion-modal-view.module-job.layout.modal.slide-top.job-view.job-contact .list.job-contact:last-child {
+    padding-bottom: 110px;
+}
+
+
+/* Filter Pekerjaan */
+ion-modal-view.module-job.job.job-filter.l1 ion-content {
+    background-color: #fff !important;
+    border-radius: 50px 50px 0 0;
+    margin-top: 10px;
+    border-radius: 50px 50px 0 0;
+    margin-top: 10px;
+    bottom: 0;
+}
+
+ion-modal-view.module-job.job.job-filter.l1 ion-content:before {
+    content: "Cari Pekerjaan";
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 29px 0 10px 0 !important;
+    color: #094a1b;
+    background-color: transparent !important;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+ion-modal-view.module-job.job.job-filter.l1 ion-content .scroll {
+    background-color: transparent;
+    border-radius: 50px 50px 0 0;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+}
+
+ion-modal-view.module-job.job.job-filter.l1 ion-content .scroll:before {
+    content: ".";
+    display: block;
+    width: 20%;
+    border-bottom: 5px solid #ffc900;
+    margin-bottom: 30px;
+    margin-top: -20px;
+    margin-left: 5%;
+}
+
+ion-modal-view.module-job.job.job-filter.l1 .item.item-custom {
+    background-color: transparent !important;
+}
+
+ion-modal-view.module-job.job.job-filter.l1 .item.item-custom input {
+    border: 2px solid #094a1b;
+    padding: 20px;
+    width: 98% !important;
+    border-radius: 10px;
+}
+
+ion-modal-view.module-job.job.job-filter.l1 .list.job-filters:nth-child(1) .item.item-custom:nth-child(1):before {
+    content: "Kata Kunci";
+    display: block;
+}
+
+ion-modal-view.module-job.job.job-filter.l1 .list.job-filters:nth-child(1) .item.item-custom:nth-child(2):before {
+    content: "Lokasi";
+    display: block;
+}
+
+ion-modal-view.module-job.job.job-filter.l1 .list.job-filters:nth-child(1) .item.item-custom:nth-child(3):before {
+    content: "Jarak";
+    display: block;
+}
+
+ion-modal-view.module-job.job.job-filter.l1 .list.job-filters:nth-child(1) .item.item-custom:nth-child(3) h2 {
+    visibility: hidden; 
+}
+
+ion-modal-view.module-job.job.job-filter.l1 .list.job-filters:nth-child(1) .item.item-custom:nth-child(3) h2 span {
+    visibility: visible;    
+}
+
+ion-modal-view.module-job.job.job-filter.l1 .list.job-filters:nth-child(1) .item.item-custom:nth-child(4) {
+    display: none;
+}
+
+ion-modal-view.module-job.job.job-filter.l1  button.search-button.button.button-assertive.button-assertive-custom.button-full.ng-binding {
+    width: 80%;
+    border-radius: 30px;
+    margin-left: 10% !important;
+    margin-bottom: 10px !important;
+    border: 0;
+    background-color: #33cd5f;
+    color: #fff;
+    font-size: 0;
+}
+
+ion-modal-view.module-job.job.job-filter.l1 .ion-sb-search:before {
+    font-size: 36px !important;
+}
+
+ion-modal-view.module-job.job.job-filter.l1 span.ng-binding {
+    color: #33cd5f;
+}
+
+ion-modal-view.module-job.job.job-filter.l1 .item.item-divider.item-divider-custom.ng-binding {
+    background: transparent;
+    color: #094a1b;
+    font-weight: bold !important;
+    font-size: 18px;
+}
+
+ion-modal-view.module-job.job.job-filter.l1 .category-item-block .category-item.item.item-custom {
+    background-color: transparent !important;
+    background-size: cover;
+}
+
+ion-modal-view.module-job.job.job-filter.l1 .category-item-block .category-item.item.item-custom h4.ng-binding {
+    background-color: #33cd5f !important;
+    color: #fff !important;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+

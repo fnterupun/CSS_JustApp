@@ -1,0 +1,707 @@
+/* UNTUK ATTENDANCE */
+/* .platform-android .secondary-buttons button i.icon.ion-qr-scanner,
+.platform-android .secondary-buttons button[ng-click="showScanCamera()"] {
+	display: none !important;
+} */
+
+
+/* icon backward dan keranjang */
+.bar .back-button .icon:before,
+.ion-ios-cart::before,
+.bar .buttons-right span,
+.ion-clipboard::before,
+.ion-android-arrow-back:before {
+	color: #30aaed;
+}
+
+[state="home"] ion-content .slider:before {
+	content: "JustApp Laundry";
+  	text-align: center;
+  	display: block;
+  	color: #fff;
+  	z-index: 999;
+  	margin-top: 42vh;
+	font-family: MaisonNeue-Book,sans-serif;
+  	font-size: 24px;
+  	font-weight: bold;
+  	text-shadow: 0 0 3px #FF0000;	
+}
+
+.layout.l6 ion-content {
+	height: 45vh !important;
+}
+
+.layout.l6 ion-content div> div> a h2 {
+	font-family: MaisonNeue-Book,sans-serif;
+  	font-size: 16px;
+  	font-weight: bold;
+}
+
+/* mengatur shadow card & list */
+.card, .list {
+	box-shadow: none !important;
+}
+
+/* list bagian atas */
+ion-view[state="mcommerce-category-list"] ion-content .list>div> div.item.item-custom>h2 {
+	font-family: MaisonNeue-Book,sans-serif;
+  	font-size: 24px;
+  	font-weight: bold;
+  	color: #30aaed;
+  	margin-top: -15px;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list>div> div.item.item-custom>p {
+	font-family: MaisonNeue-Book,sans-serif;
+  	font-size: 14px;
+  	font-weight: bold;
+}
+
+/* kolom cari bagian kategori */
+ion-view[state="mcommerce-category-list"] ion-content .list>div>label {
+	width: 96%;
+  	margin-left: 2%;
+  	border-radius: 30px;  	
+}
+
+/* mengatur bagian kategori */
+ion-view[state="mcommerce-category-list"] ion-content .list>.item.item-custom:nth-child(2) {
+	height: 250px;
+  	background: url(https://drop.id/wp-content/uploads/2020/07/empowering-1024x1024.png);
+  	background-size: 200px;
+  	background-position: top right;
+  	background-repeat: no-repeat;
+  	background-color: #fff;
+  	margin: 10px 0;
+  	border-radius: 10px;
+  	padding-top: 10px;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list>.item.item-custom:nth-child(3) {
+	height: 250px;
+  	background: url(https://laundry.drop.id/wp-content/uploads/2020/10/About-D-Laundry-2048x1590.png);
+  	background-size: 200px;
+  	background-position: top right;
+  	background-repeat: no-repeat;
+  	background-color: #fff;
+  	margin: 10px 0;
+  	border-radius: 10px;
+  	padding-top: 10px;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list>.item.item-custom:nth-child(4) {
+	height: 250px;
+  	background: url(https://drop.id/wp-content/uploads/2020/07/DLHERO-1-1024x1024.png);
+  	background-size: 200px;
+  	background-position: top right;
+  	background-repeat: no-repeat;
+  	background-color: #fff;
+  	margin: 10px 0;
+  	border-radius: 10px;
+  	padding-top: 10px;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list>.item.item-custom:nth-child(5) {
+	height: 250px;
+  	background: url(https://drop.id/wp-content/uploads/2020/07/DROPHERO2MID-1024x888.png);
+  	background-size: 200px;
+  	background-position: top right;
+  	background-repeat: no-repeat;
+  	background-color: #fff;
+  	margin: 10px 0;
+  	border-radius: 10px;
+  	padding-top: 10px;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list>.item.item-custom:nth-child(6) {
+	height: 250px;
+  	background: url(https://ensiklopediakesaguan.com/wp-content/uploads/2020/12/sepatu.png);
+  	background-size: 190px;
+  	background-position: top right;
+  	background-repeat: no-repeat;
+  	background-color: #fff;
+  	margin: 10px 0;
+  	border-radius: 10px;
+  	padding-top: 10px;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list>.item.item-custom:nth-child(7) {
+	height: 250px;
+  	background: url(https://ensiklopediakesaguan.com/wp-content/uploads/2020/12/baju.png);
+  	background-size: 180px;
+  	background-position: top right;
+  	background-repeat: no-repeat;
+  	background-color: #fff;
+  	margin: 10px 0;
+  	border-radius: 10px;
+  	padding-top: 10px;
+}
+ion-view[state="mcommerce-category-list"] ion-content .list>.item.item-custom h2 {
+	font-family: MaisonNeue-Book,sans-serif;
+  	font-size: 18px;
+  	font-weight: bold;
+  	color: #30aaed;
+  	margin-top: 150px;
+}
+
+ion-view[state="mcommerce-category-list"] ion-content .list>.item.item-custom p {
+    overflow: visible;
+    text-overflow: initial;
+    white-space: normal;
+	font-family: MaisonNeue-Book,sans-serif;
+  	font-size: 14px !important;
+}
+
+/* subkategori */
+ion-view[state="mcommerce-subcategory-list"] ion-content .scroll>div.list:nth-child(2) {
+	display: none;
+}
+
+/* cari subkategori */
+ion-view[state="mcommerce-subcategory-list"] ion-content .list>div>label {
+	width: 96%;
+  	margin: 5px 2%;
+  	border-radius: 30px;
+  	border: 1px solid #30aaed;
+}
+
+ion-view[state="mcommerce-subcategory-list"] ion-content .item.item-custom.item-thumbnail-left {
+	border-radius: 10px;
+    /* box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5); */
+  	width: 96%;
+  	margin: 10px 2%;
+  	border: 1px solid #30aaed;
+}
+
+ion-view[state="mcommerce-subcategory-list"] ion-content .item.item-custom.item-thumbnail-left img {
+    top: 0;
+    left: 0;
+    max-width: 100px;
+    max-height: 100px;
+    width: 100%;
+    height: 100%;	
+  	float: right;
+}
+
+ion-view[state="mcommerce-subcategory-list"] ion-content .item.item-custom.item-thumbnail-left h2 {
+	font-family: MaisonNeue-Book,sans-serif;
+  	font-size: 16px !important;
+  	font-weight: bold;
+}
+
+ion-view[state="mcommerce-subcategory-list"] ion-content .item.item-custom.item-thumbnail-left p.three-lines.ng-binding {
+	font-family: MaisonNeue-Book,sans-serif;
+  	font-size: 14px !important;
+  	font-weight: bold;
+  	color: #30aaed;
+}
+
+/* bagian produk view */
+/* menghilangkan titik di bawah gambar, icon price tag, cart */
+.ion-record::before,
+.ion-pricetag:before,
+.ion-ios-cart-outline:before,
+.ion-information-circled:before {
+  display: none !important;
+}
+
+/* mengatur card pertama/harga */
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(1) {
+    padding: 20px;
+    margin: 0 !important;
+}
+
+/* mengatur card kedua/qty & add cart */
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(2) {
+	border-radius: 40px 40px 0 0 !important;
+    background-color: #30aaed !important;
+    padding: 10px 20px;
+    margin: 0 !important;
+}
+
+/* mengatur card ketiga/qty & add cart */
+ion-view.mcommerce-view.mcommerce-product .card .item.item-custom {
+    border: 0;
+    background-color: transparent !important;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(3) .item.item-input.item-custom.input-number-sb.ng-not-empty.ng-valid {
+    width: 100% !important;
+    left: 0;
+    right: 0;
+    float: left;
+    height: 48px;
+    padding-left: 0;
+    border-radius: 30px;
+    background-color: transparent !important;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(3) .item.item-input.item-custom.input-number-sb.ng-not-empty.ng-valid .input-label.ng-binding {
+    display: none;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(3) .input-number-sb .input-container {
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+    display: block;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(3) .item-input-wrapper input {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(3) .button.button-small.button-custom.button-left,
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(3) .button.button-small.button-custom.button-right {
+	background-color: #f5ba2e;
+    border: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(3) .input-label.ng-binding {
+	visibility: hidden;
+}
+
+.input-number-sb .item-input-wrapper {
+    border-radius: 0;
+    height: 31px;
+    display: inline-block;
+    max-width: 50px;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(2) .item.item-body.item-custom {
+    background-color: #30aaed !important;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(2) .item.item-body.item-custom span {
+	font-family: MaisonNeue-Book,sans-serif;
+  	font-size: 18px !important;
+  	font-weight: bold;
+  	color: #fff;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(3) {
+    background-color: #30aaed !important;
+    padding: 10px 20px;
+    width: 100% !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(3) .item.item-text-wrap.item-icon-left.item-custom.ng-binding {
+    width: 50% !important;
+    background-color: #f5ba2e !important;
+    top: 10px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 30px;
+    margin: 10px 25%;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* deskripsi produk */
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(4) {
+    background-color: #30aaed !important;
+    padding: 10px 20px;
+    width: 100% !important;
+    margin: 0 !important;
+    border-radius: 0 0 40px 40px !important;
+    box-shadow: none;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(4) .item.item-divider.item-divider-custom {
+    background-color: transparent;
+    color: #fff;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(4) .item.item-divider.item-divider-custom,
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(4) .item.item-body.item-custom.ng-binding {
+    background-color: transparent;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(4) .item.item-divider.item-divider-custom h2 {
+    margin-top: 0;
+  	color: #fff !important;
+	font-family: MaisonNeue-Book,sans-serif;
+  	font-weight: bold;  
+  	font-size: 16px;  
+}
+
+ion-view.mcommerce-view.mcommerce-product div.card:nth-child(4) .item-body p {
+    margin-top: 0;
+  	color: #fff !important;
+	font-family: MaisonNeue-Book,sans-serif;
+  	font-size: 14px;
+  	margin-bottom: 50px !important;
+}
+
+/* Commerce cart view */
+/* DETAIL PRODUCT - CART VIEW */
+ion-view[state="commercepro-cart-view"] ion-content {
+	background-color: #fff !important;
+  	border-radius: 40px 40px 0 0 !important;
+  	margin-top: 5px !important;	
+}
+
+ion-view[state="commercepro-cart-view"] ion-content .card {
+	box-shadow: none;
+}
+
+ion-view.mcommerce-view.mcommerce-cart .item.item-input.item-custom.input-number-sb .input-label.ng-binding {
+  display: none;
+}
+
+ion-view.mcommerce-view.mcommerce-cart .input-number-sb .input-container {
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+    display: block;
+}
+
+ion-view.mcommerce-view.mcommerce-cart .button.button-small.button-custom.button-left,
+ion-view.mcommerce-view.mcommerce-cart .button.button-small.button-custom.button-right,
+ion-view.mcommerce-view.mcommerce-cart .button.button-small.button-custom.button-left.activated,
+ion-view.mcommerce-view.mcommerce-cart .button.button-small.button-custom.button-right.activated {
+  background-color: #f5ba2e;
+    border: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+ion-view.mcommerce-view.mcommerce-cart .item-input-wrapper input,
+ion-view.mcommerce-view.mcommerce-cart .ion-minus:before,
+ion-view.mcommerce-view.mcommerce-cart .ion-plus:before {
+    color: #fff;
+    font-size: 16px;
+}
+
+ion-view.mcommerce-view.mcommerce-cart .item-input-wrapper input {
+    color: #03ad53; 
+}
+
+ion-view.mcommerce-view.mcommerce-cart .item.item-text-wrap.item-icon-left.item-custom.ng-binding {
+  	width: 50% !important;
+    left: 0;
+    right: 0;
+    float: right;
+    height: 48px;
+    background-color: #03ad53;
+    color: #fff;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+
+.mcommerce-view.mcommerce-cart .item.item-divider.item-divider-custom p {
+  font-weight: bold;
+    font-size: 16px;
+    font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.mcommerce-view.mcommerce-cart .icon.ion-clipboard:before,
+.mcommerce-view.mcommerce-cart .icon.ion-calculator:before,
+.mcommerce-view.mcommerce-product .icon.ion-ios-upload-outline {
+  display: none;
+}
+
+.mcommerce-view.mcommerce-cart .item.item-thumbnail-left.item-icon-right.item-custom img {
+  border-radius: 50%;
+}
+
+ion-view.mcommerce-view.mcommerce-sales-customer .list .item.item-custom .input-label {
+  text-align: left;
+}
+
+ion-view.mcommerce-view.mcommerce-cart ion-content div.scroll div.card div.item.item-input.item-custom.input-number-sb {
+    height: 50px;
+    width: 40%;
+    margin-left: 60%;
+}
+
+/* CART */
+/* Total */
+.mcommerce-view.mcommerce-cart div.card:nth-last-child(3) {
+	height: 250px;
+}
+
+.mcommerce-view.mcommerce-cart div.card:nth-last-child(2) {
+	background: #f5ba2e !important;
+  	margin: 0 !important;
+  	width: 100% !important;
+  	border-radius: 10px 10px 0 0;
+}
+
+.mcommerce-view.mcommerce-cart div.card:nth-last-child(2) div {
+	background: #fff !important;
+  	width: 90%;
+  	margin-left: 5% !important;
+}
+
+.mcommerce-view.mcommerce-cart div.card:nth-last-child(2) div:nth-child(1) {
+	background: #fff !important;
+  	margin: 20px 0 0 0 !important; 
+  	width: 90%;
+  	margin-left: 5% !important;
+  	border-radius: 10px 10px 0 0;
+}
+
+.mcommerce-view.mcommerce-cart div.card:nth-last-child(2) div:last-child {
+	background: #fff !important;
+  	margin: 0 0 20px 0 !important; 
+  	width: 90%;
+  	margin-left: 5% !important;
+  	border-radius: 0 0 10px 10px;
+}
+
+.mcommerce-view.mcommerce-cart div.card:nth-last-child(2) .item.item-divider.item-divider-custom {
+	text-align: center;
+    background-color: #eee4cd !important;
+}
+
+.mcommerce-view.mcommerce-cart div.card:nth-last-child(2) .item.item-divider.item-divider-custom strong {
+    font-size: 18px;
+}
+
+.mcommerce-view.mcommerce-cart div.card:nth-last-child(2) div span {
+	font-weight: bold;
+  	font-size: 16px;
+  	color: #000;
+}
+
+/* Continue Shopping */
+.mcommerce-view.mcommerce-cart ion-content div.card:nth-last-child(1) {
+	background: #f5ba2e !important;
+  	width: 100% !important;
+  	margin: 0;
+	border-radius: 0 0 20px 20px;  
+}
+
+.mcommerce-view.mcommerce-cart div.card:nth-last-child(1) div.item.item-icon-left.item-custom.ng-binding {
+	width: 70%;
+  	margin-left: 15%;
+  	border-radius: 10px;
+  	margin-bottom: 20px;
+  	text-align: center;
+  	text-transform: uppercase;
+  	padding: 10px 0;
+  	font-weight: bold;
+}
+
+.mcommerce-view.mcommerce-cart div.card:nth-last-child(1) .ion-ios-arrow-back:before {
+	display: none;
+}
+
+
+.mcommerce-view.mcommerce-cart [ng-if="object.cart.discount_enabled"] span {
+    color: #000;
+    border: 1px solid #f5ba2e;
+    padding: 05px;	
+  	border-radius: 10px;
+}
+
+/* add gratuity (optional) */
+[state="mcommerce-cart-view"] div.item.item-custom.ng-binding:nth-child(6) {
+	display: none !important;
+}
+
+/* Modul Places */
+/* icon bagian kanan header */
+.ion-sb-list1:before,
+.ion-sb-map:before,
+.ion-sb-grid-33:before,
+.ion-sb-grid-50:before,
+ion-view[state="places-list-map"] .ion-sb-turn-right:before,
+ion-view[state="places-list-map"] .ion-android-call:before,
+ion-view[state="places-list-map"] .ion-close:before {
+	color: #fab212 !important;
+}
+
+/* button cari pada places */
+.module-places .svg_filter_bg {
+    fill: #30aaed !important;
+}
+
+/* modal location */
+.module-places .info-window .info-window-icon {
+    padding: 10px;
+    border-bottom: 0;
+    border-radius: 10px 10px 0 0;
+}
+
+ion-view[state="places-list-map"] #mapInfoWindow {
+	bottom: 30vh;
+  	border: 0 !important;
+}
+
+ion-view[state="places-list-map"] #mapInfoWindow .info-window-title.ng-binding {
+	font-size: 18px;
+	color: #fab212;
+}
+
+ion-view[state="places-list-map"] #mapInfoWindow span,
+ion-view[state="places-list-map"] #mapInfoWindow h2,
+ion-view[state="places-list-map"] #mapInfoWindow p {
+	font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;	
+}
+
+ion-view[state="places-list-map"] #mapInfoWindow .info-window-more.ng-binding {
+	visibility: hidden;
+}
+
+ion-view[state="places-list-map"] #mapInfoWindow .info-window-more.ng-binding:after {
+  	visibility: visible;
+	content: "Detail";
+  	text-align: center;
+  	display: block;
+	width: 100%;
+    margin: 0 0 0 100%;
+    border-radius: 10px;
+    background-color: #fab212;
+    padding: 10px;
+  	color: #fff;
+}
+
+ion-view[state="places-list-map"] #mapInfoWindow .ion-android-open::before {
+	display: none;
+}
+
+
+/* 
+.icon.ion-android-call {
+    margin: 0 !important;	
+  	height: 30px;
+}
+*/
+
+
+/* Form v2 */
+.module-form2 .form2-divider:nth-of-type(1) p {
+	text-align: left;
+  	font-weight: bold;
+  	font-size: 16px !important;
+  	margin-top: 10px;
+}
+
+label.radio-custom.radio-item.item.item-radio.ng-valid.ng-not-empty,
+label.radio-custom.radio-item.item.item-radio.ng-empty.ng-valid {
+	border: 0;
+}
+
+.item.item-custom.item-icon-left.form2-datetime .row .col-50:nth-child(1) {
+	flex: 0 0 100%;
+    max-width: 100%;	
+  	display: block;
+}
+
+.item.item-custom.item-icon-left.form2-datetime .row .col-50:nth-child(2) {
+	flex: 0 0 100%;
+    max-width: 100%;	
+  	display: block;
+}
+
+.item.item-custom.item-icon-left.form2-datetime .row {
+	display: inline-block;
+}
+
+.module-form2 .form2-datetime input[type="text"],
+.module-form2 .form2-date input[type="text"] {
+    width: 100%;
+    text-align: left;
+    font-size: 14px !important;
+    font-weight: bold;
+    color: #df3b3b;
+}
+
+.ion-clock:before {
+    color: #df3b3b;
+}
+
+.item.item-custom.item-icon-left.form2-datetime p {
+	overflow: visible;
+    text-overflow: unset;
+    white-space: normal;	
+}
+
+.radio-content {
+  	width: 96%;
+  	margin: 0 .5% 0 3.5%;
+  	border: 2px solid #e1e1e1;
+  	border-radius: 5px;	
+}
+
+.module-form2.form2.form2-home.form2-home-l1 label {
+	display: inline-block;
+  	width: 100%;
+  
+}
+
+.module-form2.form2.form2-home.form2-home-l1 label input,
+.module-form2.form2.form2-home.form2-home-l1 label textarea {
+	display: block;
+  	width: 100%;
+  	margin: 0 0 0 -.5%;
+  	text-align: left;
+  	padding: 20px;
+  	border: 2px solid #e1e1e1;
+  	border-radius: 5px;
+}
+
+.module-form2.form2.form2-home.form2-home-l1 label.item-select.form2-select {
+  	width: 96%;
+  	margin: 0 .5% 0 3.5%;
+  	border: 2px solid #e1e1e1;
+  	border-radius: 5px;
+}
+
+.module-form2.form2.form2-home.form2-home-l1 .button.button-positive-custom {
+	width: 30%;
+  	margin-left: 35%;
+  	border: 0;
+  	border-radius: 5px;
+  	background-color: #18bd5b;
+}
+
+.module-form2.form2.form2-home.form2-home-l1 .input-label {
+	width: 100% !important;
+  	display: block;
+  	margin: 0;
+}
+
+img.form2-illustration {
+	width: 96% !important;
+  	border-radius: 5px;
+  	margin-left: 2%;
+}
+
+.module-form2 ion-item.item-custom.radio-title.item.ng-binding {
+	overflow: visible;
+    text-overflow: unset;
+    white-space: normal;	
+  	font-weight: normal;
+}
+
+/* mengatur buton LAYANAN DAN PESAN SEKARANG */
+.module-places.places.places-view .place-block .card .item.item-text-wrap.item-custom.sb-cms-text div p a {
+	background-color: orange;
+  	border-radius: 5px;
+  	padding: 10px;
+  	height: 25px;
+  	text-transform: uppercase;
+  	top: 10px;
+  
+}
+

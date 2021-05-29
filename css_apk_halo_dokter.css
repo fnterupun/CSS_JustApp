@@ -1,0 +1,928 @@
+/* MENU ICON */
+.icon.ion-navicon-round {
+  visibility: hidden;
+}
+
+.icon.ion-navicon-round {
+  visibility: visible;
+    content: url(https://justapp.id/assets/images/toggler_icon_white.svg);
+    margin-top: 10px;
+}
+
+.layout.l9 .items.homepage-custom {
+  font-family: MaisonNeue-Book, sans-serif; 
+}
+
+* {
+  font-family: MaisonNeue-Book, sans-serif;
+}
+
+.bar.bar-custom div.title.title-left.header-item span { 
+  text-align: center;
+    display: block;
+    width: 100%;
+}
+
+ion-view[state="folder2-category-list"] ion-content div.scroll:after {
+  content: "JustHello ©2020";
+    text-align: center;
+    width: 100%;
+    color: #0080b1;
+    display: block;
+  font-weight: bold;
+    font-size: 14px;
+    margin-top: 40px; 
+}
+
+ion-view[state="folder2-category-list"] ion-content div.list:first-child div.item.item-image.item-custom img {
+  display: none;
+}
+
+ion-view[state="folder2-category-list"] ion-content div.list:first-child div.item.item-custom {
+  width: 100%;
+  background-color: $bar-custom-bg;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0 0 15px 15px;
+}
+
+ion-view[state="folder2-category-list"] ion-content div.list:first-child div.item.item-custom h2 {
+  text-transform: uppercase;
+    text-align: center;
+  color: #fff;
+  width: 50%;
+}
+
+ion-view[state="folder2-category-list"] ion-content div.list:last-child a:first-child {
+  width: 50%;
+    float: right;
+    margin-top: -50px;
+    background-color: transparent;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0 0 20px 15px;
+}
+
+ion-view[state="folder2-category-list"] ion-content div.list:last-child a:first-child img {
+  display: none;
+}
+
+ion-view[state="folder2-category-list"] ion-content div.list:last-child a:first-child h2 {
+  text-transform: uppercase;
+    text-align: center;
+  color: #fff;
+    margin-top: -5px;
+}
+
+ion-view[state="folder2-category-list"] ion-content div.list:last-child a:nth-child(2) {
+  width: 100% !important;
+  background-color: transparent;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2020/11/undraw_medicine_b1ol-1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 250px;
+    margin-top: 20px;
+    pointer-events: none; 
+}
+
+
+ion-view[state="folder2-category-list"] ion-content div.list:last-child a:nth-child(2) img,
+ion-view[state="folder2-category-list"] ion-content div.list:last-child a:nth-child(2) h2 {
+  display: none;  
+}
+
+ion-view[state="folder2-category-list"] ion-content div.list:last-child a:nth-child(3) {
+  width: 90%;
+    margin: 50px 5% 10px 5%;
+    border: 2px solid #0080b1;
+    border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,128,177,.5);
+}
+
+ion-view[state="folder2-category-list"] ion-content div.list:last-child a:nth-child(4),
+ion-view[state="folder2-category-list"] ion-content div.list:last-child a:nth-child(5) {
+  width: 90%;
+    margin: 10px 5%;
+    border: 2px solid #0080b1;
+    border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.5); 
+}
+ion-view[state="folder2-category-list"] ion-content div.list:last-child a:nth-child(n+2) h2 {
+  font-size: 20px;
+  font-family: MaisonNeue-Book,sans-serif;
+}
+
+/* FORM */
+.module-form2.form2.form2-home.form2-home-l1 ion-item:nth-of-type(1) p {
+  text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.module-form2.form2.form2-home.form2-home-l1 label {
+  display: inline-block;
+    width: 100%;
+  
+}
+
+.module-form2.form2.form2-home.form2-home-l1 label input,
+.module-form2.form2.form2-home.form2-home-l1 label textarea {
+  display: block;
+    width: 100%;
+    margin: 0 0 0 -.5%;
+    text-align: left;
+    padding: 20px;
+    border: 2px solid #e1e1e1;
+    border-radius: 5px;
+}
+
+.module-form2.form2.form2-home.form2-home-l1 label.item-select.form2-select {
+    width: 96%;
+    margin: 0 .5% 0 3.5%;
+    border: 2px solid #e1e1e1;
+    border-radius: 5px;
+}
+
+.module-form2.form2.form2-home.form2-home-l1 .button.button-positive-custom {
+  width: 30%;
+    margin-left: 35%;
+    border: 0;
+    border-radius: 5px;
+  background-color: #0080b1;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.module-form2.form2.form2-home.form2-home-l1 .input-label {
+  width: 100% !important;
+    display: block;
+    margin: 0;
+}
+
+img.form2-illustration {
+  width: 96% !important;
+    border-radius: 5px;
+    margin-left: 2%;
+}
+
+.list div.item.item-custom.item-icon-left.form2-date {
+    width: 96%;
+    margin: 0 .5% 10px 3.5%;
+    border: 2px solid #e1e1e1;
+    border-radius: 5px;
+}
+
+.module-form2.form2.form2-home.form2-home-l1 .list div.item.item-custom.item-icon-left.form2-date .ion-calendar:before {
+  color: #0080b1;
+}
+
+/* APPOINTMENT */
+ion-view.view_appointment ion-content .card button {
+  width: 90%;
+    margin: 20px 5% 10px 5%;
+    border: 2px solid #0080b1;
+    border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,128,177,.5); 
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 16px;
+  font-family: MaisonNeue-Book, sans-serif;   
+}
+
+ion-view.view_appointment .button.button-custom.active, .button.button-custom.activated {
+  background-color:  #0080b1;
+    border: 0;
+    color: #fff;
+}
+
+
+ion-view.view_appointment .tab-item .icon {
+    font-size: 24px;
+    color: #ffffff !important;
+    background-color: #0080b1;
+    padding: 0;
+}
+
+ion-view.view_appointment .tab-nav.tabs {
+  display: none;
+}
+
+ion-view.view_appointment .tabs-icon-top>.tabs .tab-item {
+    font-size: 10px;
+    line-height: 14px;
+    padding: 0 !important;
+}
+
+ion-view.view_appointment .card .item-divider.item-divider-custom h2 {
+  font-weight: bold;
+    font-size: 24px;
+  font-family: MaisonNeue-Book, sans-serif;
+    color: #0080b1;
+}
+
+ion-view.view_appointment .tab-informations form label input,
+ion-view.view_appointment .tab-informations form label textarea {
+    width: 100%;
+    margin: 5px 0;
+    border: 2px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 10px;
+  height: 50px;
+}
+
+ion-view.view_appointment .tab-informations form .list.card button,
+ion-view.view_appointment .tab-confirm-informations .list.card button {
+  width: 30%;
+    margin-left: 35%;
+    border: 0;
+    border-radius: 5px;
+  background-color: #0080b1;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+}
+
+ion-view.view_appointment .tab-thanks h2,
+ion-view.view_appointment .tab-thanks p {
+  text-align: center;
+    color: #0080b1;
+}
+
+ion-view.view_appointment .tab-thanks .list.card:before {
+    content: ".";
+  width: 100% !important;
+  background-color: transparent;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2020/11/undraw_medicine_b1ol-1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 250px;
+    margin: 20px 0; 
+    display: block;
+    color: #fff;
+}
+
+/* my appointment */
+[state="appointment-booked"] .list:before {
+    content: ".";
+  width: 100% !important;
+  background-color: transparent;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2020/11/undraw_medical_care_movn.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 250px;
+    margin: 20px 0; 
+    display: block;
+    color: #fff;
+}
+
+[state="appointment-booked"] .list .card,
+.tab-locations .list.card .item.item-custom.item-location,
+.tab-services .list.card .item.item-custom.service,
+.tab-providers .card .item.item-custom {
+  width: 90%;
+    margin: 20px 5% 10px 5%;
+    border: 2px solid #0080b1;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,128,177,.5);
+    font-family: MaisonNeue-Book, sans-serif;
+}
+
+.tab-locations:before {
+    content: ".";
+  width: 100% !important;
+  background-color: transparent;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2020/11/undraw_location_tracking_46qb.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 250px;
+    margin: 20px 0; 
+    display: block; 
+    color: #fff;
+}
+
+.tab-services:before {
+    content: ".";
+  width: 100% !important;
+  background-color: transparent;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2020/11/undraw_faq_rjoy.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 250px;
+    margin: 20px 0; 
+    display: block;   
+    color: #fff;
+}
+
+.tab-providers:before {
+    content: ".";
+  width: 100% !important;
+  background-color: transparent;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2020/11/undraw_select_option_y75i.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 250px;
+    margin: 20px 0; 
+    display: block;   
+    color: #fff;
+}
+
+.part-calendar .card .item-divider.item-divider-custom:after {
+    content: ".";
+  width: 100% !important;
+  background-color: transparent;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2020/11/undraw_events_2p66.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    height: 180px;
+    margin: 20px 0; 
+    display: block;
+    color: #fff;
+}
+
+.tab-informations:before {
+    content: ".";
+  width: 100% !important;
+  background-color: transparent;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2020/11/undraw_shared_workspace_hwky.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 250px;
+    margin: 20px 0; 
+    display: block;
+    color: #fff;
+}
+
+.ion-chevron-right:before,
+.ion-sb-turn-right:before,
+.ion-android-call:before,
+.ion-earth:before,
+.ion-ios-world-outline:before {
+    color: #0080b1;
+}
+
+.view_appointment .active {
+    background-color: #0080b1;
+}
+
+.view_appointment .boto-prev:after,
+.view_appointment .boto-next:after {
+    top: 10px;
+}
+
+/* PLCAES */
+ion-view.module-places.places.places-categories.l1 ion-content {
+  background-color: #fff !important;
+    border-top: 15px solid #fff;
+    margin-top: 5px;
+    border-radius: 40px 40px 0 0;
+}
+
+.module-places {
+    font-family: MaisonNeue-Book, sans-serif;     
+}
+
+.module-places .svg_filter_bg {
+    fill: #0080b1;
+}
+
+.module-places .cover-place .place-title .span-title {
+  background: #0080b1b8;
+}
+
+.module-places .cover-place .place-title .span-subtitle {
+    background: rgb(0 128 177 / 72%);
+}
+
+.module-places .card {
+    padding: 0 !important;
+    border: 2px solid #0080b1;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,128,177,.5);
+    font-family: MaisonNeue-Book, sans-serif;
+}
+
+/* WORDPRESS */
+.module-wordpress2.wordpress2-layout1.wordpress2-list .list.card:nth-child(1) {
+    display: none;
+}
+
+.module-wordpress2.wordpress2-layout1.wordpress2-list .list.card {
+  box-shadow: none;
+    
+}
+
+.module-wordpress2.wordpress2-layout1.wordpress2-view .list.card {
+  box-shadow: none;
+    margin: 0;
+    padding: 0;
+}
+
+.module-wordpress2.wordpress2-layout1.wordpress2-list ion-content .list.card a {
+  display: inline-block;
+    width: 100%;
+    height: 380px;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #eff1f2;
+}
+
+.module-wordpress2.wordpress2-layout1.wordpress2-list ion-content .list.card a img {
+  display: block;
+    max-width: 100%;
+    max-height: 280px !important;
+    margin: -15px 0 0 -12px;
+    padding: 0;
+}
+
+.module-wordpress2.wordpress2-layout1.wordpress2-list ion-content .list.card a h2 {
+  display: block;
+    width: 100%;
+    max-height: 300px !important;
+    margin: 290px 0 0 0 !important;
+  padding: 0 10px;
+    font-family: MaisonNeue-Book, sans-serif;
+    font-weight: bold;
+    overflow: auto;
+    text-overflow: initial;
+    white-space: normal;
+}
+
+.module-wordpress2.wordpress2-layout1.wordpress2-list ion-content .list.card a p {
+  overflow: initial;
+    text-overflow: initial;
+    white-space: normal;
+    padding: 5px 5px 0 5px;
+}
+
+
+/* APPOINTMENT */
+ion-view.view_appointment ion-content,
+ion-view.module-form2.form2.form2-home.form2-home-l1 ion-content,
+ion-view.module-folder2.folder2-layout1 ion-content {
+    border-radius: 40px 40px 0 0 !important;
+    background-color: #fff !important;
+    border-top: 15px solid #fff;
+    margin-top: 5px;
+}
+
+ion-view[state="folder2-category-list"] ion-content div.list:first-child div.item.item-custom {
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 40px !important;
+    width: 96%;
+    border: 0;
+    margin-top: 2px;
+    background-color: #ffffff;
+}
+
+ion-view[state="folder2-category-list"] ion-content div.list:first-child div.item.item-custom h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #0e7bc4;
+    width: 50%;
+}
+
+ion-view[state="folder2-category-list"] ion-content div.list:last-child a:first-child h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    margin-top: -5px;
+}
+
+/* Modul WordPress - Artikel */
+ion-view.module-wordpress2.wordpress2-layout1.wordpress2-list ion-content {
+  border-radius: 40px 40px 0 0;
+    margin-top: 5px;
+    border-top: 15px solid #fff;
+    background-color: #fff !important;
+}
+
+
+.tab-locations:before {
+    content: ".";
+    width: 100% !important;
+    background-color: transparent;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2020/11/undraw_location_tracking_46qb.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 129px;
+    margin: 20px 0;
+    display: block;
+    color: #fff;
+}
+
+/* Choose Location page dst */
+ion-view.view_appointment ion-content.has-tabs-top.appointment.scroll-content.ionic-scroll.has-header {
+    top: calc(45px + var(--safe-area-inset-top));
+}
+
+/* Choose Location */
+ion-view.view_appointment.pane .tab-locations .list.card .item.item-custom.item-location {
+  width: 48%;
+    margin: 10px 1%;
+    border: 2px solid #f9edd1;
+    box-shadow: none;
+    border-radius: 20px;
+    font-family: MaisonNeue-Book, sans-serif;
+    display: inline-block !important;
+    height: 100px;
+    background-color: #fcf6e8;
+}
+
+ion-view.view_appointment.pane .list.card .item.item-custom.item-location .item-note,
+ion-view.view_appointment.pane .list.card .item.item-custom.item-location .col.col-10 {
+    color: inherit!important;
+    display: none;
+}
+
+ion-view.view_appointment.pane .list.card .item.item-custom.item-location .col.col-90 {
+    max-width: 100%;
+    text-align: center;
+    margin: 0;
+    flex: 0 0 100%;
+}
+
+ion-view.view_appointment.pane .list.card .item.item-custom.item-location .col.col-90  p {
+  white-space: normal;
+}
+
+ion-view.view_appointment.pane .list.card .item.item-custom.item-location .col.col-90  h2 {
+  white-space: normal;
+  color: #0e7bc4;
+    font-size: 18px;
+}
+
+
+ion-view.view_appointment .tab-providers .list:last-child.card {
+    margin: 0;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+}
+
+ion-view.view_appointment .tab-providers .list:last-child.card {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+ion-view.view_appointment .tab-providers .providers_gap {
+    margin: 0 0 10px;
+    display: inline-block;
+    width: 60%;
+}
+
+/* Bagian Calendar */
+.part-calendar .list.card>.item.item-divider.item-divider-custom:after {
+    content: ".";
+    width: 100% !important;
+    background-color: transparent;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2020/11/undraw_events_2p66.svg) !important;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    height: 180px;
+    margin: 20px 0;
+    display: block;
+    color: #fff;
+    display: none;
+}
+
+.part-calendar .list.card td:after {
+    background-image: none !important;
+    display: none !important;
+}
+.view_appointment #calendar {
+    position: relative;
+    overflow: hidden;
+    height: 420px !important;
+    width: 100%;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.view_appointment div#calendar tr>td {
+    background-color: #fff;
+    border: 0;
+    font-size: 16px;
+    height: 60px;
+    padding: 17px;
+}
+
+.view_appointment td.today {
+    font-weight: 700;
+    background-color: #fff !important;
+    color: #0e7bc4;
+}
+
+td.item-divider.item-divider-custom {
+    font-weight: bold;
+    font-size: 29px !important;
+    color: red !important;
+}
+
+.view_appointment th {
+    background-color: transparent;
+    color: #fff;
+    text-shadow: none !important;
+    font-weight: 400;
+    border: 0 !important;
+}
+
+.view_appointment .active {
+    background-color: #0e7bc4;
+    border-radius: 30px 30px 0 0 !important;
+}
+
+/* MY ACCOUNT */
+ion-modal-view.customer-view.customer-layout1 ion-content {
+    background-color: #fff !important;
+    border-top: 15px solid #fff;
+    border-radius: 40px 40px 0 0;
+    margin-top: 10px;
+}
+
+/* CONTACT */
+ion-view.contact-view ion-content {
+    background-color: #fff !important;
+    border-radius: 40px 40px 0 0;
+    margin-top: 5px;
+    border-top: 15px solid #e3edf6;
+}
+
+ion-view.contact-view ion-content .list.card {
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    margin: -5px 0 0 0;
+    border: 0;
+}
+
+.item.item-icon-left.item-custom i {
+    display: none;
+}
+.item.item-icon-left.item-custom h2 {
+  text-align: center;
+    width: 100%;
+    color: #0e7bc4;
+    text-transform: capitalize !important;
+}
+
+ion-view.contact-view ion-content .list.card div[ng-show="contact.name"] {
+    order: 3;
+    padding: 10px 0;
+    margin-top: -120px;
+    background-color: transparent;
+    z-index: 999;
+}
+
+ion-view.contact-view ion-content .list.card div.item.item-custom.text-center.ng-hide {
+  order: 1
+}
+
+ion-view.contact-view ion-content .list.card .item.item-image.item-custom {
+  order: 2;
+    background-image: url(https://generatepress.com/wp-content/themes/generatepress_official/images/bg.png);
+  background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  height: 270px;
+    border: 0;
+}
+
+ion-view.contact-view ion-content .list.card .item.item-image.item-custom img {
+    width: 100px;
+    margin: 40px auto 0 auto !important;
+    border-radius: 50%;
+    object-fit: cover;
+    height: 100px;
+    padding: 0;
+    left: 0;
+    right: 0;
+}
+
+ion-view.contact-view ion-content .list.card div[ng-show="contact.description"] {
+    order: 4 !important;
+    padding: 0 0 10px 0 !important;
+    background-color: transparent;
+}
+
+ion-view.contact-view ion-content .list.card div[ng-show="contact.description"] p {
+    text-align: center;
+    padding: 0;
+    font-weight: bold;
+}
+
+ion-view.contact-view ion-content .list.card div[ng-show="contact.street"] {
+  order: 5 !important;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ecf0f6;
+    width: 90%;
+    margin-left: 5%;
+    padding-bottom: 10px;
+    background-color: transparent;
+}
+
+/* PADDING */
+ion-view.contact-view ion-content .padding {
+    padding: 0 0 50px 0;
+    color: #919191;
+}
+
+button.button.button-custom.item-icon-left.ng-binding.button-block.activated {
+    background: transparent;
+    color: #0e7bc4;
+}
+
+ion-view.contact-view ion-content .padding button.button.button-custom.item-icon-left.ng-binding.button-block i {
+    margin-left: -35px;
+    color: #0e7bc4;
+  margin-top: 16px;
+}
+
+ion-view.contact-view ion-content .padding button.button.button-custom.item-icon-left.ng-binding.button-block {
+    border: 0;
+    text-align: left;
+    margin-left: 40px;
+}
+
+/* tambah nomor HP */
+ion-view.contact-view ion-content i.icon.ion-ios-telephone-outline:after {
+    content: "0812458555";
+    margin-top: 15px;
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+/* tambah email */
+ion-view.contact-view ion-content i.icon.ion-ios-email-outline:after {
+    content: "kuli@sublime.com";
+    margin-top: 15px;
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+/* website */
+ion-view.contact-view ion-content i.icon.ion-ios-world-outline:after {
+    content: "ariesrutung.com";
+    margin-top: 15px;
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+/* FACEBOOK */
+ion-view.contact-view ion-content .padding button:nth-child(4) {
+    background-color: #ecf0f6;
+    margin: 25px 5% 0 5% !important;
+    width: 90%;
+    height: 150px;
+    color: #0e7bc4;
+    font-weight: bold;
+    font-size: 18px;
+  background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/facebook.svg);
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: center right 20px;
+    margin-top: 40px !important;
+    border-radius: 10px;  
+}
+
+ion-view.contact-view ion-content .padding button:nth-child(5) {
+    background-color: #ecf0f6;
+    margin: 25px 5% 0 5% !important;
+    width: 90%;
+    height: 150px;
+    color: #0e7bc4;
+    font-weight: bold;
+    font-size: 0;
+  background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/whatsapp.svg);
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: center right 20px;
+    border-radius: 10px;  
+}
+
+ion-view.contact-view ion-content .padding button:nth-child(5):before {
+    padding: 0 !important;
+    margin: 0 !important;
+    content: "WhatsApp";
+    font-weight: bold;
+    font-size: 18px;
+    color: #0e7bc4;
+    visibility: visible !important;
+}
+
+ion-view.contact-view ion-content .padding button:nth-child(4) i,
+ion-view.contact-view ion-content .padding button:nth-child(5) i {
+    display: none;
+}
+
+
+/* WP */
+ion-view.module-wordpress2.wordpress2-layout1.wordpress2-list ion-content {
+    border-radius: 40px 40px 0 0;
+    margin-top: 5px;
+    border-top: 15px solid #fff;
+    background-color: #fff !important;
+}
+
+ion-view.module-wordpress2.wordpress2-layout1.wordpress2-list .item.item-image.item-custom img {
+    width: 70%;
+    object-fit: cover;
+}
+
+
+ion-view.module-wordpress2.wordpress2-layout1.wordpress2-list [ng-if="query.showCover && query.picture"]:after {
+    content: "Semua Artikel";
+    display: block;
+    width: 100%;
+    font-size: 28px;
+    color: #0e7bc4;
+    font-weight: bold;
+    margin-top: 28px;
+    text-align: left;
+    margin-left: 12px;
+}
+
+ion-view.module-wordpress2.wordpress2-layout1.wordpress2-list  .list  {
+  background-color: #fff;
+}
+
+ion-view.module-wordpress2.wordpress2-layout1.wordpress2-list  .list a {
+    width: 96%;
+    margin-left: 2%;
+    display: inline-block;
+    background-color: #ecf0f6;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+ion-view.module-wordpress2.wordpress2-layout1.wordpress2-list .list a img {
+  display: block !important;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 200px;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+ion-view.module-wordpress2.wordpress2-layout1.wordpress2-list .list a h2.ng-binding {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    white-space: normal;
+    border-left: 10px solid #0e7bc4;
+    padding-left: 10px;
+}
+
+ion-view.module-wordpress2.wordpress2-layout1.wordpress2-list .list a p.ng-binding p {
+    width: 100%;
+    white-space: normal;
+    margin-top: 10px;
+}
+
+
+
+ion-view.module-wordpress2.wordpress2-layout1.wordpress2-list .list a p a {
+    width: 30%;
+    margin: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff !important;
+    border-radius: 10px;
+    background-color: #0e7bc4;
+    padding: 5px;
+    display: block;
+    margin-left: 70%;
+}
+
+

@@ -1,0 +1,51 @@
+
+body.front_index_noroute.general {
+    background-color: #233581;
+}
+
+body.front_index_noroute.general .page-content-wrapper .container-fluid.first-row-feature.subcontent.content-color div#error_content h3.title-editor.border-blue.text-center {
+    font-size: 0;
+    background: transparent !important;
+    border: 0 !important;
+}
+
+body.front_index_noroute.general .page-content-wrapper .container-fluid.first-row-feature.subcontent.content-color div#error_content h3.title-editor.border-blue.text-center:after {
+    content: "404";
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+}
+
+body.front_index_noroute.general .page-content-wrapper .container-fluid.first-row-feature.subcontent.content-color div#error_content {
+    background: transparent !important;
+}
+
+
+body.front_index_noroute.general .page-content-wrapper .container-fluid.first-row-feature.subcontent.content-color {
+    background: transparent !important;
+    border: 0 !important;
+}
+
+
+body.front_index_noroute.general .page-content-wrapper .container-fluid.first-row-feature.subcontent.content-color .col-md-12.text-center h4 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+body.front_index_noroute.general .page-content-wrapper .container-fluid.first-row-feature.subcontent.content-color div#error .row:nth-child(2) {
+    display: none;
+}
+
+
+body.front_index_noroute.general .page-content-wrapper .container-fluid.first-row-feature.subcontent.content-color  div#error_content h3.title-editor.border-blue.text-center:before {
+    content: " ";
+    display: block;
+    height: 200px;
+    background-size: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/servizi-pubblicitari.jpg);
+    margin: 20px 0;
+}

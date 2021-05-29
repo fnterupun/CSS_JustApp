@@ -1,0 +1,1501 @@
+/* Start of Layout 9 */
+.bar.bar-custom {
+}
+
+.bar.bar-custom .title {
+    display: none;
+}
+
+.homepage-custom { 
+    background-color: transparent !important;
+}
+.layout.l9 {
+    background-color: #fff;
+    border-radius: 0 0 20px 0;
+    margin-bottom: 20px;
+}
+
+.bar-custom .button.button-clear {
+    border-color: transparent;
+    background: none;
+    box-shadow: none;
+    color: #ffffff;
+    font-size: 16px;
+    /* margin-top: 20px; */
+}
+
+.layout.l9 #feature-0.border-custom {
+    visibility: hidden;
+    position: relative;
+}
+
+.layout.l9 #feature-0.border-custom:before {
+    visibility: visible;
+    width: 60%;
+    margin: 10px 20%;
+    background-color: #fff;
+    content: ".";
+    text-align: center;
+    display: block;
+    background: url(https://ensiklopediakesaguan.com/wp-content/uploads/2020/10/undraw_male_avatar_323b.svg);
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120px;
+    color: green;
+}
+
+/* Version Code */
+.layout.l9 .scroll:after {
+    content: "Versi 1.5";
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 11px;
+    color: #000;
+    position: fixed !important;
+    display: block;
+    top: calc(100vh - 60px) !important;
+    left: 10vw !important;
+}
+
+.layout.l9 ul.items li {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 70px;
+    padding: 0;
+    text-align: center;
+}
+
+.layout.l9 #feature-1.border-custom {
+    margin-top: 90px !important;
+}
+
+.layout.l9 #feature-1.border-custom img,
+.layout.l9 #feature-2.border-custom img,
+.layout.l9 #feature-3.border-custom img,
+.layout.l9 #feature-4.border-custom img,
+.layout.l9 #feature-5.border-custom img,
+.layout.l9 #feature-6.border-custom img {
+    float: left;
+    margin-left: 20px;
+    margin-top: -10px;
+    width: 40px;
+    height: 40px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.layout.l9 #feature-1.border-custom p.titlevisible.title-lowcase,
+.layout.l9 #feature-2.border-custom p.titlevisible.title-lowcase,
+.layout.l9 #feature-3.border-custom p.titlevisible.title-lowcase,
+.layout.l9 #feature-4.border-custom p.titlevisible.title-lowcase,
+.layout.l9 #feature-5.border-custom p.titlevisible.title-lowcase,
+.layout.l9 #feature-6.border-custom p.titlevisible.title-lowcase {
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 0;
+}
+
+.platform-overview.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader) {
+    border: 0;
+}
+/* End of Layout 9 */
+
+/* Start of Homepage: using Folder module */
+.module-folder2.folder2-layout1 .overflow-scroll .scroll {
+    overflow: hidden;
+}
+
+.module-folder2.folder2-layout1 .item.item-image.item-custom {
+  display: none;
+}
+
+.module-folder2.folder2-layout1 .scroll-content.ionic-scroll.has-header {
+    background-color: #28a745;
+}
+
+.module-folder2.folder2-layout1 [ng-if="current.showTitle"] {
+    background-color: transparent;
+    margin-top: 30px;
+    text-align: center;
+    border: none;
+    background-color: #2ab2d0;
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 10px;
+}
+
+.module-folder2.folder2-layout1 [ng-if="current.showTitle"] p {
+    margin-top: 20px;
+    text-align: center;
+    overflow: visible;
+    text-overflow: initial;
+    white-space: normal;
+}
+
+.module-folder2.folder2-layout1 .item.item-custom.item-avatar-square.item-avatar.item-center:nth-child(1) {
+width: 30%;
+    height: 110px;
+    display: block;
+    margin: 10px 35% !important;
+    border-radius: 100%;
+    background-color: #fff !important;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2020/10/undraw_file_searching_duff.svg);
+    background-position: center top;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.module-folder2.folder2-layout1 .item.item-custom.item-avatar-square.item-avatar.item-center:nth-child(2) {
+    width: 40%;
+    height: 100px;
+    display: inline-block;
+    margin: 30px 5% !important;
+    border-radius: 20px;
+    background-color: #fff !important;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2020/10/undraw_Resume_folder_re_e0bi.svg);
+    background-position: center top;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    border: none;
+    float: left;
+}
+
+.module-folder2.folder2-layout1 .item.item-custom.item-avatar-square.item-avatar.item-center:nth-child(3) {
+    width: 40%;
+    height: 100px;
+    display: inline-block;
+    margin: 30px 5% !important;
+    border-radius: 20px;
+    background-color: #fff !important;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2020/10/undraw_video_call_kxyp.svg);
+    background-position: center top;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    border: none;
+    float: right;
+}
+
+.module-folder2.folder2-layout1 .item.item-custom.item-avatar-square.item-avatar.item-center:nth-child(1) img,
+.module-folder2.folder2-layout1 .item.item-custom.item-avatar-square.item-avatar.item-center:nth-child(2) img,
+.module-folder2.folder2-layout1 .item.item-custom.item-avatar-square.item-avatar.item-center:nth-child(3) img {
+  display: none;
+}
+
+.module-folder2.folder2-layout1 .item.item-custom.item-avatar-square.item-avatar.item-center:nth-child(1) h2,
+.module-folder2.folder2-layout1 .item.item-custom.item-avatar-square.item-avatar.item-center:nth-child(2) h2,
+.module-folder2.folder2-layout1 .item.item-custom.item-avatar-square.item-avatar.item-center:nth-child(3) h2 {
+    margin-left: -65px;
+    display: block;
+    top: 57px;
+}
+
+.module-folder2.folder2-layout1 .item.item-custom.item-avatar-square.item-avatar.item-center:nth-child(4),
+.module-folder2.folder2-layout1 .item.item-custom.item-avatar-square.item-avatar.item-center:nth-child(5),
+.module-folder2.folder2-layout1 .item.item-custom.item-avatar-square.item-avatar.item-center:nth-child(6),
+.module-folder2.folder2-layout1 .item.item-custom.item-avatar-square.item-avatar.item-center:nth-child(7) {
+    width: 22%;
+    height: 85px;
+    display: inline-block;
+    border: none;
+    padding: 0;
+}
+
+.module-folder2.folder2-layout1 .item.item-custom.item-avatar-square.item-avatar.item-center h2.ng-binding {
+    text-align: center !important;
+    display: block;
+    width: 100%;
+    padding: 0 10px;
+    margin-top: 30px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.module-folder2.folder2-layout2 .item.item-custom.item-avatar-square.item-avatar.item-center h2.ng-binding {
+    text-align: center !important;
+    display: block;
+    width: 100%;
+    padding: 0 10px;
+    font-size: 12px;
+    margin-left: -80px;
+}
+
+.module-folder2.folder2-layout1 .item.item-custom.item-avatar-square.item-avatar.item-center img {
+  margin-left: 10px;
+}
+
+.module-folder2.folder2-layout1 .list .item.item-custom {
+    background-color: transparent !important;
+    border-radius: 10px;
+    margin: 0 1.5%;
+    margin-top: 20px;
+}
+/* End of Homepage: using Folder module */
+
+
+/* Start Padlock */
+.padlock-view .card {
+  margin: 0;
+  padding: 0;
+}
+
+ion-view[state="padlock-view"] ion-content div.scroll > div.card.padlock {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: none;
+}
+
+ion-view[state="padlock-view"] ion-content div.scroll div.card.padlock div.item.item-body.item-custom.text-center > i {
+  display: none;
+}
+
+ion-view[state="padlock-view"] ion-content .scroll:before {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 5px auto;   
+    position: relative;
+    content: "";
+    background: url("https://ensiklopediakesaguan.com/wp-content/uploads/2020/10/icon_apk_sago-1.png") no-repeat 0 0;
+    background-position: center;
+    background-size: 100%;
+}
+
+ion-view[state="padlock-view"] ion-content div.scroll div.card.padlock > div.item.item-text-wrap.item-custom {
+    order: 2;
+    text-align: center;
+    background-color: transparent !important;
+    margin-top: 0px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 96%;
+    margin-left: 2%;
+}
+
+ion-view[state="padlock-view"] ion-content div.scroll div.card.padlock div.item.item-text-wrap.item-custom > h2:after {
+    visibility: visible;
+    content: "Versi 1.5"; /* replace with your own */
+    display: block;
+    width: 100%;
+    position: relative;
+    margin-top: -15px;
+    color: #000;
+}
+
+ion-view[state="padlock-view"] ion-content div.scroll div.card.padlock > div:nth-child(4) {
+    order: 3;
+    border: none;
+    margin: 0px 10px 10px 10px;
+    text-align: center;
+    background-color: #61a8ff;
+    text-transform: uppercase;
+    border-radius: 0px 0px 15px 15px;
+    font-weight: bold;
+    color: black;
+    padding-left: 16px;
+}
+
+ion-view[state="padlock-view"] ion-content div.scroll div.card.padlock > div:nth-child(4):before {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border: 1px solid lightgrey;
+  background-color: lightgrey;
+  border-radius: 15px;
+}
+
+i.icon.ion-ios-personadd-outline {
+  display: none;
+}
+
+ion-view[state="padlock-view"] ion-content div.scroll div.card.padlock div.item.item-text-wrap.item-custom > h2 {
+  visibility: hidden;
+}
+
+
+i.icon.ion-ios-person-outline {
+  display: none;
+}
+
+ion-view[state="padlock-view"] ion-content div.scroll div.card.padlock > div:nth-child(5) {
+  padding-left: 16px;
+    text-align: center;
+    border: none;
+    text-transform: uppercase;
+    background-color: #ff6961;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+ion-view[state="padlock-view"] ion-content div.scroll div.card.padlock > div:nth-child(5):before {
+   content: " ";
+  position: absolute;
+  z-index: -1;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border: 1px solid lightgrey;
+  background-color: lightgrey;
+  border-radius: 15px;
+}
+
+i.icon.ion-ios-paper-outline {
+  display: none;
+}
+
+ion-view[state="padlock-view"] ion-content div.scroll div.card.padlock > div:nth-child(3) {
+  display: block;
+}
+
+ion-view[state="padlock-view"] ion-content div.scroll div.card.padlock > div:nth-child(3) > div:nth-child(1) {
+    padding-left: 12px;
+    text-align: center;
+    background-color: #fff;
+    margin: 10px 2% 0 2%;
+    width: 96%;
+    border-radius: 5px;
+    line-height: 24px;
+}
+
+ion-view[state="padlock-view"] ion-content div.scroll div.card.padlock > div:nth-child(3) > div.item.item-icon-left.item-custom.ng-binding {
+    padding-left: 12px;
+    text-align: center;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 50px;
+}
+
+ion-view[state="padlock-view"] ion-content div.scroll div.card.padlock > div:nth-child(3) > div.item.item-icon-left.item-custom.ng-binding:before {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: 10px;
+  left: 50px;
+  right: 50px;
+  bottom: 10px;
+  border-radius: 15px;
+}
+/* End - Padlock */
+
+/* button login, save, & send */
+.customer-view.customer-layout1 .button.button-positive.button-positive-custom.ng-binding.button-full {
+    width: 30%;
+    margin: 10px 35%;
+    border-radius: 10px;
+    top: 10px !important;
+    margin-bottom: 30px;
+    background-color: transparent;
+    background: #fff;
+    color: #000000;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* End my account */
+
+.scroll-content.ionic-scroll.has-header {
+    background-color: #28a745;
+    border-radius: 0 0 20px 0;
+}
+
+.customer-view.customer-layout1 .button.button-clear {
+    display: none;
+}
+
+.sb-clickwrap.sb-clickwrap-modal .bar-custom .button.button-clear {
+    margin-top: 0 !important;
+}
+
+/* garis di bawah header dan subheader */
+.platform-overview.platform-cordova:not(.fullscreen) .bar-subheader {
+  border: none !important;
+}
+
+.platform-overview.platform-cordova:not(.fullscreen) .bar-header {
+    border: none !important;
+    background-color: #fff !important
+}
+/* garis di bawah header dan subheader */
+
+
+/* Materi */
+.module-folder2.folder2-layout2 .card {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    box-shadow: none;
+}
+
+.module-folder2.folder2-layout2 .card .item.item-custom:first-child {
+    border-color: #fff;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: none !important;
+    border-bottom: 2px solid #fff;
+}
+
+.module-folder2.folder2-layout2 .card .item.item-custom h2 {
+    margin-bottom: 10px;
+}
+
+.module-folder2.folder2-layout2 [ng-if="current.showTitle"] {
+    text-align: center;
+    border-bottom: 0 !important;
+}
+
+.module-folder2.folder2-layout2 .folder-l6-col.item.item-custom {
+    border: 0 !important;
+    box-shadow: 0 !important;
+}
+
+.folder-layout.folder-l6.card .folder-l6-row div.folder-l6-col {
+    background-color: transparent;
+}
+
+.folder-layout.folder-l6 .folder-l6-row div.folder-l6-col img {
+    margin-bottom: -50px;
+}
+
+.module-folder2.folder2-layout2 .card .item.item-custom p.folder-title.ng-binding {
+    margin-top: -40px !important;
+    background-color: transparent !important;
+}
+
+.module-push.push-list.push-list-l1 .item-custom.item.item-avatar {
+    background-color: #fff;
+    border: 0;
+    width: 98%;
+    margin: 5px 1%;
+    border-radius: 5px;
+}
+
+.module-fanwall.fanwall-list.fanwall-list-l1 .item-custom.text-center.no-post.item {
+    background-color: transparent;
+    border: 0;
+}
+
+.module-fanwall.fanwall-list.fanwall-list-l1 .button-bar {
+    border: 0;
+}
+
+.module-fanwall.fanwall-list-l1 .item {
+    padding-bottom: 0;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    background-color: #fff;
+    border-radius: 0;
+    border: none;
+}
+
+.module-fanwall .fanwall-profile .customer-image img {
+    margin: 0 auto;
+    width: 10em;
+    border-radius: 5em;
+    border: 0.2em solid white;
+    display: block;
+}
+
+.module-fanwall.fanwall-list.fanwall-list-l1 [ng-click="showBlockedUsers()"],
+.module-fanwall.fanwall-list.fanwall-list-l1 [ng-click="editProfile()"] {
+    background-color: transparent;
+    color: #000;
+    height: 40px;
+    border: 0 !important;
+    display: inline-block;
+}
+
+.module-fanwall.fanwall-list.fanwall-list-l1 [ng-click="showBlockedUsers()"] i,
+.module-fanwall.fanwall-list.fanwall-list-l1 [ng-click="editProfile()"] i {
+    font-size: 20px;
+    display: block;
+    color: #019031;
+}
+
+.module-fanwall.fanwall-new.fanwall-new-l1 [ng-click="sendPost();"] {
+    position: fixed;
+    bottom: 20px;
+    width: 30%;
+    z-index: 100;
+    margin: 0 35% !important;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 3px solid #019031;
+}
+
+.module-fanwall.fanwall-new-l1 .new-post-items .item {
+    margin-top: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    background-color: transparent;
+    border: 0 !important;
+}
+
+.module-fanwall.fanwall-new-l1 .item-note {
+    float: right;
+    color: #f00;
+    font-size: 12px;
+    background-color: #ffffff;
+    width: 30px;
+    height: 30px;
+    padding: 5px 10px;
+    border-radius: 100%;
+}
+.item.text-center.item-custom.ng-binding {
+    background-color: transparent;
+    border: 0;  
+}
+
+.customer-view.customer-layout1 .item.item-custom.ng-binding {
+    background-color: transparent;
+    border: 0;      
+}
+
+/* pengembang Aplikasi - Custome Page */
+.module-cms.cms-l1 .card {
+    background-color: transparent;
+}
+
+.module-cms.cms-l1 .sb-cms-text .left {
+    float: none;
+    width: 30%;
+    margin-left: 35%;
+    border-radius: 100%;
+}
+
+.layout.l9 #feature-0.border-custom:after {
+    visibility: visible;
+    content: url("https://img.icons8.com/metro/26/000000/sort-down.png");
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: -15vh;
+    margin-right: -20vh;
+    display: block;
+}
+
+.folder-layout.folder-l6 .folder-l6-row {
+    padding: 0;
+    display: flex;
+    margin-bottom: 48px;
+    overflow: visible;
+    background: #ffffff;
+    border-radius: 5px;
+    width: 98%;
+    margin-left: 1%;
+    height: 70px;
+}
+
+.folder-layout.folder-l6 .folder-l6-row p.folder-title.ng-binding {
+    display: block;
+    overflow: visible;
+    background-color: #ffffff;
+    border-radius: 0 0 5px 5px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Jadwal - Calendar */
+.event-view .list .item-divider.item-divider-custom {
+    width: 96%;
+    margin-left: 2%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+    background-color: #cddc39;
+}
+
+.event-view .list .item.item-custom {
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 0 0 10px 10px;
+}
+
+.event-view .list .item.item-custom img {
+    max-width: 120px;
+    max-height: 80px;
+    border-radius: 10px;
+}
+
+[state="event-list"] .item.item-custom h2,
+[state="event-list"] .item.item-custom p {
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+[state="event-view"] .item.item-custom:first-child {
+    border-radius: 10px 10px 0 0 !important;
+    text-align: center;  
+}
+
+[state="event-view"] .item.item-image {
+    width: 96%;
+    margin-left: 2%;
+    border: 0;
+    border-radius: 0 !important;
+}
+
+[state="event-view"] .list .item-divider.item-divider-custom {
+    width: 96%;
+    margin-left: 2%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 0 !important;
+    background-color: #cddc39;  
+}
+
+[state="event-view"] .list .item.item-custom {
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 0 !important;
+    background-color: #cddc39;
+}
+
+[state="event-view"] .list .item.item-custom h2 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+[state="event-view"] .item-text-wrap.item-custom.ng-binding {
+    text-align: center;
+}
+
+.platform-overview .popup-buttons,
+.platform-overview .popup .popup-body {
+    text-align: center !important;
+}
+
+.platform-overview .popup {
+    border-radius: 10px !important;
+}
+
+.platform-overview .popup .popup-head {
+    padding: 20px 20px 10px;
+    border-bottom: 2px dashed;
+    text-align: center;
+}
+
+.platform-overview .popup button.button:first-of-type {
+    text-align: left !important;
+    padding-top: 20px;
+}
+
+.platform-overview .popup button.button {
+    padding-top: 20px;
+}
+
+.module-folder2.folder2-layout1 .list .item.item-custom {
+    background: transparent;
+}
+
+
+.layout.l9 ion-content.homepage-custom.scroll-content.ionic-scroll {
+    background: rgb(226,159,153);
+    background: linear-gradient(158deg, rgba(226,159,153,1) 20%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 88%, rgba(226,159,153,1) 88%);
+    border-radius: 0 0 20px 0;
+    background-image: url(https://justapp.id/wp-content/themes/digeco/assets/element/element35.png);
+  
+}
+
+.module-folder2.folder2-layout2 [ng-if="(current.showCover || current.showTitle)"] {
+    display: none;
+}
+
+.module-folder2.folder2-layout2 [ng-if="current.showTitle"] h2 {
+    margin-bottom: 20px;
+    overflow: visible;
+    text-overflow: initial;
+    white-space: normal;
+    text-align: center;
+}
+
+.module-folder2.folder2-layout2 .item.item-input.item-custom {
+  border-bottom: 2px solid #fff;
+  width: 98%;
+  margin-left: 1%;
+}
+
+.module-cms.cms-l1 .card .item.item-custom {
+    border: 0 !important;
+    background-color: #fff !important;
+    color: rgba(0, 0, 0, 1);
+    box-shadow: none !important;
+}
+
+.module-folder2.folder2-layout2 .folder-l6-col {
+    width: 100vw !important;
+    display: block;
+}
+
+.module-cms.cms-l1 .card {
+    margin: 5px 1% !important;
+    border-radius: none !important;
+}
+
+.module-folder2.folder2-layout2 .folder-l6-col.item.item-custom h2.ng-binding {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.module-folder2.folder2-layout1 .item.item-input.item-custom {
+  background-color: transparent !important;
+  background: none !important;
+  border-bottom: 0 !important;
+  border-radius: 0 !important;
+  color: #fff !important;
+  box-shadow: none !important;
+}
+
+.module-folder2.folder2-layout1 .item.item-input:after,
+.module-folder2.folder2-layout2 .item.item-input:after {
+    visibility: visible;
+    width: 40px;
+    height: 40px;
+    margin-top: 3px;
+    margin-right: 0;
+    content: url('https://image.flaticon.com/icons/svg/483/483356.svg');
+    border: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background: transparent;
+    padding: 7px;
+}
+
+.module-folder2.folder2-layout1 .ion-search:before,
+.module-folder2.folder2-layout2 .ion-search:before {
+    display: none;
+}
+
+.module-fanwall.fanwall-list.fanwall-list-l1 [ng-class="classTab('post')"] {
+    position: fixed !important;
+    top: calc(90vh - 60px) !important;
+    left: 10vw !important;
+    border-radius: 100px !important;
+    border-width: 0 !important;
+    padding: 5px 12px 5px 12px !important;
+    z-index: 999 !important;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.30), 0 1px 3px 1px rgba(60,64,67,.15) !important;
+    background-color: #019031 !important;
+    min-width: 60px !important;
+    min-height: 60px !important;
+}
+
+.module-fanwall.fanwall-list.fanwall-list-l1 [ng-class="classTab('profile')"] {
+    position: fixed !important;
+    top: calc(90vh - 60px) !important;
+    left: 45vw !important;
+    border-radius: 100px !important;
+    border-width: 0 !important;
+    padding: 5px 12px 5px 12px !important;
+    z-index: 999 !important;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.30), 0 1px 3px 1px rgba(60,64,67,.15) !important;
+    background-color: #019031 !important;
+    min-width: 60px !important;
+    min-height: 60px !important;
+}
+
+.module-fanwall.fanwall-list.fanwall-list-l1 [ng-click="newPost()"] {
+    position: fixed !important;
+    top: calc(90vh - 60px) !important;
+    right: 10vw !important;
+    border-radius: 100px !important;
+    border-width: 0 !important;
+    padding: 5px 12px 5px 12px !important;
+    z-index: 999 !important;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.30), 0 1px 3px 1px rgba(60,64,67,.15) !important;
+    background-color: #019031 !important;
+    min-width: 60px !important;
+    min-height: 60px !important;
+}
+
+.module-fanwall.fanwall-list-l1 .bar-subheader .button-bar > .button img.fw-icon-header {
+    height: 40px !important;
+    margin-top: 0 !important;
+    padding: 5px 0 0 0;
+}
+
+
+/* FOLDER MODEL 4 */
+.folder-layout.folder-l4 {
+    margin-top: 0 !important;
+    width: 98%;
+    margin-left: 1%;
+}
+
+.folder-layout.folder-l4 p.folder-title,
+.module-folder2.folder2-layout2 .folder-l6-row p.folder-title {
+    bottom: 10px !important;
+    font-weight: bold;
+}
+
+.folder-layout.folder-l4 .folder-l4-row div.folder-l4-col {
+    margin: 0;
+    padding: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+
+.module-folder2.folder2-layout2 .folder-subtitle.ng-binding {
+    display: none;
+}
+
+/* hide title in current page */
+.module-folder2.folder2-layout2 [ng-if="current.showTitle"] {
+    display: none;
+}
+
+.folder-layout.folder-l2 .folder-l2-row div.folder-l2-col p.folder-title {
+    font-size: 12px;
+}
+
+.folder-layout.folder-l6 .folder-l6-row {
+    height: 150px !important;
+}
+
+.folder-layout.folder-l2 .folder-l2-row div.folder-l2-col {
+    border-radius: 10px;
+    background-size: 100%;
+}
+
+.module-folder2.folder2-layout2 [ng-if="current.subtitle"] {
+    overflow: visible;
+    text-overflow: initial;
+    white-space: normal;
+    text-align: center;
+}
+
+/* FORM V2 */
+.module-form2.form2.form2-home.form2-home-l1 .item-divider.item-divider-custom.form2-divider.item {
+    width: 98%;
+    margin-left: 1%;
+    border-radius: 5px;
+}
+
+.module-form2.form2.form2-home.form2-home-l1 .item-divider.item-divider-custom.form2-divider.item p {
+    overflow: visible;
+    text-overflow: initial;
+    white-space: normal;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.module-form2.form2.form2-home.form2-home-l1 textarea {
+    border-bottom: 2px solid #fff;
+}
+
+.module-form2.form2.form2-home.form2-home-l1 .button.button-positive-custom {
+    width: 30%;
+    margin-left: 35%;
+    border-radius: 10px;
+    border: none !important;
+    background-color: #019031 !important;
+    color: #fff;
+}
+
+/* TULISAN FOTO TUGAS DI MENU KIRIM TUGAS */
+.module-form2 .form2-image .upload-title {
+    padding: 5px 15px;
+    font-weight: bold;
+    background-color: #fff !important;
+    width: 98%;
+    margin-left: 1%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.module-form2.form2.form2-home.form2-home-l1 .item-note.ion-plus.arrow-center {
+    float: right;
+    color: #aaa;
+    font-size: 12px;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+}
+
+.module-form2.form2.form2-home.form2-home-l1 .ion-plus:before {
+    padding: 10px;
+    color: red;
+}
+
+.platform-overview.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader) {
+    height: 1vh !important;
+}
+
+.folder-layout.folder-l2 {
+    margin-top: 15px;
+    background-color: #fff;
+    border-radius: 20px 20px 0 0;
+    padding: 15px;
+    height: 100vh;
+}
+
+/* MENGECILKAN TOMBOL PLAY */
+.video-view .sprite { 
+    background-size: 15%; 
+    background-position: 96% 80%; 
+}
+
+.video-view .card {
+    margin: 10px 1px;
+    box-shadow: none !important;
+    background-color: #fff !important;
+}
+/* PADLOCK */
+ion-view.padlock-view .card.padlock .item.item-icon-left.item-custom.ng-binding {
+    visibility: hidden;
+}
+
+ion-view.padlock-view .card.padlock .item.item-icon-left.item-custom.ng-binding:after {
+    visibility: visible;
+    text-align: center;
+    display: block;
+    content: "MULAI";
+    background-color: #019031;
+    padding: 15px;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;    
+}
+
+/* MY ACCOUNT */
+.customer-view.customer-layout1 .list {
+    margin-bottom: 0;
+}
+
+.customer-view.customer-layout1 .list .padding {
+    padding: 10px;
+    font-size: 12px;
+}
+
+div[ng-show="display_login_form"] .text-right {
+    text-align: right;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll div[ng-show="display_login_form"] div {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll [ng-show="display_login_form"] div.text-center {
+    visibility: hidden;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll [ng-show="display_login_form"] div.text-center:after {
+    content: "DAFTAR";
+    visibility: visible;
+    width: 30%;
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    margin: 0 10% 0 60%;
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+    padding: 10px;
+    color: #000;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll [ng-show="display_login_form"] div.text-center:before {
+    visibility: visible;
+    content: "LOGIN";
+    width: 30%;
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    margin: -40px 60% 0 10%;
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+    border-bottom: 2px solid #019031 ;
+    padding: 10px;
+    cursor: default;
+    pointer-events: none;
+    color: #000;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll [ng-show="display_login_form"] div.list {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll [ng-show="display_login_form"] div:nth-child(3) {
+    -webkit-box-ordinal-group: 3;
+    -moz-box-ordinal-group: 3;
+    -ms-flex-order: 3;
+    -webkit-order: 3;
+    order: 3;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll div:nth-child(4) {
+    -webkit-box-ordinal-group: 4;
+    -moz-box-ordinal-group: 4;
+    -ms-flex-order: 4;
+    -webkit-order: 4;
+    order: 4;
+}
+
+
+[ng-show="display_login_form"] .item.item-input.item-custom {
+    display: inline-block;
+    width: 90%;
+    margin: 15px 5%;
+}
+
+[ng-show="display_login_form"] .item.item-input.item-custom i {
+    width: 100%;
+    display: block;
+    position: relative;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+}
+[ng-show="display_login_form"] .item.item-input.item-custom i {
+  visibility: hidden;
+}
+
+[ng-show="display_login_form"] i.icon.ion-ios-person:after {
+    visibility: visible;
+    content: "Email Kamu*";
+    margin-left: -5px;
+    font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #000;
+}
+
+[ng-show="display_login_form"] i.icon.ion-locked:after {
+    visibility: visible;
+    content: "Kata Sandi*";
+    margin-left: -5px;
+    font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #000;
+}
+
+[ng-show="display_login_form"] .item.item-input.item-custom input {
+    width: 100%;
+    display: block;
+    position: relative;
+    text-align: left;
+    border-bottom: 2px solid #019031 ;
+    height: 40px;
+    padding-left: 10px;
+    color: #000 !important;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* placeholder */
+[ng-show="display_login_form"] .item.item-input.item-custom input::-webkit-input-placeholder {
+   color: #dbdbdb !important;
+}
+
+[ng-show="display_login_form"] .item.item-input.item-custom input:-moz-placeholder { /* Firefox 18- */
+   color: #dbdbdb !important;
+}
+
+[ng-show="display_login_form"] .item.item-input.item-custom input::-moz-placeholder {  /* Firefox 19+ */
+   color: #dbdbdb !important;
+}
+
+[ng-show="display_login_form"] .item.item-input.item-custom input:-ms-input-placeholder {  
+   color: #dbdbdb !important;
+}
+/* placeholder */
+
+[ng-show="display_login_form"] .button.button-positive-custom {
+    border-color: transparent;
+    background-color: #f5ba2e;
+    color: #ffffff;
+    width: 40%;
+    border-radius: 20px;
+    margin: 10px auto;
+    text-transform: uppercase;
+}
+
+[ng-show="display_login_form"]:before,
+[ng-show="display_forgot_password_form"]:before {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 5px auto;   
+    position: relative;
+    content: "";
+    background: url("https://ensiklopediakesaguan.com/wp-content/uploads/2020/10/icon_apk_sago-1.png") no-repeat 0 0;
+    background-position: center;
+    background-size: 100%;
+}
+
+.customer-view.customer-layout1 .button.button-positive-custom {
+    width: 30%;
+    margin: 10px 35%;
+    border-radius: 10px;
+    top: 10px !important;
+    margin-bottom: 30px;
+    background-color: #019031 !important;
+    color: #fff !important;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.customer-view.customer-layout1 div.scroll div:nth-child(3) div>div:nth-child(4).padding.text-center.ng-binding  {
+    display: none;
+}
+
+/* FORGOT PASSWORD PAGE */
+[ng-show="display_forgot_password_form"] .padding.text-left {
+    visibility: hidden;
+}
+
+[ng-show="display_forgot_password_form"] .padding.text-left:after {
+    visibility: visible;
+    content: "Silakan masukkan email yang telah Anda daftarkan sebelumnya. Jika merasa belum mendaftar, silakan kembali ke halaman sebelumnya dan klik DAFTAR.";
+    text-align: center;
+    display: block;
+    color: #000;
+    margin-top: -30px;
+}
+
+[ng-show="display_forgot_password_form"] .item.item-input.item-custom {
+    border-radius: 30px;
+    border: 2px solid #019031;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+[ng-show="display_forgot_password_form"] .item.item-input.item-custom input {
+    width: 100%;
+    text-align: center;
+}
+
+[ng-show="display_forgot_password_form"] .ion-ios-person:before {
+    display: none;
+}
+
+[ng-show="display_forgot_password_form"] div>div:nth-child(4) {
+    display: none;
+}
+
+ion-view.module-wordpress2.wordpress2-layout1.wordpress2-list ion-content,
+ion-view.inbox-view ion-content,
+ion-view.module-wordpress2.wordpress2-layout1.wordpress2-view ion-content,
+ion-view.module-form2.form2.form2-home.form2-home-l1 ion-content,
+ion-view.module-folder2.folder2-layout2 ion-content {
+    background-color: #fff !important;
+    margin-top: 10px;
+    border-radius: 40px 40px 0 0 !important;
+}
+
+ion-view.padlock-view ion-content,
+ion-view.module-cms.cms-l1 ion-content,
+ion-view.event-view ion-content,
+ion-view.sourcecode-view ion-content,
+ion-modal-view.module-fanwall.fanwall-new.fanwall-new-l1 ion-content,
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 ion-nav-title,
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 ion-header-bar,
+ion-view.module-push.push-list.push-list-l1 ion-content,
+ion-view.module-folder2.folder2-layout1 ion-content,
+ion-modal-view.sb-clickwrap.sb-clickwrap-modal ion-content,
+ion-modal-view.customer-view.customer-layout1 ion-content {
+    border-radius: 40px 40px 0 0 !important;
+    background-color: #fff !important;
+    background-image: url("https://ensiklopediakesaguan.com/wp-content/uploads/2020/10/element35.png");
+}
+
+ion-view.module-cms.cms-l1 .block.in.blocks {
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 ion-content {
+    background-color: #fff !important;  
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 .customer-fullname.ng-binding {
+    color: #000;
+    text-transform: capitalize;
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 .customer-actions {
+    color: #000;
+    text-transform: uppercase;  
+}
+
+.ion-ios-paperplane:before,
+.ion-sb-location-on:before,
+.ion-plus:before,
+.ion-image:before,
+.ion-calendar:before,
+.ion-clock::before {
+    color: #019031 !important;
+}
+
+.module-folder2.folder2-layout2 .item.item-input.item-custom {
+    border: 0;
+    width: 98%;
+    margin-left: 1%;
+    margin-top: 10px;
+    width: 96%;
+}
+
+.folder-layout.folder-l6 .folder-l6-row {
+    padding: 0;
+    display: flex;
+    margin-bottom: 48px;
+    overflow: visible;
+    background: transparent;
+    border-radius: 5px;
+    width: 98%;
+    margin-left: 1%;
+    height: 70px;
+}
+
+.folder-layout.folder-l6 .folder-l6-row p.folder-title.ng-binding {
+    display: block;
+    overflow: visible;
+    background-color: transparent;
+    border-radius: 0 0 5px 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.module-form2.form2.form2-home.form2-home-l1 .item-divider.item-divider-custom.form2-divider.item {
+    width: 98%;
+    margin-left: 1%;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+
+.module-folder2 .list .item.item-custom input::-webkit-input-placeholder {
+   color: #dbdbdb !important;
+}
+
+.module-folder2 .list .item.item-custom input:-moz-placeholder { /* Firefox 18- */
+   color: #dbdbdb !important;
+}
+
+.module-folder2 .list .item.item-custom input::-moz-placeholder {  /* Firefox 19+ */
+   color: #dbdbdb !important;
+}
+
+.module-folder2 .list .item.item-custom input:-ms-input-placeholder {  
+   color: #dbdbdb !important;
+}
+/* placeholder */
+
+.module-folder2.folder2-layout1 .item.item-custom.item-avatar-square.item-avatar.item-center img {
+    margin: 10px auto !important;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+.padlock-view .item.item-body.item-custom.text-center:before {
+    content: "Ensiklopedia Kesaguan";
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    display: block;
+    width: 100%;
+    line-height: 1;
+    color: #019031;
+    font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.padlock-view .item.item-body.item-custom.text-center:after {
+    content: "Media Pembelajaran Bahasa Berbasis Lingkungan";
+    text-align: center;
+    display: block;
+    width: 100%;
+    line-height: 1;
+    margin-top: 10px;
+    color: #5e5e5e;
+    font-size: 12x;
+    font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.module-form2.form2.form2-home.form2-home-l1 .item-custom.form2-richtext.item p {
+    font-size: 14px;    
+    text-align: center;
+}
+
+.module-folder2.folder2-layout1 [ng-if="current.showTitle"] {
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+.module-folder2.folder2-layout1 [ng-if="current.showTitle"] h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #019031;
+}
+
+.module-folder2.folder2-layout1 [ng-if="current.showTitle"] p {
+    font-size: 14px;
+}
+
+.module-wordpress2.wordpress2-layout1.wordpress2-view p {
+    font-family: "-apple-system","Helvetica Neue",Roboto,"Segoe UI",sans-serif;
+    font-size: 16px;
+    line-height: 1.8em;
+}
+
+.module-cms.cms-l1 .card {
+    box-shadow: none;
+    background-color: transparent !important;
+}
+
+.module-cms.cms-l1 .card .sprite { 
+    background-size: 15%; 
+    background-position: 96% 80%; 
+}
+
+.module-push.push-list.push-list-l1 .list ion-item {
+    background-color: transparent !important;   
+}
+
+.module-folder2.folder2-layout2 .scroll:before {
+    content: "";
+    margin-top: 10px;
+    color: #000;
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    background: url("https://ensiklopediakesaguan.com/wp-content/uploads/2020/10/undraw_Tree_swing_646s.svg");
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+.module-folder2.folder2-layout2 .list.folder-layout.folder-l4:before {
+    content: "Silakan pilih materi di bawah ini sesuai dengan yang sedang kamu pelajari. Selamat belajar, semoga menyenangkan.";
+    margin-top: 10px;
+    color: #000;
+    font-size: 16px;
+    display: block;
+    text-align: center;
+}
+
+
+.module-form2.form2.form2-home.form2-home-l1 .item-divider.item-divider-custom.form2-divider.item:after {
+    content: "";
+    color: #000;
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    background: url("https://ensiklopediakesaguan.com/wp-content/uploads/2020/10/undraw_Meeting_re_i53h.svg");
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+/* .module-cms.cms-l1 .scroll:before {
+    content: "as";
+    text-align: center;
+    display: block;
+    background: url(https://ensiklopediakesaguan.com/wp-content/uploads/2020/10/undraw_Tree_swing_646s.svg);
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+} */
+
+.folder-layout.folder-l2 .folder-l2-row div.folder-l2-col {
+    border-radius: 10px;
+    background-size: 60%;
+}
+
+.folder-layout.folder-l2 .folder-l2-row div.folder-l2-col p.folder-title {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+ion-view[state="inbox-list"] ion-content .scroll:before {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 5px auto;   
+    position: relative;
+    content: "";
+    background: url("https://ensiklopediakesaguan.com/wp-content/uploads/2020/10/undraw_ideas_s70l.svg") no-repeat 0 0;
+    background-position: center;
+    background-size: 100%;
+}
+
+ion-view[state="inbox-list"] ion-content .list {
+    background-color: #fff;
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 10px;
+}
+
+ion-view[state="inbox-list"] ion-content .list img {
+	box-shadow: none;
+}

@@ -1,0 +1,996 @@
+/*.platform-android.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader) {
+    display: none;
+} */
+
+.migaiframe-view.pane {
+  margin-top: -45px;
+    height: 120vh;
+}
+
+
+p, h2, div, a, li {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+/* FIRST PAGE START - CATEGORY LIST */
+.mcommerce-view .card {
+      box-shadow: 0px 0px 13px 0px #bdbcbc;
+    border-radius: 25px;
+}
+
+.button.button-clear.header-item .icon.ion-ios-cart {
+    visibility: hidden;
+}
+
+.button.button-clear.header-item .icon.ion-ios-cart:after {
+    visibility: visible;
+    content: url("https://img.icons8.com/doodle/35/000000/shopping-bag--v1.png");
+
+}
+
+
+/* order history dan my cart - front page */
+ion-view[state="mcommerce-category-list"] ion-content .button-bar {
+    order: 1;
+    width: 96%;
+    margin-left: 2%;
+}
+
+[state="mcommerce-category-list"] [ng-click="openHistory()"] {
+  padding: 0 0 0 20px !important;
+    width: 45%;
+    background-color: #Fff;
+    border: none !important;
+    margin: 0 2% 0 0;
+    border-radius: 5px !important;
+}
+
+/* [state="mcommerce-category-list"] [ng-click="openCart()"] span.ng-binding:nth-child(1) {
+  display: none;
+} */
+
+[state="mcommerce-category-list"] [ng-click="openCart()"] {
+  padding: 0 0 0 20px !important;
+    width: 45%;
+    background-color: #Fff;
+    border: none !important;
+    margin: 0 0 0 2%;
+    border-radius: 5px !important;
+}
+
+/* Search of mcommerce category list / front page */
+ion-view[state="mcommerce-category-list"] ion-content .list .item.item-input,
+ion-view[state="mcommerce-subcategory-list"] ion-content .list .item.item-input {
+    order: 2;
+    background-color: transparent !important;
+    border: none !important;
+    border: 2px solid #c8c8c8 !important;
+    width: 96%;
+    margin: 5px 2% 15px 2%;
+    border-radius: 30px;
+}
+
+
+[state="folder2-category-list"] .ion-search:before {
+    display: none;
+}
+
+/* change size all item item - mcommerce category list / front page */
+[state="mcommerce-category-list"] .list .item.item-custom,
+[state="mcommerce-subcategory-list"] .list .item.item-custom {
+    width: 21%;
+    display: inline-block;
+    margin: 5px 2%;
+    border-radius: 5px;
+    position: relative;
+    padding: 0 !important;
+    box-shadow: 0px 0px 3px 0px #bdbcbc;
+}
+
+[state="mcommerce-category-list"] .item-thumbnail-left > img:first-child {
+    position: absolute;
+    top: 10px;
+    left: 15%;
+    max-width: 70%;
+    max-height: 38%;
+    width: 100%;
+    height: 100%;
+}
+
+[state="mcommerce-category-list"] .list .item.item-custom h2 {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    color: #5d5d5d;
+    font-size: 13px;
+}
+/* FIRST PAGE - CATEGORY LIST END */
+
+
+/* SECOND PAGE - SUBCATEGORY LIST START */
+/* item image and name */
+[state="mcommerce-subcategory-list"] [ng-click="showItem(cover)"] {
+  display: none;
+}
+
+/* item name */
+[state="mcommerce-subcategory-list"] .list .item.item-custom h2 {
+    margin-top: 80px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+[state="mcommerce-subcategory-list"] [ng-if="item.subtitle"] {
+    text-align: center;
+    background-color: #f5f5f5 !important;
+    font-weight: bold;
+    margin-bottom: 0 !important;
+}
+/* item price */
+[state="mcommerce-subcategory-list"] .item-thumbnail-left > img:first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 60%;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+/* SECOND PAGE - SUBCATEGORY LIST END */
+
+
+/* THIRD PAGE - MCOMMERCE VIEW-PRODUCT START */
+
+.mcommerce-view.mcommerce-product .card {
+  box-shadow: none !important;
+}
+
+/* thumbnail image */
+.mcommerce-view.mcommerce-product [ng-if="product.picture.length"] {
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+.mcommerce-view.mcommerce-product .card:nth-child(1) {
+  margin: 10px 2% 0 2%;
+    width: 96%;
+    border: 0 !important;
+}
+
+.mcommerce-view.mcommerce-product .card:nth-child(2) {
+  margin: -5px 2% 10px 2%;
+    width: 96%;
+    border: 0 !important;
+}
+/* margin top each card */
+.mcommerce-view.mcommerce-product .card:nth-child(3),
+.mcommerce-view.mcommerce-product .card:nth-child(4) {
+  margin: 0 2%;
+}
+
+.mcommerce-view.mcommerce-product .card:nth-child(1) .item.item-body.item-custom {
+  border-radius: 5px 5px 0 0 !important;
+}
+
+.mcommerce-view.mcommerce-product .card:nth-child(2) .item.item-body.item-custom {
+  border-radius: 0 0 5px 5px !important;
+}
+
+/* qty */
+.mcommerce-view.mcommerce-product .item.item-input.item-custom.input-number-sb {
+    border-radius: 5px !important;
+    box-shadow: 0 !important;
+}
+/* .mcommerce-view.mcommerce-product .item.item-text-wrap.item-icon-left.item-custom.ng-binding {
+  visibility: visible;
+} */
+
+/* .mcommerce-view.mcommerce-product .item.item-text-wrap.item-icon-left.item-custom.ng-binding:after {
+    visibility: visible;
+    content: url(https://image.flaticon.com/icons/svg/726/726496.svg);
+    position: fixed !important;
+    top: calc(97vh - 60px) !important;
+    right: 10vw !important;
+    border-radius: 100px !important;
+    border: 1px solid #fff;
+    padding: 10px !important;
+    z-index: 999 !important;
+    box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 1);
+    background-color: transparent !important;
+    background-image: linear-gradient(90deg, #ff8a00, #e52e71);
+    min-width: 60px !important;
+    min-height: 60px !important;
+} */
+
+.mcommerce-view.mcommerce-product .card:nth-child(3) .item.item-body.item-custom {
+  border-radius: 0 0 5px 5px !important;
+}
+
+/* plus-minus */
+.mcommerce-view.mcommerce-product [ng-click="oneLess()"],
+.mcommerce-view.mcommerce-product [ng-click="oneMore()"] {
+    border-radius: 30%;
+}
+/* THIRD PAGE - MCOMMERCE VIEW-PRODUCT END */
+
+
+/* THIRD PAGE - MCOMMERCE VIEW-CART START */
+.mcommerce-view.mcommerce-cart .item.item-divider.item-divider-custom {
+    background-color: #47b04b;
+    font-weight: bold;
+    font-size: 18px !important;
+    text-align: center;
+    height: 50px;
+}
+
+.mcommerce-view.mcommerce-cart .item.item-divider.item-divider-custom p {
+    font-weight: bold;
+    font-size: 16px !important;
+    padding-top: 10px;
+}
+
+/* plus-minus */
+.mcommerce-view.mcommerce-cart [ng-click="oneLess()"],
+.mcommerce-view.mcommerce-cart [ng-click="oneMore()"] {
+    border-radius: 30%;
+}
+
+/* thumbnail circle */
+.mcommerce-view.mcommerce-cart .item-thumbnail-left>img:first-child {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    max-width: 90px;
+    max-height: 90px;
+    width: 100%;
+    height: 100%;
+}
+
+.mcommerce-view.mcommerce-cart .card img {
+    border-radius: 100%;
+}
+
+.mcommerce-view.mcommerce-cart .card [ng-click="goToCategories()"] {
+    position: fixed !important;
+    right: 30vw !important;
+    border-radius: 5px !important;
+    border-width: 0 !important;
+    z-index: 999 !important;
+    box-shadow: 0 5px 30px 0px rgb(170, 160, 160);
+    background-color: transparent !important;
+    background-image: linear-gradient(90deg,#6ad86e,#6ad86e);
+    min-width: 40% !important;
+    min-height: 50px !important;
+}
+
+/* total */
+.mcommerce-view.mcommerce-cart .item-note {
+    float: right;
+    color: #e52e71;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* CHOOSE STORE */
+.mcommerce-view.mcommerce-sales-store .list .item-divider.item-divider-custom {
+    background-color: orange !important;
+    color: rgba(0, 0, 0, 1);
+    border: 0 !important;
+    margin-top: 0 !important;
+    text-align: center;
+    height: 50px;
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 0;
+}
+
+.mcommerce-view.mcommerce-sales-store .list .item-divider.item-divider-custom h2 {
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 18px !important;
+}
+
+.mcommerce-view.mcommerce-sales-store .item-radio.radio-custom {
+    color: rgba(107, 170, 132, 1);
+    background-color: transparent;
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 0;
+    border: 0 !important;
+}
+/* LOGIN OR SIGNUP */
+.mcommerce-view.mcommerce-sales-customer .list .item-divider.item-divider-custom {
+    border-radius: 10px 10px 0 0;
+}
+
+.mcommerce-view.mcommerce-sales-customer [ng-click="customer_login()"] {
+    border-radius: 10px;
+    border: 0 !important;
+    background-color: #22a6e6;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    width: 50%;
+    margin-left: 25%;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+
+/*.mcommerce-view.mcommerce-sales-customer [ng-click="customer_guestmode()"] {
+    border-radius: 10px;
+    border: 0 !important;
+    background-color: #22a6e6;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    width: 50%;
+    margin-left: 25%;
+    text-transform: uppercase;  
+} */
+
+.mcommerce-view.mcommerce-sales-customer [ng-if="signupEnabled()"] {
+    visibility: hidden;
+    width: 30%;
+    margin: 10px 35%;
+    border-radius: 10px;
+    border: 0 !important;
+    background-color: #fd6700;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.mcommerce-view.mcommerce-sales-customer [ng-if="hasguestmode"] {
+    border-radius: 10px;
+    border: 0 !important;
+    background-color: #22aa10;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    width: 50%;
+    margin-left: 25%;
+    text-transform: uppercase;
+    margin-top: -30px;
+}
+
+
+/* MY INFORMATION */
+.mcommerce-view.mcommerce-sales-customer .list .item-divider.item-divider-custom {
+    border: 0 !important;
+    margin-top: 0 !important;
+    height: 50px;
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.mcommerce-view.mcommerce-sales-customer .list .item-divider.item-divider-custom h2 {
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 16px !important;
+    color: #000 !important;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.mcommerce-view.mcommerce-sales-customer .item.item-input.item-custom {
+    background-color: #fff !important;
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 0;
+    border: 0 !important;
+}
+
+.mcommerce-view.mcommerce-sales-customer .item.item-input.item-custom:last-child {
+    border-radius: 0;
+}
+
+
+/* PENGANTARAN/DELIVERY */
+.mcommerce-view.mcommerce-sales-payment .list .item-divider.item-divider-custom {
+    border: 0 !important;
+    margin-top: 0 !important;
+    text-align: left;
+    height: 50px;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 5px;
+    color: #000 !important;
+}
+
+.mcommerce-view.mcommerce-sales-payment .list .item-divider.item-divider-custom h2 {
+    color: #000 !important;
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+[state="mcommerce-sales-delivery"] .list .item-divider.item-divider-custom h2.ng-binding {
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 10px;
+    color: #000 !important;
+    text-transform: uppercase;
+
+}
+
+.mcommerce-view.mcommerce-sales-error .item-radio.radio-custom {
+    color: rgba(107, 170, 132, 1);
+    background-color: #fff !important;
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 0;
+    border: 0 !important;
+}
+
+.mcommerce-view.mcommerce-sales-error .item-radio.radio-custom:last-child {
+    border-radius: 0 0 5px 5px;
+}
+
+/* PEMBAYARAN/PAYMENT */
+[state="mcommerce-sales-delivery"] .list .item-divider.item-divider-custom {
+    border: 0 !important;
+    margin-top: 0 !important;
+    text-align: center;
+    height: 50px;
+    width: 96%;
+    margin-left: 2%;
+}
+
+[state="mcommerce-sales-payment"] .list .item-divider.item-divider-custom h2.ng-binding {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.mcommerce-view.mcommerce-sales-payment .item-radio.radio-custom {
+    color: rgba(107, 170, 132, 1);
+    background-color: #fff !important;
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 0;
+    border: 0 !important;
+}
+
+.mcommerce-view.mcommerce-sales-payment .item-radio.radio-custom:last-child {
+    border-radius: 0 0 5px 5px;
+}
+
+/* REVIEW */
+.mcommerce-view.mcommerce-sales-confirmation .card {
+    margin: 0 2% !important;
+    padding: 0;
+}
+
+.mcommerce-view.mcommerce-sales-confirmation .item.item-custom.ng-binding:last-child {
+  margin-bottom: 10px !important;
+}
+
+.mcommerce-view.mcommerce-sales-confirmation .item.item-divider.item-divider-custom {
+    background-color: #258225;
+    font-weight: bold;
+    font-size: 18px !important;
+    text-align: center;
+    height: 50px;
+}
+
+.mcommerce-view.mcommerce-sales-confirmation .item.item-divider.item-divider-custom p {
+    font-weight: bold;
+    font-size: 16px !important;
+    padding-top: 10px;
+}
+
+/* thumbnail circle */
+.mcommerce-view.mcommerce-sales-confirmation .item-thumbnail-left>img:first-child {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    max-width: 90px;
+    max-height: 90px;
+    width: 100%;
+    height: 100%;
+}
+
+.mcommerce-view.mcommerce-sales-confirmation .card img {
+    border-radius: 100%;
+}
+
+/* total */
+.mcommerce-view.mcommerce-sales-confirmation .item-note {
+    float: right;
+    color: #e52e71;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* ORDER HISTORY */
+.mcommerce-view.mcommerce-sales-history .item.item-text-wrap.item-custom {
+  width: 96%;
+  margin-left: 2%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.mcommerce-view.mcommerce-sales-history-details .item.item-divider.item-divider-custom.item-custom {
+    background-color: #258225 !important;
+    color: rgba(0, 0, 0, 1);
+    border: 0 !important;
+    margin-top: 0 !important;
+    text-align: center;
+    height: 50px;
+    width: 96%;
+    margin-left: 2%;
+    padding-top: 15px;
+    border-radius: 5px 5px 0 0;
+    margin-top: 10px !important;
+}
+
+.mcommerce-view.mcommerce-sales-history-details .item.item-custom.ng-binding {
+    color: rgba(0, 0, 0, 1);
+    border: 0 !important;
+    margin-top: 0 !important;
+    width: 96%;
+    margin-left: 2%;
+}
+
+.mcommerce-view.mcommerce-sales-history-details .item.item-custom:last-child,
+.mcommerce-view.mcommerce-sales-history-details .item.item-custom.ng-binding:nth-child(4) {
+  border-radius: 0 0 5px 5px !important;
+}
+
+.mcommerce-view.mcommerce-sales-history-details .icon.ion-pricetag {
+  color: #ffa500
+}
+
+.mcommerce-view.mcommerce-sales-history-details .item.item-custom.item-icon-left {
+    color: rgba(0, 0, 0, 1);
+    border: 0 !important;
+    margin-top: 0 !important;
+    width: 96%;
+    margin-left: 2%;
+}
+
+.mcommerce-view.mcommerce-sales-history-details .item.item-custom.item-icon-left p {
+  width: 20%;
+    float: left;
+}
+ 
+.mcommerce-view.mcommerce-sales-history-details .item.item-custom.item-icon-left h2 {
+  width: 40%;
+    float: left;
+}
+ 
+.mcommerce-view.mcommerce-sales-history-details .item.item-custom.item-icon-left p.text-right {
+    width: 40%;
+    float: right;
+}
+
+/* bottom bar */
+.layout.l1 .row.homepage-custom.border-custom.tabs.tabs-icon-top.slide-top.no-shadow {
+  margin-bottom: 10px;
+  width: 96%;
+  margin-left: 2%;
+  border-radius: 10px;
+  background-color: #fff !important;
+  color: #000;
+}
+
+.always .layout.l1 .tabs {
+    box-shadow: 0 0 5px #9d9b9b;
+}
+
+[state="mcommerce-product-view"] .item.item-input.item-custom.input-number-sb {
+    width: 60%;
+    display: inline;
+}
+
+[state="mcommerce-product-view"] .item.item-input.item-custom.input-number-sb .input-label.ng-binding {
+    width: 20%;
+    display: inline-block;
+}
+
+[state="mcommerce-product-view"] .item.item-input.item-custom.input-number-sb .input-container.text-right {
+    width: 80%;
+    display: block;
+    padding-top: 5px;
+}
+
+[state="mcommerce-product-view"] .item.item-text-wrap.item-icon-left.item-custom.ng-binding {
+    width: 40%;
+    display: block;
+}
+
+.mcommerce-view.mcommerce-product [ng-click="addProduct()"] {
+    background-color: #47b04b !important;
+    width: 40%;
+    margin-left: 58%;
+    border-radius: 20px;
+    margin-right: 2%;
+    color: #fff;
+}
+
+.mcommerce-view.mcommerce-product [ng-click="addProduct()"] i {
+    color: #fff ;
+    text-align: center;
+}
+
+/* HEADER TITLE */
+.platform-android .nav-bar-title.ng-binding {
+    text-align: center !important;
+    width: 100%;
+    display: block;
+}
+
+.platform-android .customer-view.customer-layout1 h1.title.ng-binding {
+    text-align: center !important;
+    width: 100%;
+    display: block;
+}
+
+[ng-if="!is_loading && !is_logged_in"] .list:before {
+    margin: 20px 20%;
+    width: 100%;
+    display: block;
+    content: url("https://justapp.id/wp-content/uploads/2020/07/fff-copy.png");
+}
+
+.card {
+    box-shadow: none;
+}
+
+.ion-pricetag,
+.icon.ion-record,
+.ion-information-circled,
+.icon.ion-trash-a,
+.mcommerce-view.mcommerce-sales-history-details .icon.ion-pricetag,
+.ion-android-warning,
+.mcommerce-view.mcommerce-sales-history-details .pull-right.ng-binding {
+    color: #47b04b; 
+}
+
+.mcommerce-view.mcommerce-cart .item.item-divider.item-divider-custom strong,
+.mcommerce-view.mcommerce-sales-error .item-divider.item-divider-custom.item h2,
+.mcommerce-view.mcommerce-sales-payment .item-divider.item-divider-custom.item h2,
+.mcommerce-view.mcommerce-sales-confirmation .item.item-divider.item-divider-custom strong,
+.mcommerce-view.mcommerce-sales-customer .item-divider.item-divider-custom.item h2,
+.mcommerce-view.mcommerce-sales-error .item-divider.item-divider-custom.text-center.item.ng-binding,
+.mcommerce-view.mcommerce-sales-history-details .item.item-divider.item-divider-custom.item-custom h2 {
+    color: #fff;
+    font-size: 14px;
+}
+
+/* mengubah menu 3 dots */
+ion-modal-view {
+    opacity: .95 !important
+}
+
+/* homepage */
+.layout.l1 .row.homepage-custom.border-custom.tabs.tabs-icon-top.slide-top.shadow {
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+/* MORE */
+.layout.modal.slide-top.layout_modal_generic {
+    height: 90vh;
+    margin-top: 10vh;
+    border-radius: 30px 30px 0 0;
+    background-color: #e1e1e1 !important;
+    opacity: 100% !important;
+}
+
+.layout.modal.slide-top.layout_modal_generic h2 {
+    font-size: 16px;
+}
+
+.layout.modal.slide-top.layout_modal_generic .list .item.item-custom {
+    background-color: #e1e1e1;
+}
+
+.layout.modal.slide-top.layout_modal_generic [ng-click="closeMore();"] {
+    width: 10%;
+    margin-left: 90%;
+    background-color: #fff !important;
+    border-radius: 30px 0 0 30px;
+}
+
+.layout.modal.slide-top.layout_modal_generic [ng-click="closeMore();"] h2.ng-binding{
+    display: none;
+}
+
+.layout.modal.slide-top.layout_modal_generic .icon.ion-close {
+    color: #47b04b !important;
+}
+
+.layout.modal.slide-top.layout_modal_generic .item.item-avatar.item-center.item-avatar-square.item-custom:nth-child(1),
+.layout.modal.slide-top.layout_modal_generic .item.item-avatar.item-center.item-avatar-square.item-custom:nth-child(2),
+.layout.modal.slide-top.layout_modal_generic .item.item-avatar.item-center.item-avatar-square.item-custom:nth-child(3),
+.layout.modal.slide-top.layout_modal_generic .item.item-avatar.item-center.item-avatar-square.item-custom:nth-child(4),
+.layout.modal.slide-top.layout_modal_generic .item.item-avatar.item-center.item-avatar-square.item-custom:nth-child(5) {
+    width: 16%;
+    margin: 10px 2%;
+    padding: 0;
+    display: inline-block;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.layout.modal.slide-top.layout_modal_generic .item.item-avatar.item-center.item-avatar-square.item-custom:nth-child(1) img,
+.layout.modal.slide-top.layout_modal_generic .item.item-avatar.item-center.item-avatar-square.item-custom:nth-child(2) img,
+.layout.modal.slide-top.layout_modal_generic .item.item-avatar.item-center.item-avatar-square.item-custom:nth-child(3) img,
+.layout.modal.slide-top.layout_modal_generic .item.item-avatar.item-center.item-avatar-square.item-custom:nth-child(4) img,
+.layout.modal.slide-top.layout_modal_generic .item.item-avatar.item-center.item-avatar-square.item-custom:nth-child(5) img {
+    left: 0 !important;
+    position: absolute;
+    top: 10px;
+    margin-left: 30%;
+    max-width: 40%;
+    width: 100%;
+    height: auto;
+    color: #47b04b !important;
+}
+
+.layout.modal.slide-top.layout_modal_generic .item.item-avatar.item-center.item-avatar-square.item-custom:nth-child(1) h2,
+.layout.modal.slide-top.layout_modal_generic .item.item-avatar.item-center.item-avatar-square.item-custom:nth-child(2) h2,
+.layout.modal.slide-top.layout_modal_generic .item.item-avatar.item-center.item-avatar-square.item-custom:nth-child(3) h2,
+.layout.modal.slide-top.layout_modal_generic .item.item-avatar.item-center.item-avatar-square.item-custom:nth-child(4) h2,
+.layout.modal.slide-top.layout_modal_generic .item.item-avatar.item-center.item-avatar-square.item-custom:nth-child(5) h2 {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    color: #5d5d5d;
+    font-size: 13px;
+}
+
+
+.mcommerce-view.mcommerce-sales-confirmation .card {
+    margin-bottom: 20px !important;
+}
+
+
+ion-view[state="mcommerce-category-list"] ion-content [ng-if="cover.picture"] {
+    width: 96% !important;
+    order: 3;    
+}
+
+[state="mcommerce-category-list"] [ng-click="showItem(cover)"] {
+    display: none !important;
+}
+
+.platform-android [state="mcommerce-category-list"] [ng-show="show_search && collection.length > 0"]:after {
+    display: inline-block;
+    margin-left: 2%;
+    content: "";
+    width: 96%;
+    height: 170px !important;
+    background: url("https://firebasestorage.googleapis.com/v0/b/project-2059615900628317391.appspot.com/o/category-icon-new%2F1598237852279_Slot%20Pagi_680x300..jpg?alt=media") no-repeat 0 0;
+    background-size: 100%;      
+}
+
+/* CUSTOME PAGE */
+.module-cms.cms-l1 .item.item-text-wrap.item-custom.sb-cms-text  {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.module-cms.cms-l1 .item.item-text-wrap.item-custom.sb-cms-text .content.ng-binding div {
+    width: 20%;
+    margin: 10px 2%;
+    padding: 0;
+    display: inline-block;
+}
+.module-cms.cms-l1 .item.item-text-wrap.item-custom.sb-cms-text .content.ng-binding h2 {
+    font-size: 14px;
+    text-align: center; 
+}
+
+.module-cms.cms-l1 .item.item-text-wrap.item-custom.sb-cms-text .content.ng-binding p {
+    text-align: center; 
+}
+
+.module-cms.cms-l1 [ng-if="block.gallery.length > 1"] {
+    background-color: transparent;
+    margin-top: -30px !important;
+    z-index: 999;
+}
+
+/* .bar.bar-header.hidden.fullsearch-bar.item-input-inset {
+    margin-top: 9vh;
+    border: 2px solid #c8c8c8 !important;
+    border-radius: 30px !important;
+    box-shadow: none;
+    padding: 0 auto;
+    width: 96%;
+    margin-left: 2%;
+    height: 50px;
+}
+
+.fullsearch-bar .ion-ios-close:before {
+    display: none;
+}
+
+.platform-overview.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader).item-input-inset .item-input-wrapper {
+    margin-top: 0 !important;
+}*/
+
+.module-cms.cms-l1 [ng-repeat="block in blocks"] {
+    margin: 5px 1% 0 1% !important;
+}
+
+.module-cms.cms-l1 .card.no-shadow {
+    margin: 5px 1% !important;
+    padding: 0 !important;
+}
+
+.module-cms.cms-l1 .card .item.item-custom {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.module-cms.cms-l1 [ng-repeat="block in blocks"] .card {
+    margin: -5px 1% 2px 1% !important;
+    padding: 0 !important;  
+}
+
+.module-cms.cms-l1 [ng-repeat="block in blocks"] .card .content.ng-binding h1 {
+    margin: 10px 1% 5px 1%!important;
+    padding: 0 !important;  
+}
+
+/* ITEM TERBARU - HOME */
+div.gambarterbaru {
+    padding: 0 !important;
+    margin: 10px 0 !important;
+    width: 100% !important;
+}
+
+.gambarterbaru img {
+    width: 100% !important;
+    height: auto;
+    border-radius: 5px !important;
+}
+
+.gambarterbaru p {
+    margin-top: -35px;
+}
+
+/* ITEM LAYANAN LAINNYA - HOME */
+.layananlainnya {
+    width: 100% !important;
+    display: block !important;
+    margin: 20px 0 10px 0!important;
+    padding: 0 !important;
+}
+
+/* KERANJANG DAN HISTORY */
+.carthistory,
+.carthistory .cart,
+.carthistory .history {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.carthistory {
+  width: 100% !important;
+}
+
+.carthistory .cart,
+.carthistory .history {
+    width: 48% !important;
+    display: inline-block !important;
+}
+
+.platform-android .fullsearch-bar,
+.platform-overview .fullsearch-bar {
+    border: 0 !important;
+    border-shadow: none !important;
+}
+
+.platform-android .ion-ios-close:before, 
+.platform-overview .ion-ios-close:before {
+  display: none;
+}
+
+/* KOLOM CARI - FOLDER V2 -*/
+div#search_section {
+    margin-bottom: 20px;
+    border: 2px solid #c8c8c8;
+    border-radius: 30px;
+}
+
+/* SUBFOLDER V2 */
+.module-folder2 .list.card {
+  margin: 0 2%;
+}
+
+.module-folder2 .item.item-custom.item-avatar-square.item-avatar {
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 200px;
+}
+
+.module-folder2 .item.item-custom.item-avatar-square.item-avatar img {
+    max-width: 100vw;
+    display: block;
+    max-height: 180px;
+    z-index: -1;
+    margin-left: -10px !important;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.module-folder2 .item.item-custom.item-avatar-square.item-avatar h2 {
+    max-width: 100vw;
+    display: block;
+    margin: 0 !important;
+    z-index: 1;
+    text-align: center !important;
+    padding: 20px;
+    border-radius: 0 20px 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.module-folder2 .item.item-custom.item-avatar-square.item-avatar p {
+    max-width: 100vw;
+    display: block;
+    z-index: 1;
+    text-align: center;
+    margin: 60px 2% 0 2% !important;
+    overflow: visible !important;
+    text-overflow: initial !important;
+    white-space: normal !important;
+    border-radius: 20px;
+    color: #fff;
+}
+
+/* 
+.mcommerce-view.mcommerce-cart,
+.module-cms.cms-l1 {
+	height: 100vh;
+  	margin-top: 8vh;
+  	border-radius: 30px 30px 0 0;
+  	background-color: transparent;
+	background-image: linear-gradient(#e5e5e5, #fff) !important;
+}
+
+.module-cms.cms-l1 .bar.bar-custome {
+	height: 5px !important;
+}
+*/
+
+.layout.l1 ul li.col.col-20.tab-item:nth-child(3) {
+    height: 120%;
+    margin-top: -14px;
+    padding-top: 10px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    box-shadow: 0 -2px 0 rgba(115,192,95,.8);
+    opacity: 1;
+  	background-color: #fff;  
+  
+}
+
+.list, .card {
+    box-shadow: none;
+}

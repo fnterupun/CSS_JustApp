@@ -1,0 +1,742 @@
+.layout.l9 ion-content.homepage-custom {
+	background-color: transparent !important;
+}
+
+.layout.l9 ion-content ul {
+    padding-top: 0;
+}
+
+.layout.l9 ion-content ul.items.homepage-custom li {
+	display: inline-block;
+  	margin-left: 10px;
+  	padding: 0 !important;
+	height: 60px;
+}
+
+.layout.l9 ion-content ul.items.homepage-custom li:nth-child(1) {
+    margin-bottom: 10px;
+    background-color: #964aff;
+    height: 100px;
+    margin-left: 0;
+}
+
+.layout.l9 ion-content ul.items.homepage-custom li:nth-child(2) {
+	margin-top: 30px;
+}
+
+.layout.l9 ion-content ul.items.homepage-custom li:nth-child(1) img {
+    float: right;
+    margin-right: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 2px;
+    margin-top: 20px;
+}
+
+.layout.l9 ion-content ul.items.homepage-custom:after {
+	content: "Versi 3.0";
+  	display: block;
+  	width: 100%;
+  	text-align: center;
+  	font-size: 12px;
+  	color: #449f47;
+}
+
+.layout.l9 ion-content ul.items.homepage-custom li:nth-child(1) p {
+	display: none;
+}
+
+
+.layout.l9 ion-content ul.items.homepage-custom li img {
+	display: block;
+  	float: left;
+  	margin-left: 5px;
+}
+
+.layout.l9 ion-content ul.items.homepage-custom li p {
+    display: block;
+    float: right;
+    text-align: left;
+    width: 70%;
+    margin-bottom: 0;
+    margin-top: 4px;
+	text-transform: uppercase;  
+}
+
+
+/* PADLOCK */
+.padlock-view .card {
+  	box-shadow: none;
+}
+
+.padlock-view {
+	font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.padlock-view .card.padlock .item.item-text-wrap.item-custom h2 {
+	visibility: hidden; 
+}
+
+.padlock-view .card.padlock .item.item-text-wrap.item-custom  {
+	padding: 0;
+}
+
+.padlock-view .card.padlock .item.item-text-wrap.item-custom h2:after {
+	visibility: visible; 
+  	content: "My Cantor.";
+  	font-weight: bold;
+  	font-size: 8vw !important;
+  	width: 100%;
+  	display: block;
+  	margin: 0;
+  	text-align: center;
+  	color: #964aff;
+  	padding: 50px 0;
+  	background-color: #f2f2f2;
+  	border-radius: 40px 40px 0 0;
+    font-family: 'Poppins', Helvetica, sans-serif !important;
+}
+
+.padlock-view .item.item-body.item-custom.text-center {
+	background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/02/undraw_wallet_aym5.svg) !important;
+	background-position: center;
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: 80%;
+  	background-color: #f2f2f2;
+  	border-radius: 0 0 40px 40px;
+}
+
+.padlock .item.item-body i {
+	font-size: 0px;
+}
+
+.padlock-view .icon.ion-ios-paper-outline,
+.padlock-view .icon.ion-ios-person-outline {
+	display: none;
+}
+
+.padlock-view div[ng-if="description"] {
+	display: block;
+  	width: 100%;
+  	text-align: center;
+  	padding: 30px 0;
+  	font-weight: bold;
+  	font-size: 18px;
+    font-family: "Poppins", Helvetica, sans-serif !important;
+	-webkit-font-smoothing: antialiased;
+}
+
+.padlock-view div[ng-click="padlockLogin()"] {
+	visibility: hidden;
+}
+
+.padlock-view div[ng-click="padlockLogin()"]:after {
+  	visibility: visible;
+  	content: "Get Started";
+  	display: block;
+	width: 80%;
+    background-color: #9c4aff !important;
+    border-radius: 10px !important;
+    margin: 10px 10% 50px 10% !important;
+    padding: 15px 10px !important;
+    text-align: center;
+    color: #fff !important;
+    font-size: 16px;
+    height: 52px;
+}
+
+.padlock-view .item-icon-left {
+    padding: 0;
+}
+
+
+/* MY ACCOUNT */
+/* LOGIN PAGE */
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(1):before {
+    content: "";
+	background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/02/undraw_wallet_aym5.svg) !important;
+	background-position: center;
+	height: 300px;
+  	display: absolute;
+	background-repeat: no-repeat;
+	background-size: 70%;
+    margin: 0;
+    display: block;
+    max-height: 100% !important;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(1)>div {
+  	background-color: #e0dbe6;	
+  	border-radius: 50px 50px 0 0;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(1)>div:before {
+	content: "Sign In";  
+  	margin: 50px 0 10px 0;
+  	text-align: center;
+  	display: block;
+  	font-size: 28px;
+  	font-weight: bold; 
+  	color: #000;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(1) label {
+	display: inline-block;
+  	width: 90%;
+  	background-color: #e0dbe6;
+  	margin: 0 5%;
+  	padding: 0;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(1) label:nth-child(1):before {
+	content: "Email Address" !important;
+  	display: block;
+  	width: 100%;
+  	text-align: left;
+  	font-size: 11px;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(1) label:last-child:before {
+	content: "Password";
+  	display: block;
+  	width: 100%;
+  	text-align: left;
+  	font-size: 11px;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(1) label input {
+	width: 100%;
+  	border-radius: 10px;
+  	margin: 10px 0;
+  	background-color: #ffffff;
+  	border: 2px solid #ffffff;
+  	padding: 10px 5px !important;
+  	text-align: center;	
+  	height: 50px;
+}
+
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(1) label.item.item-input.item-custom input {
+  	text-align: left;
+  	font-size: 16px;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll .icon.ion-ios-person,
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll .icon.ion-locked {
+	display: none;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(1)>div div.padding.text-right {
+	display: none;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(1)>div {
+	display: flex;
+  	flex-direction: column;	
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(1)>div div:nth-child(3) {
+	order: 4;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(1)>div div:nth-child(4) {
+	order: 3;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(1)>div button {
+	text-align: center;
+    display: block;
+    width: 90%;
+    margin: 0 5% 50px 5%;
+    border-radius: 10px;
+    background-color: #9c4aff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 0;
+    border: 0;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(1) .padding.text-center.ng-binding,
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) .padding.text-center.ng-binding {
+	font-size: 11px;
+    color: #615e6a;
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 0;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(1) .padding.text-center.ng-binding .bold.positive.positive-custom.ng-binding,
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) [ng-click="displayLoginForm()"] span {
+  	font-size: 16px;
+  	color: #fff;
+  	visibility: hidden;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) [ng-click="displayLoginForm()"] span:before {
+  	font-size: 14px;
+  	color: #9c4aff;
+  	visibility: visible;
+  	content: "Sign In";
+  	text-align: center;
+  	display: block;	
+}
+
+/* hide request access to my personal data */
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) div[ng-click="requestGdprToken()"] {
+	display: none !important;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(1) .padding.text-center.ng-binding .bold.positive.positive-custom.ng-binding:before {
+  	font-size: 14px;
+  	color: #9c4aff;
+  	visibility: visible;
+  	content: "Register";
+  	text-align: center;
+  	display: block;
+}
+
+/* REGISTER PAGE */
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) div.item.item-input.item-custom,
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) label {
+	display: inline-block;
+  	width: 94%;
+  	margin-left: 4%;
+  	margin-right: 2%;
+  	padding-left: 0;
+  	background-color: transparent;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) div.input-label.ng-binding,
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) div.input-label {
+	display: block;
+    width: 100vw !important;
+    /* font-weight: bold; */
+    font-size: 12px;
+    color: #000;
+    padding-right: 0;
+    margin-right: 0 !important;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) input {
+	display: block;
+  	text-align: left;
+	width: 94%;
+    border-radius: 10px;
+    margin: 0 3% 0 0;
+    background-color: #fff;
+    padding: 10px 5px !important;
+    height: 50px;
+}
+
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) .item-checkbox .item-content span {
+	font-size: 11px;
+    padding-left: 50px;
+    color: #2a2a2a;
+  	visibility: hidden;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) .item-checkbox .item-content span:last-child:after {
+	font-size: 11px;
+    padding-left: 50px;
+  	content: "Persyaratan Layanan";
+	display: block;
+    width: 100%;
+    color: #2a2a2a;
+    visibility: visible;
+    margin-left: 10px;
+    margin-top: -30px;
+}
+
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) button {
+	text-align: center;
+    display: block;
+    width: 90%;
+    margin: 0 5% 50px 5%;
+    border-radius: 10px;
+    background-color: #9c4aff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 0;
+    border: 0;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) div.list:before {
+	content: "Let's Sign Up.";  
+  	margin: 50px 0 10px 0;
+  	text-align: center;
+  	display: block;
+  	font-size: 28px;
+  	font-weight: bold; 
+  	color: #717171;	
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) .list {
+    padding-top: 0;
+    background-color: #f2f2f2;
+    border-radius: 40px 40px 0 0;
+    padding-top: 10px;
+}
+
+.customer-layout1 .customer-image {
+    padding: 4px;
+    border-radius: 50%;
+    margin-left: -60% !important;
+    left: 0;
+    right: 0;
+    width: 30%;
+    height: auto;
+}
+
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #e0e0e0 !important;
+}
+input::-moz-placeholder { /* Firefox 19+ */
+  color: #e0e0e0 !important;
+}
+input:-ms-input-placeholder { /* IE 10+ */
+  color: #e0e0e0 !important;
+}
+input:-moz-placeholder { /* Firefox 18- */
+  color: #e0e0e0 !important;
+}
+
+/* 
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) {
+	display: flex;
+  	flex-direction: column;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) div section {
+	order: 2 !important;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) div div:first-child {
+	order: 3 !important;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) div div:last-child {
+	order: 1 !important;
+}
+*/
+
+/* modul kontak */
+[state="contact-view"] div.scroll div.list.card {
+	display: flex;
+  	flex-direction: column;
+  	box-shadow: none;
+}
+
+[state="contact-view"] div.scroll div.list.card [ng-show="contact.name"] {
+	order: 2;
+  	display: block;
+  	width: 100%;
+  	text-align: center;
+  	padding: 0 10px;
+  	margin: 5px;
+}
+
+[state="contact-view"] div.scroll div.list.card [ng-show="contact.name"] h2 {
+	font-weight: bold;
+  	font-size: 18px;
+  	text-transform: capitalize !important;
+  	padding-bottom: 5px;
+  	margin-bottom:0;
+	color: #3498db;
+}
+
+[state="contact-view"] div.scroll div.list.card [ng-if="contact.cover_url"] {
+  order: 1;
+  margin-bottom: 10px;
+}
+
+[state="contact-view"] div.scroll div.list.card [ng-show="contact.street"] {
+	order: 4;
+  	display: block;
+  	width: 100%;
+  	text-align: center;
+  	padding: 0 10px;
+  	margin: 5px;
+}
+
+[state="contact-view"] div.scroll div.list.card [ng-show="contact.description"] {
+	order: 3;
+  	display: block;
+  	width: 100%;
+  	text-align: center;
+  	padding: 0 10px;
+  	margin: 5px;
+  	margin-top: 0;
+}
+
+/* mengubah gambar profil */
+[state="contact-view"] div.scroll div.list.card [ng-if="contact.cover_url"] img {
+    width: 170px;
+    vertical-align: middle;
+    border-radius: 50%;
+    height: 170px;
+}
+
+[state="contact-view"] div.scroll div.list.card .ion-person:before,
+[state="contact-view"] div.scroll div.list.card .ion-android-menu:before,
+[state="contact-view"] div.scroll div.list.card .ion-ios-location:before {
+	display: none;
+}
+
+[state="contact-view"] div.scroll .button.button-custom {
+    border: 0 !important;
+    background-color: #eeeeee !important;
+    color: rgb(0 0 0);
+    border-radius: 30px;
+    padding: 5px 0;
+}
+
+
+.ion-ios-telephone-outline:before,
+.ion-ios-location-outline:before,
+.ion-ios-email-outline:before,
+.ion-ios-world-outline:before,
+.ion-social-facebook-outline:before {
+    background-color: #53d070;
+    padding: 0 10px !important;
+    border-radius: 50%;
+    color: #fff;
+    width: 44px !important;
+}
+
+[ng-if="contact.twitter_url"]{
+	visibility: hidden;
+}
+
+[ng-if="contact.twitter_url"]:after{
+visibility: visible;
+    content: "Whatsapp";
+    text-align: center;
+    display: block;
+    width: 100% !important;
+    border: 0 !important;
+    background-color: #eeeeee !important;
+    color: rgb(0 0 0);
+    border-radius: 30px;
+    padding: 0;
+    height: 50px;
+    z-index: -1;
+    margin-top: 9px !important;
+    margin-left: 5px !important;
+    padding-top: 5px;
+}
+
+.ion-social-twitter-outline:before {
+	visibility: visible !important;
+}
+
+[state="contact-view"] div.scroll div.padding {
+	display: flex;
+  	flex-direction: column;
+  	box-shadow: none;	
+}
+
+[state="contact-view"] div.scroll div.padding button:nth-child(6) {
+	order: 1;	
+}
+
+[state="contact-view"] div.scroll div.padding button:nth-child(1) {
+	order: 2;	
+}
+
+[state="contact-view"] div.scroll div.padding button:nth-child(2) {
+	order: 3;	
+}
+
+[state="contact-view"] div.scroll div.padding button:nth-child(3) {
+	order: 4;	
+}
+
+[state="contact-view"] div.scroll div.padding button:nth-child(4) {
+	order: 5;	
+}
+
+[state="contact-view"] div.scroll div.padding button:nth-child(5) {
+	order: 6;	
+}
+
+.ion-social-twitter-outline:before {
+	content: "\f232" !important;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    font-family: 'FontAwesome' !important;
+    background-color: #53d070;
+    padding: 0 10px !important;
+    border-radius: 50%;
+    color: #fff;
+    width: 44px !important;
+}
+
+[state="contact-view"] div.scroll div.list.card [ng-if="contact.cover_url"] {
+    order: 1;
+    margin-bottom: 10px;
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+[state="contact-view"] div.scroll div.list.card [ng-if="contact.cover_url"] img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50% !important !important;
+    margin-left: -50%;
+    overflow: hidden;
+    width: auto;
+    height: 100%;
+
+}
+
+.list .item.item-custom {
+    border-color: rgba(69, 69, 69, 0);
+    color: rgba(74, 74, 74, 1);
+    margin: 10px;
+    position: relative;
+    z-index: 100;
+    border-radius: 10px;
+    background-color: white;
+    padding-top: 10px;
+}
+
+
+/* dashboard app */
+.item-application {
+    border-top: 0px solid #dedede;
+    width: 45%;
+    display: inline-block;
+    margin: 5px 2%;
+    background-color: #68137205;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 0px #aca8a870;
+}
+
+.item-application .item-no-padding {
+    padding: 0;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.item-application .floating-image {
+float: none;
+    height: 120px;
+    border-radius: 50% !important;
+    width: 100%;
+    display: block;
+    position: relative;
+    margin: 0 auto !important;
+}
+
+
+.item-application .app-icon {
+    border-radius: 50%;
+    display: block;
+    width: 130px !important;
+    position: absolute;
+    top: 0;
+    margin-top: -30px !important;
+    padding: 20px;
+    height: 130px !important;
+    margin: 0 auto !important;
+}
+
+
+.item-application .floating-name-infos {
+    float: none;
+    margin-left: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+}
+
+.app-infos {
+    font-size: 0.85em;
+    letter-spacing: 0.05em;
+    left: 0;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.badge-sub-green {
+    background-color: transparent;
+    color: #1bc5bd;
+    display: block;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+h4.app-name-title {
+    letter-spacing: 0.05em;
+    margin: 10px 0;
+    color: #303030;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.item-application .floating-actions.icons-center {
+    float: right;
+    text-align: right;
+    margin: 18px 0 0 0;
+    padding: 0;
+    height: 38px;
+    width: 100% !important;
+}
+
+
+
+a.button-action-app {
+    text-transform: uppercase;
+    width: 100%;
+    display: block;
+    padding: 10px !important;
+    border-radius: 10px !important;
+}
+
+
+
+/* untuk login page builder */
+/* mengubah ukuran logo JustApp */
+.admin_account_login #logo {
+    left: 0;
+    position: relative;
+    width: 60%;
+    margin-left: 15%;
+}
+
+
+.admin_account_login.general.general #login_container {
+    margin: 10% auto 0 auto;
+    border-radius: 10px;
+    width: inherit;
+    max-width: 510px;
+    padding: 15px;
+}

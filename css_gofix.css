@@ -1,0 +1,1120 @@
+[state="folder2-category-list"] .list.card .item.item-custom h2.ng-binding {
+    text-align: center;
+}
+
+[state="folder2-category-list"] .list.card .item.item-custom.item-avatar-square.item-avatar.item-center h2.ng-binding {
+    font-size: 16px;
+}
+
+[state="folder2-category-list"] .list.card .item.item-custom {
+    border: none;
+}
+
+[state="folder2-category-list"] .list.card .item.item-custom.item-avatar-square.item-avatar.item-center:after {
+    margin-left: 90%;
+    height: 100px;
+    content: url("https://img.icons8.com/fluent/48/000000/menu-2.png");
+}
+
+[state="folder2-category-list"] .list.card .item.item-custom.item-avatar-square.item-avatar.item-center {
+    height: 80px;
+}
+
+[state="folder2-category-list"] .list.card .item.item-custom.item-avatar-square.item-avatar.item-center:nth-child(1),
+[state="folder2-category-list"] .list.card .item.item-custom.item-avatar-square.item-avatar.item-center:nth-child(2),
+[state="folder2-category-list"] .list.card .item.item-custom.item-avatar-square.item-avatar.item-center:nth-child(3),
+[state="folder2-category-list"] .list.card .item.item-custom.item-avatar-square.item-avatar.item-center:nth-child(4),
+[state="folder2-category-list"] .list.card .item.item-custom.item-avatar-square.item-avatar.item-center:nth-child(5),
+[state="folder2-category-list"] .list.card .item.item-custom.item-avatar-square.item-avatar.item-center:nth-child(6),
+[state="folder2-category-list"] .list.card .item.item-custom.item-avatar-square.item-avatar.item-center:nth-child(7),
+[state="folder2-category-list"] .list.card .item.item-custom.item-avatar-square.item-avatar.item-center:nth-child(8) {
+    border-bottom: 2px solid #28b351;
+}
+
+/* mengatur nama di setiap card */
+[state="places-categories"] .place.place-33 .card .text p {
+    text-align: center;
+}
+
+.button.button-clear.header-item.places-secondary-button {
+    display: none;
+}
+
+/* mengatur warna latar belakang dan tinggi pada menu */
+.layout.l9 ion-content.homepage-custom.scroll-content.ionic-scroll {
+    background: rgb(12,101,170);
+    background: linear-gradient(90deg, rgba(12,101,170,1) 42%, rgba(0,163,249,1) 100%);
+    border-radius: 0 0 50px 0;
+}
+
+.menu {
+    min-height: 95%;
+    max-height: 95%;
+    border-radius: 0 0 50px 0;  
+}
+/* mengatur warna latar belakang dan tinggi pada menu */
+
+
+/* mengubah tampilan homepage */
+.homepage-custom { 
+    background-color: transparent; 
+}
+
+.homepage-custom .scroll:before {
+    background-image: url('https://image.flaticon.com/icons/svg/1177/1177568.svg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-top: 20px;
+    width: 248px;
+    height: 179px;
+    content:"";
+}
+/* jarak antara gambar di atas dan menu */
+
+.layout.l9 ion-content ul {
+    padding-top: 0;
+    padding-bottom: var(--safe-area-inset-bottom);
+}
+/* jarak antara gambar di atas dan menu */
+
+.homepage-custom .border-custom {
+    margin-top: 5px;
+}
+
+.layout.l9 li img {
+    width: 40px;
+    height: 40px;
+    max-height: 100%;
+    float: left;
+    margin-left: 20px;
+    margin-right: 0px;
+}
+
+.layout.l9 ul.items li p {
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+/* membuat hover untuk menu homepage */
+.layout.l9 ul.items li:hover {
+    background-color: #002c08;
+    border-radius: 5px;
+}
+
+.layout.l9 ul.items li:active {
+    background-color: #002c08;
+}
+
+#feature-0.border-custom {
+    margin: -100px 21.5% 30px 28.5%;
+    width: 40%;
+    border-radius: 60px 60px 10px 10px;
+    border: 2px solid #fff;
+    position: fixed;
+}
+
+#feature-0.border-custom .titlevisible.title-lowcase {
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.layout.l9 li:first-child img {
+    width: 40px;
+    height: 40px;
+    max-height: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 10px;
+    display: none;
+}
+
+.buttons.buttons-left.header-item .left-buttons i.icon.ion-navicon-round {
+    margin-left: -10px;
+    visibility: hidden;
+    position: relative;
+}
+
+.buttons.buttons-left.header-item .left-buttons i.icon.ion-navicon-round:after {
+  visibility: visible;
+  position: relative;
+  margin-left: -45px;
+  content: url("https://img.icons8.com/fluent/48/000000/menu--v1.png");
+}
+
+/* membuat hover untuk menu homepage */
+/* mengubah tampilan homepage */
+
+/* garis di bawah header dan subheader */
+.platform-overview.platform-cordova:not(.fullscreen) .bar-subheader {
+    border: none;
+}
+
+.platform-overview.platform-cordova:not(.fullscreen) .bar-header {
+    border: none;
+}
+/* garis di bawah header dan subheader */
+
+/* mengatur menu register pada menu */
+#feature-5.border-custom {
+    margin: 20% 15% 30px 15%;
+    width: 70%;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    position: fixed;
+}
+
+/* mengatur semua yang ada di dalam Folder */
+.module-places .places {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+[state="places-categories"] .places:before {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 120vw;
+    height: 80px;
+    background: rgb(0,239,146);
+    background: linear-gradient(90deg, rgba(0,239,146,1) 9%, rgba(0,160,253,1) 100%);
+    text-align: center;
+    font-weight: bold;
+    font-size: 5vw;
+    padding-top: 2px;
+    border-radius: 0 0 0 90%;
+    border-bottom: 10px solid;
+    line-height: 30px;
+    margin-left: -5%;
+    content: "Apa Yang Anda Butuhkan?";    
+}
+
+.module-places .place-33 .card .image.category {
+    background-size: auto 80%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 2px solid #0298eb;
+    border-radius: 20px 0 0 0;
+    background: #0298eb;
+}
+
+.module-places .place .card .text {
+    color: rgba(255, 255, 255, 1);
+    border: 2px solid #0298eb !important;
+    border-radius: 0 0 20px 0;
+}
+
+[state="places-list"] .sb-col-20.distance-flex {
+    display: none;
+}
+
+[state="places-list"] .places:before {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 120vw;
+    height: 80px;
+    background: rgb(0,239,146);
+    background: linear-gradient(90deg, rgba(0,239,146,1) 9%, rgba(0,160,253,1) 100%);
+    text-align: center;
+    font-weight: bold;
+    font-size: 5vw;
+    padding-top: 2px;
+    border-radius: 0 0 0 90%;
+    border-bottom: 10px solid;
+    line-height: 30px;
+    margin-left: -5%;
+    content: "Silakan Pilih Penyedia Jasa?";    
+}
+
+[state="places-list"] .sb-col-60 {
+    flex: 0 0 60%;
+    min-width: 80%;
+    max-width: 80% !important;
+}
+
+[state="places-list"] .card .sb-col-60 .text {
+    padding: 5vw !important;
+}
+
+[state="places-list"] .place.place-100 {
+    margin-bottom: 5px;
+    width: 97%;
+    margin-top: 15px;
+
+}
+
+[state="places-list"] .place.place-100 .card {
+    margin: 0;
+}
+
+[state="places-list"] .card {
+    box-shadow: none;
+}
+
+[state="places-list"] .card .text {
+    text-align: center;
+}
+
+[state="folder2-category-list"] .item-avatar.item-avatar-square>img:first-child {
+    border-radius: 0;
+    margin-top: 10px;
+}
+
+.module-places .sb-cms-block-address .item {
+    text-align: center;
+}
+
+.module-places .sb-cms-block-address .item i.icon {
+    display: none;
+}
+
+.module-places .item-icon-left .icon {
+    left: 8px;
+    display: none;
+}
+/* mengatur semua yang ada didalam Folder */
+
+/* mengatur button save */
+.customer-view.customer-layout1.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .button.button-positive-custom {
+    width: 40%;
+    border-radius: 5px;
+    margin-left: 30%;
+}
+
+/* mengatur halaman login */
+.list .item.item-custom {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 1);
+    border: 2px solid #28b351;
+    margin-bottom: 5px;
+    width: 98%;
+    margin-left: 1%;
+    border-radius: 5px;
+}
+
+/* mengatur tulisan submit pada Form v2 */
+[state="form2-home"] .button.button-positive-custom {
+    width: 30%;
+    border-radius: 5px;
+    margin-left: 35%;
+    margin-bottom: 30px;
+    background: rgb(0,239,146);
+    background: linear-gradient(90deg, rgba(0,239,146,1) 9%, rgba(0,160,253,1) 100%);
+}
+
+/* mengatur tulisan pada menu 2, 3, & 4 agar dekat dengan gambar */
+
+
+[state="form2-home"] .list .item-divider.item-divider-custom {
+    background: rgb(0,239,146);
+    background: linear-gradient(90deg, rgba(0,239,146,1) 9%, rgba(0,160,253,1) 100%);
+    text-align: center;
+}
+
+[state="form2-home"] .item-divider.item-divider-custom.form2-divider.item p {
+    width: 100%;
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+[state="form2-home"] .list .item.item-custom {
+    margin-bottom: 0;
+    border-radius: 0;
+    border: 0;
+}
+
+[ng-click="displayModal(fieldSet)"] {
+    margin: 10px 0;
+    border-radius: 10px !important;
+    background: rgb(0,239,146);
+    background: linear-gradient(90deg, rgba(0,239,146,1) 9%, rgba(0,160,253,1) 100%);
+}
+
+[state="form2-home"] ion-item p.ng-binding:nth-child(7) {
+    overflow: visible !important;
+    text-overflow: initial !important;
+    white-space: normal !important;
+    height: 150px;
+}
+
+/* memberi garis pada pda setiap paragraf di dalam modul Form */
+[state="form2-home"] .list ion-item:nth-child(1) {
+    background: rgb(12,101,170);
+    background: linear-gradient(90deg, rgba(12,101,170,1) 42%, rgba(0,163,249,1) 100%);
+    border-radius: 30px 0;
+    width: 100%;
+}
+
+/* menghilangkan judul pada fitur upload foto pada form */
+[state="form2-home"] .item-custom.upload-title {
+    display: none;
+}
+
+/* mengilangkan background pada item tipe richtext */
+[state="form2-home"] .item-custom.form2-richtext {
+    background: transparent !important;
+}
+/* mengatur lebar pada text tipe input-label */
+[state="form2-home"] #_label-4.input-label {
+    width: 100vw;
+}
+
+/* menambah gambar pada login form */
+[ng-show="display_login_form"] .list:before {
+    background-image: url('https://image.flaticon.com/icons/svg/1177/1177568.svg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 36%;
+    height: 179px;
+    content: "";
+    margin-top: -20px;
+    margin-left: 32%;
+}
+
+[ng-show="display_login_form"]:before {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100%;
+    height: 60px;
+    background: rgb(0,239,146);
+    background: linear-gradient(90deg, rgba(0,239,146,1) 9%, rgba(0,160,253,1) 100%);
+    text-align: center;
+    font-weight: bold;
+    font-size: 5vw;
+    padding-top: 2px;
+    border-radius: 0 0 0 100%;
+    border-bottom: 10px solid;
+    content:"Selamat Datang";
+}
+
+
+[ng-show="display_forgot_password_form"]:before {
+    background-image: url('https://image.flaticon.com/icons/svg/1177/1177568.svg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 10px 20%; 
+    width: 60%;
+    height: 179px;
+    content:""; 
+}
+
+[ng-show="display_forgot_password_form"] [ng-if="!is_logged_in"] {
+    visibility: hidden;
+    position: relative;
+}
+
+[ng-include="'templates/customer/account/l1/register.html'"] [ng-if="!is_logged_in"] {
+    visibility: hidden;
+    position: relative;
+}
+
+[ng-include="'templates/customer/account/l1/register.html'"] [ng-change="onClick()"] {
+    visibility: visible !important;
+    position: relative;
+}
+
+[ng-show="display_login_form"] .item.item-input.item-custom {
+    width: 70%;
+    height: 70px;
+    margin: 5px 15%;
+}
+[ng-show="display_forgot_password_form"] {
+    width: 80%;
+    margin-left: 10%;
+}
+
+[ng-show="display_forgot_password_form"] .padding.text-left,
+[ng-show="display_forgot_password_form"] .padding.text-left p {
+    visibility: hidden !important;
+    position: relative;
+}
+
+[ng-show="display_forgot_password_form"] .padding.text-left:after {
+    visibility: visible !important;
+    position: relative;
+    margin-top: -30px !important;
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin-top: 10px;
+    visibility: visible;
+    position: relative;
+    content: "Masukkan Email Anda";  
+}
+
+.customer-view.customer-layout1 .item.item-input.item-custom {
+    border: 0;
+    border-bottom: 2px solid;
+}
+
+.customer-view.customer-layout1 .item.item-input.item-custom i {
+    display: none;
+}
+
+.customer-view.customer-layout1 .item.item-input.item-custom input {
+    text-align: center;
+}
+
+.customer-view.customer-layout1 .padding.text-right .bold.positive {
+    visibility: hidden;
+}
+
+.customer-view.customer-layout1 .padding.text-right .bold.positive:after {
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin-top: -6vh !important;
+    visibility: visible;
+    position: relative;
+    content: "Lupa Kata Sandi?";
+}
+
+[ng-show="display_login_form"] .padding {
+    visibility: hidden;
+}
+
+[ng-if="myAccount.settings.enable_registration"]:after {
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin-top: 10px;
+    visibility: visible;
+    position: relative;
+    content: "Belum Punya Akun? Daftar DI SINI";
+}
+
+[ng-click="displayLoginForm()"]:after {
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin-top: 10px;
+    visibility: visible;
+    position: relative;
+    content: "Sudah Punya Akun? Login DI SINI";  
+}
+
+.customer-view.customer-layout1 input.text-right.ng-pristine.ng-untouched.ng-valid.ng-empty {
+    text-align: right !important;
+}
+
+/* menghilangkan pilihan ubah kata sandi by default */
+.customer-view.customer-layout1 #_label-14.input-label .ng-binding {
+    visibility: hidden;
+}
+
+.customer-view.customer-layout1 #_label-14.input-label [ng-show="!customer.change_password"]:after {
+    width: 100vh;
+    content: "Kata Sandi";
+}
+/* menghilangkan pilihan ubah kata sandi by default */
+
+/* menghilangkan border pada pilihan persyaratan layanan dan pemberitahuan */
+.customer-view.customer-layout1 .checkbox-custom.item-checkbox {
+    border: 0;
+}
+/* menghilangkan border pada pilihan persyaratan layanan dan pemberitahuan */
+
+/* menambah gambar + (plus) pada gamabr profil */
+.customer-view.customer-layout1 .avatar:after {
+    content: url('https://img.icons8.com/color/48/000000/plus--v1.png');
+    top: -5vh !important;
+    position: relative;
+}
+
+/* menambah tulisan My Account */
+.customer-view.customer-layout1 .avatar:before {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+    background: rgb(0,239,146);
+    background: linear-gradient(90deg, rgba(0,239,146,1) 9%, rgba(0,160,253,1) 100%);
+    text-align: center;
+    font-weight: bold;
+    font-size: 5vw;
+    padding-top: 2px;
+    border-radius: 0 0 0 90%;
+    border-bottom: 10px solid;
+    content:"My Account";
+}
+
+.customer-view.customer-layout1 .padding {
+    padding: 0 !important;
+}
+
+.customer-layout1 .customer-image {
+    margin-top: 10px;
+}
+/* menambah gambar + (plus) pada gamabr profil */
+
+/* mengatur bagian registen akun baru */
+[ng-include="'templates/customer/account/l1/register.html'"] [ng-click="showPrivacyPolicy()"] {
+    visibility: visible !important;
+    position: relative;
+    color: #fff;
+}
+
+[ng-include="'templates/customer/account/l1/register.html'"] .padding.text-right .bold.positive:after {
+    display: none;
+}
+
+[ng-click="showPrivacyPolicy()"] .bold.positive.positive-custom.ng-binding{
+    visibility: visible !important;
+    color: #28b351 !important;
+    text-align: center;
+    width: 100vw;   
+}
+
+[ng-include="'templates/customer/account/l1/register.html'"] .padding.text-right {
+    visibility: visible !important;
+    color: #fff !important;
+    text-align: center;
+    width: 100vw;    
+}
+/* mengatur bagian registen akun baru */
+
+/* menghilangkan border pada button ganti password my account */
+[ng-click="customer.change_password = !customer.change_password"] {
+    border: 0 !important;
+}
+/* menghilangkan border pada button ganti password my account */
+
+/* menghilangkan kata ganti password di my account */
+[ng-click="customer.change_password = !customer.change_password"] {
+  display: none;
+}
+/* menghilangkan kata ganti password di my account */
+/* akhir dari module my account */
+
+/* awal dari Place View: mengatur semua profil, alamat, gambar, slider, dkk. */
+[state="places-view"] [ng-if="place.picture && place.show_image"] {
+    background-color: transparent;
+}
+
+[state="places-view"] .card.no-shadow {
+    width: 70%;
+    margin-left: 15%;
+    border: 2px solid #fff;
+    border-radius: 10%;
+}
+
+[state="places-view"] .content p {
+    text-align: center;
+}
+
+ul[rn-carousel]>li {
+    padding: 20px;
+}
+
+[ng-if="block.address"] {
+    text-align: center;
+    font-weight: normal;
+    font-size: 12px !important;
+}
+
+[state="places-view"] .card .item.item-text-wrap.item-icon-left.item-custom.ng-binding {
+    background: rgb(12,101,170);
+    background: linear-gradient(90deg, rgba(12,101,170,1) 42%, rgba(0,163,249,1) 100%);
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 10px;
+    text-align: center;
+    height: 60px;
+    padding: 20px;
+
+}
+/* awal dari Place View: mengatur semua profil, alamat, gambar, slider, dkk. */
+
+/* mengatur bagian history dari form */
+.module-form2.form2-modal.form2-display-modal.modal .list .item-divider.item-divider-custom {
+    background: rgb(0,239,146);
+    background: linear-gradient(90deg, rgba(0,239,146,1) 9%, rgba(0,160,253,1) 100%);
+    border-radius: 0 0 30px 30px;   
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.module-form2.form2-modal.form2-display-modal.modal .list .item.item-custom {
+    border: 0;
+}
+/* mengatur bagian history dari form */
+
+/* memberi warna icon dan mengatur item di bagian bawah form */
+.module-form2.form2.form2-home.form2-home-l1 .tabs.tabs-icon-top {
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 30px 0 30px 0;
+    margin-bottom: 5px;
+    background: rgb(0,239,146);
+    background: linear-gradient(90deg, rgba(0,239,146,1) 9%, rgba(0,160,253,1) 100%);
+}
+
+.module-form2.form2.form2-home.form2-home-l1 .ion-android-list:before,
+.module-form2.form2.form2-home.form2-home-l1 .ion-archive::before,
+.module-form2.form2.form2-home.form2-home-l1 .tab-item.ng-binding {
+    color: #fff;
+    opacity: 100%;
+}
+/* memberi warna icon dan mengatur item di bagian bawah form */
+
+/* menghilangkan judul di bagian header*/
+.bar.bar-custom .title {
+    display: none;
+}
+/* menghilangkan judul di bagian header */
+
+/* mengatur bagian profil penyedia jasa */
+[state="places-view"] .place-block:nth-child(1):before {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+    background: rgb(0,239,146);
+    background: linear-gradient(90deg, rgba(0,239,146,1) 9%, rgba(0,160,253,1) 100%);
+    text-align: center;
+    font-weight: bold;
+    font-size: 5vw;
+    padding-top: 2px;
+    border-radius: 0 0 0 100%;
+    border-bottom: 10px solid;
+    content:"Profil Penyedia Jasa";
+}
+.item.item-text-wrap.item-icon-left.item-custom.sb-cms-block-address-locate .sb-cms-address-address.ng-binding {
+    margin: 0 0 10px -15px;
+    margin-left: -15px;
+}
+/*
+.item.item-text-wrap.item-icon-left.item-custom.sb-cms-block-address-locate .icon.ion-sb-turn-right {
+    width: 100%;
+    visibility: hidden;
+    position: relative;
+    margin-top: -15px;
+}
+
+.item.item-text-wrap.item-icon-left.item-custom.sb-cms-block-address-locate .icon.ion-sb-turn-right:after {
+    width: 100%;
+    visibility: visible;
+    position: relative;
+    margin-left: -15px;
+    content: url("https://img.icons8.com/plasticine/50/000000/worldwide-location.png");
+}
+
+.item.item-text-wrap.item-icon-left.item-custom.sb-cms-block-address-locate .icon.ion-sb-turn-right:before {
+    margin-left: 30%;
+    margin-bottom: 50px;
+} */
+/* mengatur bagian profil penyedia jasa */
+
+/* mengatur bagian halaman beranda */
+.module-folder2.folder2-layout1 .item.item-image.item-custom  {
+    padding: 50px 80px 0 80px;
+    height: 170px
+}
+
+.module-folder2.folder2-layout1 .item.item-image.item-custom img {
+    width: 80%;
+}
+
+.module-folder2.folder2-layout1 .list.card:first-child {
+    margin-bottom: 40px;
+    border-radius: 0 0 0 50%;
+    background: rgb(0,239,146);
+    background: linear-gradient(90deg, rgba(0,239,146,1) 9%, rgba(0,160,253,1) 100%);
+    width: 100% !important;
+    margin-left: 0 !important;
+    border: 0;
+    box-shadow: none;
+}
+/* mengatur bagian halaman beranda */
+
+/* memberi warna pada bagian header */
+.bar.bar-custom {
+    background-size: 100% 100%; 
+    background: rgb(0,239,146);
+    background: linear-gradient(90deg, rgba(0,239,146,1) 9%, rgba(0,160,253,1) 100%);
+}
+/* mengatur warna pada bagian header */
+
+.module-places .place-33:nth-child(1) .card,
+.module-places .place-33:nth-child(2) .card,
+.module-places .place-33:nth-child(3) .card {
+    margin: 5vh 2vw 3vh 0;
+    height: 20vh;
+}
+
+.module-places .place-33:nth-child(4) .card,
+.module-places .place-33:nth-child(5) .card,
+.module-places .place-33:nth-child(6) .card {
+    margin: 0 2vw 3vh 0;
+    height: 20vh;
+}
+
+.module-folder2.folder2-layout1 .scroll-content.ionic-scroll.overflow-scroll.has-header {
+  top: 0 !important;
+}
+
+.module-places .search-action {
+    width: 7vh;
+    height: 7vh;
+    bottom: 2vh;
+    right: 2vh;
+}
+
+/* menghilangkan judul/nama slider di profil penyedia jasa */
+[ng-if="block.description"] {
+  display: none;
+}
+
+/* menghilangkan border di setiap item push notifikasi */
+.module-push.push-list.push-list-l1 .list .item.item-custom {
+  border: 0;
+}
+
+.module-push.push-list.push-list-l1 .list:before {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100vw;
+    height: 60px;
+    background: rgb(0,239,146);
+    background: linear-gradient(90deg, rgba(0,239,146,1) 9%, rgba(0,160,253,1) 100%);
+    text-align: center;
+    font-weight: bold;
+    font-size: 5vw;
+    padding-top: 2px;
+    border-radius: 0 0 0 100%;
+    border-bottom: 10px solid;
+    line-height: 30px;
+    content: "Info Go-Fix";    
+}
+
+.module-form2.form2.form2-home.form2-home-l1 .list:before {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100vw;
+    height: 60px;
+    background: rgb(0,239,146);
+    background: linear-gradient(90deg, rgba(0,239,146,1) 9%, rgba(0,160,253,1) 100%);
+    text-align: center;
+    font-weight: bold;
+    font-size: 5vw;
+    padding-top: 2px;
+    border-radius: 0 0 0 90%;
+    border-bottom: 10px solid;
+    line-height: 30px;
+    margin-bottom: 10px;
+    content: "";    
+}
+
+.sourcecode-view .scroll:before {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100vw;
+    height: 60px;
+    background: rgb(0,239,146);
+    background: linear-gradient(90deg, rgba(0,239,146,1) 9%, rgba(0,160,253,1) 100%);
+    text-align: center;
+    font-weight: bold;
+    font-size: 5vw;
+    padding-top: 2px;
+    border-radius: 0 0 0 100%;
+    border-bottom: 10px solid;
+    line-height: 30px;
+    margin-bottom: 10px;
+    content: "Buat Pembayaran";    
+}
+
+/* modifikasi tampilan padlock */
+.padlock-view .card {
+  margin: 0;
+  padding: 0;
+}
+
+.padlock-view .card.padlock:before {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100vw;
+    height: 60px;
+    background: rgb(0,239,146);
+    background: linear-gradient(90deg, rgba(0,239,146,1) 9%, rgba(0,160,253,1) 100%);
+    text-align: center;
+    font-weight: bold;
+    font-size: 5vw;
+    padding-top: 2px;
+    border-radius: 0 0 0 100%;
+    border-bottom: 10px solid;
+    line-height: 30px;
+    margin-bottom: 10px;
+    content: "Selamat Datang"; 
+}
+
+/*Padlock begin*/
+
+ion-view[state="padlock-view"] ion-content div.scroll > div.card.padlock {
+  display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+  box-shadow: none;
+}
+
+ion-view[state="padlock-view"] ion-content div.scroll div.card.padlock div.item.item-body.item-custom.text-center > i {
+  visibility: hidden;
+}
+
+ion-view[state="padlock-view"] ion-content div.card.padlock > div.item.item-body.item-custom.text-center {
+    overflow: hidden;
+    background-image: url(https://image.flaticon.com/icons/svg/1177/1177568.svg) !important; /*You can change this URL to your GIF or image URL*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    order: 1;
+    visibility: visible !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    height: 179px;
+}
+
+ion-view[state="padlock-view"] ion-content div.scroll div.card.padlock > div.item.item-text-wrap.item-custom {
+    order: 2;
+    text-align: center;
+    background: #00ef92;
+    background: linear-gradient(90deg, rgba(0, 239, 146, 1) 9%, rgba(0, 160, 253, 1) 100%);
+    margin-top: 0px;
+    border: none;
+    padding-bottom: 0px;
+    border-top: 10px solid;
+    border-radius: 0 50%;
+}
+
+ion-view[state="padlock-view"] ion-content div.scroll div.card.padlock > div:nth-child(4) {
+    order: 3;
+    border: none;
+    margin: 0px 10px 10px 10px;
+    text-align: center;
+    background-color: #61a8ff;
+    text-transform: uppercase;
+    border-radius: 0px 0px 15px 15px;
+    font-weight: bold;
+    color: black;
+    padding-left: 16px;
+}
+
+ion-view[state="padlock-view"] ion-content div.scroll div.card.padlock > div:nth-child(4):before {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border: 1px solid lightgrey;
+  background-color: lightgrey;
+  border-radius: 15px;
+}
+
+i.icon.ion-ios-personadd-outline {
+  display: none;
+}
+
+ion-view[state="padlock-view"] ion-content div.scroll div.card.padlock div.item.item-text-wrap.item-custom > h2 {
+  visibility: hidden;
+}
+
+ion-view[state="padlock-view"] ion-content div.scroll div.card.padlock div.item.item-text-wrap.item-custom > h2:after {
+    visibility: visible;
+    content: "Klik LOGIN OR SIGNUP untuk melakukan registrasi sebagai member.";
+    display: block;
+    width: 100%;
+    position: relative;
+    bottom: 20px;
+    padding-top: 35px;
+    padding-bottom: 20px;  
+}
+
+i.icon.ion-ios-person-outline {
+  display: none;
+}
+
+ion-view[state="padlock-view"] ion-content div.scroll div.card.padlock > div:nth-child(5) {
+  padding-left: 16px;
+    text-align: center;
+    border: none;
+    text-transform: uppercase;
+    background-color: #ff6961;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+ion-view[state="padlock-view"] ion-content div.scroll div.card.padlock > div:nth-child(5):before {
+   content: " ";
+  position: absolute;
+  z-index: -1;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border: 1px solid lightgrey;
+  background-color: lightgrey;
+  border-radius: 15px;
+}
+
+i.icon.ion-ios-paper-outline {
+  display: none;
+}
+
+ion-view[state="padlock-view"] ion-content div.scroll div.card.padlock > div:nth-child(3) {
+  display: block;
+}
+
+ion-view[state="padlock-view"] ion-content div.scroll div.card.padlock > div:nth-child(3) > div:nth-child(1) {
+  padding-left: 12px;
+    text-align: center;
+    background-color: #11c1f3;
+    margin: 0;
+}
+
+ion-view[state="padlock-view"] ion-content div.scroll div.card.padlock > div:nth-child(3) > div.item.item-icon-left.item-custom.ng-binding {
+    padding-left: 12px;
+    text-align: center;
+    background-color: #11c1f3;
+    border: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+ion-view[state="padlock-view"] ion-content div.scroll div.card.padlock > div:nth-child(3) > div.item.item-icon-left.item-custom.ng-binding:before {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: 10px;
+  left: 50px;
+  right: 50px;
+  bottom: 10px;
+  border-radius: 15px;
+}
+
+
+/* header */
+.bar.bar-custom {
+    background: rgb(0,239,146);
+    background: linear-gradient(90deg, rgba(0,239,146,1) 9%, rgba(0,160,253,1) 100%);
+}
+
+/* hidde page title */
+.nav-bar-title.ng-binding {
+  display: none;
+}
+
+
+.module-push.push-list.push-list-l1 .list .item.item-custom {
+    border-color: #81C784;
+    background-color: #009688;
+    color: rgba(255, 255, 255, 1);
+    width: 96%;
+    margin-left: 2%;
+    border: none;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 5px 10% 5px 10%;
+}
+
+.module-push.push-list.push-list-l1 .list:before {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100vw;
+    height: 60px;
+    background: rgb(0,239,146);
+    background: linear-gradient(90deg, rgba(0,239,146,1) 9%, rgba(0,160,253,1) 100%);
+    text-align: center;
+    font-weight: bold;
+    font-size: 5vw;
+    padding-top: 2px;
+    border-radius: 0 0 0 100%;
+    border-bottom: 10px solid #fff;
+    line-height: 30px;
+    margin-bottom: 10px;
+    content: "Notification"; /* replace with your own */
+}
+.module-push.push-list.push-list-l1 [ng-if="item.picture"] {
+    width: 100vw !important;
+    margin-left: -21%;
+}
+
+.module-push.push-list.push-list-l1 [ng-if="item.details.date"] i:before {
+	display: none;
+}
+
+.module-push.push-list.push-list-l1 [ng-if="item.icon"] {
+	width: 50px;
+  	height: 50px;
+  	max-width: 50px;
+    max-height: 50px;
+  	left: 5px;
+  	top: 5px;
+}
+
+.module-push.push-list.push-list-l1 [ng-if="item.details"] {
+  	width: 100vw;
+    margin-left: -21%;
+  	text-align: center;
+}
+
+.module-push.push-list.push-list-l1 [ng-if="hasItem(item)"] {
+  visibility: hidden;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10%;
+}
+.module-push.push-list.push-list-l1 [ng-if="hasItem(item)"]:after {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 2%;
+  visibility: visible;
+  float: right;
+  content: url('https://img.icons8.com/ios-glyphs/30/000000/menu-2.png');
+}
+
+
+.module-push.push-list.push-list-l1 [ng-if="item.message"] {
+  	width: 100vw;
+    margin-left: -21%;
+  	text-align: center;
+  	margin-top: 20px;
+  	padding: 10px 30px 10px 10px;
+}
+
+.module-push.push-list.push-list-l1 .item-custom.item.item-avatar h2 {
+	margin-top: 10px;
+}
+

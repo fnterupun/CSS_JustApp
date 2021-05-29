@@ -1,0 +1,243 @@
+[state="home"] {
+    background-image: none !important;
+    background-color: #f0ebe7 !important;
+}
+
+[state="home"]>ion-content:before {
+	content: ".";
+   	display: block;
+   	width: 100%;
+  	color: #f8e71d;
+  	background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/bg-3.png);
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top 25px;
+    height: 180px;
+    top: 0vh !important;
+    border-radius: 0 0 20px 20px;
+    width: 100% !important;
+    background-color: #f8e71d;
+    position: absolute;
+    z-index: -999;
+}
+
+div.new_slider {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 94% !important;
+    border-radius: 10px;
+    margin-left: 3%;
+  	height: 25vh;
+    top: 11vh !important;
+    opacity: 1;
+    box-shadow: 0 1px 2px 0 #d0d0d0, 0 1px 3px 1px #cbcbcb;
+  	position: absolute;
+    z-index: 999;
+  	margin-top: 0 !important;
+}
+
+
+div#homepage_slider .slider-pager.hide {
+    display: inline !important;
+    top: 37vh;
+}
+
+div#homepage_slider span.slider-pager-page.active {
+    background-color: #f5851b;
+    width: 30px;
+    font-size: 0;
+    padding: 0;
+    height: 10px;
+    max-height: 10px;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+div#homepage_slider span.slider-pager-page {
+    background-color: #f8dfb4;
+    width: 15px;
+    font-size: 0;
+    padding: 0;
+    height: 10px;
+    max-height: 10px;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.layout.l3 ion-content {
+    position: absolute;
+    width: 100%;
+    height: 57%;
+    padding-bottom: var(--safe-area-inset-bottom);
+    bottom: 0;
+    top: initial;
+}
+
+.layout.l3 ul {
+    padding-left: 0;
+    padding-top: 4px;
+}
+
+.layout.l3 li {
+    float: left;
+    width: 23%;
+    height: 100px;
+    margin: 5px 1%;
+}
+
+.layout.l3 ul li:nth-last-child(1):after {
+  	content: ".";
+    padding-bottom: 100px;
+  	display: block;
+  	color: #fff;
+}
+
+/* MENU KE-8 - 1 */
+.layout.l3 li:nth-child(-n+8) .item.homepage-custom.border-custom {
+	border-radius: 10px !important;
+    background-color: #fff;
+    border: 0;
+    box-shadow: 0 1px 2px 0 #ecf0f6, 0 1px 3px 1px #ecf0f6;
+    width: 9vh;
+    height: 9vh;
+}
+
+.layout.l3 li p {
+    line-height: 20px;
+    height: 20px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #000;
+    text-transform: capitalize;
+    white-space: normal;
+  	margin-top: 5px;
+}
+
+/* MENU KE-9 - 12 */
+ .layout.l3 li:nth-child(9),
+ .layout.l3 li:nth-child(10),
+ .layout.l3 li:nth-child(11),
+ .layout.l3 li:nth-child(12) {
+	border-radius: 10px !important;
+  	background-color: #345289;
+  	border: 0;
+    box-shadow: 0 1px 2px 0 #d0d0d0, 0 1px 3px 1px #cbcbcb;
+    float: left;
+    width: 48% !important;
+    height: 90px;
+    margin: 20px 1% 5px 1%;
+}
+
+ .layout.l3 li:nth-child(9) .item.homepage-custom.border-custom,
+ .layout.l3 li:nth-child(10) .item.homepage-custom.border-custom,
+ .layout.l3 li:nth-child(11) .item.homepage-custom.border-custom,
+ .layout.l3 li:nth-child(12) .item.homepage-custom.border-custom {
+	display: none;
+}
+
+ .layout.l3 li:nth-child(9) p,
+ .layout.l3 li:nth-child(10) p,
+ .layout.l3 li:nth-child(11) p,
+ .layout.l3 li:nth-child(12) p {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    padding: 10px;
+    height: 100%;
+    background-color: #fff;
+    width: 90%;
+    border-radius: 10px 48% 0 10px;
+    top: 0 !important;
+    margin: 0 !important;
+  	color: #f14c3a !important;
+}
+
+/* text after p */
+ .layout.l3 li:nth-child(9) p:after {
+	content: "Lorem ipsum, atau ringkasnya lipsum";
+   	display: block;
+   	width: 100%;
+   	font-size: 12px;
+   	font-weight: normal;
+   	color: #345289;
+   	margin-top: 5px;
+}
+
+ .layout.l3 li:nth-child(10) p:after {
+	content: "Lorem ipsum, atau ringkasnya lipsum";
+   	display: block;
+   	width: 100%;
+   	font-size: 12px;
+   	font-weight: normal;
+   	color: #345289;
+   	margin-top: 5px;
+}
+
+ .layout.l3 li:nth-child(11) p:after {
+	content: "Lorem ipsum, atau ringkasnya lipsum";
+   	display: block;
+   	width: 100%;
+   	font-size: 12px;
+   	font-weight: normal;
+   	color: #345289;
+   	margin-top: 5px;
+}
+
+ .layout.l3 li:nth-child(12) p:after {
+	content: "Lorem ipsum, atau ringkasnya lipsum";
+   	display: block;
+   	width: 100%;
+   	font-size: 12px;
+   	font-weight: normal;
+   	color: #345289;
+   	margin-top: 5px;
+}
+
+
+/* MENU KE-13 dst. */
+ .layout.l3 li:nth-child(n+13) {
+	border-radius: 10px !important;
+  	background-color: #345289;
+  	border: 0;
+    box-shadow: 0 1px 2px 0 #d0d0d0, 0 1px 3px 1px #cbcbcb;
+    float: left;
+    width: 96% !important;
+    height: 90px;
+    margin: 20px 2% 5px 2%;
+}
+
+.layout.l3 li:nth-child(n+13) .item.homepage-custom.border-custom {
+	display: none;
+}
+
+.layout.l3 li:nth-child(n+13) p {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    padding: 10px;
+    height: 100%;
+    background-color: #fff;
+    width: 98%;
+    border-radius: 10px 48% 10px 10px;
+    top: 0 !important;
+    margin: 0 !important;
+  	color: #f14c3a !important;
+}
+
+.layout.l3 li:nth-child(n+13) p:after {
+    content: "More";
+    display: block;
+    margin-top: 10px;
+    background-color: #345289;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    margin-left: 70%;
+    color: #fff;
+    font-weight: normal;
+    font-size: 14px;
+}

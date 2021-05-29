@@ -1,0 +1,125 @@
+/* shadow layout 1 */
+.always .layout.l1 .tabs {
+    box-shadow: none;
+    background-color: #ecf0f6;
+}
+
+ion-view.emenu.emenu-home .list .item.item-custom {
+    padding: 0;
+    margin: 0;
+}
+
+ion-view.emenu.emenu-home ion-item.item-custom.item-body.text-center.remove-border.item .row:nth-child(1)  {
+  	white-space: nowrap !important;
+    width: 100% !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    white-space: nowrap !important;
+  -webkit-overflow-scrolling: touch !important;
+}
+
+ion-view.emenu.emenu-home ion-item.item-custom.item-body.text-center.remove-border.item .row:nth-child(1) {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+ion-view.emenu.emenu-home ion-item.item-custom.item-body.text-center.remove-border.item .row:nth-child(1) .col-50 {
+	width: 100% !important;
+    min-width: 39% !important;
+    display: inline-block !important;
+    height: 120px;
+    background-color: #ededed;
+    margin: 10px;
+    border-radius: 4px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 44% !important;
+    padding: 0;
+  	padding-top: 20px;
+}
+
+ion-view.emenu.emenu-home .list .item-divider.item-divider-custom {
+    text-align: left;
+    font-family: 'Poppins';
+    font-size: 20px;
+    padding-left: 15px;
+  	font-weight: bold;
+}
+
+ion-view.emenu.emenu-home ion-item.item-custom.item-body.text-center.remove-border.item h2.ng-binding {
+    margin: 20px 0 !important;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 0;
+}
+
+ion-view.emenu.emenu-home ion-item.item-custom.item-body.text-center.remove-border.item i {
+	color: #3498db;
+}
+
+/*
+ion-view.emenu.emenu-home ion-item.item-divider.item-divider-custom.text-center.remove-border.item.ng-binding:after {
+    content: "More";
+    float: right;
+    font-size: 14px;
+    color: #3498db;
+    text-transform: uppercase;
+  	margin-right: 10px;
+} */
+
+ion-view.emenu.emenu-home ion-item.item-custom.item-body.text-center.remove-border.item .row:nth-child(2)  {
+  	white-space: nowrap !important;
+    width: 100% !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    white-space: nowrap !important;
+  -webkit-overflow-scrolling: touch !important;
+}
+
+ion-view.emenu.emenu-home ion-item.item-custom.item-body.text-center.remove-border.item .row:nth-child(2) {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+ion-view.emenu.emenu-home ion-item.item-custom.item-body.text-center.remove-border.item .row:nth-child(2) .col-50 {
+    width: 100% !important;
+    min-width: 45% !important;
+    display: inline-block !important;
+    height: 120px;
+    background-color: #ededed;
+    margin: 10px 2%;
+    border-radius: 10px;
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/tim-bogdanov-4uojMEdcwI8-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+ion-view.emenu.emenu-home ion-item.item-custom.item-body.text-center.remove-border.item:last-child {
+    background-color: #ecf0f6;
+}
+
+ion-view.emenu.emenu-home .list ion-item:nth-child(6) {
+    background: #ecf0f6 !important;
+    border-radius: 0% 90% 0 0 / 31% 74% 0 0;
+    padding-top: 35px;
+}
+
+
+background-size: 100% 50px !important;
+    height: 50px !important;
+
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxNzVweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik0zMjAgMjhjMzIwIDAgMzIwIDg0IDY0MCA4NCAxNjAgMCAyNDAtMjEgMzIwLTQydjcwSDBWNzBjODAtMjEgMTYwLTQyIDMyMC00MnoiLz48L2c+PC9zdmc+);
+    background-size: 100% 175px;
+    bottom: 0;
+    height: 175px;
+    z-index: 1;
+
+    url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIyMTBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik0wIDQ3LjQ0TDE3MCAwbDYyNi40OCA5NC44OUwxMTEwIDg3LjExbDE3MC0zOS42N1YxNDBIMFY0Ny40NHoiIGZpbGwtb3BhY2l0eT0iLjUiLz48cGF0aCBkPSJNMCA5MC43MmwxNDAtMjguMjggMzE1LjUyIDI0LjE0TDc5Ni40OCA2NS44IDExNDAgMTA0Ljg5bDE0MC0xNC4xN1YxNDBIMFY5MC43MnoiLz48L2c+PC9zdmc+)
+
+    

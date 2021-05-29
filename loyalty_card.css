@@ -1,0 +1,137 @@
+ion-view[state="loyaltycard-view"] .item.item-text-wrap.item-icon-left.item-custom {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ion-view[state="loyaltycard-view"] .item.item-text-wrap.item-icon-left.item-custom i {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+ion-view[state="loyaltycard-view"] .item.item-text-wrap.item-custom {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+ion-view[state="loyaltycard-view"] .points.text-center a.point.loyaltycard {
+    width: 96%;
+    display: block;
+    margin: 5px 2%;
+    padding: 0;
+  	background-color: #eaeaea;
+  	border-radius: 5px;
+  	padding-bottom: 5px;
+  	height: 120px;
+  	padding-top: 5px;
+  	background-image: url("https://image.freepik.com/free-vector/abstract-white-shapes-background_79603-1362.jpg");
+  	background-position: bottom right 5px;
+  	background-repeat: no-repeat;
+  	background-size: 100%;
+}
+
+ion-view[state="loyaltycard-view"] .points.text-center a.point.loyaltycard img {
+    width: 100px;
+    margin: 5px 2%;
+    border: 10px;
+    height: 100px;
+  	border-radius: 10px;
+  	float: left;
+}
+
+ion-view[state="loyaltycard-view"] .points.text-center a.point.loyaltycard:after {
+	content: "Use Point";
+    text-align: center;
+    color: blue;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 40%;
+    display: block;
+    padding: 10px 5px;
+    background-color: #ecf0f6;
+    border-radius: 5px;
+    margin: 5px 2% 5px 58%;
+    border: 2px solid #ffffff;
+}
+
+ion-view[state="loyaltycard-view"] .ion-pricetag:before {
+	display: none !important;
+}
+
+@media screen (min-width: 450px) {
+ion-view[state="loyaltycard-view"] .points.text-center a.point.loyaltycard {
+    width: 96%;
+    display: block;
+    margin: 5px 2%;
+    padding: 0;
+    background-color: #ecf0f6;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    height: 120px;
+    padding-top: 5px;
+    background-image: url(https://image.freepik.com/free-vector/abstract-white-shapes-background_79603-1362.jpg);
+    background-position: bottom right 5px;
+    background-repeat: no-repeat;
+    background-size: 120px;
+}
+}
+
+ion-view[state="loyaltycard-view"] div.list div.item.item-text-wrap.item-icon-left.item-custom.ng-binding {
+    width: 60%;
+    margin: 10px 20%;
+    background-color: #ecf0f6;
+    border-radius: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #f30707;
+}
+
+ion-view[state="loyaltycard-view"] div.list div.item.item-text-wrap.item-icon-left.item-custom.ng-binding .ion-ios-person-outline:before {
+	display: none;
+}
+
+ion-view[state="loyaltycard-view"] div.item.item-text-wrap.item-icon-left.item-custom div p {
+	border: 2px solid #ecf0f6;
+    border-radius: 5px;
+    padding: 10px 5px;
+    width: 96%;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    background-color: #ecf0f6;
+}
+
+ion-modal-view.loyaltycard-view button.button.button-custom.button-block.ng-binding {
+    width: 60%;
+    border: 0;
+    background-color: #ecf0f6;
+    margin-left: 20%;
+    text-transform: uppercase;
+    color: red;
+}
+
+ion-modal-view.loyaltycard-view .dots .dot {
+    width: 30px;
+    height: 15px;
+    display: inline-block;
+    margin: 0 7px;
+    border-radius: 2ex;
+    background-color: #ecf0f6;
+    border: 0;
+}
+
+ion-modal-view.loyaltycard-view .list.pad .buttons button {
+    color: #298EB2;
+  	border-color: #298EB2;
+}

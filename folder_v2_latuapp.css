@@ -1,0 +1,167 @@
+/* FOLDER V2 */
+.folder-layout.folder-l4 .folder-l4-row div.folder-l4-col {
+    padding: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    width: 45% !important;
+    max-width: 45% !important;
+    flex: 0 0 45% !important;
+    margin: 10px 2.5%;
+    border-radius: 30px;
+	background: rgb(96,166,99);
+	background: linear-gradient(90deg, rgba(96,166,99,1) 0%, rgba(85,127,84,1) 100%) !important;
+}
+
+/* START FIRTS ROW */
+/* first 1th row child */
+.folder-layout.folder-l4 .folder-l4-row:nth-child(1) div.folder-l4-col:nth-child(1) img {
+    width: 100%;
+    position: relative;
+    z-index: 999;
+    visibility: visible !important;
+    display: inline;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/05/reader-outline-1.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+
+/* last 1th row child */
+.folder-layout.folder-l4 .folder-l4-row:nth-child(1) div.folder-l4-col:nth-child(2) img {
+    width: 100%;
+    position: relative;
+    z-index: 999;
+    visibility: visible !important;
+    display: inline;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/like_user-1.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+/* END FIRTS ROW */
+
+
+/* START SECOND ROW */
+/* first 2nd row child */
+.folder-layout.folder-l4 .folder-l4-row:nth-child(2) div.folder-l4-col:nth-child(1) img {
+    width: 100%;
+    position: relative;
+    z-index: 999;
+    visibility: visible !important;
+    display: inline;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/like_user.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+
+/* last 2nd row child */
+.folder-layout.folder-l4 .folder-l4-row:nth-child(2) div.folder-l4-col:nth-child(2) img {
+    width: 100%;
+    position: relative;
+    z-index: 999;
+    visibility: visible !important;
+    display: inline;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/comment.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+/* END 2nd ROW */
+
+
+/* START 3th ROW */
+/* first 3th row child */
+.folder-layout.folder-l4 .folder-l4-row:nth-child(3) div.folder-l4-col:nth-child(1) img {
+    width: 100%;
+    position: relative;
+    z-index: 999;
+    visibility: visible !important;
+    display: inline;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/sharing-1.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+
+/* last 3th row child */
+.folder-layout.folder-l4 .folder-l4-row:nth-child(3) div.folder-l4-col:nth-child(2) img {
+    width: 100%;
+    position: relative;
+    z-index: 999;
+    visibility: visible !important;
+    display: inline;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/05/cart-outline.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+/* END 3th ROW */
+
+
+
+/* START 4th ROW */
+/* first 4th row child */
+.folder-layout.folder-l4 .folder-l4-row:nth-child(4) div.folder-l4-col:nth-child(1) img {
+    width: 100%;
+    position: relative;
+    z-index: 999;
+    visibility: visible !important;
+    display: inline;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/05/bag-handle-outline.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+
+/* last 4th row child */
+.folder-layout.folder-l4 .folder-l4-row:nth-child(4) div.folder-l4-col:nth-child(2) img {
+    width: 100%;
+    position: relative;
+    z-index: 999;
+    visibility: visible !important;
+    display: inline;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/05/person-outline.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+/* END 4th ROW */
+
+
+
+/* START 5th ROW */
+/* first 5th row child */
+.folder-layout.folder-l4 .folder-l4-row:nth-child(5) div.folder-l4-col:nth-child(1) img {
+    width: 100%;
+    position: relative;
+    z-index: 999;
+    visibility: visible !important;
+    display: inline;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/05/grid-outline.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+
+/* last 5th row child */
+.folder-layout.folder-l4 .folder-l4-row:nth-child(5) div.folder-l4-col:nth-child(2) img {
+    width: 100%;
+    position: relative;
+    z-index: 999;
+    visibility: visible !important;
+    display: inline;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/05/notifications-outline.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+/* END 5th ROW */
+
+

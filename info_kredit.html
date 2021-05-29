@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html xmins="http://www.w3.org/1999/xhtml">
+<head>
+<title></title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+p, h1, h2, h3, h4, h5, h6, span, div {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding-top: 70px;
+}
+
+h1 {
+	margin: 0;
+	line-height: 2;
+	text-align: center;
+}
+
+h2 {
+	margin: 0 0 .5em;
+	font-weight: normal;
+}
+
+input {
+	position: absolute;
+	opacity: 0;
+	z-index: -1;
+}
+
+/* Accordion styles */
+
+.tab {
+	width: 100%;
+	color: white;
+	overflow: hidden;
+    height: auto;
+}
+
+.tab-label {
+	display: flex;
+	justify-content: space-between;
+	background: transparent;
+	font-weight: bold;
+	cursor: pointer;
+    color: #000;
+    padding-left: 40px;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/05/chevron-down-outline.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center right 20px;
+    padding-left: 25px;
+    text-transform: capitalize !important; 
+    font-weight: normal;
+}
+
+
+.tab-content {
+	max-height: 0;
+	padding: 0 1em;
+	color: #2c3e50;
+	background: transparent;
+	transition: all .35s;
+}
+
+.tab-content p {
+    padding-left: 25px;
+    line-height: 1.8;
+    color: #000;
+}
+
+.tab-content ul li {
+    line-height: 1.8;
+}
+
+.tab-close {
+	display: flex;
+	justify-content: flex-end;
+	padding: 1em;
+	font-size: 0.75em;
+	background: transparent;
+	cursor: pointer;
+}
+
+.tab-close:hover {
+	background: transparent;
+}
+
+input:checked + .tab-label {
+    background-color: transparent;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/05/chevron-up-outline.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center right 20px;
+    padding-left: 25px;
+    text-transform: capitalize !important;
+}
+
+input:checked + .tab-label::after {
+	transform: rotate(90deg);
+}
+
+input:checked ~ .tab-content {
+	max-height: 100vh;
+	padding: 1em;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+a {
+  color: white;
+  }
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    color: #000;
+    box-shadow: none;
+    width: 20%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.menu li p {
+    text-align: center;
+    width: 100%;
+    color: #000;
+}
+
+.menu li a img {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+}
+
+.menu li a p {
+    font-size: 12px;
+}
+
+.row h4 {
+    padding-left: 20px;
+}
+
+.header-img img {
+    width: 96%;
+    height: auto;
+    margin-left: 2%;
+    border-radius: 10px;
+}
+
+.kredit-img img {
+    width: 96%;
+    height: auto;
+    margin-left: 2%;
+}
+
+.kredit-img h4 {
+    padding-left: 20px;
+}
+
+</style>
+<body>
+<div class="header-img">
+    <img src="https://www.yamaha-motor.co.id/all-new-nmax/img/banner_03.jpg" alt="gambar-motor">
+</div>
+<div class="row">
+    <h4>Syarat Kredit</h4>
+  <div class="col">
+    <div class="tabs">
+      <div class="tab">
+        <input type="checkbox" id="chck1">
+        <label class="tab-label" for="chck1">Kredit Perorangan</label>
+        <div class="tab-content">
+            <ul>
+                <li>Fotocopy KTP pemohon (suami/istri/penjamin)</li>
+                <li>Fotocopy kartu keluarga</li>
+                <li>Data lain (hanya jika diperlukan)</li>
+            </ul>
+        </div>
+      </div>
+      <div class="tab">
+        <input type="checkbox" id="chck2">
+        <label class="tab-label" for="chck2">Kredit Untuk Perusahan Swasta</label>
+        <div class="tab-content">
+            <ul>
+                <li>FC. KTP Direktur & Komisaris</li>
+                <li>FC. SIUP, NPWP, TDP</li>
+                <li>FC. Akte Pendirian / Perubahan</li>
+                <li>FC. Domisili Perusahaan</li>
+                <li>Surat Kuasa bermaterai 6000 (2 Rangkap)</li>
+            </ul>
+        </div>
+      </div>
+
+      <div class="tab">
+        <input type="checkbox" id="chck3">
+        <label class="tab-label" for="chck3">Kredit Untuk Perusahan Negara</label>
+        <div class="tab-content">
+            <ul>
+                <li>FC. KTP Direktur & Komisaris</li>
+                <li>FC. SIUP, NPWP, TDP</li>
+                <li>FC. Akte Pendirian / Perubahan</li>
+                <li>FC. Domisili Perusahaan</li>
+                <li>Surat Kuasa bermaterai 6000 (2 Rangkap)</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="kredit-img">
+    <h4>List Harga Cash dan Kredit</h4>
+    <img src="https://ensiklopediakesaguan.com/wp-content/uploads/2021/05/info_kredit.png" alt="gambar-kredit">
+</div>
+
+<div class="row">
+    <h4>Hubungi Kami</h4>
+<div class="col-12 menu">
+<ul>
+
+    <!-- WhatsApp-->
+    <li>
+        <a href="whatsapp://send?text=Hello%2C%20JustApp!" target="_system">
+            <img src="https://image.flaticon.com/icons/png/512/2111/2111728.png">
+            <p>Whatsapp</p>
+        </a>
+    </li>
+
+    <!-- Telpon -->
+    <li>
+        <a href="tel://+33012345678" target="_system">
+            <img src="https://image.flaticon.com/icons/svg/273/273501.svg">
+            <p>Telepon</p>
+        </a>
+    </li>
+
+    <li><!-- Sms -->
+        <a href="sms://+3312345678?body=Hello%2C%20JustApp!.">
+            <img src="https://image.flaticon.com/icons/svg/234/234129.svg">
+            <p>SMS</p>
+        </a>
+    </li>
+
+    <!-- Email-->
+    <li>
+        <a href="mailto://a.rutung@csscoder" target="_system">
+            <img src="https://image.flaticon.com/icons/svg/204/204322.svg">
+            <p>Email</p>
+        </a>
+    </li>               
+</ul>
+</div>
+</div>
+</body>
+</html>

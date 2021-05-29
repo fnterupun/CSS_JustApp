@@ -1,0 +1,12 @@
+ion-content#catalogpro-content {
+    z-index: 999;
+    position: relative;
+}
+
+
+.nav-bar-block,
+ion-header-bar.bar-custom.bar.bar-header {
+    z-index: -999;
+    position: absolute;
+    background: transparent !important;
+}

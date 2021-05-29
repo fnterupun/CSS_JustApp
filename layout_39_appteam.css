@@ -1,0 +1,82 @@
+[state="home"] {
+    background-image: none !important;
+    background-color: #f0f0f8;
+}
+
+.layout.l39 ion-slide.slider-slide {
+    background-size: 96%;
+    background-position: center top 60px;
+    background-repeat: no-repeat;
+}
+
+.layout.l39 .slider {
+    height: 50vh;
+    top: 0;
+}
+
+.layout.l39 span.slider-pager-page.active {
+    width: 35px;
+    background-color: #01a5f9;
+    border-radius: 30px;
+    height: 10px;
+}
+
+.layout.l39 span.slider-pager-page.active i {
+  font-size: 0;
+}
+
+
+.layout.l39 span.slider-pager-page {
+    width: 15px;
+    background-color: #011caf;
+    border-radius: 30px;
+    height: 10px; 
+}
+
+.layout.l39 span.slider-pager-page i {
+  font-size: 0;
+}
+
+.layout.l39 .slider-pager {
+    background-color: transparent;
+    padding-top: 15px;
+    height: 30px !important;
+  top: 29vh;
+}
+
+.layout.l39 .slider-pager:after {
+    content: ".";
+    display: block !important;
+    background-image: url(https://ik.imagekit.io/dcjlghyytp1/913c088f3186996bc054abe08f15fe7c?f-auto) !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90px !important;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 10px;
+}
+
+.layout.l39 .r3menu ion-content {
+    position: absolute;
+    width: 100%;
+    height: 45vh;
+    bottom: 0;
+    top: initial;
+    padding-top: 0;
+}
+
+.layout.l39 .r3menu li .item {
+  background-color: transparent;
+}
+
+.layout.l39 .r3menu li {
+    background-color: #fff;
+    float: left;
+    width: 27%;
+    height: 110px;
+    margin: 10px 2% 5px 3%;
+    border-radius: 10px;
+}

@@ -1,0 +1,797 @@
+/* POPUP */
+.popup-container.active .popup {
+    border-radius: 30px !important;
+    box-shadow: none !important;
+}
+
+.platform-browser .popup-buttons,
+.platform-overview .popup-buttons,
+.platform-ios .popup-buttons,
+.platform-android .popup-buttons {
+    text-align: center !important;
+    background-color: transparent !important;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    width: 100% !important;
+    margin: 10px 0 !important;
+    display: inline-block !important;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+}
+
+.platform-browser .popup .popup-head,
+.platform-overview .popup .popup-head,
+.platform-ios .popup .popup-head,
+.platform-android .popup .popup-head {
+    padding: 20px 20px 0;
+    border-bottom: 0;
+    text-align: center !important;
+    font-size: 22px;
+    font-weight: bold !important;
+}
+
+h3.popup-title.ng-binding:before {
+    content: " ";
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/checked.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.platform-browser .popup button.button:first-of-type,
+.platform-overview .popup button.button:first-of-type,
+.platform-ios .popup button.button:first-of-type,
+.platform-android .popup button.button:first-of-type {
+    width: 60% !important;
+    text-align: center !important;
+    border-radius: 30px !important;
+    background-color: #30b826 !important;
+    padding: 10px !important;
+    color: #fff !important;
+    font-size: 16px !important;
+    margin: 10px 0 !important;
+    display: block !important;
+    margin-left: 20% !important;
+}
+
+.platform-browser .popup button.button,
+.platform-overview .popup button.button,
+.platform-ios .popup button.button,
+.platform-android .popup button.button {
+    display: block !important;
+    background-color: #30b826 !important;
+    width: 60% !important;
+    text-align: center !important;
+    padding: 10px !important;
+    border-radius: 30px !important;
+    color: #fff !important;
+    font-size: 16px !important;
+    margin-left: 20% !important;
+}
+
+.platform-browser .popup .popup-body,
+.platform-overview .popup .popup-body,
+.platform-ios .popup .popup-body,
+.platform-android .popup .popup-body {
+    padding: 20px 20px;
+    border-bottom: 0;
+    text-align: center !important;
+}
+
+
+/* FORM V2 */
+/* hide title */
+.bar.bar-custom .title {
+    display: none;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 {
+    background-image: none !important;
+    background-color: #fff !important;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 ion-content {
+    background-color: #fff !important;
+    bottom: 0 !important;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 ng-include img {
+    width: 96% !important;
+    margin: 10px 2%;
+    border-radius: 10px;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 ng-include ion-item.item-divider.item-divider-custom.form2-divider.item {
+    background-color: transparent;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    border: 0;
+    margin-top: 25px;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 ng-include ion-item.item-divider.item-divider-custom.form2-divider.item p.ng-binding{
+    font-weight: bold !important;
+    font-size: 24px !important;
+    height: 100%;
+    line-height: 60px;
+    color: #515151;
+    white-space: normal;
+}
+
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 ion-item.item-custom.form2-richtext.item {
+    border: 0;
+    padding: 0;
+    background: transparent;
+    width: 94%;
+    margin-left: 4%;
+    text-align: left;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 .form2-richtext * {
+    white-space: normal;
+    width: 100%;
+    font-style: italic;
+    color: #7a7a7a !important;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 form2-clickwrap.form2-clickwrap {
+    border: 0 !important;
+    background: transparent;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 form2-clickwrap.form2-clickwrap label {
+    background: transparent !important;
+    border: 0 !important;
+    margin: 10px;
+}
+
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 form2-clickwrap.form2-clickwrap label i:before {
+    background: #ecf0f6 !important;
+    border-color: #ffb300 !important;
+    border-radius: 10px !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 form2-clickwrap.form2-clickwrap label i:after {
+    border-color: #ffb300 !important;
+}
+
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 form2-clickwrap.form2-clickwrap label .item-content.disable-pointer-events h2 span {
+    font-size: 13px;
+    font-weight: normal;
+    color: #2e2e2e !important;
+}
+
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 label.item.item-input.item-custom.form2-text {
+    display: inline-block;
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+}
+
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 ng-include label.item.item-input.item-custom.form2-text .input-label.ng-binding {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    max-width: 100%;
+    font-size: 16px !important;
+    font-weight: bold;
+}
+
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 ng-include>label input {
+    border-bottom: 2px solid #ecf0f6 !important;
+    width: 98% !important;
+    text-align: left !important;
+    padding: 10px !important;
+    height: 50px !important;
+    background-color: #ecf0f6;
+    border-radius: 5px;
+}
+
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 label.item.item-input.item-custom.form2-number {
+    display: inline-block;
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+}
+
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 label.item.item-input.item-custom.form2-number .input-label.ng-binding {
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    background-color: transparent;
+    border: 0;
+    text-align: left;
+    max-width: 98%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 label.item.item-input.item-custom.form2-number input {
+    border-bottom: 2px solid #ecf0f6 !important;
+    width: 96% !important;
+    text-align: left !important;
+    padding: 10px 10px 0 10px !important;
+    height: 50px !important;
+}
+
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 label.item.item-custom.item-input.item-select.form2-select {
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 label.item.item-custom.item-input.item-select.form2-select:after {
+    color: #fff;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 ng-include .form2-radio {
+    background-color: transparent;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 ng-include .form2-radio {
+    margin-top: 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 100% !important;
+    -webkit-overflow-scrolling: touch !important;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 ng-include .form2-radio:-webkit-scrollbar {
+    display: none;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 ng-include .form2-radio label {
+    display: inline-block;
+    border: 0;
+    width: 40%;
+    background-color: #085108 !important;
+    border-radius: 10px;
+    height: 60px;
+    margin: 10px 2%;
+    color: #fff;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 ng-include .form2-radio label  .radio-content {
+    border: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent !important;
+    height: 100%;
+}
+
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 ng-include .form2-radio ion-item.item-custom.radio-title.item.ng-binding {
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 .form2-radio .radio-item .radio-content .item-content {
+    padding: 10px 15px;
+    background: transparent;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 .form2-radio .radio-item input.ng-valid.ng-not-empty.ng-dirty.ng-touched.ng-valid-parse .ion-checkmark:before {
+    color: #ffb300;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 form2-location.form2-geolocation label {
+    background: transparent !important;
+    border: 0;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 form2-location.form2-geolocation label i:before {
+    background: #ecf0f6 !important;
+    border-color: #ffb300 !important;
+    border-radius: 10px !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 form2-location.form2-geolocation label i:after {
+    border-color: #ffb300 !important;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 form2-location.form2-geolocation label span {
+    font-size: 13px;
+    font-weight: normal;
+    color: #2e2e2e !important;
+}
+
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 label.item.item-input.item-custom.item-stacked-label.form2-textarea {
+    display: inline-block;
+    width: 100%;
+    background: transparent;
+    border: 0 !important;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 label.item.item-input.item-custom.item-stacked-label.form2-textarea {
+    display: inline-block;
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+}
+
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 label.item.item-input.item-custom.item-stacked-label.form2-textarea .input-label.ng-binding {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    text-align: left;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 label.item.item-input.item-custom.item-stacked-label.form2-textarea textarea {
+    border-bottom: 2px solid #ecf0f6 !important;
+    width: 96% !important;
+    text-align: left !important;
+    padding: 10px 10px 0 10px !important;
+    height: 50px !important;
+}
+
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 ng-include>label {
+    background: transparent !important;
+    border: 0 !important;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 ng-include>label i:before {
+    background: #ecf0f6 !important;
+    border-color: #ffb300 !important;
+    border-radius: 10px !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 ng-include>label i:after {
+    border-color: #ffb300 !important;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 ng-include>label span {
+    font-size: 13px;
+    font-weight: normal;
+    color: #2e2e2e !important;
+}
+
+
+/* date */
+ion-view.module-form2.form2.form2-home.form2-home-l1 .item.item-custom.item-icon-left.form2-date .row .col-40 input {
+    width: 80%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    color: #008000;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 .item.item-custom.item-icon-left.form2-date .row .col-40 {
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/add-3.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center right 30px;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 .item.item-custom.item-icon-left.form2-date,
+ion-view.module-form2.form2.form2-home.form2-home-l1 .item.item-custom.item-icon-left.form2-datetime {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    margin-left: 10px;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 .item.item-custom.item-icon-left.form2-date .row,
+ion-view.module-form2.form2.form2-home.form2-home-l1 .item.item-custom.item-icon-left.form2-datetime .row {
+    display: inline-block;
+    width: 100%;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 .item.item-custom.item-icon-left.form2-date .row .col-60,
+ion-view.module-form2.form2.form2-home.form2-home-l1 .item.item-custom.item-icon-left.form2-datetime .row .col-50 {
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    text-align: left;
+    max-width: 100%;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 .item.item-custom.item-icon-left.form2-date .row .col-40,
+ion-view.module-form2.form2.form2-home.form2-home-l1 .item.item-custom.item-icon-left.form2-datetime .row .col-50 {
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    text-align: left;
+    max-width: 100%;
+}
+
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 .item.item-custom.item-icon-left.form2-date i,
+ion-view.module-form2.form2.form2-home.form2-home-l1 .item.item-custom.item-icon-left.form2-datetime i {
+    display: none;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 .item.item-custom.item-icon-left.form2-date .row p,
+ion-view.module-form2.form2.form2-home.form2-home-l1 .item.item-custom.item-icon-left.form2-datetime .row p.ng-binding {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 form2-pictures.form2-image ion-item.item-custom.upload-title.item.ng-binding {
+    background: transparent;
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 ion-item.item-custom.upload-title.item.ng-binding span {
+    display: none;
+}
+
+
+/* add profile img */
+ion-view.module-form2.form2.form2-home.form2-home-l1 ion-item.item-icon-left.item-custom.upload-action.item {
+    background: transparent;
+    border: 0;
+    padding: 0;
+}
+
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 ion-item.item-icon-left.item-custom.upload-action.item i.icon.ion-image.add-image-icon {
+    display: none;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 ion-item.item-icon-left.item-custom.upload-action.item p.ng-binding {
+    font-size: 14px;
+    text-align: left;
+    display: block;
+    width: 100%;
+    margin-left: 10px;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 ion-item.item-icon-left.item-custom.upload-action.item i.item-note.ion-plus.arrow-center:before {
+    font-size: 28px;
+    color: #ffb300;
+}
+
+/* password */
+ion-view.module-form2.form2.form2-home.form2-home-l1 label.item.item-input.item-custom.form2-password {
+    display: inline-block;
+    width: 100%;
+    background: transparent;
+    border: 0;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 label.item.item-input.item-custom.form2-password .input-label.ng-binding {
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    text-align: left;
+    max-width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 label.item.item-input.item-custom.form2-password input {
+    border-bottom: 2px solid #ecf0f6 !important;
+    width: 96% !important;
+    text-align: left !important;
+    padding: 10px 10px 0 10px !important;
+    height: 50px !important;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 button.button.button-positive-custom {
+    width: 60%;
+    border-radius: 10px;
+    margin-left: 20%;
+    background-color: #008000;
+    border: 0 !important;
+    box-shadow: 1px 1px 3px #000;
+    margin-top: 50px;
+}
+
+
+/* form dan history */
+ion-view.module-form2.form2.form2-home.form2-home-l1 .tabs.tabs-icon-top {
+    width: 20% !important;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    height: 150px !important;
+    margin: 0 !important;
+    bottom: 80px;
+    margin-left: 2% !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-image: none !important;
+    position: fixed !important;
+    top: calc(80vh - 60px) !important;
+    right: 2vw !important;
+    border-width: 0 !important;
+    padding: 5px 12px 5px 12px !important;
+    z-index: 999 !important;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 .tabs.tabs-icon-top a.tab-item.ng-binding {
+    max-width: 150px;
+    height: 100%;
+    opacity: 1;
+    background-color: #008000;
+    width: 70px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px #000000;
+    color: #fff;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 .tabs.tabs-icon-top .ion-android-list:before,
+ion-view.module-form2.form2.form2-home.form2-home-l1 .tabs.tabs-icon-top .ion-archive:before {
+    color: #fff;
+}
+
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 form2-pictures.form2-image ion-item.item-image.item-custom.item {
+    background: #ecf0f6;
+    border: 0;
+    padding: 0;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 form2-pictures.form2-image .remove-image-list.ng-binding.assertive.assertive-custom,
+ion-view.module-form2.form2.form2-home.form2-home-l1 form2-pictures.form2-image a.assertive.assertive-custom {
+    color: #ef473a;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px #282828;
+}
+
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 .item.item-custom.item-icon-left.form2-date input.text-right.ng-pristine.ng-valid.ng-not-empty.ng-touched,
+ion-view.module-form2.form2.form2-home.form2-home-l1 .item.item-custom.item-icon-left.form2-datetime input.text-right.ng-pristine.ng-valid.ng-not-empty.ng-touched {
+    width: 100%;
+    text-align: left;
+    color: #ffb300;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 ng-include label.item.item-input.item-custom.form2-text .input-label,
+ion-view.module-form2.form2.form2-home.form2-home-l1 ng-include label.item.item-input.item-custom.form2-text .input-label,
+ion-view.module-form2.form2.form2-home.form2-home-l1 .item.item-custom.item-icon-left.form2-date .row .col-60 p,
+ion-view.module-form2.form2.form2-home.form2-home-l1 .item.item-custom.item-icon-left.form2-datetime .row .col-60 p {
+     display: flex;
+     flex-direction:  row;
+     text-align: left !important;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 ng-include label.item.item-input.item-custom.form2-text .input-label.ng-binding:before,
+ion-view.module-form2.form2.form2-home.form2-home-l1 label.item.item-input.item-custom.form2-number .input-label.ng-binding:before,
+ion-view.module-form2.form2.form2-home.form2-home-l1 .item.item-custom.item-icon-left.form2-date .row .col-60 p:before,
+ion-view.module-form2.form2.form2-home.form2-home-l1 .item.item-custom.item-icon-left.form2-datetime .row .col-60 p:before {
+     width: 20px !important;
+     max-width: 20px;
+     content: " " !important;
+     flex: 1 1 !important;
+     border-bottom: 2px solid #ecf0f6 !important;
+     margin: auto;
+     text-align: left !important;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 ng-include label.item.item-input.item-custom.form2-text .input-label.ng-binding:after,
+ion-view.module-form2.form2.form2-home.form2-home-l1 label.item.item-input.item-custom.form2-number .input-label.ng-binding:after,
+ion-view.module-form2.form2.form2-home.form2-home-l1 .item.item-custom.item-icon-left.form2-date .row .col-60 p:after,
+ion-view.module-form2.form2.form2-home.form2-home-l1 .item.item-custom.item-icon-left.form2-datetime .row .col-60 p:after {
+     content: " " !important;
+     flex: 1 1 !important;
+     border-bottom: 2px solid #ecf0f6 !important;
+     margin: auto;
+     text-align: left !important;
+}
+
+
+
+/* placeholder */
+ion-view.module-form2.form2.form2-home.form2-home-l1 input::-webkit-input-placeholder {
+    visibility: hidden;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 input:-moz-placeholder { /* Firefox 18- */
+    visibility: hidden;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 input::-moz-placeholder {  /* Firefox 19+ */
+    visibility: hidden;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 input:-ms-input-placeholder {  
+    visibility: hidden;
+}
+/* placeholder */
+
+
+
+
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 label.item.item-custom.item-input.item-select.form2-select .input-label.ng-binding {
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 label.item.item-custom.item-input.item-select.form2-select select,
+ion-view.module-form2.form2.form2-home.form2-home-l1 label.item.item-custom.item-input.item-select.form2-select .input-label.ng-binding {
+    color: #fff;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 label.item.item-custom.item-input.item-select.form2-select {
+    width: 96%;
+    background-color: transparent;
+    border: 0;
+    background-color: green !important;
+    border-radius: 10px;
+    color: #fff;
+    max-width: 94%;
+    margin-left: 3%;
+}
+
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 form2-location.form2-geolocation label {
+    width: 96%;
+    margin-left: 2%;
+}
+
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 form2-location.form2-geolocation label p {
+    text-align: left;
+    color: #008000;
+    font-size: 13px;
+}
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 form2-location.form2-geolocation label h2 {
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 .scroll>div[ng-if="currentTab == 'form'"]:last-child {
+    padding-bottom: 150px;
+}
+
+
+
+ion-modal-view.module-form2.form2-modal.form2-display-modal {
+
+}
+
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 ion-item.item-icon-left.item-custom.upload-action.item [ng-if="field.value.length <= 0"] {
+    font-size: 0 !important;
+}
+
+/* HISTORY PAGE */
+
+
+
+ion-view.module-form2.form2.form2-home.form2-home-l1 ion-item.item-icon-left.item-custom.upload-action.item i.item-note.ion-plus.arrow-center {
+    background-color: #eaeaea;
+    padding: 2px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+ion-item[ng-click="displayModal(fieldSet)"] {
+    background: #ecf0f6 !important;
+    border-radius: 10px;
+    width: 96%;
+    margin: 10px 2%;
+}
+
+ion-item[ng-click="displayModal(fieldSet)"] .row .col-90 p {
+    text-align: left;
+    font-size: 14px;
+    color: #008000 !important;
+}
+
+
+/* detail filled out form */
+ion-modal-view.module-form2.form2-modal.form2-display-modal.modal.has-background-image.slide-in-right-left.ng-enter.active.ng-enter-active .item.item-divider.item-divider-custom.form2-divider p {
+    font-size: 18px !important;
+    font-weight: bold;
+    color: #008000;
+    margin: 10px 0 5px 0;
+}
+
+ion-modal-view.module-form2.form2-modal.form2-display-modal.modal.has-background-image.slide-in-right-left.ng-enter.active.ng-enter-active ion-item.item-custom.form2-richtext.item .ng-binding {
+    text-align: left;
+}
+
+ion-modal-view.module-form2.form2-modal.form2-display-modal.modal.has-background-image.slide-in-right-left.ng-enter.active.ng-enter-active ion-item.item-custom.form2-richtext.item {
+    background-color: transparent !important;
+}
+
+ion-modal-view.module-form2.form2-modal.form2-display-modal.modal.has-background-image.slide-in-right-left.ng-enter.active.ng-enter-active label.item.item-input.item-custom.form2-text {
+    text-align: left;
+}
+
+ion-modal-view.module-form2.form2-modal.form2-display-modal.modal.has-background-image.slide-in-right-left.ng-enter.active.ng-enter-active label.item.item-input.item-custom {
+    text-align: left;
+}
+
+ion-modal-view.module-form2.form2-modal.form2-display-modal.modal.has-background-image.slide-in-right-left.ng-enter.active.ng-enter-active label.checkbox-custom.item-custom.form2-checkbox.item.item-checkbox.ng-not-empty.ng-valid {
+    text-align: left;
+    color: #008000 !important;
+}
+
+ion-modal-view.module-form2.form2-modal.form2-display-modal.modal.has-background-image.slide-in-right-left.ng-enter.active.ng-enter-active ion-item.item-custom.form2-richtext.item {
+    padding: 5px;
+}
+
+ion-modal-view.module-form2.form2-modal.form2-display-modal.modal.has-background-image.slide-in-right-left.ng-enter.active.ng-enter-active .list ion-item.item-custom.item img {
+    border-radius: 10px;
+}

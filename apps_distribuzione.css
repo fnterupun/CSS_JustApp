@@ -1,0 +1,877 @@
+/*Notes:*/
+/*1) Please use LAYOUT 2 configuration in Folder module setting.*/
+/*2) Please use CARD configuration.*/
+/*3) Please use SEARCH in module setting.*/
+/*4) Please insert picture in THUMBNAIL for every category in module setting.*/
+/*5) Please empty the TITLE and insert SUBTITLE in main category.*/
+/*6) Cover image can be changed in this code.*/
+
+ion-view[state="folder2-category-list"].module-folder2.folder2-layout2.pane.has-background-image ion-content > div.scroll {
+  background-color: #000000;
+}
+
+ion-view[state="folder2-category-list"].module-folder2.folder2-layout2.pane.has-background-image ion-content {
+  background-color: #000000 !important;
+}
+
+ion-view[state="folder2-category-list"].module-folder2.folder2-layout2.pane.has-background-image ion-content > div.scroll > ng-include:nth-child(3) > div {
+  margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    box-shadow: none;
+}
+
+ion-view[state="folder2-category-list"].module-folder2.folder2-layout2.pane.has-background-image ion-content > div.scroll > ng-include:nth-child(3) > div > div.item.item-image.item-custom {
+  border: none;
+  background-image: url(https://i.postimg.cc/26mjbQsc/IMG-20200907-WA0067.jpg); /*Cover image: You can change to your own image URL*/
+    background-size: cover;
+    background-repeat: no-repeat;
+  -webkit-clip-path: circle(85.2% at 40% 14%);
+clip-path: circle(85.2% at 40% 14%);
+  margin-bottom: 10px;
+  border-radius: 0px;
+}
+
+ion-view[state="folder2-category-list"].module-folder2.folder2-layout2.pane.has-background-image ion-content > div.scroll > ng-include:nth-child(3) > div > div.item.item-image.item-custom > img {
+  min-height: 350px !important;
+  visibility: hidden;
+}
+
+ion-view[state="folder2-category-list"].module-folder2.folder2-layout2.pane.has-background-image ion-content > div.scroll > ng-include:nth-child(3) > div > div:nth-child(2) {
+  border: none;
+    position: relative;
+    top: -15px;
+  padding: 8px;
+  background-color: #000000;
+  margin-top: 40px;
+}
+
+ion-view[state="folder2-category-list"].module-folder2.folder2-layout2.pane.has-background-image ion-content > div.scroll > ng-include:nth-child(3) > div > div:nth-child(2) > h2 {
+  display: none;
+}
+
+ion-view[state="folder2-category-list"].module-folder2.folder2-layout2.pane.has-background-image ion-content > div.scroll > ng-include:nth-child(3) > div > div:nth-child(2) > p {
+  color: #d1a75e;
+    font-size: 17px;
+  font-weight: bold;
+    letter-spacing: 1px;
+  -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) 4 alternate-reverse both;
+        animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) 4 alternate-reverse both;
+}
+
+@-webkit-keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+ion-view[state="folder2-category-list"].module-folder2.folder2-layout2.pane.has-background-image ion-content > div.scroll > ng-include:nth-child(2) div#search_section {
+  margin-top: 0px;
+    box-shadow: none;
+    border-radius: 16px;
+  margin-bottom: 20px;
+    top: auto;
+    margin-top: 20px;
+}
+
+ion-view[state="folder2-category-list"].module-folder2.folder2-layout2.pane.has-background-image ion-content div.scroll div.list.folder-layout.folder-l2.card > div > div:nth-child(1) {
+  background-size: cover;
+    background-repeat: no-repeat;
+  border-radius: 0px 25px;
+}
+
+ion-view[state="folder2-category-list"].module-folder2.folder2-layout2.pane.has-background-image ion-content div.scroll div.list.folder-layout.folder-l2.card > div > div:nth-child(2) {
+  background-size: cover;
+    background-repeat: no-repeat;
+  border-radius: 25px 0px;
+}
+
+ion-view[state="folder2-category-list"].module-folder2.folder2-layout2.pane.has-background-image ion-content div.scroll div.list.folder-layout.folder-l2.card div.folder-l2-row div > p {
+  bottom: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #097054;
+    color: #000000;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.layout.l39 #main ul.row.homepage-custom {
+
+    background-color: #f0ebe7;
+
+}
+
+ 
+
+[state="home"] {
+
+    background-image: none !important;
+
+    background-color: #f0ebe7 !important;
+
+}
+
+ 
+
+/* slider*/
+
+.layout.l39 .slider-slide:nth-child(1) {
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    background: #C33764;
+
+    background-image: url("https://i.ibb.co/hB2YPNL/water-splashes-from-bottle-black-background-54178-541.jpg");
+
+    background-size: 100%;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+}
+
+ 
+
+.layout.l39 .slider-slide:nth-child(2) {
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    background: #C33764;
+
+    background-image: url("https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/coffe01-scaled.jpg");
+
+    background-size: 100%;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+}
+
+ 
+
+.layout.l39 .slider-slide:nth-child(3) {
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    background: #C33764;
+
+    background-image: url("https://ensiklopediakesaguan.com/wp-content/uploads/2021/03/Image_01-2.jpg");
+
+    background-size: 100%;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+}
+
+ 
+
+.layout.l39 .slider {
+
+    height: 170px;
+
+    top: 50px;
+
+    border-radius: 15px;
+
+    width: 90%;
+
+    margin-left: 5%;
+
+}
+
+ 
+
+ion-slide.slider-slide:before {
+
+    content: " ";
+
+    animation: changetext 10s infinite linear;
+
+    font-size: 28px;
+
+    display: block;
+
+    width: 100%;
+
+    text-align: center;
+
+    margin-top: 30px;
+
+    color: transparent;
+
+    font-weight: bold;     
+
+}
+
+ 
+
+@keyframes changetext {
+
+    0% { content:"Scegli la QUALITA'"; }
+
+    20% { content:"Flash Distribuzione"; }
+
+    40% { content:"Scegli l'ORIGINALITA'"; }
+
+    60% { content: "Flash Distribuzione"; }
+
+    80% { content: "Scegli la QUALITA'"; }
+
+    100% { content: "Flash Distribuzione"; }
+
+}
+
+ 
+ .layout.l39 .slider-pager {
+    display: none !important;
+}
+
+/*
+.layout.l39 .slider-pager .slider-pager-page.active {
+
+    background-color: #f5851b;
+
+    width: 30px;
+
+    font-size: 0;
+
+    padding: 0;
+
+    height: 10px;
+
+    max-height: 10px;
+
+    border-radius: 10px;
+
+    opacity: 1;
+
+}
+
+ 
+
+.layout.l39 .slider-pager .slider-pager-page {
+
+    background-color: #f8dfb4;
+
+    width: 15px;
+
+    font-size: 0;
+
+    padding: 0;
+
+    height: 10px;
+
+    max-height: 10px;
+
+    border-radius: 10px;
+
+    opacity: 1;
+
+} */
+
+ 
+.layout.l39 .r3menu {
+
+    position: absolute;
+
+    width: 100%;
+
+    height: 80%;
+
+    bottom: 0;
+
+    background-color: #4f81bd !important;
+
+    border-radius: 10px 10px 0 0;
+
+}
+
+ 
+
+/* first li or first modul */
+
+.layout.l39 .r3menu ion-content {
+
+    position: absolute;
+
+    width: 100%;
+
+    height: 83%;
+
+    bottom: 0;
+
+    top: initial;
+
+}
+
+ 
+
+.layout.l39 .r3menu ul {
+
+    padding: 0;
+
+    width: 100% !important;
+
+}
+
+ 
+
+.layout.l39 .r3menu li:nth-child(1) {
+
+    float: left;
+
+    width: 80%;
+
+    height: 110px;
+
+    margin: 0 10% 15px 10%;
+
+    display: block;
+
+    padding: 5px;
+
+    border-radius: 10px;
+
+    background-color: #5c91d1;
+
+    height: 80px;
+
+    background-image: url(https://i.ibb.co/ZM4FMgW/promozioni-icona-01.png);
+
+    background-size: 100%;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+}
+
+ 
+
+.layout.l39 .r3menu li:nth-child(1)>.item.homepage-custom.border-custom {
+    padding: 0;
+    height: 80px;
+    background-color: transparent;
+    top: -5px;
+    border-radius: 10px;
+}
+
+ 
+
+.layout.l39 .r3menu li:nth-child(1)>.item.homepage-custom.border-custom img,
+
+.layout.l39 .r3menu li:nth-child(1) p{
+
+    display: none;
+
+}
+
+ 
+
+/* second modul etc. */
+
+.layout.l39 .r3menu li {
+    float: left;
+    width: 31%;
+    height: 110px;
+    margin: 5px 1.16%;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+
+ .layout.l39 .r3menu li img {
+    width: 80px;
+    height: 80px !important;
+    height: 100%;
+    max-width: 100%;
+}
+
+
+
+.layout.l39 .r3menu li .item.homepage-custom.border-custom {
+
+    height: 85px;
+
+    padding: 2px;
+
+    border-width: 1px;
+
+    border-style: solid;
+
+    background-color: transparent;
+
+}
+
+ 
+
+.layout.l39 .r3menu li p {
+
+    text-transform: capitalize;
+
+    line-height: 20px;
+
+    height: 20px;
+
+    overflow: hidden;
+
+    font-size: 12px;
+
+    color: #000;
+
+    padding: 0 2px;
+
+    white-space: normal;
+
+}
+
+ 
+
+/*
+
+.layout.l39 .sbox .stext h2 {
+
+    display: inline;
+
+    position: absolute;
+
+    top: 25%;
+
+    left: 40%;
+
+    transform: translate(-50%, -50%);
+
+    margin: 0;
+
+    padding: 0;
+
+    color: transparent;
+
+    width: 60%;
+
+}
+
+ 
+
+.layout.l39 .sbox .stext h2:before {
+
+    content: "I am a Developer";
+
+    position: absolute;
+
+    top: 0;
+
+    left: 10%; /* change this value if the text is so long *//*
+
+    width: 100%;
+
+    height: 100%;
+
+    color: #000;
+
+    overflow: hidden;
+
+    border-right: 2px solid #000;
+
+    animation: changetext 5s steps(16) infinite;
+
+    font-size: 28px;
+
+    display: block;
+
+    width: 100%;
+
+    text-align: center;
+
+    margin-top: 30px;
+
+    color: #fff;
+
+    font-weight: bold;
+
+    white-space: nowrap;
+
+}
+
+ 
+
+@keyframes changetext {
+
+    0% {
+
+      width: 0;
+
+    }
+
+    50% {
+
+      width: 100%;
+
+    }
+
+    100% {
+
+      width: 0;
+
+    }
+
+} */
+
+ 
+
+ 
+
+/* SIDEBAR MENU */
+
+ .layout.l39 div#myNav .homepage-custom {
+
+    background-color: #4f81bd !important;
+
+}
+
+ 
+
+.layout.l39 div#myNav ul.homepage-custom {
+
+    padding-top: 20px;
+
+    background-color: transparent !important;
+
+}
+
+ 
+
+.layout.l39 .sidenav .closebtn {
+
+    display: flex;
+
+    width: 40px;
+
+    top: 10px;
+
+    align-items: center;
+
+    justify-content: center;
+
+    position: relative;
+
+    left: 0 !important;
+
+    margin-top: 20px;
+
+    background-color: #7895ff;
+
+    margin-left: 18px;
+
+    border-radius: 10px;
+
+    height: 40px;
+
+}
+
+ 
+
+.layout.l39 .sidenav .closebtn .ion-close-round:before {
+
+    font-size: 25px;
+
+    color: #fff;
+
+}
+
+ 
+
+/* first menu */
+
+.layout.l39 div#myNav ul.items li:nth-child(15) {
+
+    height: 170px !important;
+
+    border-bottom: 2px solid #969696;
+
+    padding: 0 !important;
+
+    width: 90% !important;
+
+    margin-left: 5%;
+
+    display: inline-block;
+
+}
+
+ 
+
+.layout.l39 div#myNav ul.items li:nth-child(15) img {
+
+    width: 100px;
+
+    height: 100px;
+
+    max-height: 100%;
+
+    margin: 0 auto !important;
+
+    display: block;
+
+    border: 5px solid #4f81bd !important;
+
+    background-color: #4f81bd;
+
+    border-radius: 50%;
+
+    position: relative;
+
+    z-index: 999;
+
+}
+
+ 
+
+.layout.l39 div#myNav ul.items li:nth-child(15) p.ng-binding {
+
+    text-align: center;
+
+    margin-left: 0;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    height: 130px;
+
+    background-color: #7895ff;
+
+    padding-top: 44px;
+
+    margin-top: -35px;
+
+    border-radius: 10px;
+
+    display: block;
+
+}
+
+ 
+
+.layout.l39 div#myNav ul.items li:nth-child(15) p.ng-binding:after {
+
+    content: " ";
+
+    animation: changetext 10s infinite linear;
+
+    font-size: 12px;
+
+    display: block;
+
+    width: 100%;
+
+    text-align: center;
+
+    margin-top: 10px;
+
+    color: #fff;
+
+    font-weight: normal;     
+
+}
+
+ 
+
+@keyframes changetext {
+
+    0% { content:"Scegli la QUALITA'"; }
+
+    20% { content:"Flash Distribuzione"; }
+
+    40% { content:"Scegli l'ORIGINALITA'"; }
+
+    60% { content: "Flash Distribuzione"; }
+
+    80% { content: "Scegli la QUALITA'"; }
+
+    100% { content: "Flash Distribuzione"; }
+
+}
+
+/* end first menu */
+
+ 
+
+.layout.l39 div#myNav ul.items li {
+
+    display: -webkit-flex;
+
+    display: flex;
+
+    -webkit-align-items: center;
+
+    align-items: center;
+
+    border-bottom-width: 1px;
+
+    border-bottom-style: solid;
+
+    width: 100%;
+
+    height: 80px;
+
+    padding: 5px 0 5px 20px;
+
+}
+
+ 
+
+.layout.l39 .sidenav li img {
+
+    width: 30px;
+
+    height: 30px;
+
+    margin: 0 0 0 10px;
+
+    max-height: 100%;
+
+    margin-left: 0;
+
+}
+
+ 
+
+.layout.l39 div#myNav .homepage-custom ul.items li p {
+
+    color: #fff;
+
+}
+
+
+
+
+.layout.l39 .r3menu li:nth-child(1) > .item.homepage-custom.border-custom:after {
+	content: " ";
+    animation: banner 15s infinite linear;
+    font-size: 12px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 0 !important;
+    color: transparent;
+    font-weight: normal;
+    top: 0 !important;
+    left: 0 !important;
+	height: 110px;
+    color: transparent;
+}
+
+ 
+/*
+@keyframes banner {
+
+    0% {
+      content:"Scegli la QUALITA'";
+    height: 100%;
+
+    background-image: url(https://i.ibb.co/7tGd8g4/Screenshot-at-Apr-30-10-10-33.png);
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+  
+  }
+
+    25% { content:"Flash Distribuzione";
+    height: 100%;
+
+    background-image: url(https://i.ibb.co/7tGd8g4/Screenshot-at-Apr-30-10-10-33.png);
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;  
+  }
+
+    50% { content:"Scegli l'ORIGINALITA'"; 
+    height: 100%;
+
+    background-image: url(https://i.ibb.co/7tGd8g4/Screenshot-at-Apr-30-10-10-33.png);
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+  }
+
+    75% { content: "Flash Distribuzione";
+    height: 100%;
+
+    background-image: url(https://i.ibb.co/7tGd8g4/Screenshot-at-Apr-30-10-10-33.png);
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+  }
+
+    100% { content: "Scegli la QUALITA'";
+    height: 100%;
+
+    background-image: url(https://i.ibb.co/KWTQ61z/Screenshot-at-Apr-30-10-10-15.png);
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+  }
+} */
+/* end first menu */
+
+/* Hide menu sidebar */
+.layout.l39 div#myNav ion-content ul li:nth-child(-n+14) {
+	display: none;
+}
+
+
+
+
+/* Hide menu homepage */
+.layout.l39 .r3menu ion-content ul li:nth-child(n+15) {
+	display: none;
+}

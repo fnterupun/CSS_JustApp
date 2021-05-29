@@ -1,0 +1,56 @@
+.edit_page events a.editCurrentEvent.btn.btn-xs.color-blue:after {
+    content: "Ubah saiki";
+    font-size: 13px;
+    margin: 2px
+}
+
+.edit_page events a.editCurrentEvent.btn.btn-xs.color-blue {
+    font-size: 0;
+}
+
+.edit_page events a.delete_event.btn.btn-xs.btn-danger:after {
+    content: "Haapus Sakiki";
+    font-size: 13px;
+    margin: 2px
+}
+
+.edit_page events a.delete_event.btn.btn-xs.btn-danger {
+    font-size: 0;
+}
+
+.edit_page.events .table_row_agenda.container-fluid ul li a.copy_event.btn.btn-xs.btn-info {
+    font-size: 0;
+}
+
+.edit_page.events .table_row_agenda.container-fluid ul li a.copy_event.btn.btn-xs.btn-info:after {
+    content: "Gandakan";
+    font-size: 14px;
+    margin: 2px;
+}
+
+.edit_page.events .table_row_agenda.container-fluid ul li a.edit_event.btn.btn-xs.color-blue:after {
+    content: "Ubah";
+    font-size: 14px;
+    margin: 2px;
+}
+
+.edit_page.events .table_row_agenda.container-fluid ul li a.edit_event.btn.btn-xs.color-blue {
+    font-size: 0;
+}
+
+.edit_page.events .table_row_agenda.container-fluid ul li a.btn.btn-xs.btn-danger:after {
+    content: "Hapus";
+    font-size: 14px;
+    margin: 2px;
+}
+
+.edit_page.events .table_row_agenda.container-fluid ul li a.btn.btn-xs.btn-danger {
+    font-size: 0;
+}
+
+
+
+div#sb-tour-edit-user div#customer_form_new label[for="show_in_social_gaming"] {
+    display: none;
+}
+

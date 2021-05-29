@@ -1,0 +1,471 @@
+/*Inbox Replies*/
+  
+ion-view[state="inbox-comment-view"] ion-content div.scroll > div.inbox-replies.list.card {
+  box-shadow: none;
+    margin: 5px;
+}
+
+ion-view[state="inbox-comment-view"] ion-content div.scroll > div.inbox-replies.list.card > div.item.item-custom.item-text-wrap {
+  text-align: left;
+    border-bottom: 1px #ddd solid;
+    margin: 0;
+}
+
+ion-view[state="inbox-comment-view"] ion-content div.scroll > div.inbox-replies.list.card > div.item.item-custom.item-text-wrap h3 {
+  color: blue;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+i.icon.ion-ios-calendar {
+  display: none;
+}
+
+ion-view[state="inbox-comment-view"] ion-content div.scroll > div.inbox-replies.list.card > div.item.item-custom.item-text-wrap > p {
+  font-size: 16px;
+    font-weight: 1000;
+    color: green;
+    letter-spacing: 1px;
+}
+
+ion-view[state="inbox-comment-view"] ion-content div.scroll > div.inbox-replies.list.card > div.item.item-custom.item-text-wrap > p a {
+  background-color: #40cbf3;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 16px;
+    letter-spacing: 1.1px;
+}
+
+ion-view[state="inbox-comment-view"] > div.tabs.tabs-icon-top.inbox-footer {
+  border: none;
+    background-color: #bbb;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    right: 0;
+    color: black;
+}
+
+ion-view[state="inbox-comment-view"] > div.tabs.tabs-icon-top.inbox-footer > div.tab-item.ng-binding {
+  font-weight: 700;
+}
+
+ion-view[state="inbox-comment-view"] > div.tabs.tabs-icon-top.inbox-footer > div.tab-item.ng-binding > i {
+  margin-top: 10px;
+    color: blue;
+}
+
+/*Inbox-view*/
+
+ion-view[state="inbox-view"] ion-content div.scroll > div:nth-child(n+2) > div.card,
+ion-view[state="inbox-view"] ion-content div.scroll > div:nth-child(n+2) > div > div.card {
+  box-shadow: none;
+    margin: 5px;
+}
+
+ion-view[state="inbox-view"] ion-content div.scroll > div:nth-child(2) > div.card > div.item.item-custom {
+  color: #444;
+    text-align: center;
+    letter-spacing: 0.8px;
+    border-bottom: 1px #ddd solid;
+    margin-bottom: 0px;
+}
+
+ion-view[state="inbox-view"] ion-content div.scroll > div:nth-child(2) > div.card > div.item.item-custom > h2 {
+  color: #3e64ff;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+ion-view[state="inbox-view"] ion-content div.scroll > div:nth-child(n+2) > div > div.card > div > img {
+  border-radius: 10px;
+}
+
+ion-view[state="inbox-view"] ion-content div.scroll > div:nth-child(n+2) > div > div.card > div > div.item.item-text-wrap.item-custom.sb-cms-text {
+  padding: 8px;
+}
+
+ion-view[state="inbox-view"] ion-content div.scroll > div:nth-child(n+2) > div > div.card > div > div.item.item-text-wrap.item-custom.sb-cms-text a {
+  display: block;
+    background-color: lightskyblue;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    width: 80%;
+    border-radius: 8px;
+    letter-spacing: 0.8px;
+}
+
+ion-view[state="inbox-view"] ion-content div.scroll > div:nth-child(n+2) > div > div > div > div > div.card {
+  margin: 10px 0px;
+    box-shadow: none;
+}
+
+ion-view[state="inbox-view"] ion-content div.scroll > div:nth-child(n+2) > div > div.card > div > div.item.item-text-wrap.item-icon-left.item-custom.ng-binding {
+  background-color: lightskyblue;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    border-radius: 10px;
+}
+
+ion-view[state="inbox-view"] ion-content div.scroll > div:nth-child(n+2) > div > div.card > div > a.item.item-text-wrap.item-icon-left.item-custom.ng-binding {
+  background-color: lightskyblue;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    border-radius: 10px;
+}
+
+ion-view[state="inbox-view"] ion-content div.scroll > div:nth-child(n+2) > div > div.card > div > div.item.item-image-gallery.item-custom.sb-cms-image {
+  border-radius: 10px 10px 0px 0px;
+    min-height: 200px;
+}
+
+ion-view[state="inbox-view"] ion-content div.scroll > div:nth-child(n+2) > div > div.card > div > div.item.item-custom.padding.description.ng-binding {
+  overflow-wrap: normal;
+    white-space: normal;
+    text-align: center;
+    background-color: #3e64ff;
+    color: white;
+    margin: 0;
+    border: none;
+    border-radius: 0px 0px 10px 10px;
+    letter-spacing: 0.8px;
+}
+
+ion-view[state="inbox-view"] ion-content div.scroll > div:last-child {
+  margin-bottom: 10px !important;
+}
+
+ion-view[state="inbox-view"] > div > div.tabs.tabs-icon-top.inbox-footer {
+  height: 50px;
+    background-color: #eee;
+    border: none;
+    color: black;
+}
+
+ion-view[state="inbox-view"] > div > div.tabs.tabs-icon-top.inbox-footer > div.tab-item.pull-righ.ng-binding {
+  color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+ion-view[state="inbox-view"] > div > div.tabs.tabs-icon-top.inbox-footer > div.tab-item.pull-righ.ng-binding > i {
+  color: blue;
+}
+
+/*Inbox*/
+
+ion-view[state="inbox-list"] ion-content div.scroll div.list > ion-item.item.text-center.item-custom.ng-binding {
+  visibilty: hidden !important;
+  color: white;
+  border: none;
+}
+
+ion-view[state="inbox-list"] ion-content div.scroll div.list > ion-item.item.text-center.item-custom.ng-binding:after {
+  display: block !important;
+    content: "Tiada pesanan baru";
+    position: absolute;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: black;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+ion-view[state="inbox-list"] ion-content div.scroll div.list > ion-tem.item.item-custom.item-text-wrap {
+  visibilty: hidden !important;
+  color: white;
+  border: none;
+}
+
+ion-view[state="inbox-list"] ion-content div.scroll div.list > ion-item.item.item-custom.item-text-wrap > p {
+  color: transparent;
+}
+
+ion-view[state="inbox-list"] ion-content div.scroll div.list > ion-item.item.item-custom.item-text-wrap:after {
+  display: block !important;
+    content: "Sila daftar atau log masuk untuk menerima pesanan dari kami";
+    position: absolute;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: black;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+ion-view[state="inbox-list"] ion-content div.scroll div.list > button {
+  visibility: hidden;
+  top: 30vh;
+  width: 70%;
+  margin: auto;
+  padding: 0;
+  top: 55vh;
+    z-index: 99;
+}
+
+ion-view[state="inbox-list"] ion-content div.scroll div.list > button:after {
+  content: "Log in";
+    visibility: visible;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: #3e64ff;
+    color: white;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.85;
+}
+
+ion-view[state="inbox-list"] ion-content div.scroll div.list > ion-item.item.item-custom.item-text-wrap:before {
+  content: "";
+    background-image: url(https://i.imgur.com/pIntdPL.png);
+    display: block;
+    width: 90%;
+    margin: auto;
+    height: 80vh;
+    position: absolute;
+    right: 0;
+    left: 0;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ion-view[state="inbox-list"] ion-content div.scroll div.list {
+  box-shadow: none;
+    margin: 5px;
+}
+
+ion-view[state="inbox-list"] ion-content div.scroll div.list > ion-item.item.item-custom.item-thumbnail-left {
+  border-bottom: 1px #ddd solid;
+    margin: 0;
+}
+
+ion-view[state="inbox-list"] ion-content div.scroll div.list > ion-item.item.item-custom.item-thumbnail-left:nth-last-child(3) {
+  border-bottom: none !important;
+}
+
+ion-view[state="inbox-list"] ion-content div.scroll div.list > ion-item.item.item-custom.item-thumbnail-left > img {
+  border-radius: 10px;
+}
+
+ion-view[state="inbox-list"] ion-content div.scroll div.list > ion-item.item.item-custom.item-thumbnail-left > h2 {
+  text-align: left;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+}
+
+ion-view[state="inbox-list"] ion-content div.scroll div.list > ion-item.item.item-custom.item-thumbnail-left > p {
+  color: #3e64ff;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+}
+
+i.ion-ios-calendar-outline {
+  display: none;
+}
+
+.new-message, .new-reply {
+  background-color: transparent;
+  color: tranparent !important;
+}
+
+.new-message:after, .new-reply:after {
+  content: "unread";
+    color: white;
+    background-color: #d71809;
+    position: relative;
+    font-size: 14px;
+    width: fit-content;
+    border-radius: 3px;
+    letter-spacing: 0.5px;
+    height: fit-content;
+    padding: 2px;
+    left: -25px;
+}
+
+/*Contact*/
+
+ion-view[state="contact-view"] {
+  z-index: 9 !important;
+    background-image: url(https://images.pexels.com/photos/2227832/pexels-photo-2227832.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) !important;
+    background-size: cover !important;
+}
+
+ion-view[state="contact-view"] > ion-content .scroll {
+  min-height: -webkit-fill-available !important;
+}
+
+ion-view[state="contact-view"] > ion-content {
+  top: 0 !important;
+    padding-top: 65px;
+  background-color: #33cd5f !important;
+    opacity: 0.85;
+}
+
+ion-view[state="contact-view"] div.item.item-image.item-custom > img {
+  width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  border: 4px #ccc solid;
+}
+
+ion-view[state="contact-view"] div.scroll > div.list.card {
+  display: flex;
+    flex-direction: column;
+  box-shadow: none;
+  margin: 0;
+  margin-bottom: 0px;
+  height: 500px;
+}
+
+ion-view[state="contact-view"] div.scroll > div.list.card > div {
+  order: 2;
+  padding-left: 12px;
+  padding: 0 12px;
+}
+
+ion-view[state="contact-view"] div.list.card > div.item.item-image.item-custom {
+  order: 1;
+  margin-bottom: 10px;
+}
+
+ion-view[state="contact-view"] div.scroll > div.list.card > div[ng-show="contact.street"] {
+  position: absolute;
+    top: 380px;
+    width: 100%;
+}
+
+ion-view[state="contact-view"] .card .item.item-custom {
+  background-color: transparent;
+    border: 0;
+    color: white;
+    text-align: center;
+}
+
+ion-view[state="contact-view"] div.scroll > div.list.card > div i {display:none;}
+
+ion-view[state="contact-view"] div.scroll > div.list.card > div h2 {
+  font-size: 18px;
+    letter-spacing: 0.8px;
+    font-weight: 700;
+  color: white;
+}
+  
+ion-view[state="contact-view"] div.scroll > div.list.card > div p {
+  color: white;
+  letter-spacing: 0.5px;
+}
+
+ion-view[state="contact-view"] .button.button-custom {
+  border-radius: 50px;
+    border: 0;
+    text-align: left;
+    padding-left: 40px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  margin: 5px auto 0px !important;
+}
+
+ion-view[state="contact-view"] .item-icon-left .icon {
+  width: 24px;
+    height: 24px;
+    top: 10px;
+    background-color: #33cd5f;
+    color: white;
+    transform: scale(1.2);
+    border-radius: 50%;
+}
+
+ion-view[state="contact-view"] .padding {
+  padding: 10px 20px;
+  display: flex;
+    flex-direction: column;
+    margin-top: -370px;
+}
+
+ion-view[state="contact-view"] div.scroll > div.list.card > div[ng-show="contact.description"] {
+  position: absolute;
+    top: 420px;
+    width: 100%;
+}
+
+ion-view[state="contact-view"] .padding > button[ng-click="call()"] {
+  order: 2;
+}
+
+ion-view[state="contact-view"] .padding > button[ng-if="contact.website_url"] {
+  order: 1;
+  visibility: hidden;
+}
+
+ion-view[state="contact-view"] .padding > button[ng-if="contact.email"] {
+  order: 3 !important;
+}
+
+ion-view[state="contact-view"] .padding > button[ng-click="showMap();"] {
+  order: 4 !important;
+}
+
+ion-view[state="contact-view"] .padding > button[ng-if="contact.website_url"]:after {
+  visibility: visible;
+    content: "WhatsApp";
+    position: absolute;
+    padding-left: 40px;
+    background-color: white;
+    border-radius: 50px;
+    background-image: url(https://cdn2.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-whatsapp-circle-512.png);
+    background-size: 28px;;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  line-height: 47px;
+}
+
+.icon.ion-ios-world-outline {
+  visibility: hidden;
+}
+
+.icon.ion-ios-world-outline:after {
+  visibility: visible;
+    content: "";
+    background-image: url(https://cdn2.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-whatsapp-circle-512.png);
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

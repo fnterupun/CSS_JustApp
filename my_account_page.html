@@ -1,0 +1,382 @@
+<html><head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" name="viewport">
+        <meta content="black" name="apple-mobile-web-app-status-bar-style">
+        <meta content="IE=8" http-equiv="X-UA-Compatible">
+        
+        <style type="text/css">
+            html, body { margin:0; padding:0; border:none; }
+            html { overflow: scroll;  }
+            body { font-size: 15px; width: 100%; height: 100%; overflow: auto; -webkit-user-select : none; -webkit-text-size-adjust : none; -webkit-touch-callout: none; line-height:1; background-color:white; }
+        </style>
+    </head>
+<body>
+    
+<title>W3.CSS Template</title><style>
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	background-color: #eee !important;
+	font-family: 'Muli', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0;
+}
+  
+  body::-webkit-scrollbar {display:none;}
+
+.courses-container {
+	
+}
+
+.course {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	display: flex;
+	max-width: 100%;
+	margin: 10px;
+	overflow: hidden;
+}
+
+.course h6 {
+	opacity: 0.6;
+	margin: 0;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+    color: #444;
+}
+
+.course h2 {
+	letter-spacing: 1px;
+	margin: 10px 0;
+    color: black;
+    font-size: 15px;
+}
+
+
+
+
+.course-preview {
+    background-image: url(https://i.imgur.com/iL0HH3C.png);
+    background-size: cover;
+    color: #fff;
+    padding: 10px;
+    max-width: 150px;
+    min-width: 150px;
+    min-height: 150px;
+    max-height: 150px;
+    box-shadow: inset 8.41px 8.41px 15px #d9d9d9, inset -8.41px -8.41px 15px #fff;
+}
+
+.course-preview a {
+    color: #001f61;
+    display: inline-block;
+    font-size: 12px;
+    opacity: 1;
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.course-info {
+    padding: 15px;
+    padding-right: 40px;
+    position: relative;
+    width: 100%;
+    font-size: small;
+    min-width: 200px;
+    box-shadow: inset 8.41px 8.41px 15px #d9d9d9, inset -8.41px -8.41px 15px #fff;
+}
+
+
+
+
+.btn {
+    background-color: #eee;
+    border: 0;
+    border-radius: 50px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    color: #444;
+    font-size: 8px;
+    padding: 12px 25px;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    letter-spacing: 1px;
+}
+
+/* SOCIAL PANEL CSS */
+.social-panel-container {
+	position: fixed;
+	right: 0;
+    width: 100%;
+	transform: translateX(100%);
+	transition: transform 0.4s ease-in-out;
+  height: 100vh;
+    backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+
+.social-panel-container.visible {
+	transform: translateX(-10px);
+}
+
+.social-panel {
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 16px 31px -17px rgba(0,31,97,0.6);
+    border: 5px solid #001F61;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Muli';
+    position: relative;
+    height: 169px;
+   width: 90%;
+  margin: auto;
+  margin-top: 50%;
+}
+
+.social-panel button.close-btn {
+	border: 0;
+	color: #97A5CE;
+	cursor: pointer;
+	font-size: 20px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+.social-panel button.close-btn:focus {
+	outline: none;
+}
+
+.social-panel p {
+	background-color: #001F61;
+	border-radius: 0 0 10px 10px;
+	color: #fff;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 2px 17px 6px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin: 0;
+	transform: translateX(-50%);
+	text-align: center;
+	width: 235px;
+    
+}
+
+.social-panel p i {
+	margin: 0 5px;
+}
+
+.social-panel p a {
+	color: #FF7500;
+	text-decoration: none;
+}
+
+.social-panel h4 {
+	margin: 20px 0;
+	color: #97A5CE;	
+	font-family: 'Muli';	
+	font-size: 14px;	
+	line-height: 18px;
+	text-transform: uppercase;
+}
+
+.social-panel ul {
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.social-panel ul li {
+	margin: 0 10px;
+}
+
+.social-panel ul li a {
+    border: 1px solid #DCE1F2;
+    border-radius: 12px;
+    color: #001F61;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 70px;
+    text-decoration: none;
+}
+
+.social-panel ul li a:hover {
+	border-color: #FF6A00;
+	box-shadow: 0 9px 12px -9px #FF6A00;
+}
+
+.floating-btn {
+	border-radius: 26.5px;
+	background-color: #eee;
+	border: 1px solid #fff;
+	box-shadow: 0 16px 22px -17px #03153B;
+	color: #444;
+	cursor: pointer;
+	font-size: 1-px;
+	line-height: 20px;
+	padding: 12px 20px;
+	position: initial;
+	bottom: 15vh;
+	right: 25%;
+	z-index: 999;
+    box-shadow: inset 8.41px 8.41px 15px #d9d9d9, inset -8.41px -8.41px 15px #fff;
+}
+
+.floating-btn:hover {
+	background-color: #ffffff;
+	color: #001F61;
+}
+
+.floating-btn:focus {
+	outline: none;
+}
+
+.floating-text a {
+	color: #FF7500;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+
+	.social-panel-container.visible {
+		transform: translateX(0px);
+	}
+	
+	.floating-btn {
+		right: 10px;
+	}
+}
+
+</style>
+
+
+
+<div class="courses-container">
+	<div class="course">
+		<div class="course-preview">
+			<h6></h6>
+			<h2>In-APP STORE</h2>
+			<a href="#" target="_top"><i class="fas fa-chevron-right"></i></a>
+		</div>
+		<div class="course-info">
+			<div class="progress-container">
+				<div class="progress"></div>
+				<span class="progress-text">
+					
+				</span>
+			</div>
+            <h6>"FOR SELLER"</h6>
+			<h6>-Manage Product</h6>
+			<h6>-Manage Order</h6>
+            <h6>-Manage Store</h6>
+            <h6>-Official Seller Only</h6>
+			<p><a data-offline="false" data-params="value_id:15330" data-state="marketplace-home" target="_top" href="javascript:void(0);"><button class="btn">Continue</button>
+		</a></p></div>
+	</div>
+</div>
+
+<div class="courses-container">
+	<div class="course">
+		<div class="course-preview">
+			<h6></h6>
+			<h2>My Order</h2>
+			<a href="#" target="_top"><i class="fas fa-chevron-right"></i></a>
+		</div>
+		<div class="course-info">
+			<div class="progress-container">
+				<div class="progress"></div>
+				<span class="progress-text">
+					
+				</span>
+			</div>
+            <h6>"FOR BUYER"</h6>
+			<h6>-Check My Order</h6>
+			<h6>-Tracking Numbers</h6>
+			<p><a data-offline="false" data-params="value_id:15328," data-state="commercepro-sales-history" target="_top" href="javascript:void(0);"><button class="btn">Continue</button>
+		</a></p></div>
+	</div>
+</div>
+
+
+
+
+<!-- SOCIAL PANEL HTML -->
+<div class="social-panel-container">
+	<div class="social-panel">
+		<p> <i class="fa fa-heart"></i> 
+			<a target="_top" href="https://florin-pop.com"></a></p>
+		<button class="close-btn"><i class="far fa-window-close"></i></button>
+		<h4>Manage</h4>
+		<ul><li>
+				<a data-offline="true" data-params="" data-state="my-account" target="_top" href="javascript:void(0);">
+					<h6>Account</h6><i class="fab fa-linkedin"></i>
+				</a>
+			</li>
+			<li>
+				<a href="#" target="_top">
+					<h6>Share</h6><i class="fab fa-facebook"></i>
+				</a>
+			</li>
+			<li>
+				<a href="#" target="_top">
+					<h6>Point</h6><i class="fab fa-instagram"></i>
+				</a>
+			</li>
+		</ul></div>
+</div>
+<button class="floating-btn">
+	MY ACCOUNT
+</button>
+
+
+
+
+<script>
+// INSERT JS HERE
+
+
+// SOCIAL PANEL JS
+const floating_btn = document.querySelector('.floating-btn');
+const close_btn = document.querySelector('.close-btn');
+const social_panel_container = document.querySelector('.social-panel-container');
+
+floating_btn.addEventListener('click', () => {
+	social_panel_container.classList.toggle('visible')
+});
+
+close_btn.addEventListener('click', () => {
+	social_panel_container.classList.remove('visible')
+});
+</script>
+
+
+<script type="text/javascript">
+var inAppLinks = document.querySelectorAll("a[data-state]");
+[].forEach.call(inAppLinks, function(el) {
+    el.href = "javascript:void(0);";
+    el.addEventListener("click", function() {
+        parent.postMessage("state-go=state:"+el.attributes["data-state"].value+",offline:"+el.attributes["data-offline"].value+","+el.attributes["data-params"].value+"", "*");
+    });
+});
+</script>
+</body></html>

@@ -1,0 +1,454 @@
+//* slide home non visibili *//
+.slider-slide {
+    position: relative;
+    display: none;
+}
+
+
+/* colore sottotitolo blog */
+p.rss-subtitle.ng-binding {
+color: black;
+  
+  }
+
+
+.homepage-custom h2, .homepage-custom p, .homepage-custom span, .homepage-custom i {
+    color: rgba(255, 255, 255, 1);
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: ease-out;
+    animation-name: wrapper;
+}
+
+
+
+.homepage-custom h2, .homepage-custom p, .homepage-custom span, .homepage-custom i {
+    color: rgb(19 18 18);
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: ease-out;
+    animation-name: wrapper;
+}
+
+i.icon.ion-navicon-round {
+color: white;
+  
+}
+
+
+//* effetto testo Total Web *//
+p.title.ng-binding   { 
+color: white;
+     
+  text-shadow: -1px 0 rgb(0 183 206), 0 7px trasparent, 1px 0 trasparent, 0 -1px trasparent;
+animation-duration:3s;
+	animation-delay:0s;
+	animation-name:pulse;
+    font-family: sans-serif;
+}
+
+
+
+.layout.l39 .sidenav li img {
+    width: 35px;
+    height: 35px;
+    margin: 0 0 0 10px;
+    max-height: 100%;
+}
+
+
+
+.list .item.item-custom h1, .list .item.item-custom h2, .list .item.item-custom h3, .list .item.item-custom h4, .list .item.item-custom h5, .list .item.item-custom h6, .list .item.item-custom p, .list .item.item-custom .input-label, .list .item.item-custom input, .list .item.item-custom textarea, .list .item.item-custom.item-select select {
+color: #2bace1;
+      border-color: #2bace1;
+  
+  }
+
+
+
+
+
+
+//* icone contatti spostati dai nomi *//
+.item-icon-left .icon {
+    left: 1px;
+}
+
+
+
+
+//* effetto doppio *//
+.card {
+    padding-top: 1px;
+    padding-bottom: 1p;
+    box-shadow: 2px 3px #2bace1;
+     
+}
+  
+  
+  
+  //* menù sinistra lettere più grandi e più spazio con le icone verso destra  *//
+ .layout.l39 .sidenav ul.items li p {
+    font-size: 15px;
+    margin: 0 0 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/***** START: My Account CSS *****/
+
+/* Start: Variables - You can customize here color codes & Image URL*/
+
+$myaccount-bg-img-url: "https://i.imgur.com/Lxx9KZj.jpg";
+$myaccount-button-bg-color: #2bace1;
+$myaccount-links-color:black;
+$myaccount-title-bg-color: #2bace1;
+$myaccount-forgot-pass-link-color: black;
+$myaccount-text-color: black;
+$myaccount-opacity: rgba(255, 255, 255, 0.4);
+$myaccount-list-items-opacity: rgba(255, 255, 255, 0.5);
+$myaccount-links-opacity: rgba(255, 255, 255, 0.6);
+
+/* End: Variables */
+
+/* My Account Background Image */
+.customer-view { 
+  background-image: url($myaccount-bg-img-url) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* My Account Title Bar */
+.customer-view .bar.bar-custom {
+  background: $myaccount-title-bg-color;
+}
+
+/* Adjust Margin & Padding */
+.customer-view .list {
+  margin-bottom: 0;
+  padding-top: 10px;
+}
+
+.customer-view .padding { padding: 5px; }
+
+/* List Items */
+.customer-view .list .item.item-custom {
+    margin: 7px;
+    border-radius: 20px;
+    border-color: #242424 !important;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Button */
+.customer-view .button.button-positive-custom {
+  background: $myaccount-button-bg-color;
+  border-radius: 30px;
+  text-transform: uppercase;
+  border-color: black !important;
+}
+
+/* Login Page */
+.customer-view div[ng-show="display_login_form"] > div {
+  background: $myaccount-opacity;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* Register Page */
+.customer-view div[ng-include="'templates/customer/account/l1/register.html'"] {
+  background: $myaccount-opacity; 
+  padding-bottom: 15px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* Forgot Password Page */
+.customer-view div[ng-show="display_forgot_password_form"] {
+  background: $myaccount-opacity; 
+  padding-bottom: 15px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* Forgot Password Page Description */
+.customer-view div[ng-show="display_forgot_password_form"] .padding.text-left p {
+ color: $myaccount-text-color;   
+}
+
+/* Apply Fancy Box-shadow to Login, Create Account & Logout Links */
+.customer-view div[ng-click="displayLoginForm()"], .customer-view div[ng-click="displayAccountForm()"], .customer-view div[ng-click="logout()"] {
+  background: $myaccount-links-opacity !important; 
+  border-radius: 0% 0% 50% 50% !important;
+  padding-bottom: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+/* Login, Create Account & Logout Links Color */
+.customer-view div[ng-click="displayLoginForm()"] span, .customer-view div[ng-click="displayAccountForm()"] span, .customer-view div[ng-click="logout()"] span {
+  color: $myaccount-links-color; 
+}
+
+/* Forgot Password Link Color */
+.customer-view span[ng-click="displayForgotPasswordForm()"] {
+  color: $myaccount-forgot-pass-link-color; 
+}
+
+/* Read Privacy Policy Text */
+.customer-view div[ng-include="'templates/customer/account/l1/register.html'"] .padding.text-right {
+  background: $myaccount-list-items-opacity;
+  text-align: center;
+  border-radius: 15px;
+  margin: 7px; 
+}
+
+.customer-view input.text-right { text-align: right; }
+
+/* Settings Page */
+.customer-view div[ng-show="display_settings"] {
+  background: $myaccount-opacity;
+  margin-top: -20px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* Settings Page Section Divider Title */
+.customer-view div[ng-show="display_settings"] .list .item-divider.item-divider-custom {
+  background: $myaccount-title-bg-color;
+}
+
+/* Adjust Text Align */
+.customer-view .text-left { text-align: center; } 
+
+.customer-view .padding.text-center span { display: block; }
+
+/***** END: My Account CSS *****/
+
+
+
+
+
+.item-body h1, .item-body h2, .item-body h3, .item-body h4, .item-body h5, .item-body h6, .item-body p, .item-complex.item-text-wrap .item-content, .item-text-wrap, .item-text-wrap .item, .item-text-wrap .item-content, .item-text-wrap h1, .item-text-wrap h2, .item-text-wrap h3, .item-text-wrap h4, .item-text-wrap h5, .item-text-wrap h6, .item-text-wrap p {
+    overflow: visible;
+    white-space: normal;
+    background: #2bace1;
+}
+
+
+
+/* colore sottotitolo blog */
+p.rss-subtitle.ng-binding {
+color: black;
+  
+  }
+
+
+/* immagini 6 caselle primo menù */
+.sb-cms-image ul[rn-carousel] li>div {
+    height: 210px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* NEW CODE 17042021 */
+/* TOP MENU */
+.bar.bar-custom .title {
+    color: rgba(255, 250, 250, 1);
+    text-align: center !important;
+    font-size: 14px;
+    display: block !important
+}
+
+ion-header-bar [ng-click="goBack()"] {
+    display: none !important;
+}
+
+
+/* LAYOUT 9 */
+.layout.l9 ion-content ul.items {
+  padding: 0;
+}
+
+.layout.l9 ion-content ul.items li p.titlevisible.title-lowcase {
+    float: right;
+    text-align: left !important;
+    width: 70%;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center !important;
+    line-height: 50px;
+    height: 50px;
+    font-size: 16px;
+    color: #000 !important;
+}
+
+
+.layout.l9 ion-content ul.items:before {
+    content: " ";
+    /*background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/bg-header.svg);
+    background-size: contain;
+    background-position: center top;
+    background-color: #8c487b;
+    border-radius: 0 0 30px 30px;
+    background-repeat: no-repeat; */
+    display: block;
+    height: 20px;
+
+}
+
+
+.layout.l9 ion-content ul.items li:nth-child(n+8) {
+  display: none;
+}
+
+.layout.l9 li img {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    max-height: 100%;
+}
+
+
+/* FOLDER V2 */
+[state="folder2-category-list"] [ng-if="current.showTitle"] {
+    top: -180px;
+    background-color: transparent !important;
+    text-align: center;
+    border: 0 !important;
+}
+
+[state="folder2-category-list"] [ng-if="current.showTitle"] h2 {
+    font-size: 0 !important;
+    font-weight: bold;
+}
+
+[state="folder2-category-list"] [ng-if="current.showTitle"] h2:after {
+    content: " ";
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.8;
+    text-align: center;
+    margin-top: 50px;
+    color: #fff !important;
+    animation: changetext 10s infinite linear;
+}
+
+@keyframes changetext {
+    0% { content:"Total Web"; }
+    20% { content:"Application"; }
+    40% { content:"Siti Internet"; }
+    60% { content: "Web Marketing"; }
+    80% { content: "Studio Grafico"; }
+    100% { content: "Stampa"; }
+}
+
+
+[state="folder2-category-list"] .list>.item.item-image.item-custom {
+    height: 200px;
+    width: 96%;
+    background: black;
+    overflow: hidden;
+    background: #C33764;
+    background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url(https://bit.ly/2rlzaXi);
+    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url(https://bit.ly/2rlzaXi);
+    position: relative;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 10px;
+    margin-left: 2%;
+    opacity: 1;
+}
+
+[state="folder2-category-list"] .list>.item.item-image.item-custom img {
+  width: 0 !important;
+    opacity: 0;
+}
+
+[state="folder2-category-list"] .scroll ng-include>.list {
+    margin-bottom: 0;
+    height: 230px;
+}
+
+.folder-layout.folder-l6 .folder-l6-row div.folder-l6-col {
+    margin: 0 6px;
+    padding: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    overflow: visible;
+    border: 0;
+}
+
+
+.folder-layout.folder-l6 .folder-l6-row div.folder-l6-col p.folder-title.ng-binding {
+    font-size: 10px !important;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*
+.hide {
+    display: inline !important;
+}
+
+.scroll-refresher,
+.spinner-custom.scroll-refresher.js-scrolling.active,
+.spinner-custom.scroll-refresher.js-scrolling.invisible,
+.spinner-custom.scroll-refresher.js-scrolling.active {
+    display: none !important;
+}
+
+.scroll {
+    transform: none !important;
+}*/
+
+
+
+
+.layout.l39 .slider:before {
+    content: "";
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    margin-top: 150px;
+    animation: changetext 10s infinite linear;
+}
+
+@keyframes changetext {
+    0% { content:"Total Web"; }
+    20% { content:"Application"; }
+    40% { content:"Siti Internet"; }
+    60% { content: "Web Marketing"; }
+    80% { content: "Studio Grafico"; }
+    100% { content: "Stampa"; }
+}
+
+
+.scroll-refresher,
+.spinner-custom.scroll-refresher.js-scrolling.active,
+.spinner-custom.scroll-refresher.js-scrolling.invisible,
+.spinner-custom.scroll-refresher.js-scrolling.active {
+    display: none !important;
+}
+
+ion-view.module-cms.cms-l1 ion-content>.scroll {
+  transform: none !important; 
+}
+

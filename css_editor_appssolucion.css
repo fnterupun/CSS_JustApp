@@ -1,0 +1,279 @@
+/* Custome CSS */
+@media only screen and (min-width: 640px) {
+.admin_application_list.general .row.item-application {
+    width: 30%;
+    display: inline-block;
+    margin: 10px 1%;
+    left: 0;
+    right: 0;
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+
+.admin_application_list.general .col-md-12.item-no-padding {
+    display: inline-block;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    left: 0;
+    right: 0;
+}
+
+
+.admin_application_list.general .item-application .floating-image {
+	float: none !important;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    right: 0;
+    height: 110px !important;
+}
+
+.admin_application_list.general .item-application .floating-image img.app-icon {
+	display: block;
+    margin: 10px auto;
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50px !important;
+    border: 5px solid #266a57;
+    z-index: 1;
+    position: relative;
+}
+
+.admin_application_list.general .item-application .floating-name-infos {
+	float: none;
+    height: 130px;
+    margin: 10px 0 0 0 !important;
+    display: block;
+    text-align: center;
+    left: 0;
+    right: 0;
+    background-color: #0ec972 !important;
+    padding: 5px;
+    border-radius: 20px 20px 0 0 !important;
+    margin-top: -60px !important;
+    padding-top: 60px !important;
+    z-index: -2 !important;
+}
+
+.admin_application_list.general h4.app-name-title {
+    font-weight: bold;
+    color: #000 !important;
+}
+
+.admin_application_list.general span.badge.badge-sub-custom.badge-sub-green {
+    text-align: center;
+    display: block;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: transparent !important;
+    padding: 5px;
+    color: #000 !important;
+    margin-left: -10px !important;
+}
+
+.admin_application_list.general .item-application .floating-actions.icons-center {
+	float: none !important;
+    text-align: center;
+    padding: 0;
+    height: 50px;
+    width: 100% !important;
+    margin: 0 !important;
+    background-color: #ffffff;
+    border-radius: 0 0 20px 20px;
+}
+
+.admin_application_list.general a.button-action-app.btn.btn-xs.color-blue {
+    visibility: hidden;
+}
+
+.admin_application_list.general a.button-action-app.btn.btn-xs.color-blue:after {
+	font-size: 28px;
+    display: block !important;
+    width: 100% !important;
+    font-family: 'FontAwesome' !important;
+    color: #000 !important;
+    visibility: visible !important;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    margin-top: -30px !important;
+    content: "\f044" !important;
+    float: left !important;
+	padding-top: 10px !important;
+	text-align: left;
+}
+
+.admin_application_list.general a.button-action-app.btn.btn-xs.btn-danger.delete_app {
+    visibility: hidden;
+}
+
+.admin_application_list.general a.button-action-app.btn.btn-xs.btn-danger.delete_app:after {
+	font-size: 28px;
+    display: block !important;
+    width: 100% !important;
+    content: "\f014" !important;
+    font-family: 'FontAwesome' !important;
+    color: red !important;
+    visibility: visible !important;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    margin-top: -30px !important;
+	padding-top: 10px !important;
+    text-align: right;
+}
+
+
+
+.admin_application_list.general .col-xs-6 button#sb-tour-button-create:after {
+    content: "Create App";
+    visibility: visible;
+    color: #fff;
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.admin_application_list.general .col-xs-6 button#sb-tour-button-create {
+    visibility: hidden;
+}
+
+
+.col-xs-6 button#sb-tour-button-create:after {
+    content: "Create App";
+    visibility: visible;
+    color: #fff;
+    width: 60%;
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+    float: right;
+    margin-top: -20px;
+}
+
+
+.col-xs-6 button#sb-tour-button-create:before {
+    display: block;
+    width: 40%;
+    text-align: left;
+    color: #ffffff !important;
+    content: "\f055";
+    visibility: visible;
+    font-family: 'FontAwesome' !important;
+    font-size: 28px;
+    padding: 0 !important;
+    background-color: transparent;
+}
+
+
+.col-xs-6#search_row input#app_search_box {
+    border-radius: 10px;
+    height: 40px;
+    box-shadow: none !important;
+    border: 2px solid #ffffff;
+    background-color: transparent !important;
+    background: transparent;
+}
+
+
+.wl_panel .create#create_application form#createForm .form-group .col-xs-8.col-md-10 input#app_name {
+    border-radius: 10px;
+    height: 40px;
+    box-shadow: none !important;
+    border: 2px solid #ffffff;
+    background-color: transparent !important;
+    background: transparent;	
+}
+
+.wl_panel .create#create_application form#createForm .form-group .col-xs-4.col-md-2 button {
+    background-color: #b7cec7 !important;
+    height: 40px;
+    border-radius: 10px;
+}
+}
+
+
+
+/* NAVBAR */
+.admin_application_list.general .navbar.navbar-default.content-white-bkg {
+	background-color: rgba(255,255,255,.2)!important;
+    height: 70px !important;
+    padding-top: 10px;
+}
+
+
+
+/* Second Modify */
+/* hide metrics */
+.admin_application_list.general #row_filter_metrics {
+    padding: 5px;
+    margin-right: 0px;
+    margin-left: 0;
+    display: none;
+}
+
+/* total install & total visit */
+.admin_application_list.general .col-md-6.col-xs-12 div.row:nth-child(2) {
+    display: none;
+}
+
+
+/* hidding top padding metrics */
+.admin_application_list.general .row.first-row-feature {
+    padding-top: 0;
+}
+
+/* change metrics color */
+.admin_application_list.general #analytics_visits.content-white-bkg {
+    background: rgb(255 255 255)!important;
+}
+
+/* change install and tour */
+.admin_application_list.general canvas#analytics_installs,
+.admin_application_list.general table#sb-tour-install-table {
+    border-radius: 20px;
+}
+
+/* heide visit */
+.admin_application_list.general table#sb-tour-visit-table {
+    display: none;
+}
+
+/* Change top install width */
+@media (min-width: 992px) {
+.admin_application_list.general .row .first-row-feature.col-md-4.col-xs-12:nth-child(2) {
+    width: 66.6%;
+}
+}
+
+/* add Analytic text */
+.admin_application_list.general .col-md-12.col-xs-12:before {
+    content: "Analitics";
+    display: block;
+    text-align: center;
+    font-size: 28px;
+    width: 100%;
+    background-color: #0ec972;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.admin_application_list.general .col-md-12.col-xs-12 {
+    margin-bottom: 50px;
+}
+
+/* change height of application list */
+.admin_application_list.general .row-list-application {
+    max-height: 100vh !important;
+    overflow: auto;
+}

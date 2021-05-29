@@ -1,0 +1,66 @@
+/* inbox */
+body.application_customization_features_list.general .content_editor .edit_page.container-fluid.subcontent div#inbox_view .feature-block-create h3.title-editor.no-border-radius.title-feature-indent:after {
+    content: "Kirim Pesan";
+    font-size: 28px;
+    font-weight: bold;
+}
+
+body.application_customization_features_list.general .content_editor .edit_page.container-fluid.subcontent div#inbox_view .feature-block-create h3.title-editor.no-border-radius.title-feature-indent {
+    font-size: 0;
+}
+
+
+body.application_customization_features_list.general .content_editor .edit_page.container-fluid.subcontent div#inbox_view .feature-block-create .container-fluid.inbox-form-step form#form-inbox-message-option .form-group.sb-form-line label.sb-form-line-title.col-md-12.optional:after {
+    content: "Your Message is goes here";
+    font-size: 16px;
+}
+
+body.application_customization_features_list.general .content_editor .edit_page.container-fluid.subcontent div#inbox_view .feature-block-create .container-fluid.inbox-form-step form#form-inbox-message-option .form-group.sb-form-line label.sb-form-line-title.col-md-12.optional {
+    font-size: 0;
+}
+
+
+
+body.application_customization_features_list.general .container-fluid.inbox-form-step form#form-inbox-message-option form#form-inbox-message-option .form-group.sb-form-line.form-group-checkbox label[for="send_to_all"]:after {
+    content: "Send to All";
+    font-size: 14px;
+}
+
+body.application_customization_features_list.general .container-fluid.inbox-form-step form#form-inbox-message-option form#form-inbox-message-option .form-group.sb-form-line.form-group-checkbox label[for="send_to_all"] {
+    font-size: 0;
+}
+
+
+
+body.application_customization_features_list.general .container-fluid.inbox-form-step form#form-inbox-message-option form#form-inbox-message-option .form-group.sb-form-line.form-group-checkbox  label[for="send_notif"]:after {
+    content: "Send to All Users";
+    font-size: 14px;
+}
+
+body.application_customization_features_list.general .container-fluid.inbox-form-step form#form-inbox-message-option form#form-inbox-message-option .form-group.sb-form-line.form-group-checkbox  label[for="send_notif"] {
+    font-size: 0;
+}
+
+
+
+body.application_customization_features_list.general .content_editor .edit_page.container-fluid.subcontent div#inbox_view .tab-content div#inbox .feature-block-list .margin-top h3.title-editor.no-border-radius.title-feature-indent {
+    font-size: 0;
+}
+
+
+body.application_customization_features_list.general .content_editor .edit_page.container-fluid.subcontent div#inbox_view .tab-content div#inbox .feature-block-list .margin-top h3.title-editor.no-border-radius.title-feature-indent:after {
+    content: "manage message";
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/* My Account */
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_settings"] .list label.item.item-custom.item-input.item-select select.ng-pristine.ng-valid.ng-not-empty.ng-touched option:nth-child(3) {
+    display: none;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_settings"] .list label.item.item-custom.item-input.item-select select.ng-pristine.ng-valid.ng-not-empty.ng-touched option:nth-child(2) {
+    display: none;
+}

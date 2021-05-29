@@ -1,0 +1,228 @@
+@media (min-width: 720px) {
+.always .layout.l1 .tabs {
+    box-shadow: 0 0 10px #000;
+    bottom: calc(var(--safe-area-inset-bottom) + 94%);
+    position: absolute;
+}
+}
+
+
+@media (min-width: 360px) {
+.always .layout.l1 .tabs {
+    box-shadow: 0 0 10px #000;
+    bottom: calc(var(--safe-area-inset-bottom) + 85%);
+    position: absolute;
+}
+}
+
+@media (min-width: 600px) {
+.always .layout.l1 .tabs {
+    box-shadow: 0 0 10px #000;
+    bottom: calc(var(--safe-area-inset-bottom) + 91%);
+    position: absolute;
+}
+}
+
+@media (min-width: 800px) {
+.always .layout.l1 .tabs {
+    box-shadow: 0 0 10px #000;
+    bottom: calc(var(--safe-area-inset-bottom) + 92%);
+    position: absolute;
+}
+}
+
+
+@media (min-width: 384px) {
+.always .layout.l1 .tabs {
+    box-shadow: 0 0 10px #000;
+    bottom: calc(var(--safe-area-inset-bottom) + 85%);
+    position: absolute;
+}
+}
+
+@media (min-width: 1440px) {
+.always .layout.l1 .tabs {
+    box-shadow: 0 0 10px #000;
+    bottom: calc(var(--safe-area-inset-bottom) + 89%);
+    position: absolute;
+}
+}
+
+@media (min-width: 1280px) {
+.always .layout.l1 .tabs {
+    box-shadow: 0 0 10px #000;
+    bottom: calc(var(--safe-area-inset-bottom) + 88%);
+    position: absolute;
+}
+}
+
+
+@media (min-width: 1280px) {
+.always .layout.l1 .tabs {
+    box-shadow: 0 0 10px #000;
+    bottom: calc(var(--safe-area-inset-bottom) + 90%);
+    position: absolute;
+}
+}
+
+
+@media (min-width: 640px) {
+.always .layout.l1 .tabs {
+    box-shadow: 0 0 10px #000;
+    bottom: calc(var(--safe-area-inset-bottom) + 73%);
+    position: absolute;
+}
+}
+
+
+@media (min-width: 412px) {
+.always .layout.l1 .tabs {
+    box-shadow: 0 0 10px #000;
+    bottom: calc(var(--safe-area-inset-bottom) + 85%);
+    position: absolute;
+}
+}
+
+
+@media (min-width: 600px) {
+.always .layout.l1 .tabs {
+    box-shadow: 0 0 10px #000;
+    bottom: calc(var(--safe-area-inset-bottom) + 90%);
+    position: absolute;
+}
+}
+
+@media (min-width: 320px) {
+.always .layout.l1 .tabs {
+    box-shadow: 0 0 10px #000;
+    bottom: calc(var(--safe-area-inset-bottom) + 81%);
+    position: absolute;
+}
+}
+
+@media (min-width: 480px) {
+.always .layout.l1 .tabs {
+    box-shadow: 0 0 10px #000;
+    bottom: calc(var(--safe-area-inset-bottom) + 89%);
+    position: absolute;
+}
+}
+
+@media (min-width: 758px) {
+.always .layout.l1 .tabs {
+    box-shadow: 0 0 10px #000;
+    bottom: calc(var(--safe-area-inset-bottom) + 90%);
+    position: absolute;
+}
+}
+
+@media (min-width: 320px) {
+.always .layout.l1 .tabs {
+    box-shadow: 0 0 10px #000;
+    bottom: calc(var(--safe-area-inset-bottom) + 79%);
+    position: absolute;
+}
+}
+
+@media (min-width: 240px) {
+.always .layout.l1 .tabs {
+    box-shadow: 0 0 10px #000;
+    bottom: calc(var(--safe-area-inset-bottom) + 69%);
+    position: absolute;
+}
+}
+
+@media (min-width: 411px) {
+.always .layout.l1 .tabs {
+    box-shadow: 0 0 10px #000;
+    bottom: calc(var(--safe-area-inset-bottom) + 86%);
+    position: absolute;
+}
+}
+
+@media (min-width: 411px) {
+.always .layout.l1 .tabs {
+    box-shadow: 0 0 10px #000;
+    bottom: calc(var(--safe-area-inset-bottom) + 88%);
+    position: absolute;
+}
+}
+
+@media (min-width: 411px) {
+.always .layout.l1 .tabs {
+    box-shadow: 0 0 10px #000;
+    bottom: calc(var(--safe-area-inset-bottom) + 88%);
+    position: absolute;
+}
+}
+
+
+@media (min-width: 320px) {
+.always .layout.l1 .tabs {
+    box-shadow: 0 0 10px #000;
+    bottom: calc(var(--safe-area-inset-bottom) + 82%);
+    position: absolute;
+}
+}
+
+
+@media (min-width: 375px) {
+.always .layout.l1 .tabs {
+    box-shadow: 0 0 10px #000;
+    bottom: calc(var(--safe-area-inset-bottom) + 85%);
+    position: absolute;
+}
+}
+
+
+@media (min-width: 414px) {
+.always .layout.l1 .tabs {
+    box-shadow: 0 0 10px #000;
+    bottom: calc(var(--safe-area-inset-bottom) + 86%);
+    position: absolute;
+}
+}
+
+@media (min-width: 375px) {
+.always .layout.l1 .tabs {
+    box-shadow: 0 0 10px #000;
+    bottom: calc(var(--safe-area-inset-bottom) + 88%);
+    position: absolute;
+}
+}
+
+@media (min-width: 768px) {
+.always .layout.l1 .tabs {
+    box-shadow: 0 0 10px #000;
+    bottom: calc(var(--safe-area-inset-bottom) + 90%);
+    position: absolute;
+}
+}
+
+
+@media (min-width: 1024px) {
+.always .layout.l1 .tabs {
+    box-shadow: 0 0 10px #000;
+    bottom: calc(var(--safe-area-inset-bottom) + 93%);
+    position: absolute;
+}
+}
+
+
+@media (min-width: 540px) {
+.always .layout.l1 .tabs {
+    box-shadow: 0 0 10px #000;
+    bottom: calc(var(--safe-area-inset-bottom) + 86%);
+    position: absolute;
+}
+}
+
+
+@media (min-width: 280px) {
+.always .layout.l1 .tabs {
+    box-shadow: 0 0 10px #000;
+    bottom: calc(var(--safe-area-inset-bottom) + 88%);
+    position: absolute;
+}
+}
+

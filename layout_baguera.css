@@ -1,0 +1,414 @@
+/* mengatur lebar sidebar menu */
+.layout_baguera_11 ion-content.scroll-content.ionic-scroll {
+    width: 100vw !important;
+}
+
+ion-side-menu.menu.menu-left.menu-left-open {
+    width: 100% !important;
+}
+
+/* USER SETELAH LOGIN */
+/* mengubah gambar background */
+.layout_baguera_11 .homepage-custom.logout-form {
+    background-image: url(https://klikhost.com/wp-content/uploads/2021/02/shared-banner-img.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+/* mengatur gambar user */
+.layout_baguera_11 .avatar-img {
+    margin-top: 7vh;
+    float: left;
+  height: 12vh;   
+}
+
+/* mengatur nama */
+.layout_baguera_11 .avatar-nick small {
+    text-align: left;
+    display: block;
+    margin-top: 20px;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+/* mengatur tombol close/power */
+i.ion-power.logout-icon:before {
+    color: #ffdc2f;
+    font-size: 4vh;
+}
+
+/* menambahkan tulisan Our Services*/
+[ng-if="!has_loggin_features"]:before {
+  text-align: center;
+    content: "Our Services";
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 15px;  
+    margin-top: 30px;
+}
+
+/* mengubah lebar menu */
+[ng-if="!has_loggin_features"] ul.list.homepage-custom.app-menu li {
+  display: inline-block;
+    width: 21%;
+    margin: 5px 2%;
+    border-radius: 10px;
+    border: 0;
+    padding: 0;
+}
+
+/* 
+[ng-if="!has_loggin_features"] ul.list.homepage-custom.app-menu li .menu-text:before {
+    text-align: center;
+    margin: 0 auto !important;
+    content: 'f233' !important;
+    font-family: 'Ionicons';
+    font-size: 50px;
+    height: 80px !important;
+} */
+
+/* mengubah text pada menu menjadi center */
+[ng-if="!has_loggin_features"] ul.list.homepage-custom.app-menu li .menu-text {
+  text-align: center;
+    width: 100%;
+    display: block;
+}
+
+/* mengubah ukuran huruf menu */
+[ng-if="!has_loggin_features"] ul.list.homepage-custom.app-menu li .menu-text p {
+    font-size: 10px;
+}
+
+
+/* HALAMAN LOGIN */
+.layout_baguera_11 .logout-form {
+    padding-bottom: 7vh;
+    margin-top: 20px !important;
+}
+[ng-if="!is_logged_in"] i.ion-android-contact.avatar {
+    color: #61ce70 !important;
+}
+
+.layout_baguera_11 [ng-if="!is_logged_in"] li.item.homepage-custom {
+  border: 0 !important;
+}
+
+.layout_baguera_11 [ng-if="!is_logged_in"] ul.list.connexion-menu form[ng-show="display_login_form"] {
+    background-color: #ecf0f6;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+}
+
+/* mengubah kolom input email & password */
+.layout_baguera_11 [ng-if="!is_logged_in"] ul.list.connexion-menu form[ng-show="display_login_form"] ul li input {
+  width: 96%;
+    margin-left: 2%;
+    border: 2px solid #fff !important;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff !important;
+    text-align: center;
+}
+
+/* mengubah tombol sign in */
+.layout_baguera_11 form[ng-show="display_login_form"] button.button.button-custom.button-small.waves-effect.connexion-signin.ng-binding {
+    width: 60%;
+    border: 0;
+    border-radius: 10px;
+    background-color: #61ce70;
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.layout_baguera_11 form[ng-show="display_login_form"] i.ion-log-in {
+    display: none;
+}
+
+.layout_baguera_11 form[ng-show="display_login_form"] ul.list.nospace-noborder-noback:before {
+    content: "Log In";
+    font-weight: bold;
+    font-size: 24px;
+    margin: 15px 0 !important;
+    display: block;
+    text-align: center;
+}
+
+.layout_baguera_11 form[ng-show="display_login_form"] a.forgot-link.ng-binding {
+    font-size: 11px;
+    color: #61ce70;
+}
+
+.ion-edit.logout-icon::before {
+    font-size: 15px;
+    background-color: #eaeaea;
+    padding: 10px;
+    border-radius: 50px;
+    color: #61ce70;
+}
+
+/* EDIT ACCOUNT PAGE */
+/* menghilangkan border pada edit form page */
+.layout_baguera_11 [ng-if="is_logged_in && display_edit_form"] .homepage-custom .border-custom {
+  border: 0 !important;
+}
+
+/* menghilangkan padding pada edit form page */
+.layout_baguera_11 [ng-if="is_logged_in && display_edit_form"] [ng-show="display_edit_form"] {
+    padding: 0;
+}
+
+/* mengatur warna bg pada edit form page */
+.layout_baguera_11 [ng-if="is_logged_in && display_edit_form"] div.list.nospace-noborder-noback div.list.nospace-noborder-noback {
+    background-color: #eaeaea !important;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px !important;
+}
+
+/* mengatur bg pada kolom input edit form page */
+.layout_baguera_11 [ng-if="is_logged_in && display_edit_form"] div.list.nospace-noborder-noback div.list.nospace-noborder-noback input{
+    border: 0;
+    background-color: #fff !important;
+    border-radius: 10px !important;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* mengatur button save pada edit form page */
+.layout_baguera_11 [ng-if="is_logged_in && display_edit_form"] button {
+    width: 60%;
+    border-radius: 10px;
+    border: 0;
+    background-color: #61ce70;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* menghilangkan tanda centang pada edit form page */
+.layout_baguera_11 [ng-if="is_logged_in && display_edit_form"] button i.ion-checkmark-round {
+    display: none;
+}
+
+/* mengatur gambar avatar bagian atas pada edit form page */
+.layout_baguera_11 [ng-if="is_logged_in && display_edit_form"] img {
+    height: 20vh;
+    border: 0;
+    border-radius: 50%;
+}
+
+
+/* BUTTON COONECTION DAN CREATE ACCOUNT */
+[ng-click="clickOnConnexion()"] {
+    background-color: #ecf0f6  !important;
+    border-radius: 10px;
+    border: 0;
+    color: #000 !important;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block !important;
+    margin-bottom: 10px;
+}
+
+[ng-click="clickOnConnexion()"] i {
+  display: none;
+}
+
+[ng-click="clickOnCreateAccount()"] {
+    background-color: #ecf0f6  !important;
+    border-radius: 10px;
+    border: 0;
+    color: #000 !important;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center; 
+    display: inline-block !important;
+}
+
+[ng-click="clickOnCreateAccount()"] i {
+  display: none;
+}
+
+
+.abort-div.ng-hide [ng-click="clickOnCreateAccount()"],
+.abort-div.ng-hide [ng-click="clickOnConnexion()"] {
+  display: none !important;
+}
+
+/* REGISTER PAGE */
+form[ng-show="display_account_form"] {
+    background-color: #ecf0f6;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* mengatur tulisan Privacy Policy */
+.layout_baguera_11 .check-policy.ng-empty {
+    text-align: left !important;
+}
+
+.layout_baguera_11 .check-policy.ng-not-empty {
+    text-align: left !important;
+    padding-left: 25px !important;
+}
+
+
+/* mengatur seleck status halaman register */
+form[ng-show="display_account_form"] select {
+    border: 0 !important;
+}
+
+/* mengatur input halaman register */
+form[ng-show="display_account_form"] input {
+    border: 0 !important;
+    background-color: #fff !important;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+div[ng-click="clickOnPrivacyPolicy()"],
+label[ng-model="customer.privacy_policy"] {
+  border: 0 !important;
+}
+
+form[ng-show="display_account_form"] button {
+    width: 60% !important;
+    border: 0;
+    border-radius: 10px;
+    background-color: #61ce70 !important;
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+form[ng-show="display_account_form"] i.ion-android-send:before {
+  display: none;
+}
+
+.layout_baguera_11 .check-pass {
+    padding: 15px!important;
+    text-align: left;
+    padding-left: 50px !important;
+}
+
+.item.item-icon-left.policy-button.border-custom small {
+    font-size: 85%;
+    text-align: left !important;
+    display: block;
+    padding-left: 30px !important;
+}
+
+label.checkbox-custom.check-policy.border-custom.item.item-checkbox.ng-empty.ng-valid small {
+    padding-left: 20px !important;
+}
+
+/* FORGOT PASSWORD */
+/* mengubah warna bg */
+form[name="forgotPasswordForm"] {
+    background-color: #ecf0f6;
+    border-radius: 10px;
+    padding: 10px;  
+}
+
+/* mengubah item input email */
+form[name="forgotPasswordForm"] input {
+    border: 0 !important;
+    background-color: #fff !important;
+    border-radius: 10px !important;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/* mengubah tombol reset password */
+form[name="forgotPasswordForm"] button {
+    width: 70% !important;
+    border-radius: 10px;
+    border: 0;
+    background-color: #61ce70 !important;
+    color: #fff !important;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+/*
+form[name="forgotPasswordForm"] button {
+  visibility: hidden;
+    height: 70px !important;
+}
+
+form[name="forgotPasswordForm"] button:after {
+    content: "Send Password";
+    visibility: visible;
+    width: 60% !important;
+    border-radius: 10px;
+    border: 0;
+    background-color: #61ce70 !important;
+    color: #fff !important;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 14px;
+    margin: 10px 20%;
+    height: 8vh !important;
+    display: block;
+}
+*/
+
+/* mengubah warna backward icon */
+.ion-ios-arrow-back.abort-icon::before {
+    color: #61ce70 !important;
+    margin-top: 30px !important;
+    font-size: 40px !important;
+}
+
+
+
+/* mengubah button CONNECTION */
+button[ng-click="clickOnConnexion()"] {
+    visibility: hidden;
+}
+[ng-if="!is_logged_in"] [ng-click="clickOnConnexion()"]:after {
+    display: block !important;
+    content: "Login";
+    color: #000;
+    border-radius: 10px;
+    background-color: #ecf0f6;
+    visibility: visible;
+    padding-top: 20px;
+    left: 0;
+    right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* mengubah gambar menu */
+.layout_baguera_11 .menu-icon-div {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 5vh;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    float: none;
+}
+
+/* mengubah judul menu */
+.layout_baguera_11 .menu-text {
+    float: left;
+    line-height: 5vh;
+    float: none;
+    width: 100% !important;
+    margin: 0 auto !important;
+}
