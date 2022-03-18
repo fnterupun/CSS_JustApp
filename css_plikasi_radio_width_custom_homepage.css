@@ -1,0 +1,1054 @@
+/* remote control maximize */
+ion-modal-view.audio-player.media-player.media-player-modal.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .mini-controls button {
+    color: #fff !important;
+    opacity: 1 !important;
+    color: #a9c1a0;
+}
+
+ion-modal-view.audio-player.media-player.media-player-modal.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .mini-controls button:nth-child(1),
+ion-modal-view.audio-player.media-player.media-player-modal.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .mini-controls button:nth-child(4),
+ion-modal-view.audio-player.media-player.media-player-modal.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .mini-controls button:nth-child(6),
+ion-modal-view.audio-player.media-player.media-player-modal.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .mini-controls button:nth-child(8) {
+    display: none;
+}
+
+ion-modal-view.audio-player.media-player.media-player-modal.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .mini-trackname {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+ion-modal-view.audio-player.media-player.media-player-modal.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .mini-trackname [ng-click="player.openPlayerModal('cover')"] {
+    display: flex;
+    flex-direction: column;
+}
+
+ion-modal-view.audio-player.media-player.media-player-modal.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .mini-trackname [ng-click="player.openPlayerModal('cover')"] span.ng-binding {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin: 15px 0;
+    color: #fff;
+}
+
+ion-modal-view.audio-player.media-player.media-player-modal.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .mini-trackname [ng-click="player.openPlayerModal('cover')"] span:nth-child(1) {
+    order: 2;
+    text-align: left;
+    font-style: italic;
+    color: #555;
+}
+
+ion-modal-view.audio-player.media-player.media-player-modal.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active button[ng-click="player.reset();"] {
+    position: fixed;
+    bottom: 0;
+    display: none;
+}
+
+
+ion-modal-view.audio-player.media-player.media-player-modal.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .mini-controls .button {
+    height: 100px !IMPORTANT;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+ion-modal-view.audio-player.media-player.media-player-modal.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .mini-controls {
+    height: 100px !important;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+ion-modal-view.audio-player.media-player.media-player-modal.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .mini-controls button:nth-child(5) {
+    background: rgb(183,215,75);
+    background: linear-gradient(90deg, rgba(183,215,75,1) 0%, rgba(79,216,142,1) 100%);
+    width: 80px;
+    height: 88px;
+    min-height: 80px;
+    max-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 4px solid #fff;
+}
+
+ion-modal-view.audio-player.media-player.media-player-modal.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .mini-controls .button i {
+    display: flex;
+    color: #a9c1a0;
+}
+
+ion-modal-view.audio-player.media-player.media-player-modal.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .mini-controls .button i.ion-play:before,
+ion-modal-view.audio-player.media-player.media-player-modal.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .mini-controls .button i.icon.ion-ios-pause:before {
+    font-size: 40px !important;
+    color: #fff;
+}
+
+ion-modal-view.audio-player.media-player.media-player-modal.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active ion-content {
+    top: 0 !important;
+}
+
+ion-modal-view.audio-player.media-player.media-player-modal .cover {
+    background: url(https://builder.justapp.id/images/application/7288/features/radio/183720/61ab9868211b7.jpg) no-repeat center fixed transparent !important;
+    background-size: 35% !important;
+    height: 60vh;
+    background-position: center top 30px !important;
+}
+
+ion-modal-view.audio-player.media-player.media-player-modal {
+    background-color: #fff !important;
+    background: #fff !important;
+}
+
+.homepage .scroll .item.item-avatar img {
+    background-color: #fff;
+    padding: 2px;
+    border-radius: 50px;
+}
+
+/* mengubah warna pada header */
+ion-modal-view.audio-player.media-player .bar-custom {
+    border-color: #ffffff;
+    background-color: #ffffff;
+}
+
+.mini-trackname .ion-power-off-thin:before {
+  font-size: 30px !important;
+}
+
+
+ion-view.pane.has-background-image {
+    background: #4e80a6 !important;
+}
+
+
+/* SOCIAL WALL */
+ion-modal-view.module-fanwall.fanwall-new.fanwall-new-l1 ion-content {
+    top: 0 !important;
+    background: #fff !important;
+    margin-top: 80px;
+    border-radius: 30px 30px 0 0 !important;
+    padding-top: 20px !important;
+    bottom: 0 !important;
+}
+
+ion-modal-view.module-fanwall.fanwall-new.fanwall-new-l1 {
+    background: #b7d74b;
+    background: linear-gradient(90deg, rgba(183, 215, 75, 1) 0%, rgba(79, 216, 142, 1) 100%) !important;
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 ion-header-bar {
+    background-color: #fff;
+    background-image: none !important;
+    background-position: bottom;
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 ion-header-bar .button-bar {
+    background-color: transparent !important;
+    border: 0;
+    padding-top: 10px;
+    width: 96% !important;
+    margin-left: 2%;
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 ion-header-bar button {
+    background-color: transparent !important;
+    border: 0;
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 button.button.button-custom.button-positive.button-positive-custom.ng-binding.fw-icon-selected.icon-active-custom {
+    background-color: #b7d74b !important;
+    border-radius: 10px;
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 button.button.button-custom.button-positive.button-positive-custom.ng-binding.fw-icon-selected.icon-active-custom img {
+    filter: invert(1);
+    margin-top: 5px;
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 button.button.button-custom.button-positive.button-positive-custom.ng-binding.fw-icon-selected.icon-active-custom.activated {
+    background-color: #fff !important;
+    border-radius: 10px;
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 button.button.button-custom.button-positive.button-positive-custom.ng-binding.icon-custom.activated {
+    background-color: #51d88d;
+    border-radius: 10px;
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 button.button.button-custom.button-positive.button-positive-custom.ng-binding.icon-custom.activated img {
+    margin-top: 5px;
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 ion-item.item-custom.item {
+    width: 96%;
+    background-color: #ecf0f6 !important;
+    margin-left: 2%;
+    border: 0;
+    border-radius: 10px;
+}
+
+ion-header-bar.bar-custom.bar.bar-header {
+    height: 0 !important;
+    background-color: transparent;
+    background-image: none;
+}
+
+ion-view.module-cms.cms-l1 ion-content {
+    top: 0 !important;
+    background: rgb(183,215,75);
+    background: linear-gradient(90deg, rgba(183,215,75,1) 0%, rgba(79,216,142,1) 100%);
+    bottom: 0 !important;
+}
+
+ion-view.module-cms.cms-l1 ion-content .card .item.item-custom {
+    border: 0;
+    background-color: transparent;
+    color: rgba(68, 68, 68, 1);
+    padding: 0;
+}
+
+.bar.bar-custom .title {
+    display: none;
+}
+
+ion-view.module-cms.cms-l1 ion-content .card.no-shadow {
+    margin: 0;
+    padding: 0;
+    height: 100px !important;
+}
+
+ion-view.module-cms.cms-l1 [ng-switch-when="text"] {
+    margin: 0;
+    padding: 0;
+}
+
+ion-view.module-cms.cms-l1 ion-content .scroll>div:nth-child(n+4) .content.ng-binding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10pxpx;
+}
+
+ion-view.module-cms.cms-l1 ion-content .scroll>div:nth-child(4) .content.ng-binding a {
+    background-color: #fff;
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 !important;
+    border-radius: 50px;
+    padding: 0 !important;
+    flex-direction: column;
+    height: 80px;
+}
+
+ion-view.module-cms.cms-l1 ion-content .scroll > div:nth-child(4) .content.ng-binding {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10pxpx;
+    width: 100% !important;
+    position: relative;
+    margin-bottom: 0 !important;
+    top: 0 !important;
+    padding-top: 0 !important;
+    overflow: visible;
+    white-space: nowrap !important;
+    width: 100% !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    white-space: nowrap !important;
+    -webkit-overflow-scrolling: touch !important;
+}
+
+ion-view.module-cms.cms-l1 ion-content .scroll > div:nth-child(4) .content.ng-binding p {
+    border-radius: 10px;
+    margin: 0 !important;
+    display: inline-block !important;
+}
+
+ion-view.module-cms.cms-l1 .card {
+    box-shadow: none;
+}
+
+ion-view.module-cms.cms-l1 ion-content .scroll>div:nth-child(4) {
+    background-color: #fff;
+    border-radius: 30px 30px 0 0;
+    padding-top: 20px;
+    margin-top: 5px;
+}
+
+ion-view.module-cms.cms-l1 ion-content .scroll > div:nth-child(4) .content.ng-binding img {
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #ecf0f6;
+    padding: 5px;
+    border-radius: 50px;
+    height: 60px;
+    object-fit: cover;
+}
+
+ion-view.module-cms.cms-l1 ul[rn-carousel] > li {
+    color: rgb(0, 0, 0);
+    backface-visibility: hidden;
+    overflow: visible;
+    vertical-align: top;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    white-space: normal;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    width: 74%;
+    height: 100%;
+    display: inline-block;
+    margin: 0 5%;
+    padding: 10px;
+    background-color: #fff !important;
+}
+
+ion-view.module-cms.cms-l1 .sb-cms-image ul[rn-carousel] li > div {
+    height: 210px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff !important;
+    border-radius: 30px 5px 30px 5px;
+    height: 80%;
+}
+
+ion-view.module-cms.cms-l1 .rn-carousel-indicator {
+    display: none;
+}
+
+ion-view.module-cms.cms-l1 [ng-switch-when="slider"] {
+    margin: 0 !important;
+    padding-top: 20px;
+    height: 200px;
+}
+
+ion-view.module-cms.cms-l1 [ng-switch-when="slider"] .item.item-image-gallery.item-custom.sb-cms-image {
+    background-color: #fff !important;
+}
+
+ion-view.module-cms.cms-l1 ul[rn-carousel] > li {
+    color: rgb(0, 0, 0);
+    backface-visibility: hidden;
+    overflow: visible;
+    vertical-align: top;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    white-space: normal;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    width: 74%;
+    height: 100%;
+    display: inline-block;
+    margin: 0 2%;
+    padding: 0 5px;
+    background-color: #fff !important;
+}
+
+ion-view.module-cms.cms-l1 ion-content .scroll>div:nth-child(n+4) {
+    background-color: #fff;
+}
+
+ion-view.module-cms.cms-l1 ion-content .scroll>div:nth-child(n+6) .content.ng-binding {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+ion-view.module-cms.cms-l1 ion-content .scroll>div:nth-child(n+6) .content.ng-binding p {
+    width: 100%;
+}
+
+ion-view.module-cms.cms-l1 ion-content .scroll>div:nth-child(n+6) .content.ng-binding p a {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+ion-view.module-cms.cms-l1 ion-content .scroll>div:nth-child(n+6) {
+    padding: 0 12px;
+    background-color: #fff !important;
+    margin: 0 !important;
+}
+
+ion-view.module-cms.cms-l1 ion-content .scroll>div:nth-child(n+6) .card {
+    margin: 0;
+    padding: 5px 0;
+}
+
+ion-view.module-cms.cms-l1 ion-content .scroll>div:nth-child(n+6) img.left {
+    float: left;
+    margin-right: 10px;
+    border-radius: 20px 0;
+    width: 24%;
+    height: 60px;
+    object-fit: cover;
+}
+
+ion-view.module-cms.cms-l1 ion-content .scroll>div:nth-child(6) .card div[sb-cms-text] {
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 10px 0;
+    padding: 0;
+}
+
+ion-view.module-cms.cms-l1 ion-content .scroll>div:nth-child(n+7) .card div[sb-cms-text] {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #ecf0f6;
+    border-radius: 10px 0;
+    padding: 5px;
+}
+
+ion-view.module-cms.cms-l1 ion-content .scroll > div:nth-child(6) .content.ng-binding h1 {
+    font-size: 18px;
+    text-align: left;
+    display: flex;
+    justify-content: start;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+/* When Minimize */
+.remote-control {
+    bottom: 0;
+    position: fixed;
+    width: 100vw;
+    background-color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+
+.remote-control .mini-trackname>span {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 90%;
+}
+
+.remote-control .mini-trackname>span>span:nth-child(1) {
+    order: 2;
+    color: #000;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.remote-control .mini-trackname > span > span.ng-binding {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.remote-control .mini-trackname {
+    padding-top: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.remote-control .mini-trackname button.button.button-clear.button-light.pull-right {
+    width: 10% !important;
+    color: #55d88a;
+}
+
+.mini-controls>button>i {
+    color: #fff !important;
+}
+
+ion-view.module-cms.cms-l1 ion-content .scroll > div:nth-last-child(1) {
+    padding-bottom: 100px;
+}
+
+
+.mini-controls>button:nth-child(5) {
+    display: inline;
+}
+.mini-controls>button {
+    display: none;
+}
+
+.remote-control.mini-player-radio .mini-controls {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.remote-control.mini-player-radio .mini-seekbar {
+    width: 90%;
+}
+
+.remote-control.mini-player-radio {
+    display: flex;
+}
+
+.mini-trackname [ng-click="player.reset();"] {
+    display: none;
+}
+
+ion-modal-view.audio-player.media-player.media-player-modal.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .mini-seekbar {
+    width: 100% !important;
+}
+
+ion-modal-view.audio-player.media-player.media-player-modal.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .mini-controls {
+    width: 100% !important;
+}
+
+
+ion-modal-view.audio-player.media-player.media-player-modal.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .mini-controls button {
+    padding: 0 20px;
+}
+
+.remote-control.mini-player-radio {
+    display: flex;
+    background: #b7d74b;
+    background: linear-gradient(90deg, rgba(183, 215, 75, 1) 0%, rgba(79, 216, 142, 1) 100%);
+    border-radius: 0;
+    align-items: center;
+}
+
+ion-modal-view.audio-player.media-player.media-player-modal.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .remote-control.mini-player-radio {
+    height: 60vh !important;
+    background-color: #fff !important;
+    border-radius: 30px 30px 0 0 !important;
+    padding-top: 50px !important;
+    margin: 0 !important;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+button[ng-click="close()"],
+button[ng-click="player.reset()"] {
+    color: #fff !important;
+}
+
+.bar-custom .button.button-clear {
+    border-color: transparent;
+    box-shadow: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    width: 50px;
+    background: rgb(183,215,75);
+    border-radius: 5px;
+    border: 0;
+}
+
+.ion-arrow-shrink:before,
+.ion-power-off-thin:before {
+    font-size: 22px !important;
+}
+
+button[ng-show="showLeftButton()"],
+button[ng-click="player.reset()"],
+button[ng-click="close()"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i.icon.ion-navicon-round {
+    background-image: url(https://ia601401.us.archive.org/5/items/apps_20211204/apps.svg);
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: transparent;
+    filter: invert(1);
+}
+
+
+/* Layout Taxi */
+ion-side-menu.menu.menu-left.menu-left-open,
+ion-side-menu.menu.menu-left {
+    margin: 2%;
+    min-height: 96%;
+    border-radius: 30px;
+    background-color: transparent !important;
+    width: 250px !important;
+}
+
+.layout.layout_taxi ion-content {
+    padding: 0;
+    background-color: #fe8506 !important;
+    margin: 2%;
+    border-radius: 30px;
+    background: rgb(183,215,75);
+    background: linear-gradient(90deg, rgba(183,215,75,1) 0%, rgba(79,216,142,1) 50%, rgba(255,255,255,1) 50%);
+    overflow: hidden;
+}
+
+.layout.layout_taxi .taxi-header {
+    width: 100%;
+    background-position: center center;
+    padding: 0;
+    height: 180px !important;
+    border-radius: 0 0 30px 0;
+    background: #b7d74b;
+    background: linear-gradient(90deg, rgba(183, 215, 75, 1) 0%, rgba(79, 216, 142, 1) 100%) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout_taxi .taxi-header .taxi-avatar-wrapper {
+    height: 20vw;
+    width: 20vw;
+    border: 2px solid #b7d74b;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.layout_taxi .customer-name {
+    width: 100%;
+    font-size: 16px;
+    text-align: left;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout.layout_taxi ion-content ul.items.homepage-custom {
+    border-radius: 30px 0 0 0;
+    height: 100vh !important;
+    overflow: hidden !important;
+    padding-top: 2rem;
+    min-height: 100vh !important;
+}
+
+.homepage-custom .border-custom {
+    border-color: rgba(151, 199, 170, 0);
+}
+
+.layout_taxi .lines {
+    height: 12vw;
+}
+
+.layout_taxi .line-box {
+    display: flex;
+    align-items: center;
+}
+
+.layout_taxi .line-icon-box {
+    width: 4em;
+    line-height: 6vw;
+    display: flex;
+    justify-content: center;
+}
+
+.layout_taxi .line-title {
+    line-height: 6vw;
+    margin-left: 1em;
+    font-weight: 700;
+    font-variant: normal;
+    text-transform: capitalize !important;
+    font-weight: normal;
+    color: #000;
+}
+
+.layout_taxi .taxi-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b7d74b;
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 30px 20%;
+}
+
+.layout_taxi .taxi-signup span.taxi-signup-text.ng-binding,
+.layout_taxi .taxi-signup span.taxi-or-text.ng-binding {
+    display: none;
+}
+
+
+/* Social Wall */
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1,
+ion-modal-view.module-fanwall.fanwall-list.fanwall-list-l1 {
+    background: #b7d74b;
+    background: linear-gradient(90deg, rgba(183, 215, 75, 1) 0%, rgba(79, 216, 142, 1) 100%) !important;
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 ion-content,
+ion-modal-view.module-fanwall.fanwall-list.fanwall-list-l1 ion-content {
+    top: 0 !important;
+    background: #b7d74b;
+    background: #fff !important;
+    margin-top: 70px;
+    border-radius: 30px 30px 0 0 !important;
+    padding-top: 10px !important;
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 ion-content.fanwall-profile {
+    padding-top: 0;
+    background: #fff !important;
+}
+
+ion-header-bar.bar-subheader.bar.bar-header {
+    position: fixed;
+    padding-bottom: 15px !important;
+    top: auto !important;
+    bottom: 0;
+    height: 60px;
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 ion-content.fanwall-profile .scroll > div {
+    display: flex;
+    height: 300px !important;
+    padding-top: 10px;
+    background: #b7d74b;
+    background: #fff !important;
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 ion-content.fanwall-profile .scroll>div>.customer-image {
+    display: inline-flex;
+    width: 20%;
+    margin: 0 !important;
+    height: 50px !important;
+    justify-content: center;
+    align-items: center;
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 ion-content.fanwall-profile .scroll>div>.customer-image img.general-custom-border {
+    width: 100%;
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 ion-content.fanwall-profile .customer-actions {
+    width: 20%;
+    margin: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 ion-content.fanwall-profile .customer-fullname.ng-binding {
+    display: inline-flex;
+    width: 40%;
+    margin: 0 !important;
+    height: 50px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #b7d74b;
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 ion-content.fanwall-profile button[ng-click="editProfile()"] {
+    background-image: url(https://ia601506.us.archive.org/31/items/edit_20211204/edit.svg);
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    filter: invert(1);
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 ion-content.fanwall-profile button[ng-click="showBlockedUsers()"] {
+    background-image: url(https://ia601506.us.archive.org/31/items/edit_20211204/ban.svg);
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    filter: invert(1);
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 ion-content.fanwall-profile button[ng-click="editProfile()"],
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 ion-content.fanwall-profile button[ng-click="showBlockedUsers()"] {
+    font-size: 0 !important;
+    background-color: #b7d74b !important;
+    border: 0 !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 0 !important;
+    margin: 0 5px !important;
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 ion-content.fanwall-profile ion-list.list-posts.disable-user-behavior {
+    position: fixed;
+    top: 90px !important;
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 ion-content.fanwall-profile .list .item-divider.item-divider-custom {
+    background-color: #b7d74b;
+    color: rgba(255, 255, 255, 1);
+    border: 0;
+    width: 50%;
+    border-radius: 0 10px 10px 0;
+}
+
+ion-view.module-fanwall.fanwall-list.fanwall-list-l1 ion-content.fanwall-profile .badge.badge-balanced-custom {
+    background-color: #b7d74b;
+    color: #fff;
+    font-weight: normal;
+}
+
+ion-modal-view.module-fanwall.fanwall-new.fanwall-new-l1 ion-item.item-custom.item-avatar.post-author.item,
+ion-modal-view.module-fanwall.fanwall-new.fanwall-new-l1 ion-item.item-icon-left.item-custom.upload-action.item {
+    width: 96%;
+    background-color: transparent !important;
+    margin-left: 2%;
+    border: 0;
+    border-radius: 10px;    
+}
+
+ion-modal-view.module-fanwall.fanwall-new.fanwall-new-l1 .button.button-assertive-custom {
+    border: 0 !important;
+    background-color: #b7d74b !important;
+    color: #fff;
+}
+
+ion-modal-view.module-fanwall.fanwall-new.fanwall-new-l1 ion-item .col-10 {
+    background-color: #b7d74b;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ion-modal-view.module-fanwall.fanwall-new.fanwall-new-l1 ion-item i.item-note.ion-plus.arrow-center {
+    color: #fff;
+}
+
+button[ng-click="refresh()"],
+button[ng-click="appSettings()"] {
+    background-color: #72d878 !important;
+}
+
+ion-modal-view.module-fanwall.fanwall-new.fanwall-new-l1 button[ng-click="close()"] {
+    background-color: #b7d74b !important;
+}
+
+button[ng-click="close()"],
+button[ng-click="player.reset()"] {
+    background-color: #ecf0f6 !important;
+    color: #b4d74e !important;
+}
+
+
+/* MY ACCOUNT START */
+ion-modal-view.privacy-policy-view,
+ion-modal-view.customer-view.customer-layout1 {
+    background: #b7d74b;
+    background: linear-gradient(90deg, rgba(183, 215, 75, 1) 0%, rgba(79, 216, 142, 1) 100%) !important;
+}
+
+ion-modal-view.privacy-policy-view ion-content,
+ion-modal-view.customer-view.customer-layout1 ion-content {
+    top: 0 !important;
+    background: #fff !important;
+    margin-top: 80px;
+    border-radius: 30px 30px 0 0 !important;
+    padding-top: 20px !important;
+    bottom: 0 !important;
+}
+
+ion-modal-view.privacy-policy-view ion-content .col.col-100.padding.item-text-custom.ng-binding {
+    padding: 0;
+}
+
+/* Login Page */
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_login_form"] {
+    padding: 0 30px;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_login_form"] .list .item.item-custom {
+    border: 0 !important;
+    background-color: transparent;
+    color: #363636;
+    padding: 15px 0;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_login_form"] .list:before {
+    content: "Hey, Login Now";
+    display: block;
+    text-align: left;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 30px 2%;    
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_login_form"]:before {
+    content: " ";
+    height: 200px;
+    display: block;
+    background-size: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn2.dan.com/assets/public/home_domains-c98f55608258b107db2e010967e98acaf6db98fd1345fd6f182379849e640c3a.svg);
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_login_form"] label.item.item-input.item-custom input {
+    border-bottom: 2px solid #ecf0f6 !important;
+    padding-bottom: 0px;
+    height: 60px !important;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_login_form"] i.icon.ion-ios-person,
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_login_form"] i.icon.ion-locked {
+    display: none;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_login_form"] .button.button-positive-custom {
+    border: 0;
+    background-color: #b7d74b;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_login_form"] div[ng-click="displayAccountForm()"] {
+    font-size: 11px;
+    text-align: left;
+    padding: 5px 0;
+    color: #007aff;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_login_form"] .padding.text-right {
+    padding: 0 0 50px 0;
+    margin-top: -15px;
+    text-align: right;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_login_form"] span[ng-click="displayForgotPasswordForm()"] {
+    color: #3498db !important;
+    font-size: 11px !important;
+}
+/* LOGIN PAGE END */
+
+
+/* FORGOT PASSWORD PAGE */
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_forgot_password_form"] {
+    padding: 0 30px;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_forgot_password_form"] .padding.text-left {
+    padding: 0;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_forgot_password_form"] .padding.text-left:before {
+    content: "Forgot Password?";
+    display: block;
+    text-align: left;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 30px 2% 10px 0;
+    line-height: 1.8;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_forgot_password_form"]:before {
+    content: " ";
+    height: 200px;
+    display: block;
+    background-size: 220px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn2.dan.com/assets/public/home_domains-c98f55608258b107db2e010967e98acaf6db98fd1345fd6f182379849e640c3a.svg);
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_forgot_password_form"] label.item.item-input.item-custom input {
+    border-bottom: 2px solid #ecf0f6 !important;
+    padding-bottom: 0px;
+    height: 60px !important;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_forgot_password_form"] i.icon.ion-ios-person {
+    display: none;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_forgot_password_form"] .button.button-positive-custom {
+    border: 0;
+    background-color: #b7d74b;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+ion-modal-view.customer-view.customer-layout1 div[ng-show="display_forgot_password_form"] div[ng-click="displayLoginForm()"] {
+    padding: 0;
+    text-align: left;
+    font-size: 11px;
+    color: #3498db;
+}
+
+/* FORGOT PASSWORD PAGE END*/
+
+
+/* SIGNUP PAGE */
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) {
+    padding: 0 30px;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) .item.item-input.item-custom .input-label.ng-binding,
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) label.item.item-input.item-custom .input-label {
+    display: none;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) .item.item-input.item-custom input {
+    max-width: 100%;
+    text-align: left;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) label.checkbox-custom h2 span,
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) .checkbox-custom .item-content.disable-pointer-events span {
+    color: #387ef5 !important;
+    padding-left: 0;
+    font-size: 0;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll > div:nth-child(3) label.checkbox-custom h2>span:nth-child(1):after {
+    content: "Kebijakan Privasi";
+    font-size: 11px;
+    color: #387ef5;
+    padding-left: 0 !important;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll > div:nth-child(3) label.checkbox-custom .item-content.disable-pointer-events>span.ng-binding:after {
+    content: "Pemberitahuan Terbaru";
+    font-size: 11px;
+    color: #387ef5;
+    padding-left: 0 !important;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) .button.button-positive-custom {
+    border: 0;
+    background-color: #b7d74b;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+ion-modal-view.customer-view.customer-layout1 ion-content div.scroll>div:nth-child(3) div[ng-click="displayLoginForm()"] {
+    padding: 0;
+    text-align: left;
+    font-size: 11px;
+    color: #3498db;
+}
+
+.layout_taxi .taxi-header .taxi-avatar {
+    height: 20vw;
+    width: 20vw;
+}
+/* SIGNUP PAGE END */
+
+
